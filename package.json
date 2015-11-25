@@ -1,0 +1,23 @@
+{
+  "name": "open-data",
+  "version": "0.0.1",
+  "description": "Free Code Camp's open data initiative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Happy Coding!\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeCodeCamp/open-data.git"
+  },
+  "keywords": [
+    "data",
+    "freecodecamp",
+    "mongodb"
+  ],
+  "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
+  "bugs": {
+    "url": "https://github.com/FreeCodeCamp/open-data/issues"
+  },
+  "homepage": "https://github.com/FreeCodeCamp/open-data#readme"
+}
