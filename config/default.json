@@ -1,0 +1,19 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/openData",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "YAWnG8qHGEOQ0rHQTyzpZM6bzTxZa+zDdiGr4JOaMQ9bccbzELiOV1/35XRLSl3MxvjhFeLFhLthMuZQDehR6Q=="
+    },
+    "local": {},
+    "github": {
+      "clientID": "your github client id",
+      "clientSecret": "your github client secret",
+      "permissions": {
+        "scope": []
+      }
+    }
+  }
+}

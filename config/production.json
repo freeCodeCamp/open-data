@@ -1,0 +1,19 @@
+{
+  "host": "open-data-app.feathersjs.com",
+  "port": 80,
+  "mongodb": "DATABASE_URL",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "FEATHERS_AUTH_SECRET"
+    },
+    "local": {},
+    "github": {
+      "clientID": "your github client id",
+      "clientSecret": "your github client secret",
+      "permissions": {
+        "scope": []
+      }
+    }
+  }
+}
