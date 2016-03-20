@@ -1,6 +1,6 @@
 {
     "node": true,
-    "es6": true,
+    "esnext": true,
     "bitwise": true,
     "camelcase": true,
     "curly": true,

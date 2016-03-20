@@ -1,6 +1,6 @@
 # open-data
 
-> Free Code Camp&#39;s open data initiative
+> Free Code Camp&amp;#39;s open data initiative
 
 ## About
 

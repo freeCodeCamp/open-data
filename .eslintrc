@@ -10,9 +10,9 @@
     "mocha": true,
     "node": true
   },
-  "plugin" : {
-    "react": true
-  },
+  "plugins" : [
+    "react"
+  ],
   "parser": "babel-eslint",
   "globals": {
     "Promise": true,

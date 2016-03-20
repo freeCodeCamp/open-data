@@ -30,6 +30,4 @@ node_modules
 lib/
 data/
 
-# Do not expose config
 default.json
-production.json
