@@ -1,11 +1,13 @@
 {
   "name": "open-data",
   "description": "Free Code Camp&#39;s open data initiative",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "",
   "main": "src/",
   "keywords": [
-    "feathers"
+    "feathers",
+    "freecodecamp",
+    "open-data"
   ],
   "license": "MIT",
   "repository": {},
@@ -30,10 +32,11 @@
     "feathers-configuration": "^0.2.1",
     "feathers-errors": "^2.0.1",
     "feathers-hooks": "^1.5.0",
+    "feathers-mongodb": "^2.1.3",
     "feathers-mongoose": "^3.3.6",
     "feathers-rest": "^1.2.4",
     "feathers-socketio": "^1.3.3",
-    "mongoose": "^4.4.8",
+    "mongodb": "^2.1.7",
     "passport": "^0.3.2",
     "passport-github": "^1.1.0",
     "passport-github-token": "^2.1.0",
