@@ -6,7 +6,7 @@ var Usage = require('./usage');
 // Get list of fccusers
 exports.index = function(req, res) {
 	checkApiKey(req, res, function(err, data ) {
-		if (err) {}
+		if (err) {res.status(500).json(err);}
 	})
     return res.status(200).send('<h1>Not Implemented</h1>');
 };

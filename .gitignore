@@ -30,4 +30,4 @@ node_modules
 lib/
 data/
 
-.env
+# .env
