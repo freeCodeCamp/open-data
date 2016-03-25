@@ -15,7 +15,7 @@ const errorHandler = require('errorhandler');
 const path = require('path');
 const cors = require('cors');
 
-const mongoUrl = process.env.MONGOLAB_URL || process.env.MONGOHQ_URL;
+const mongoUrl = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL;
 // Connect to database
 mongoose.connect(mongoUrl);
 mongoose.connection.on('error', function(err) {
