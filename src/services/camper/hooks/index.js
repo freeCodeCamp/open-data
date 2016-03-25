@@ -1,29 +1,27 @@
 'use strict';
 
 const globalHooks = require('../../../hooks');
-const hooks = require('feathers-hooks');
-const auth = require('feathers-authentication').hooks;
+const errors = require('feathers-errors');
+
+// const hooks = require('feathers-hooks');
 
 exports.before = {
-  all: [
-    // auth.verifyToken(),
-    // auth.populateUser(),
-    // auth.requireAuth()
-  ],
+  all(hook) {
+    console.log('Before hook');
+    globalHooks.checkApiKey(hook, handleError);
+    console.log('After hook', hook.params);
+  },
   find: [],
-  get: [],
-  create: [],
-  update: [],
-  patch: [],
-  remove: []
+  get: []
 };
 
 exports.after = {
   all: [],
   find: [],
-  get: [],
-  create: [],
-  update: [],
-  patch: [],
-  remove: []
+  get: []
 };
+
+function handleError(err) {
+  console.log(err);
+  const error = new errors.GeneralError(err);
+}

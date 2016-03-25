@@ -1,16 +1,34 @@
 'use strict';
 
-// camper-model.js - A mongoose model
-// 
-// See http://mongoosejs.com/docs/models.html
-// for more of what you can do here.
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const camperSchema = new Schema({text: { type: String, required: true },
-  createdAt: { type: Date, 'default': Date.now },
-  updatedAt: { type: Date, 'default': Date.now }
+const camperSchema = new Schema(	{
+		username: { type: String, required: true },
+		avatar: String,
+		registerDate: Date,
+		location: String,
+
+		pointsTotal: Number,
+		projectsTotal: Number,
+		algorithmsTotal: Number,
+		challengesTotal: Number,
+		helpsTotal: Number,
+
+		pointsRecent: Number,
+		projectsRecent: Number,
+		algorithmsRecent: Number,
+		challengesRecent: Number,
+		helpsRecent: Number,
+
+		completed: [{
+				title: String,
+				firstSubmitted: Number,
+				lastSubmitted: Number,
+				type: String,
+				solutionUrl: String,
+				solutionCode: String
+			}]
 });
 
 const camperModel = mongoose.model('camper', camperSchema);

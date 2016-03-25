@@ -1,7 +1,7 @@
 {
   "name": "open-data",
   "description": "Free Code Camp&amp;#39;s open data initiative",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "",
   "main": "src/",
   "keywords": [
@@ -18,27 +18,20 @@
   "scripts": {
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
-    "start": "node src/",
+    "start": "node src/app",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
     "compression": "^1.6.1",
     "cors": "^2.7.1",
-    "feathers": "^2.0.0",
-    "feathers-authentication": "^0.4.1",
-    "feathers-configuration": "^0.2.1",
-    "feathers-errors": "^2.0.1",
-    "feathers-hooks": "^1.5.0",
-    "feathers-mongoose": "^3.3.6",
-    "feathers-rest": "^1.2.4",
-    "feathers-socketio": "^1.3.3",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "eslint": "~2.2.0",
+    "eslint-plugin-react": "*",
+    "express": "^4.13.3",
     "mongoose": "^4.4.8",
-    "passport": "^0.3.2",
-    "passport-github": "^1.1.0",
-    "passport-github-token": "^2.1.0",
-    "serve-favicon": "^2.3.0",
-    "winston": "^2.2.0"
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "jshint": "^2.9.1",

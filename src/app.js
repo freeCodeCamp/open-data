@@ -1,34 +1,46 @@
 'use strict';
+require('dotenv').load();
 
-const path = require('path');
-const serveStatic = require('feathers').static;
-const favicon = require('serve-favicon');
-const compress = require('compression');
-const cors = require('cors');
-const feathers = require('feathers');
-const configuration = require('feathers-configuration');
-const hooks = require('feathers-hooks');
-const rest = require('feathers-rest');
+// Set default node environment to development
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
+const express = require('express');
+const mongoose = require('mongoose');
+const compression = require('compression');
 const bodyParser = require('body-parser');
-const socketio = require('feathers-socketio');
-const middleware = require('./middleware');
-const services = require('./services');
+const errorHandler = require('errorhandler');
+const path = require('path');
+const cors = require('cors');
 
-const app = feathers();
+// Connect to database
+mongoose.connect(process.env.MONGOHQ_URL);
+mongoose.connection.on('error', function(err) {
+  console.error('MongoDB connection error: ' + err);
+  process.exit(-1);
+  }
+);
 
-app.configure(configuration(path.join(__dirname, '..')));
+const appRoot = path.normalize(__dirname + '/..');
 
-app.use(compress())
-  .options('*', cors())
-  .use(cors())
-  .use(favicon( path.join(app.get('public'), 'favicon.ico') ))
-  .use('/', serveStatic( app.get('public') ))
-  .use(bodyParser.json())
-  .use(bodyParser.urlencoded({ extended: true }))
-  .configure(hooks())
-  .configure(rest())
-  .configure(socketio())
-  .configure(services)
-  .configure(middleware);
+// Setup Express
+var app = express();
 
-module.exports = app;
+app.use(cors());
+app.use(compression());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.set('appPath', path.join(appRoot, 'public'));
+app.use(errorHandler()); 
+
+// Setup server
+var server = require('http').createServer(app);
+require('./routes')(app);
+
+// Start server
+server.listen(process.env.PORT, process.env.HOST, function () {
+  console.log('Express server listening on %d, in %s mode', process.env.PORT , app.get('env'));
+});
+
+// Expose app
+exports = module.exports = app;

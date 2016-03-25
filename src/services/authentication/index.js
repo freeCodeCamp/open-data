@@ -9,10 +9,10 @@ module.exports = function() {
   const app = this;
 
   let config = app.get('auth');
-  
+
   config.github.strategy = GithubStrategy;
   config.github.tokenStrategy = GithubTokenStrategy;
 
   app.set('auth', config);
   app.configure(authentication(config));
-}
+};
