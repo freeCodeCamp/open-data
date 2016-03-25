@@ -1,8 +1,11 @@
 'use strict';
-require('dotenv').load();
 
 // Set default node environment to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
+if ( process.env.NODE_ENV === 'development') {
+  require('dotenv').load();
+}
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -12,8 +15,9 @@ const errorHandler = require('errorhandler');
 const path = require('path');
 const cors = require('cors');
 
+const mongoUrl = process.env.MONGOLAB_URL || process.env.MONGOHQ_URL;
 // Connect to database
-mongoose.connect(process.env.MONGOHQ_URL);
+mongoose.connect(mongoUrl);
 mongoose.connection.on('error', function(err) {
   console.error('MongoDB connection error: ' + err);
   process.exit(-1);
