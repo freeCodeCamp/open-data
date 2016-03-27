@@ -4,49 +4,19 @@
 
 ## About
 
-This project uses [Feathers](http://feathersjs.com). An open source web  framework for building modern real-time applications.
+This open-data project is a [FreeCodeCamp](http://www.freecodecamp.com) spin-off. Join FreeCodeCamp to learn to code and help nonprofits.
 
 ## Getting Started
 
-Getting up and running is as easy as 1, 2, 3.
+The FCC open API exposes FCC user statistics for third party applications. The API allows access to:
+- User summary list
+- Single user details
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-    
-    ```
-    cd path/to/open-data; npm install
-    ```
+Note: The API is currently in Alpha test, being hosted on Heroku. The data is an offline extract taken from the real FCC user database. Because of limited resources, only the 50,000 most active users are extracted. Once the API is stable, it will be integrated in the Freecodecamp domain.
 
-3. Start your app
-    
-    ```
-    npm start
-    ```
+### Getting an API key
+All requests must have a API-key in the request. In this stage there is no online resource to generate an API-key. If you want an API key for your app, please ask for it on the [FreeCodeCamp/DataScience Gitter]()
 
-## Testing
+### User summary list
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful generator. Here's just a few things that it can do:
-
-- **Generate a new Service:** `yo feathers:service`
-- **Generate a new Hook:** `yo feathers:hook`
-- **Generate a new Model:** `yo feathers:model`
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
-
-## Changelog
-
-__0.1.0__
-
-- Initial release
-
-## License
-
-Copyright (c) 2015
-
-Licensed under the [MIT license](LICENSE).
+### 

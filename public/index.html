@@ -88,6 +88,10 @@
         padding: 4px;
         border-bottom: 1px solid #ddd;
       }
+      .items {
+        font-size: 0.8em;
+        padding: 8px;
+      }
     </style>
   </head>
   <body>
@@ -136,15 +140,15 @@
               <td>0</td>
             </tr>
             <tr>
-              <td>filter</td>
-              <td>itemname:[+|-]value[,]</td>
-              <td>Define a set of itemnames that contraint the results. Examples: <code>filter=algorithmsTotal:+10</code> will return the users that fave completed more than 10 algorithms. <code>filter=helpsRecent:10</code> will return the users wih exactly 10 helps in the last 30 days. <code>filter=username:*a*</code> will return all users with an a in the name.</td>
+              <td>itemname</td>
+              <td>{&lt; | &gt;}value</td>
+              <td>Define a set of itemnames that contraint the results. Examples: <code>algorithmsTotal=>10</code> will return the users that have completed more than 10 algorithms in total. <code>helpsRecent=10</code> will return the users wih exactly 10 helps in the last 30 days. <code>username=>nobody</code> will return all users with a username greater than 'nobody'.</td>
               <td>no filter</td>
             </tr>
             <tr>
               <td>sort</td>
-              <td>{+|-}itmename[,]</td>
-              <td>Sort the results ascending (+) or descending (-) on the given item. This option will be ignored if itemname is not an existing item. More sort criteria can be specified separated by comma's. Example: <code>sort=-username</code> will sort on descending username.</td>
+              <td>[-]itemname[,]</td>
+              <td>Sort the results ascending (+ or none) or descending (-) on the given item. This option will be ignored if itemname is not an existing item. More sort criteria can be specified separated by comma's. Example: <code>sort=-username</code> will sort on descending username.</td>
               <td>no sort</td>
             </tr>
             <tr>
@@ -152,6 +156,12 @@
               <td>true|false</td>
               <td>For the user-array endpoint, false will suppress the completed challenges array for a user. For the single user endpoint, false will suppress the solutions for the challenges and algorithms and the URLs for the projects.</td>
               <td>false</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="items">Valid itemnames are: 'username', 'algorithmsRecent', 'algorithmsTotal', 'challengesRecent',
+  'challengesTotal', 'helpsRecent', 'helpsTotal', 'hikesRecent', 'hikesTotal',
+  'otherRecent', 'otherTotal', 'pointsRecent', 'pointsTotal', 'projectsRecent',
+  'projectsTotal'.</td>
             </tr>
           </table>
         </p>
