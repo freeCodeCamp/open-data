@@ -11,7 +11,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const compression = require('compression');
 const bodyParser = require('body-parser');
-const errorHandler = require('errorhandler');
 const path = require('path');
 const cors = require('cors');
 
@@ -35,11 +34,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.set('appPath', path.join(appRoot, 'public'));
-app.use(errorHandler()); 
-
 // Setup server
 var server = require('http').createServer(app);
+
 require('./routes')(app);
+
+app.use(function(err, req, res, next) {
+	console.log(mongoUrl);
+	console.log("ERROR HANDLER:", err.message);
+   res.json({status:500, message: err.message, type:'internal'});
+});
 
 // Start server
 server.listen(process.env.PORT, process.env.HOST, function () {

@@ -1,43 +1,41 @@
 'use strict';
 
+
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
   username: String,
   picture: String,
+  // Private data (not used in the API)
   email: String,
-  progressTimestamps: [{
-        timestamp: String,
-        completedChallenge: String
-    }],
+  bio: String,
   isBanned: Boolean,
   isCheater: Boolean,
+  isLocked: Boolean,
+  isHonest: Boolean,
+  emailVerified: Boolean,
+  // Public/Progress data (available in single user requests)
   isGithubCool: Boolean,
+  name: String,
+  githubURL: String,
+  location: String,
+  timezone: String,
+  joinedGithubOn: Date,
   currentStreak: Number,
   longestStreak: Number,
   sendMonthlyEmail: Boolean,
   sendNotificationEmail: Boolean,
   sendQuincyEmail: Boolean,
-  isLocked: Boolean,
-  isHonest: Boolean,
+  currentChallenge: Schema.Types.Mixed,
+  // Progress data, used by API user list
+  isFrontEndCert: Boolean,
   isBackEndCert: Boolean,
   isFullStackCert: Boolean,
   isChallengeMapMigrated: Boolean,
-  emailVerified: Boolean,
+  progressTimestamps: [Schema.Types.Mixed],
   challengeMap: Schema.Types.Mixed,
-  // enriched:
-  pointsTotal: Number,
-  pointsRecent: Number,
-  projectsTotal: Number,
-  projectsRecent: Number,
-  challengesTotal: Number,
-  challengesRecent: Number,
-  algorithmsTotal: Number,
-  algorithmsRecent: Number,
-  helpsTotal: Number,
-  helpsRecent: Number,
-  lastUpdate: Date
-});
+  completedChallenges: [Schema.Types.Mixed]
+ });
 
 module.exports = mongoose.model('User', UserSchema);

@@ -22,11 +22,11 @@
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
+    "babel-eslint": "*",
     "body-parser": "^1.15.0",
     "compression": "^1.6.1",
     "cors": "^2.7.1",
     "dotenv": "^2.0.0",
-    "errorhandler": "^1.4.3",
     "eslint": "~2.2.0",
     "eslint-plugin-react": "*",
     "express": "^4.13.3",

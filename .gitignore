@@ -31,3 +31,5 @@ lib/
 data/
 
 # .env
+hidden/
+
