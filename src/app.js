@@ -18,12 +18,10 @@ const mongoUrl = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL;
 // Connect to database
 mongoose.connect(mongoUrl);
 mongoose.connection.on('error', function(err) {
-  console.error('MongoDB connection error: ' + err);
-  process.exit(-1);
-  }
-);
+	throw Error('MongoDB connection error: ' + err);
+});
 
-const appRoot = path.normalize(__dirname + '/..');
+const appRoot = path.normalize(path.join(__dirname, '/..'));
 
 // Setup Express
 var app = express();
@@ -39,15 +37,15 @@ var server = require('http').createServer(app);
 
 require('./routes')(app);
 
-app.use(function(err, req, res, next) {
-	console.log(mongoUrl);
-	console.log("ERROR HANDLER:", err.message);
-   res.json({status:500, message: err.message, type:'internal'});
+// Basic error handling
+app.use(function(err, req, res) {
+   res.json({status: 500, message: err.message});
 });
 
 // Start server
-server.listen(process.env.PORT, process.env.HOST, function () {
-  console.log('Express server listening on %d, in %s mode', process.env.PORT , app.get('env'));
+server.listen(process.env.PORT, process.env.HOST, function() {
+  console.log('Express server listening on %d, in %s mode'
+		, process.env.PORT, app.get('env'));
 });
 
 // Expose app

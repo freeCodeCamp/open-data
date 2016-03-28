@@ -9,14 +9,3 @@ module.exports = function NotFound(message, errorCode) {
   this.statusCode = 404;
   this.errorCode = errorCode || 404;
 };
-
-// module.exports[404] = function pageNotFound(req, res) {
-//   var viewFilePath = '404';
-//   var statusCode = 404;
-//   var result = {
-//     status: statusCode
-//   };
-
-//   res.status(result.status);
-//   res.json(result, result.status);
-// };
