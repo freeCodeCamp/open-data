@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <title>Welcome to the Freecodecamp.com API</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sixing: border-box;
+      }
+
+      html, body {
+        font-family: 'Helvetica Neue', 'Helevetica', 'Arial', 'sans-serif';
+        font-weight: 400;
+        font-size: 18px;
+        color: #333;
+      }
+      header {
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        left:0;
+        top:0;
+        display: block;
+        height: 50px;
+        background-color: #006400;
+      }
+      .center-text {
+        text-align: center;
+      }
+      .bunch-of-text {
+        width: 60%;
+        margin: 0 auto;
+      }
+      #logo {
+        margin-left: 20px;
+        height: 48px;
+      }
+      main {
+        margin-top: 50px;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 2em;
+        font-weight: 100;
+        margin-bottom: 40px;
+      }
+
+      h3 {
+        font-size: 1.2em;
+        font-weight: 200;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      code {
+        font-size: 1em;
+        color:red;
+        background: #ffeeee;
+      }
+      footer {
+        padding: 20px;
+      }
+
+      footer p {
+        font-weight: 300;
+        font-size: 1.0em;
+      }
+
+      a {
+        color: #31D8A0;
+        text-decoration: none;
+      }
+      .endpoints, .options {
+        margin: 20px auto 40px auto;
+        border: 1px solid #bbb;
+        border-bottom: none;
+        width: 90%;
+      }
+      th {
+        text-align: left;
+        font-weight: 100;
+        color: black;
+      }
+      th, td {
+        padding: 4px;
+        border-bottom: 1px solid #ddd;
+      }
+      .items {
+        font-size: 0.8em;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><a href="http://www.freecodecamp.com"><img id="logo" src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg"/></a></header>
+    <main class="container">
+      <h2 class="center-text">Guide to the FreeCodeCamp Public API</h2>
+      <div class="bunch-of-text">
+        <p>
+          If you planned to use the FreeCodeCamp Public API, you're almost there. The API is currently in Alpha, being hosted on this weird location. The data behind this API is real FCC data, but not live data. Once the API is stable, we will integrate it to the freecodecamp.com domain. 
+        </p>
+        <h3 class="center-text">Getting started</h3>
+        <ol>
+          <li>First you need to get an API key. Without an API key, all you will ever see is this page. At this time API keys are generated manually. You can ask for a key on the <a href="https://gitter.im/FreeCodeCamp/DataScience">Freecodecamp/DataScience Gitter</a>. Someone out there will hear your prayer and show mercy.</li>
+          <li>Hook up your app to one of the endpoints below to get the data you want. Don't forget to use your API key in every request.</li>
+         </ol>
+        <h3 class="center-text">Endpoints</h3>
+        <p>The FreeCodeCamp Open API only supports retrievals, using a HTTP GET method. There is no way to adjust a user's progress data other than submitting the challenges on the <a href="http://www.freecodecamp.com">FreeCodeCamp site</a>. If you manage to hack this API and succeed to modify the data, we would really like to hear how you did it, but since there is no feedback to the real Freecodecamp database, your effort will be rudely overwitten by the next update.</p>
+        <p>
+          <table class="endpoints">
+            <tr><th>Path</th><th>Returns</th><th>Options</th></tr>
+            <tr>
+              <td><code>/v1/users?key=&lt;API key&gt;&amp;&lt;options&gt;</code></td>
+              <td>An array of summary data of the users matching your selection.</td>
+              <td>skip, sort, limit, filter, details</td>
+            </tr>
+            <tr>
+              <td><code>/v1/user/:username?key=&lt;API key&gt;&amp;&lt;options&gt;</code></td>
+              <td>The information for a single user.</td>
+              <td>details</td>
+            </tr>
+          </table>
+        </p>
+        <p>
+          <table class="options">
+            <tr><th>Option</th><th>Values</th><th>Description</th><th>Default</th></tr>
+            <tr>
+              <td>limit</td>
+              <td>1-100</td>
+              <td>Set the maximum number of users to be returned to n. (max=100)</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>skip=n</td>
+              <td>numeric</td>
+              <td>Skip the first n users that would pass the filter. If the skip value is higher than the number of users that are matchin the filter, an empty array will be returned.</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>itemname</td>
+              <td>{&lt; | &gt;}value</td>
+              <td>Define a set of itemnames that contraint the results. Examples: <code>algorithmsTotal=>10</code> will return the users that have completed more than 10 algorithms in total. <code>helpsRecent=10</code> will return the users wih exactly 10 helps in the last 30 days. <code>username=>nobody</code> will return all users with a username greater than 'nobody'.</td>
+              <td>no filter</td>
+            </tr>
+            <tr>
+              <td>sort</td>
+              <td>[-]itemname[,]</td>
+              <td>Sort the results ascending (+ or none) or descending (-) on the given item. This option will be ignored if itemname is not an existing item. More sort criteria can be specified separated by comma's. Example: <code>sort=-username</code> will sort on descending username.</td>
+              <td>no sort</td>
+            </tr>
+            <tr>
+              <td>details</td>
+              <td>true|false</td>
+              <td>For the user-array endpoint, false will suppress the completed challenges array for a user. For the single user endpoint, false will suppress the solutions for the challenges and algorithms and the URLs for the projects.</td>
+              <td>false</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="items">Valid itemnames are: 'username', 'algorithmsRecent', 'algorithmsTotal', 'challengesRecent',
+  'challengesTotal', 'helpsRecent', 'helpsTotal', 'hikesRecent', 'hikesTotal',
+  'otherRecent', 'otherTotal', 'pointsRecent', 'pointsTotal', 'projectsRecent',
+  'projectsTotal'.</td>
+            </tr>
+          </table>
+        </p>
+      </div>
+
+      <footer>
+        <p class="center-text">For more information on FreeCodeCamp and its curruculum go to <a href="http://www.freecodecamp.com" alt="FreeCodeCamp site">www.freecodecamp.com</a>.</p>
+      </footer>
+    </main>
+  </body>
+</html>
