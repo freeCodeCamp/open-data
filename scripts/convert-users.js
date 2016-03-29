@@ -19,11 +19,14 @@ const threshold30days = rundate.getTime() - (30 * 24 * 60 * 60 * 1000);
 
 // Connect to database
 const mongoUrl = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL;
+mongoose.connect(mongoUrl);
 
-var db = mongoose.connect(mongoUrl);
-
-var converted = 0;
+var added = 0;
+var updated = 0;
+var removed = 0;
 var errors = 0;
+
+var processing = 0;
 
 var promise = User.find()
   .exec(function(err, users) {
@@ -32,16 +35,20 @@ var promise = User.find()
 
     users.forEach(function(user) {
 
+   //   console.log('Processing user', user.username);
+      processing++;
       ApiUser.findOne({username: user.username}, function(err, apiUser) {
-        if (err) { errors++; return err; }
+        if (err) { errors++; processing--; return err; }
 
         if (apiUser &&
-            user.isLocked || user.isHonest || user.isCheater) {
+            (user.isLocked || user.isCheater)) {
           apiUser.remove();
+          removed++;
+          processing--;
           return 'removed';
         }
-
-        if (!apiUser) {
+        var newUser = (!apiUser);
+        if (newUser) {
           apiUser = initApiUser(user);
         }
 
@@ -58,8 +65,14 @@ var promise = User.find()
         }
 
         apiUser.save(function(err) {
-          if (err) { errors++; return err; }
-          converted++;
+          if (err) { errors++; processing--; return err; }
+     //     console.log('Saved ApiUser', apiUser.username);
+          processing--;
+          if (newUser) {
+            added++;
+          } else {
+            updated++;
+          }
           return 'OK1';
         });
 
@@ -70,11 +83,22 @@ var promise = User.find()
     return 'OK3';
 });
 
+var waitForCompletion = function() {
+  if (processing > 0) {
+    setTimeout(waitForCompletion, 1000);
+  } else {
+    console.log('Added:', added,
+              '\nUpdated:', updated,
+              '\nRemoved:', removed,
+              '\nErrors:', errors);
+    mongoose.connection.close();
+  }
+};
+
 promise.then(function() {
-  db.connection.close();
-  process.exit(0);
-}, function() {
-  process.exit(1);
+  setTimeout(waitForCompletion, 100);
+}, function(err) {
+  throw Error('Oops, something went wrong: ' + err);
 });
 
 var initApiUser = function(user) {
@@ -127,46 +151,56 @@ var getDataFromChallengeMap = function(user, apiUser) {
 
   var countChallengeTotal = [0, 0, 0, 0, 0, 0, 0, 0];
   var countChallengeRecent = [0, 0, 0, 0, 0, 0, 0, 0];
+  apiUser.challenges = [];
 
   for (var challenge in user.challengeMap) {
 
-    if (user.challengeMap.hasOwnProperty(challenge)) {
+    // Ignore challenges without a name
+    if (user.challengeMap.hasOwnProperty(challenge) &&
+        user.challengeMap[challenge].name) {
+
         var idx = (user.challengeMap[challenge].challengeType ?
                    user.challengeMap[challenge].challengeType : 0);
+
         countChallengeTotal[idx]++;
 
         if (user.challengeMap[challenge].completedDate >= threshold30days) {
           countChallengeRecent[idx]++;
         }
-        if (user.challengeMap[challenge].name) {
-          var chall = {};
-          chall.name = user.challengeMap[challenge].name;
-          chall.completed = user.challengeMap[challenge].completedDate;
-          chall.type = (idx === 3 || idx === 4 ? 'P' : (idx === 5 ? 'A' : 'C'));
-          if (user.challengeMap[challenge].lastUpdated) {
-            chall.lastUpdated = user.challengeMap[challenge].lastUpdated;
-          }
-          if (user.challengeMap[challenge].completedWith) {
-            chall.with = user.challengeMap[challenge].completedWith;
-          }
-          if (chall.type === 'P') {
-            if (user.challengeMap[challenge].solution &&
-                user.challengeMap[challenge].solution.toLowerCase()
-                  .startsWith('http')) {
-              chall.solution = user.challengeMap[challenge].solution;
-            }
-            if (user.challengeMap[challenge].githubLink &&
-                user.challengeMap[challenge].githubLink.toLowerCase()
-                  .startsWith('http')) {
-              chall.githubLink = user.challengeMap[challenge].githubLink;
-            }
-            if (!user.challengeMap[challenge].verified) {
-              chall.verified = user.challengeMap[challenge].verified;
-            }
-          }
-          apiUser.challenges.push(chall);
+
+        var chall = {};
+        chall.name = user.challengeMap[challenge].name;
+        chall.completed = user.challengeMap[challenge].completedDate;
+        switch (idx) {
+           case 3 :
+           case 4 : chall.type = 'P'; break; // 3/4=Project
+           case 5 : chall.type = 'A'; break; // 5=Algorithm
+           case 6 : chall.type = 'H'; break; // 6=Hike
+           default: chall.type = 'C';        // others = Challenge
         }
-    }
+        if (user.challengeMap[challenge].lastUpdated) {
+          chall.lastUpdated = user.challengeMap[challenge].lastUpdated;
+        }
+        if (user.challengeMap[challenge].completedWith) {
+          chall.with = user.challengeMap[challenge].completedWith;
+        }
+        if (chall.type === 'P') {
+          if (user.challengeMap[challenge].solution &&
+              user.challengeMap[challenge].solution.toLowerCase()
+                .startsWith('http')) {
+            chall.solution = user.challengeMap[challenge].solution;
+          }
+          if (user.challengeMap[challenge].githubLink &&
+              user.challengeMap[challenge].githubLink.toLowerCase()
+                .startsWith('http')) {
+            chall.githubLink = user.challengeMap[challenge].githubLink;
+          }
+          if (!user.challengeMap[challenge].verified) {
+            chall.verified = user.challengeMap[challenge].verified;
+          }
+        }
+        apiUser.challenges.push(chall);
+      }
   }
   return processCounts(apiUser, countChallengeTotal, countChallengeRecent);
 };
@@ -193,7 +227,7 @@ var processCounts = function(apiUser, countChallengeTotal,
   // Challenge types:
   // 0 : Challenge
   // 1 : Challenge (former Waypoint)
-  // 2 :
+  // 2 : Challenge ????
   // 3 : Projects (former Zipline)
   // 4 : Projects (former Basejump)
   // 5 : algorithm (former Bonfire or Waypoint)
@@ -204,7 +238,7 @@ var processCounts = function(apiUser, countChallengeTotal,
 
   apiUser.projectsTotal = countChallengeTotal[3] + countChallengeTotal[4];
   apiUser.challengesTotal = countChallengeTotal[0] + countChallengeTotal[1] +
-                            countChallengeTotal[7];
+                            countChallengeTotal[2] + countChallengeTotal[7];
   apiUser.algorithmsTotal = countChallengeTotal[5];
   apiUser.hikesTotal = countChallengeTotal[6];
   apiUser.otherTotal = apiUser.pointsTotal - apiUser.projectsTotal -
@@ -212,7 +246,7 @@ var processCounts = function(apiUser, countChallengeTotal,
                        apiUser.hikesTotal - apiUser.helpsTotal;
   apiUser.projectsRecent = countChallengeRecent[3] + countChallengeRecent[4];
   apiUser.challengesRecent = countChallengeRecent[0] + countChallengeRecent[1] +
-                             countChallengeRecent[7];
+                             countChallengeRecent[2] + countChallengeRecent[7];
   apiUser.algorithmsRecent = countChallengeRecent[5];
   apiUser.hikesRecent = countChallengeRecent[6];
   apiUser.otherRecent = apiUser.pointsRecent - apiUser.projectsRecent -

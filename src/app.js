@@ -38,8 +38,9 @@ var server = require('http').createServer(app);
 require('./routes')(app);
 
 // Basic error handling
-app.use(function(err, req, res) {
+app.use(function(err, req, res, next) {
    res.json({status: 500, message: err.message});
+   next();
 });
 
 // Start server

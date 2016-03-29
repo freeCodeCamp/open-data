@@ -15,6 +15,7 @@ const oneDay = 24 * oneHour;
 const oneMonth = 30 * oneDay;
 const oneYear = 365 * oneDay;
 
+
 // Get list of fccusers
 exports.index = function(req, res, next) {
 
@@ -80,7 +81,6 @@ var parseSort = function(sortcrit) {
 			}
 		});
 	});
-	console.log(sortList);
 	return sortList;
 };
 
@@ -154,7 +154,7 @@ var mapUser = function(user, details) {
 	usr.isFrontEndCert = user.isFrontEndCert;
 	usr.isBackEndCert = user.isBackEndCert;
 	usr.isFullStackCert = user.isFullStackCert;
-	console.log('Mapped user', usr);
+
 	if (details) {
 		usr.challengeMap = user.challengeMap;
 		usr.progressTimestamps = user.progressTimestamps;
@@ -169,7 +169,7 @@ var validateApiKey = function(req, res, next) {
 	}
 
 	if (!req.query.key) {
-		next(new Error('No API key is provided'));
+		next(new Error('API key is required'));
 		return;
 	}
 

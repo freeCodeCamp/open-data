@@ -16,13 +16,15 @@
     "node": ">= 0.12.0"
   },
   "scripts": {
-    "test": "npm run jshint && npm run mocha",
-    "jshint": "jshint src/. test/. --config",
-    "start": "node src/app",
-    "mocha": "mocha test/ --recursive"
+    "start": "gulp serve",
+    "lint": "gulp lint-js",
+    "test": "gulp test"
   },
   "dependencies": {
-    "babel-eslint": "*",
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^6.0.0",
+    "babel-register": "^6.3.0",
     "body-parser": "^1.15.0",
     "compression": "^1.6.1",
     "cors": "^2.7.1",
@@ -30,12 +32,20 @@
     "eslint": "~2.2.0",
     "eslint-plugin-react": "*",
     "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-util": "^3.0.6",
     "mongoose": "^4.4.8",
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "jshint": "^2.9.1",
-    "mocha": "^2.4.5",
-    "request": "^2.69.0"
+    "browser-sync": "^2.9.12",
+    "jsonlint": "^1.6.2",
+    "gulp-tape": "0.0.7",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2",
+    "supertest": "*"
   }
 }
