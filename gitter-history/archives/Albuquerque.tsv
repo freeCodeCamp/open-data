@@ -1,0 +1,67 @@
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2016-09-17T11:04:22.021Z	540a150e163965c9bc202eaf	abhisekp	57dd2336c8af41d45f21ff9c	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2016-09-09T21:01:50.180Z	57bbbf2640f3a6eec060d45f	Cojanks	57d3233eaf75d5187be6d4e8	"```
+function lookUpProfile(firstName, prop){
+// Only change code below this line
+var name = ""firstName"";
+   // iterate through whole list
+for (var i=0; i < contacts.length; i++){  
+  // Check if the the name and firstName match
+  if (contacts[i][name] == firstName) {
+    //if so, then check for the property to match
+      if (contacts[i].hasOwnProperty(prop)){ 
+        //return property 
+        return contacts[i][prop];
+     // if property doesnt match return No Such Property
+      }else{
+        
+        return ""No such property"";
+      }
+  // if name doesnt match, return no such contact      
+  }
+    return ""No such contact"";
+}
+```"
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2016-09-09T21:01:12.786Z	57bbbf2640f3a6eec060d45f	Cojanks	57d32318af75d5187be6d469	"`function lookUpProfile(firstName, prop){
+// Only change code below this line
+var name = ""firstName"";
+   // iterate through whole list
+for (var i=0; i < contacts.length; i++){  
+  // Check if the the name and firstName match
+  if (contacts[i][name] == firstName) {
+    //if so, then check for the property to match
+      if (contacts[i].hasOwnProperty(prop)){ 
+        //return property 
+        return contacts[i][prop];
+     // if property doesnt match return No Such Property
+      }else{
+        
+        return ""No such property"";
+      }
+  // if name doesnt match, return no such contact      
+  }
+    return ""No such contact"";
+}`"
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-07T05:35:51.444Z	5620319c16b6c7089cb7266e	dabowheel	563d8db7dace6c8c1d1d0d1c	Maybe try to organize something through the [Facebook group](https://www.facebook.com/groups/free.code.camp.albuquerque/). I'm sure there are people that want to meet up.
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:55:36.320Z	559aa4b715522ed4b3e37b3d	GRALTOS	563d05b8c3b1996c03a250f9	cool. Do you know of other meetups in town? I haven't found much that is JS specific. and i hear ya on time. I wish I had more. Thought it might be cool to have a codecamp meet up or something, maybe monthly.
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:47:29.794Z	5620319c16b6c7089cb7266e	dabowheel	563d03d1dace6c8c1d1d052e	I would like to attend meetups although I'm pretty busy right now with a startup.
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:44:29.599Z	5620319c16b6c7089cb7266e	dabowheel	563d031d0379c7e740697376	I'm on HTML/CSS although I know a most of the topics with the exception of JQuery and Angular.
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:41:17.003Z	559aa4b715522ed4b3e37b3d	GRALTOS	563d025d3264958d1dc5df29	the official name was Bonfire: Title Case a Sentence.  The thing took me several days
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:40:45.062Z	559aa4b715522ed4b3e37b3d	GRALTOS	563d023d3264958d1dc5df23	no biggie if you're happier flying solo.  
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:40:27.560Z	559aa4b715522ed4b3e37b3d	GRALTOS	563d022bc3b1996c03a250bb	querque is small, thinking it might be good to start a network of JS folks
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:40:12.330Z	559aa4b715522ed4b3e37b3d	GRALTOS	563d021cdace6c8c1d1d04fb	and I'm just asking/talking about a general meet up
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:40:04.132Z	559aa4b715522ed4b3e37b3d	GRALTOS	563d0214c3b1996c03a250b8	hey @dabowheel - just finished the bonfire sentence capitalization. you?
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T19:28:51.796Z	5620319c16b6c7089cb7266e	dabowheel	563cff733264958d1dc5ded7	@GRALTOS which lessons are you on? Which lesson do you need help on?
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T18:49:18.534Z	559aa4b715522ed4b3e37b3d	GRALTOS	563cf62ec712fe074e4e1097	@dabowheel it might only be us. not sure. I'd really be interested to chat with another camper and help/get some help on some of this stuff.  
+55c3ab550fc9f982beac7d4c	FreeCodeCamp/Albuquerque	2015-11-06T18:47:47.512Z	559aa4b715522ed4b3e37b3d	GRALTOS	563cf5d3c712fe074e4e1085	Hey! Anyone interested in meeting up?

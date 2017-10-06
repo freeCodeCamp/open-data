@@ -1,0 +1,739 @@
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-11-18T18:20:16.865Z	57341e86c43b8c601972711a	Happy-Ferret	582f46602cf343a318c2212f	"Anyone got an idea what I'd need to change about the code on the following page to make the incoming client port less ephemeral?
+
+I. e. as long as client and server are both up, it should always use the same port for the client.
+
+https://systembash.com/a-simple-go-tcp-server-and-tcp-client/"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-10-19T14:05:19.175Z	55b977f00fc9f982beab7883	camperbot	58077d9fb17b667961d6c763	## welcome to FreeCodeCamp @zMingGit!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-10-19T14:05:16.316Z	5805b91dd73408ce4f2f001c	zMingGit	58077d9c2189c68f42ff64d7	hello world
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-17T11:05:27.169Z	540a150e163965c9bc202eaf	abhisekp	57dd237718291e10487bff7c	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-07T14:05:06.006Z	57341e86c43b8c601972711a	Happy-Ferret	57d01e92cdbf820f7fa4a9ab	"Never mind.
+
+Must've been a Windows CMD related hiccup.
+Works again."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-07T13:56:31.474Z	57341e86c43b8c601972711a	Happy-Ferret	57d01c8f98f8df994d43ea75	"I'm mildly confused.
+
+When I split a package into multiple files, go build should automatically discover all files and statically link them, right?
+
+Because I could've sworn that's how it worked before. Now, however, it keeps complaining about undefined functions."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T20:13:13.159Z	55658f2715522ed4b3e0ff82	dc0d	57cf2359f5a156f564891acd	Hi! Dependency Injection (Factories included) for Go! Let me know if you liked it! Main point of interest for me was separating the creation concern from injection concern. https://github.com/dc0d/sector
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T08:04:34.425Z	57341e86c43b8c601972711a	Happy-Ferret	57ce7892cdbf820f7f9f153c	Strangely enough, ``go get -insecure`` works.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T07:14:34.326Z	57341e86c43b8c601972711a	Happy-Ferret	57ce6cda98f8df994d3e6fd6	"Anyhow. I just ran into a problem with our company GitLab.
+Tried moving a few Go packages there and get them via ``go get``.
+
+As we exclusively use SSH, I ran the following command.
+
+``git config --global url.""git@URL:"".insteadOf ""https://URL/""``
+
+Unfortunately, ``go get`` still keeps on fetching them via https (and failing miserably). "
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T07:13:55.426Z	57341e86c43b8c601972711a	Happy-Ferret	57ce6cb377c1b70d7febe722	"@hypnoglow Sure thing.
+cli isn't the only one I use anyways. I also use cobra for another project."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T07:12:37.828Z	567bb97a16b6c7089cc0119f	hypnoglow	57ce6c6577c1b70d7febe632	@Happy-Ferret You should definitely have a try. So you can compare both :wink: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T07:06:44.186Z	57341e86c43b8c601972711a	Happy-Ferret	57ce6b0498f8df994d3e688e	Didn't know about docopt until now. But, truth be told, I'm perfectly happy with the way cli works.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-06T05:15:03.612Z	567bb97a16b6c7089cc0119f	hypnoglow	57ce50d7f5a156f564864a9a	Why cli, when we got docopt :thought_balloon: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-05T16:59:21.121Z	57341e86c43b8c601972711a	Happy-Ferret	57cda469f5a156f5648458d2	"Yea. Turns out it wasn't what I was looking for.
+
+I ended up importing Viper which IS exactly what I was looking for :)"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-05T13:10:11.831Z	55a53a1c5e0d51bd787b5c53	rusenask	57cd6eb377c1b70d7fe8f801	hey, haven't tried getting config from YAML but from the docs  it looks like it's just looking for previously defined flags in the yaml file and matching them
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-05T11:46:34.272Z	57341e86c43b8c601972711a	Happy-Ferret	57cd5b1a6efec7117caa1aa2	I'm completely lost on the YAML stuff.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-09-05T11:46:27.118Z	57341e86c43b8c601972711a	Happy-Ferret	57cd5b136efec7117caa1a95	"Anyone worked with this package, yet?
+
+https://github.com/urfave/cli"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-08-13T09:14:22.100Z	56c95aeee610378809c28f4c	arixion	57aee4eeae0554d04c94e36b	Ok thanks 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-08-13T09:14:00.645Z	55a53a1c5e0d51bd787b5c53	rusenask	57aee4d8a00c6adb45e306f4	hey, check out this repo https://github.com/gtank/cryptopasta and especially encrypt.go
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-08-13T08:06:23.453Z	56c95aeee610378809c28f4c	arixion	57aed4ffa00c6adb45e2efab	"Hello guys I am using the below code to encrypt a data
+
+b, _ := scrypt.Key([]byte(data), []byte(salt), 16384, 8, 1, 256)
+return base64.URLEncoding.EncodeToString(b)
+
+Wondering if there is any way to decrypt it back or this is just an illusion from lack of knowledge of mine :smile:  "
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T21:32:29.874Z	55b977f00fc9f982beab7883	camperbot	5799286d7c9324e20e03e644	> :cookie: 98 | @terakilobyte |[http://www.freecodecamp.com/terakilobyte](http://www.freecodecamp.com/terakilobyte)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T21:32:29.342Z	55b977f00fc9f982beab7883	camperbot	5799286d3383eb622148eca5	> mrchoudhury sends brownie points to @terakilobyte :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T21:32:27.162Z	56c5d86ae610378809c2188d	MrChoudhury	5799286bd155b0294e0f87b6	@terakilobyte  Thanks!  Maybe I will do just that after I learn it myself ;-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T20:53:40.274Z	5471b82adb8155e6700d7478	terakilobyte	57991f547c9324e20e03c708	be patient, or jump in on your own
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T20:53:34.235Z	5471b82adb8155e6700d7478	terakilobyte	57991f4e3383eb622148c967	not to mention the curriculum writers are all volunteer and generally have to spend their own money to obtain the resources to learn and then teach
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T20:53:00.472Z	5471b82adb8155e6700d7478	terakilobyte	57991f2cad8f331f4e4db0ca	it takes significant time to develop curriculum @MrChoudhury 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T19:45:32.611Z	56c5d86ae610378809c2188d	MrChoudhury	57990f5c7c9324e20e0395b4	yet its near August and still don't see what I thought I would see
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T19:44:56.919Z	56c5d86ae610378809c2188d	MrChoudhury	57990f3893148c6b21e38284	This sort of got me all excited https://medium.freecodecamp.com/java-ruby-and-go-oh-my-6b5577ba2bc2#.rqqibp3ba that it will be available
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T19:44:17.522Z	56c5d86ae610378809c2188d	MrChoudhury	57990f117c9324e20e0394ca	I loved that style FCC offers but I am at a point where I want to explore Go and looking for a path to it like the one FCC offers for Java
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-27T19:43:39.589Z	56c5d86ae610378809c2188d	MrChoudhury	57990eeb00c8ebdd0e2920ce	Curious when GoLang would become common track in FCC as a choice.  
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-19T11:41:05.881Z	55b977f00fc9f982beab7883	camperbot	578e11d10720fd587a99a840	> :cookie: 392 | @pdotsani |[http://www.freecodecamp.com/pdotsani](http://www.freecodecamp.com/pdotsani)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-19T11:41:04.881Z	55b977f00fc9f982beab7883	camperbot	578e11d03d74e5a01660a8aa	> kirillkostko sends brownie points to @pdotsani :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-19T11:41:02.668Z	572f950ac43b8c601971c96f	kirillkostko	578e11ce0720fd587a99a838	@pdotsani Thank you a lot! Very useful!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-19T08:51:07.926Z	54e4767e15522ed4b3dc25ef	pdotsani	578de9fb841e619d1607e70a	Pretty happy with it so far. The author also continues to update the content.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-19T08:49:30.779Z	54e4767e15522ed4b3dc25ef	pdotsani	578de99a2d04e05851849aad	Working through this one right now: https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-14T16:48:45.389Z	563a2b3216b6c7089cb97737	lbickmore	5787c26d914c51592b0c7f4e	I don't believe FCC offers Golang tutorials. The tutorial https://tour.golang.org is pretty good to get started with the language in general.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-14T13:24:24.892Z	572f950ac43b8c601971c96f	kirillkostko	57879288d11cd28812129132	I guess there are no go tutorials. :(
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-07-14T06:37:18.556Z	56f6381385d51f252abae823	dinesh829269	5787331ee4375c9212ce72ba	Greetings Everyone. are there any  go tutorials available with freecodecamp like they have with other programming languages
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-06-26T17:42:07.333Z	563a2b3216b6c7089cb97737	lbickmore	577013ef1ac8bd1a4d5cf346	I learnt: ` z, t = z - (z*z-x)/(2*z), z` is calling both  `z=` and `t=` simultaneously so for you to call them separately and still get it to function my two lines from above need to be swapped around so the value `t` is assigned to is the previous value of `z`!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-06-26T03:36:59.046Z	563a2b3216b6c7089cb97737	lbickmore	576f4ddb1ac8bd1a4d54b369	"Hi all I have a go question! I'm doing the tour at [exercise: loops and functions ](https://tour.golang.org/flowcontrol/8). I understand the basic math behind doing this but resorted to peeking at other answers. I picked one to deconstruct and I do not understand what is happening at a certain part of the code. Here's the code:
+```go
+package main
+import (
+    ""fmt""
+    ""math""
+)
+func Sqrt(x float64) float64 {
+    t, z := 0., 1.
+    for {
+        z, t = z - (z*z-x)/(2*z), z
+        if math.Abs(t-z) < 1e-8 {
+            break
+        }
+    }
+    return z
+}
+func main() {
+    i := 169.
+    fmt.Println(Sqrt(i))
+}
+```
+The portion I do not understand is `  z, t = z - (z*z-x)/(2*z), z`. When I read that statement I see two lines: 
+```go
+z  =  z - (z*z-x)/(2*z)
+t  =  z
+```
+But if I change it the function breaks. Any thoughts?"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-06-10T19:49:39.457Z	56069bbe0fc9f982beb1ea44	alayek	575b19d3a1be01c01a78d445	@karolgorecki hey
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-06-10T18:39:46.911Z	56b3ad56e610378809bfe989	karolgorecki	575b0972e20024bd1ad268ec	Hello!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-26T17:33:41.762Z	55b977f00fc9f982beab7883	camperbot	57473375a78d5a256e3823fe	> :cookie: 221 | @hypnoglow |[http://www.freecodecamp.com/hypnoglow](http://www.freecodecamp.com/hypnoglow)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-26T17:33:41.621Z	55b977f00fc9f982beab7883	camperbot	57473375da3f93da6f209650	> pdotsani sends brownie points to @hypnoglow :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-26T17:33:38.678Z	54e4767e15522ed4b3dc25ef	pdotsani	5747337280352f204df26f9a	@hypnoglow thanks for the recommendation! I'll try that.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-26T06:48:35.730Z	567bb97a16b6c7089cc0119f	hypnoglow	57469c436bbc2d1d4dee458d	@pdotsani try to make your struct fields exported
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-25T20:56:08.177Z	54e4767e15522ed4b3dc25ef	pdotsani	574611686bbc2d1d4dee29e0	I’m using the beego framework.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-25T20:55:26.684Z	54e4767e15522ed4b3dc25ef	pdotsani	5746113e80352f204df22133	"Trying to use the `""encoding/json”` library to convert the body of a POST request into a struct. This is what I have soo far:
+```
+type Image struct {
+	alt, url string
+}
+
+func (c *Controller) Post() {
+        buf := new(bytes.Buffer)
+	buf.ReadFrom(c.Ctx.Request.Body)
+	str := buf.String()
+	var img Image
+	dec := json.NewDecoder(strings.NewReader(str))
+	err := dec.Decode(&img)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	fmt.Println(""str: "", str)
+	fmt.Println(""img: "", img)
+}
+```
+The str println properly prints out the json file as a string, while the img struct prints out an empty struct."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-23T06:33:38.085Z	54e4767e15522ed4b3dc25ef	pdotsani	5742a442ff441ca333d3fb03	Do folks use multiple gopaths? If so, what does your config look like?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-17T02:00:18.517Z	5541871115522ed4b3dfb7ea	hvandenb	573a7b32831fd2d97d9f0fe9	"@hypnoglow This is what I have in my project directory
+```
+   |-tooling
+   |---archaius
+   |---architecture
+   |-----json_arch
+   |---asgard
+   |---chaosmonkey
+   |---collect
+```
+when I run go build I get the following error:
+
+```
+../../adrianco/spigo/actors/edda/edda.go:5:2: cannot find package ""github.com/adrianco/spigo/tooling/archaius"" in any of:
+	/Users/henrivandenbulk/tools/go/src/github.com/adrianco/spigo/tooling/archaius (from $GOROOT)
+	/Users/henrivandenbulk/projects/gocode/src/github.com/adrianco/spigo/tooling/archaius (from $GOPATH)
+```
+
+however the **actors** and **tooling** are directories right under my project directory. If you look at actors/edda/edda.go I have the following. Why is it that it can not find it given that it's in the project directory?
+
+```
+import (
+        ""log""
+        ""strings""
+        ""sync""
+        ""time""
+
+        ""github.com/adrianco/spigo/tooling/archaius""
+```"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T13:40:59.982Z	567bb97a16b6c7089cc0119f	hypnoglow	5739cdece2996a5a42c8c498	"What do you mean by saying ""its namespace is outside of the project""?
+@hvandenb
+See:
+```
+package my_package
+
+func GetName() string {
+    return ""Igor""
+}
+```
+
+```
+package main
+
+import (
+    ""fmt""
+
+    ""github.com/hypnoglow/test-project/my_package""
+)
+
+func main() {
+    fmt.Println(my_package.GetName())
+}
+```
+
+```
+~/go/src/github.com/hypnoglow/test-project
+ή tree        
+.
+├── main.go
+└── my_package
+    └── my_package.go
+
+~/go/src/github.com/hypnoglow/test-project
+ή go build  
+
+~/go/src/github.com/hypnoglow/test-project
+ή ./test-project 
+Igor
+
+~/go/src/github.com/hypnoglow/test-project
+ή go install
+
+~/go/src/github.com/hypnoglow/test-project
+ή test-project  
+Igor
+
+~/go/src/github.com/hypnoglow/test-project
+ή 
+```"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T13:20:29.542Z	5541871115522ed4b3dfb7ea	hvandenb	5739c91deea93e5742d2484d	If I have a module that's a sub directory of my project but its namespace is outside of the project. How can you build it as part of the project?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T12:33:20.637Z	55b977f00fc9f982beab7883	camperbot	5739be100cb634927f7f40f6	> :cookie: 220 | @hypnoglow |[http://www.freecodecamp.com/hypnoglow](http://www.freecodecamp.com/hypnoglow)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T12:33:20.371Z	55b977f00fc9f982beab7883	camperbot	5739be10eea93e5742d2451b	> hvandenb sends brownie points to @hypnoglow :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T12:33:20.268Z	5541871115522ed4b3dfb7ea	hvandenb	5739be1064dbdadc7dec7286	Thanks @hypnoglow. If I now want to mod
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T12:09:01.197Z	567bb97a16b6c7089cc0119f	hypnoglow	5739b85deea93e5742d2438a	@hvandenb ```go build``` assumes you have it in $GOPATH, but it won't implicitly get it for you.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T11:57:07.832Z	5541871115522ed4b3dfb7ea	hvandenb	5739b593c61823687d3c3f2d	I ended up using go get for all those are missing, but isn't go build supposed to do that for me?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T09:15:21.545Z	554c404715522ed4b3e017d8	Ettudis	57398fa9831fd2d97d9ecb49	I can't seem to figure out how to do so...
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T09:15:09.918Z	554c404715522ed4b3e017d8	Ettudis	57398f9deea93e5742d23a3a	It should be possible to print out the value of a slice from a seperate function shouldn't it?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-16T05:07:42.590Z	567bb97a16b6c7089cc0119f	hypnoglow	5739559eae26c1967f9ec45d	@hvandenb Did you run ```go get github.com/adrianco/goguesstimate/guesstimate```?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-15T23:02:32.048Z	5541871115522ed4b3dfb7ea	hvandenb	57390008eea93e5742d224bf	"Trying to run **go build** on a project but keep getting the following error. I have my **GOPATH** set.
+```
+tooling/collect/collect.go:6:2: cannot find package ""github.com/adrianco/goguesstimate/guesstimate"" in any of:
+	/Users/henrivandenbulk/tools/go/src/github.com/adrianco/goguesstimate/guesstimate (from $GOROOT)
+	/Users/henrivandenbulk/projects/gocode/src/github.com/adrianco/goguesstimate/guesstimate (from $GOPATH)
+```"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-15T05:54:12.772Z	55b977f00fc9f982beab7883	camperbot	57380f04e2996a5a42c87b66	> turing-chu sends brownie points to @jnmorse and @alpox :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-15T05:54:12.761Z	55b977f00fc9f982beab7883	camperbot	57380f04ae26c1967f9e9363	> :cookie: 661 | @alpox |[http://www.freecodecamp.com/alpox](http://www.freecodecamp.com/alpox)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-15T05:54:12.544Z	55b977f00fc9f982beab7883	camperbot	57380f04ae26c1967f9e9361	> :cookie: 578 | @jnmorse |[http://www.freecodecamp.com/jnmorse](http://www.freecodecamp.com/jnmorse)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-15T05:54:09.603Z	5734a058c43b8c6019728b2e	Turing-Chu	57380f01eea93e5742d1ff6d	@jnmorse @alpox  Thanks a lot, I understand.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-14T22:03:20.362Z	56ce0e46e610378809c34a4b	alpox	5737a0a88b845b284193f9ea	"@Turing-Chu  @jnmorse is right, the `:=` initializes the variable and computes its type the same time.
+You can only use `=` on an already initialized variable."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-14T21:07:20.386Z	565311f316b6c7089cbbd189	jnmorse	573793881794136a7d08b3ee	@Turing-Chu haven't learned much go at this point, but believe is `:=` has to  with initialiaze the variable, so `a := 2` a would be a int since the initialization value was a int
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-14T16:02:57.312Z	5734a058c43b8c6019728b2e	Turing-Chu	57374c31ae26c1967f9e7744	Hi, I am a beginer,  and I want to know the difference between '=' and ':=' in golang . For exampe:  var i int = 1                    key := 3
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-13T20:00:16.994Z	567bb97a16b6c7089cc0119f	hypnoglow	57363250831fd2d97d9e4696	"They are in the same package, so they are not imported as a separate package.
+But I saw many golang code where people use exported names, for example in separate file (but still in the main package) they define some exported struct with both exported and not exported methods. It looks like typical OOP with public and private methods, but it makes no sense for me in standalone golang app which is not intended to be imported anywhere."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-13T19:52:40.575Z	56c8ecdae610378809c2852b	zacps	57363088ae26c1967f9e4b72	@hypnoglow There is no reason unless that file needs to be imported by another part of you programme
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-05-13T09:12:49.490Z	567bb97a16b6c7089cc0119f	hypnoglow	57359a91ae26c1967f9e17b7	"Hi there! Can someone tell me any reason to make any function or struct exported inside the main package (i.e. write name starting with a capital letter) of my application? I mean, if it is not intended to be imported in other program or package.
+"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-30T07:02:17.015Z	56c8ecdae610378809c2852b	zacps	57245879e10a59c061075917	Oh and please tag me, I probably won't see it otherwise
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-30T07:01:58.059Z	56c8ecdae610378809c2852b	zacps	57245866e472a3e473bfcd03	Currently doing the official wiki tutorial and I'm don't really like how they're routing the 404. They just have the handler for viewing pages check if the page was found then return an error if it wasn't. Can you have another handler specified in http.HandleFunc() that will return an error and get called if any of the other functions 'fall through' by not writing to the responseWriter?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:09:44.837Z	56ce0e46e610378809c34a4b	alpox	572138a82cd01bf9764b6041	Most of it is working already but there is no API yet. Error handling has to be improved... and that it takes graphql comments as descriptions...
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:09:28.403Z	54e4767e15522ed4b3dc25ef	pdotsani	572138980f156f102b416a9b	haha yea… balancing side projects with school would be tough I imagine.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:08:48.507Z	56ce0e46e610378809c34a4b	alpox	572138704da16e7d13d9700a	Well, i hope i find the time to finish it sometime :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:07:13.536Z	54e4767e15522ed4b3dc25ef	pdotsani	572138114da16e7d13d96ffc	very cool!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:07:10.913Z	54e4767e15522ed4b3dc25ef	pdotsani	5721380e4da16e7d13d96ffb	ahh ic ic
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:05:42.753Z	56ce0e46e610378809c34a4b	alpox	572137b60f156f102b416a6f	"As example:
+```
+type Hello {
+	world(flag: Boolean): String
+}
+```
+Would become:
+```go
+expected := graphql.NewObject(graphql.ObjectConfig{
+		Name: ""Hello"",
+		Fields: graphql.Fields{
+			""world"": &graphql.Field{
+				Type: graphql.String,
+				Args: graphql.FieldConfigArgument{
+					""flag"": &graphql.ArgumentConfig{
+						Type: graphql.Boolean,
+					},
+				},
+			},
+		},
+	})
+```"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:04:05.469Z	56ce0e46e610378809c34a4b	alpox	572137559b4160fa760a7d61	"There is mostly just code inside now... i didn't write out the markdown because i didn't specify an api yet. Thats coming.
+Its about using the graphql language for schema creation. Until now, the graphql language gets used often to write down schemas fast, but you specify them in golang what is a kinda messy and long code with a lot of specifications.
+Using the graphql language itself for creating the golang specifications is shorter and more readable. (Thats what i'm doing there)"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T22:00:15.027Z	56ce0e46e610378809c34a4b	alpox	5721366f4ba1347709b5b206	"Only from time to time... I have to do enough with university atm :D
+https://github.com/alpox/graphql-go-gen"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:59:49.444Z	54e4767e15522ed4b3dc25ef	pdotsani	572136559b4160fa760a7d32	What are you working on with go if you don’t mind me asking?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:59:39.264Z	54e4767e15522ed4b3dc25ef	pdotsani	5721364b9b4160fa760a7d2f	Yea it can go either way I guess.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:58:31.894Z	56ce0e46e610378809c34a4b	alpox	572136070f156f102b416a13	If you want to get going fast, its surely the best choice to go fully fledged
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:58:15.123Z	56ce0e46e610378809c34a4b	alpox	572135f74da16e7d13d96f74	Okay yeah you can do that :-) but maybe you would learn more with not such fully fledged ones? (I don't know)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:57:21.668Z	54e4767e15522ed4b3dc25ef	pdotsani	572135c18a90ed7913134b45	I figure when I get a little more comfortable with the language, I can start using lighter frameworks, to eventually just writing from scratch… but I’m a long way from that 😬
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:55:57.738Z	54e4767e15522ed4b3dc25ef	pdotsani	5721356de8a4670f2b5d2b47	haha true
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:46:05.935Z	56ce0e46e610378809c34a4b	alpox	5721331d4da16e7d13d96e8b	Okay do that :-) i usually dislike fully fledged frameworks but i guess they have their place
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:45:23.214Z	54e4767e15522ed4b3dc25ef	pdotsani	572132f34da16e7d13d96e78	ic ic… all good
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:43:59.749Z	56ce0e46e610378809c34a4b	alpox	5721329f9b4160fa760a7c1c	@pdotsani Nope, sry :-) maybe  @stefanjarina did. I didn't yet use golang for web, even though i'm writing a project in addition to graphql-go.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:38:45.395Z	54e4767e15522ed4b3dc25ef	pdotsani	572131650f156f102b4168aa	@alpox have you used Gorilla or Martini?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:38:24.549Z	54e4767e15522ed4b3dc25ef	pdotsani	572131509b4160fa760a7bb6	I’m personally gunna try out beego, since it seems like the most fully fledged framework.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:35:54.565Z	55b977f00fc9f982beab7883	camperbot	572130ba2cd01bf9764b5dff	> :star: 618 | @alpox | [http://www.freecodecamp.com/alpox](http://www.freecodecamp.com/alpox)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:35:54.481Z	55b977f00fc9f982beab7883	camperbot	572130bae8a4670f2b5d29e8	> pdotsani sends brownie points to @alpox :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-27T21:35:51.779Z	54e4767e15522ed4b3dc25ef	pdotsani	572130b78a90ed79131349db	ic ic. Thanks @alpox !
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-26T21:47:35.127Z	56ce0e46e610378809c34a4b	alpox	571fe1f74da16e7d13d90f4a	I'm not sure if there are many more. I only heard about Gorilla and Martini (Which are already listed)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-26T21:45:06.750Z	54e4767e15522ed4b3dc25ef	pdotsani	571fe1620f156f102b4108f5	wondering if anyone had recomendations aside from the 5 they mention here.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-26T21:44:50.644Z	54e4767e15522ed4b3dc25ef	pdotsani	571fe1520f156f102b4108f0	Found this article on go frameworks: http://thenewstack.io/a-survey-of-5-go-web-frameworks/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:31:57.593Z	56ce0e46e610378809c34a4b	alpox	571a19bd27c0fbf239b08944	Yeah probably :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:31:51.415Z	55a225235e0d51bd787b1c50	stefanjarina	571a19b75b5164bf56eefdb2	:-D no worries, I am sure, that for someone it might be useful :-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:31:35.417Z	56ce0e46e610378809c34a4b	alpox	571a19a798c544f1396d9606	@stefanjarina Sry that you did such a big good post for noone :-/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:31:08.897Z	56ce0e46e610378809c34a4b	alpox	571a198ca3833fbc566a7e58	@stefanjarina Yup .D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:30:59.164Z	55a225235e0d51bd787b1c50	stefanjarina	571a198398c544f1396d95f7	Ah, ok, my fault as well, I thought that you asked originally that question :-) In that case my former response about interfaces apply :P
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:29:40.023Z	56ce0e46e610378809c34a4b	alpox	571a19343307b26736e3c3ae	I shouldnt write here today... i was just stunned at a hospital and not right here yet :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:29:15.679Z	56ce0e46e610378809c34a4b	alpox	571a191b27c0fbf239b0890b	Err interfaces >.<
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:28:19.726Z	56ce0e46e610378809c34a4b	alpox	571a18e33307b26736e3c38c	@stefanjarina I know how to use them :D i read the post of  @t3h2mas wrong who asked about structs :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:24:33.683Z	55a225235e0d51bd787b1c50	stefanjarina	571a180127c0fbf239b088b0	I think, that you're able to specify there, that some of these variables will be ignored when serializing JSON and won't be sent in you response
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:23:28.947Z	55a225235e0d51bd787b1c50	stefanjarina	571a17c025b4886636264224	as you can see, in that case I have defined structure with names of json names, so my serializer knows exactly how to convert my json response into User{} as well as my database knows, that Username should be unique when saving it.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:21:25.092Z	55a225235e0d51bd787b1c50	stefanjarina	571a174598c544f1396d952d	"```go
+// User model used by database
+type User struct {
+	ID           uint   `json:""id"" gorm:""primary_key"" sql:""AUTO_INCREMENT""`
+	Username     string `json:""username"" gorm:""primary_key"" sql:""unique""`
+	FirstName    string `json:""first_name""`
+	LastName     string `json:""last_name""`
+	Email        string `json:""email""`
+	PasswordHash string `json:""password_hash""`
+	Role         string `json:""role""`
+
+	CreatedAt time.Time  `json:""created_at""`
+	UpdatedAt time.Time  `json:""updated_at""`
+	DeletedAt *time.Time `json:""deleted_at""`
+}
+```"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:20:30.448Z	55a225235e0d51bd787b1c50	stefanjarina	571a170e25b48866362641f3	aaah, ok, in that case, struct is good to define structure or schema, when using ORM for example, here is example when you want to use them:
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T12:16:58.826Z	56ce0e46e610378809c34a4b	alpox	571a163a98c544f1396d94df	@stefanjarina  @t3h2mas It seems i read wrong, i was talking about structs instead of interfaces :-/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T11:08:31.460Z	55a225235e0d51bd787b1c50	stefanjarina	571a062f98c544f1396d9027	Also they are useful if you need to get JSON response and you can't predict the structure of JSON, so you can't use struct. in that case just load it to interface and then parse it in some function
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T09:13:32.765Z	56ce0e46e610378809c34a4b	alpox	5719eb3ca3833fbc566a7113	You can specify properties on them, provide methods on them etc. Quite much like with classes in other languages.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T09:12:51.489Z	56ce0e46e610378809c34a4b	alpox	5719eb1327c0fbf239b07c16	If you already did OOP, its a bit like classes
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T09:12:21.554Z	56ce0e46e610378809c34a4b	alpox	5719eaf598c544f1396d888e	@t3h2mas you always use it when you need an object with specified data and you can define methods on to work with the data
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:20:43.573Z	56aeb2d4e610378809bf35ee	t3h2mas	5719a69bb129b59c56da727b	there's never a 'here is when and why to use them'
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:20:32.525Z	56aeb2d4e610378809bf35ee	t3h2mas	5719a69027c0fbf239b06d04	my issue with interfaces is that they're almost too simple but there's never a good example to tie them to idiomatic go coding
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:20:03.780Z	5665ed1116b6c7089cbdce40	sludge256	5719a67327c0fbf239b06cfe	I kind of glazed over that bit.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:19:51.623Z	5665ed1116b6c7089cbdce40	sludge256	5719a66727c0fbf239b06cfa	It brought up `interfaces` in one section but never introduced them.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:19:00.196Z	56aeb2d4e610378809bf35ee	t3h2mas	5719a63425b488663626277f	s/reading/skimming/ ;)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:18:40.843Z	5665ed1116b6c7089cbdce40	sludge256	5719a6203307b26736e3a907	@t3h2mas You're more committed to reading than I am :P
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-22T04:17:51.314Z	56aeb2d4e610378809bf35ee	t3h2mas	5719a5ef98c544f1396d7a17	@sludge256 I learned some cool stuff skimming through that book
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T21:43:04.886Z	533192275e986b0712effd36	alihammad-gist	5719496898c544f1396d6860	@t3h2mas nice work but i told it to download 5 images and it downloaded 2
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:55:05.019Z	55a225235e0d51bd787b1c50	stefanjarina	57186b39a3833fbc566a0637	But they have quite interesting exercises. Need to try them :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:53:20.341Z	56aeb2d4e610378809bf35ee	t3h2mas	57186ad03307b26736e34e90	@sludge256 checking it out
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:52:49.947Z	56aeb2d4e610378809bf35ee	t3h2mas	57186ab15b5164bf56ee8464	i don't think it's all idiomatic, and it's not very long
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:52:29.608Z	5665ed1116b6c7089cbdce40	sludge256	57186a9d25b488663625cdc3	"I'm giving this book a go
+http://www.golangbootcamp.com/"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:52:27.448Z	56aeb2d4e610378809bf35ee	t3h2mas	57186a9ba3833fbc566a061a	I'm trying to gain a grasp of go for workz, I wrote this the other day https://github.com/t3h2mas/gopapers
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:51:52.552Z	5665ed1116b6c7089cbdce40	sludge256	57186a78b129b59c56da1712	It's a party in here.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:51:37.496Z	55a225235e0d51bd787b1c50	stefanjarina	57186a69a3833fbc566a0612	Hey
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:51:18.383Z	56069bbe0fc9f982beb1ea44	alayek	57186a565b5164bf56ee8456	yo
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-21T05:50:45.928Z	56aeb2d4e610378809bf35ee	t3h2mas	57186a35b129b59c56da1709	sup
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:53:17.569Z	56069bbe0fc9f982beb1ea44	alayek	5717518d25b48866362580a5	@stefanjarina yep:)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:43:55.773Z	55a225235e0d51bd787b1c50	stefanjarina	57174f5b27c0fbf239afbcc4	:-D Ah you mean in my CV? :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:27:35.622Z	56069bbe0fc9f982beb1ea44	alayek	57174b8727c0fbf239afbb57	I loved the mouse scroll hint
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:23:04.725Z	56069bbe0fc9f982beb1ea44	alayek	57174a7898c544f1396cc988	@stefanjarina awesome!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:11:41.419Z	55a225235e0d51bd787b1c50	stefanjarina	571747cd5b5164bf56ee30dc	Ignore my English for now :-D I didn't proof-read first article yet :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:10:27.040Z	55a225235e0d51bd787b1c50	stefanjarina	571747833307b26736e2fd26	For now there is just a unfinished article (it will have 3 parts) about Golang Editors, but I would like to write at least 1 to 2 articles per week
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-20T09:09:50.944Z	55a225235e0d51bd787b1c50	stefanjarina	5717475e27c0fbf239afb9e1	Hey guys, I've never been a blogger, but I am now puting together a blog where I'll write a lot about Go. Elixir and probably javascript.   https://blog.jarina.cz
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T17:33:40.868Z	55a225235e0d51bd787b1c50	stefanjarina	57151a742c9711166432f6b9	https://developer.washingtonpost.com/pb/blog/post/2016/04/06/embrace-go/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T17:05:40.594Z	56c95aeee610378809c28f4c	arixion	571513e45ed5a4fd3fe40b92	Thanks, I will try
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T16:10:32.541Z	55a225235e0d51bd787b1c50	stefanjarina	571506f8b30cfa0f384c7434	Or something like this
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T16:10:20.619Z	55a225235e0d51bd787b1c50	stefanjarina	571506ec2c9711166432efc9	var MyStruct gocql.Session = createConnectionFunction()
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T16:08:22.699Z	55a225235e0d51bd787b1c50	stefanjarina	571506765ed5a4fd3fe40693	Or you can export your connectuon by giving it capitalized name. Then it will be accessible outside your packages
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T16:07:08.234Z	55a225235e0d51bd787b1c50	stefanjarina	5715062c5ed5a4fd3fe40672	@arixion I assume that you use these packages in some app in main package. You can create instance of sql connection in your main function and work on that. Then you are able to pass connection to handlers, etc.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T15:56:52.587Z	55b977f00fc9f982beab7883	camperbot	571503c44c2125fc3f03650f	> :star: 188 | @stefanjarina | [http://www.freecodecamp.com/stefanjarina](http://www.freecodecamp.com/stefanjarina)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T15:56:48.892Z	55b977f00fc9f982beab7883	camperbot	571503c0b30cfa0f384c7325	> arixion sends brownie points to @stefanjarina :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T15:56:48.762Z	56c95aeee610378809c28f4c	arixion	571503c0af4636103865911b	Thanks @stefanjarina , I am actually trying to create an application where I have created few services which I have put in different go source file(with different package ). Now I have a Cassandra DB and I have created another go file where I made connection to the DB which is returning me the gocql.Session struct. Now my question is how can I use the same gocql.Session in all the services (multiple go source file with different package) ?  Let me know if any design pattern knowledge  of Go language I need to grasp. 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T13:18:27.511Z	55a225235e0d51bd787b1c50	stefanjarina	5714dea32c9711166432e09f	@arixion Hey man, welcome! Not sure if anyone here uses Beego, but we know Go, so maybe we'll be able to help :-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-18T12:32:41.928Z	56c95aeee610378809c28f4c	arixion	5714d3e92c9711166432dd1b	I am new in Go and currently using beego framework for a web application. Is it a right place to ask questions regarding those ?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T18:57:00.520Z	55658f2715522ed4b3e0ff82	dc0d	5713dc7c3ddb73ba105ce159	@miguelmejiamontes The One in my mind was that you can exclude a case from a select statement by setting that channel to nil! For both sending cases & receiving cases! But it if I close a channel and try to send to it, it will panic.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T18:50:51.508Z	56dcf3ade610378809c559e9	miglmj	5713db0b5cd40114649c11ba	@dc0d can you give an example of what you mean by far more interesting semantics?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T18:41:24.905Z	55658f2715522ed4b3e0ff82	dc0d	5713d8d4b30cfa0f384c344a	"Hi Everybody!
+
+Assume we have passed a channel to a goroutine. How can we set that channel to `nil`? (a best practice/recommendation - pointer? struct field? something else?) Because setting a channel to nil provides far more interesting semantic than closing a channel."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T18:28:11.001Z	56dcf3ade610378809c559e9	miglmj	5713d5bbaf463610386553f3	@dc0d I figure well-written javascript will run better than well-written go, transpiled to javascript. but in the context of web assembly  I think gopherjs could be very interesting
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T18:27:24.880Z	56dcf3ade610378809c559e9	miglmj	5713d58c3ddb73ba105ce027	@dc0d are you coming to gopherjs from a go background or a js background? I've taken a look at it but I'm not convinced
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T08:39:02.503Z	56069bbe0fc9f982beb1ea44	alayek	57134ba65cd40114649bfd5c	@dc0d ok
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:59:28.708Z	55658f2715522ed4b3e0ff82	dc0d	571342605cd40114649bfc82	No; currently I'm enjoying typeScript very much. But I've encountered this repo on GitHub and just downloaded it. But not yet anything serious.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:58:25.854Z	56069bbe0fc9f982beb1ea44	alayek	57134221b30cfa0f384c1ee7	Have you worked with it?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:58:19.917Z	56069bbe0fc9f982beb1ea44	alayek	5713421b5ed5a4fd3fe3b4c9	@dc0d will do!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:58:17.214Z	55658f2715522ed4b3e0ff82	dc0d	57134219548df1be102d9e00	Just wanted to see if anybody used GopherJS in production happily.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:57:52.585Z	55658f2715522ed4b3e0ff82	dc0d	57134200548df1be102d9dfd	@alayek Hi! GopherJS seem to be an interesting beast to investigate!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:57:01.820Z	56069bbe0fc9f982beb1ea44	alayek	571341cd548df1be102d9df5	But not familiar with gopher JS
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:56:54.852Z	56069bbe0fc9f982beb1ea44	alayek	571341c65cd40114649bfc71	@dc0d I am learning some Angular 2
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:56:39.050Z	56069bbe0fc9f982beb1ea44	alayek	571341b75ed5a4fd3fe3b4bc	@dc0d hey there
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:56:39.014Z	55658f2715522ed4b3e0ff82	dc0d	571341b74c2125fc3f0314b1	Now that you are at it, has anybody used GopherJS with Angular 2 on client side?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-17T07:56:09.366Z	55658f2715522ed4b3e0ff82	dc0d	571341995cd40114649bfc6e	Hi Everybody!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T18:37:05.547Z	56dcf3ade610378809c559e9	miglmj	57128651af4636103865296b	Yeah, I really like how easy it is to work with JSON in Go, it makes it perfect for APIs. encoding/decoding objects to/from JSON is built in to the language seamlessly.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T18:34:03.081Z	55a225235e0d51bd787b1c50	stefanjarina	5712859baf46361038652946	+ it is really easy to implement token based authentication using JWT in Go.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T18:30:26.554Z	55a225235e0d51bd787b1c50	stefanjarina	571284c2af46361038652924	@miguelmejiamontes if you really want to use Go, I would stick with it at backend and write frontend in javascript. It has it's perks to do it like that right from the begining. You'll already have API for mobile apps, or simply if you want to change your site later, it will be way easier. I personally prefer Ember for full featuerd framework, or Vue.js for more lightweight components approach. Didn't really jump on React bandwagon yet :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T18:25:57.135Z	56dcf3ade610378809c559e9	miglmj	571283b55ed5a4fd3fe39f52	@stefanjarina Yeah I've been taking a look at Revel and Martini, and while like you said it can be done, it seems like more work for no reason
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T16:41:28.358Z	55a225235e0d51bd787b1c50	stefanjarina	57126b383ddb73ba105cb119	Like I'm not saying that it is not possible to write full app in Go, it just was not pleasure for me to write it.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T16:40:46.704Z	55a225235e0d51bd787b1c50	stefanjarina	57126b0e548df1be102d8349	Or you can do Go + Angular/Ember/Backbone/React+Flux/Vue+vuex, etc.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T16:38:43.316Z	55a225235e0d51bd787b1c50	stefanjarina	57126a93af4636103865245d	@miguelmejiamontes I've attempted to write full app in Go, but to be honest I was diagusted by the web frameworks available for Go. It is great for microservices and APIs but for full site development I don't know. I personaly prefer Elixir and Phoenix Framework for full featured web app. Or Rails, or Django.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T05:24:12.585Z	56069bbe0fc9f982beb1ea44	alayek	5711cc7c548df1be102d6e64	@miguelmejiamontes you might want to talk to @stefanjarina! Also, congrats on finishing two projects in Go :)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-16T05:23:15.615Z	56dcf3ade610378809c559e9	miglmj	5711cc435cd40114649bcd90	Finished the first two backend projects in Go today, has anyone built any of the dynamic apps with Go? Go is perfect for writing microservice API's but I've never written a full app in it
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T21:05:04.176Z	56ce0e46e610378809c34a4b	alpox	570eb4805ed5a4fd3fe2c28f	@stefanjarina I have a macbook but i don't like it so much for programming. The best programming environment is still my linux :-) except i'm programming with C# (visual studio)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T17:04:19.256Z	56ce0e46e610378809c34a4b	alpox	570e7c13b30cfa0f384b1351	:D great times are coming ^^
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T17:03:41.479Z	55a225235e0d51bd787b1c50	stefanjarina	570e7bed5ed5a4fd3fe2afc4	and now just imagine to have crossplatform app in xamarin + backend in golang or elixir -- that is some super speedy app we talking about :P
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T17:00:28.524Z	55a225235e0d51bd787b1c50	stefanjarina	570e7b2c5ed5a4fd3fe2af85	http://www.appvnext.com/blog/2016/4/3/free-xamarin-technology-changes-everything
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T17:00:26.012Z	55a225235e0d51bd787b1c50	stefanjarina	570e7b2a548df1be102c9052	looks like that change of Xamarin is super fresh, like few weeks fresh
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:57:02.222Z	55a225235e0d51bd787b1c50	stefanjarina	570e7a5eaf463610386434c7	I can see that Xamarin Studio is also for MAC
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:54:43.564Z	55a225235e0d51bd787b1c50	stefanjarina	570e79d34c2125fc3f020f02	I have also MAC and for developing I never seen anything better
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:54:32.336Z	55a225235e0d51bd787b1c50	stefanjarina	570e79c8b30cfa0f384b1279	also Linux is not really developer friendly platform, if you want best development on unix, you need to go to MAC
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:53:49.274Z	55a225235e0d51bd787b1c50	stefanjarina	570e799daf46361038643489	I used to play a lot on xbox, but it is just not as good as pc gaming
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:53:33.740Z	55a225235e0d51bd787b1c50	stefanjarina	570e798d5ed5a4fd3fe2af0c	yeah, but there are games, that just don't and will never work on Linux
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:52:48.444Z	56ce0e46e610378809c34a4b	alpox	570e7960b30cfa0f384b125c	I just don't like windows so much anymore (Well its great for games though) but its still much slower than my linux
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:52:25.007Z	56ce0e46e610378809c34a4b	alpox	570e7949548df1be102c8fae	Thats great
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:52:22.262Z	56ce0e46e610378809c34a4b	alpox	570e7946548df1be102c8fac	Yeah i program on vim too for these
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:51:40.163Z	55a225235e0d51bd787b1c50	stefanjarina	570e791c3ddb73ba105bbb0b	yeah, I am mostly in Windows nowadays, because of games. + I have enough of linux at work, and usually when I program something web related I just connect to my server and program in vim - there is great support for Elixir as well as Golang
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:50:37.467Z	55a225235e0d51bd787b1c50	stefanjarina	570e78ddb30cfa0f384b122a	depends on what you want to log, usually app is smart enough by default, but there are also modules for monitoring as far as I know
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:46:26.486Z	56ce0e46e610378809c34a4b	alpox	570e77e2548df1be102c8f29	I like my new fast linux too much :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:46:14.552Z	56ce0e46e610378809c34a4b	alpox	570e77d65cd40114649af4a0	Hmm no xamarin for linux... Damn :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:44:25.533Z	56ce0e46e610378809c34a4b	alpox	570e7769548df1be102c8efe	But you still create the log entry yourself? Or does the application detect the occurrence of the error and log it as is
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:40:09.793Z	55a225235e0d51bd787b1c50	stefanjarina	570e7669548df1be102c8ea3	or rather about handling them, they still care about errors they can see on logs, but there is just no point in handling it, if Supervisor will just restart to new process
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:52.404Z	56ce0e46e610378809c34a4b	alpox	570e76585cd40114649af420	And i wonder why other languages don't have something like that ^^
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:42.521Z	56ce0e46e610378809c34a4b	alpox	570e764e2c97111664319375	I see
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:36.385Z	55a225235e0d51bd787b1c50	stefanjarina	570e7648548df1be102c8e99	that's basically a reason why they don't care about errors
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:22.976Z	55a225235e0d51bd787b1c50	stefanjarina	570e763a4c2125fc3f020dc2	so it can't affect other users
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:19.612Z	56ce0e46e610378809c34a4b	alpox	570e7637548df1be102c8e95	That is damn nice! :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:15.983Z	55a225235e0d51bd787b1c50	stefanjarina	570e7633b30cfa0f384b1126	and every process is separated and isolated
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:09.279Z	55a225235e0d51bd787b1c50	stefanjarina	570e762d4c2125fc3f020dbd	exactly
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:04.217Z	56ce0e46e610378809c34a4b	alpox	570e7628b30cfa0f384b1121	Ah no they all have their own process
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:39:01.448Z	55a225235e0d51bd787b1c50	stefanjarina	570e76255ed5a4fd3fe2add9	nope
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:38:57.335Z	55a225235e0d51bd787b1c50	stefanjarina	570e7621b30cfa0f384b111c	they rely on logs
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:38:57.047Z	56ce0e46e610378809c34a4b	alpox	570e76213ddb73ba105bb9e3	But doesnt that influence other clients when they are connected to a webserver?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:38:51.769Z	55a225235e0d51bd787b1c50	stefanjarina	570e761baf4636103864333b	yeah, in Erlang community they just don't care about exceptions handling
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:38:29.124Z	56ce0e46e610378809c34a4b	alpox	570e76055ed5a4fd3fe2adcf	Ah our dear supervisor :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:37:59.236Z	55a225235e0d51bd787b1c50	stefanjarina	570e75e75ed5a4fd3fe2adc9	you just let application crash, create log entry for you and in automatically restarts
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:37:43.094Z	55a225235e0d51bd787b1c50	stefanjarina	570e75d75cd40114649af3f2	you don't
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:37:30.271Z	56ce0e46e610378809c34a4b	alpox	570e75ca548df1be102c8e6e	What i didn't get about elixir was how you handle errors. I know that you can get an error through pattern matching with error or ok but what do you do with it then? ^^
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:32:44.432Z	56ce0e46e610378809c34a4b	alpox	570e74acaf463610386432b3	Yeah thats true. I never did a lot in Ruby. Just once for 2-3 days :D so i have no real idea of it. It will take me some time to get into it but even for that i have almost no time (University...)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:31:26.473Z	55a225235e0d51bd787b1c50	stefanjarina	570e745e4c2125fc3f020d10	it looks almost same
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:31:14.646Z	55a225235e0d51bd787b1c50	stefanjarina	570e74522c971116643192c7	yeah, I am really good in Ruby, so Elixir is really easy for me
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:30:26.791Z	56ce0e46e610378809c34a4b	alpox	570e74225ed5a4fd3fe2ad2e	I think they noticed that they are lackin :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:30:20.558Z	56ce0e46e610378809c34a4b	alpox	570e741c5ed5a4fd3fe2ad2c	Quite radically...
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:30:16.403Z	56ce0e46e610378809c34a4b	alpox	570e7418b30cfa0f384b1076	Yeah microsoft is changing their mind
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:29:57.161Z	56ce0e46e610378809c34a4b	alpox	570e74053ddb73ba105bb91b	I just never understood the syntax so well from them :D its quite hard to get used to functional programming ala haskell or something. With Elixir the entrance to this topic seems kinda easy
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:29:29.491Z	55a225235e0d51bd787b1c50	stefanjarina	570e73e9af4636103864325b	they even have now free courses for Xamarin now, what the actual hell -- that is the most radical change I've seen in years
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:29:18.869Z	56ce0e46e610378809c34a4b	alpox	570e73de5cd40114649af358	I didn't yet program in functional languages, thats quite a change of thinking for me :D 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:28:05.674Z	55a225235e0d51bd787b1c50	stefanjarina	570e7395548df1be102c8d9c	always wanted to get into functional programming, but all of them had rather ugly syntax and I am person that syntax play a big role for me
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:27:30.788Z	55a225235e0d51bd787b1c50	stefanjarina	570e73724c2125fc3f020cac	yeah, I learn Phoenix now as well, I just love Elixir, completely changed my code and how I think about code
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:35.191Z	56ce0e46e610378809c34a4b	alpox	570e733b5cd40114649af321	I may do that once i have time... First i have to dive into Phoenix/Elixir
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:30.256Z	55b977f00fc9f982beab7883	camperbot	570e7336548df1be102c8d77	> :star: 515 | @alpox | [http://www.freecodecamp.com/alpox](http://www.freecodecamp.com/alpox)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:26.654Z	55b977f00fc9f982beab7883	camperbot	570e73324c2125fc3f020c91	> stefanjarina sends brownie points to @alpox :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:26.548Z	55a225235e0d51bd787b1c50	stefanjarina	570e73325ed5a4fd3fe2acec	thanks @alpox 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:15.577Z	56ce0e46e610378809c34a4b	alpox	570e7327af4636103864320b	:D nice that i could help
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:11.184Z	55a225235e0d51bd787b1c50	stefanjarina	570e73235ed5a4fd3fe2ace9	excited*
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:26:00.549Z	55a225235e0d51bd787b1c50	stefanjarina	570e73184c2125fc3f020c86	but damn, I am now super exited about Xamarin, didn't expect such radical change, for thousands of dollars to free :-D Need to brush my C# skills again
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:25:34.022Z	56ce0e46e610378809c34a4b	alpox	570e72fe3ddb73ba105bb8b6	Uh okay... that was a bad database then :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:25:10.818Z	56ce0e46e610378809c34a4b	alpox	570e72e65cd40114649af300	Hahah :D now imagine someone write a 3GB script file xDD
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:25:04.663Z	55b977f00fc9f982beab7883	camperbot	570e72e05cd40114649af2fc	you need to ask about @someone!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:25:04.574Z	55a225235e0d51bd787b1c50	stefanjarina	570e72e02c97111664319241	about 500GB disk went full in about 5 minutes :-D that was some extensive logging :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:24:45.659Z	55a225235e0d51bd787b1c50	stefanjarina	570e72cd548df1be102c8d4e	last time I saw more than 1GB big file was when one database went crazy and started creating huge log files
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:24:19.774Z	55a225235e0d51bd787b1c50	stefanjarina	570e72b3548df1be102c8d48	:-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:23:43.193Z	56ce0e46e610378809c34a4b	alpox	570e728f5ed5a4fd3fe2acb7	My vim couldn't even open it :D it just hanged
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:23:08.218Z	56ce0e46e610378809c34a4b	alpox	570e726c5cd40114649af2c8	Lately i thought i was out of my mind... did you ever install Mathematica? :D They have just one file as install SCRIPT: 3GB .sh file
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:22:53.490Z	55a225235e0d51bd787b1c50	stefanjarina	570e725d3ddb73ba105bb879	thanks god for gigabit link
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:22:34.780Z	56ce0e46e610378809c34a4b	alpox	570e724a2c9711166431920b	27GB wtf :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:22:29.297Z	56ce0e46e610378809c34a4b	alpox	570e7245548df1be102c8d1c	:-/ eww
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:22:28.232Z	55a225235e0d51bd787b1c50	stefanjarina	570e72445ed5a4fd3fe2ac90	nice
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:22:21.300Z	55a225235e0d51bd787b1c50	stefanjarina	570e723d3ddb73ba105bb871	WAU - just installing Xamarin Studio -- Setup requires up to 27GB on all drives :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:21:56.238Z	56ce0e46e610378809c34a4b	alpox	570e72243ddb73ba105bb864	And if you once start with swift and Objective C you will have to buy all apple stuff and thats too expensive 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:21:32.648Z	56ce0e46e610378809c34a4b	alpox	570e720c3ddb73ba105bb859	Except C# because i started programminig on it
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:21:24.053Z	56ce0e46e610378809c34a4b	alpox	570e7204548df1be102c8d02	Hmm i make a long way around languages which are specific for platforms
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:20:22.952Z	55a225235e0d51bd787b1c50	stefanjarina	570e71c6548df1be102c8cea	indeed -- used to write some Objective C for iOS bit that is also sort of abomination language, better than Java, but super strange -- new Swift looks great, but I just don't want to lock myself to Apple
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:19:34.555Z	56ce0e46e610378809c34a4b	alpox	570e7196af4636103864315d	I run away when they want me to write that
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:19:30.295Z	55a225235e0d51bd787b1c50	stefanjarina	570e71922c971116643191bc	and like it so far
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:19:28.093Z	56ce0e46e610378809c34a4b	alpox	570e7190b30cfa0f384b0f89	Urgh.. Java
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:19:27.312Z	55a225235e0d51bd787b1c50	stefanjarina	570e718f5cd40114649af262	yeah, I use their VSC for quite some time now
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:19:10.584Z	56ce0e46e610378809c34a4b	alpox	570e717e5ed5a4fd3fe2ac4a	Well Microsoft even starts to work with linux now... They want to work together with Canonical! And the new Visual Studio Code brings their coding environment to MAC and linux too... .NET programming on linux!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:18:41.273Z	55a225235e0d51bd787b1c50	stefanjarina	570e71613ddb73ba105bb82b	yeah, I just refuse to write in Java for Android, just hate language line anything else
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:17:37.286Z	56ce0e46e610378809c34a4b	alpox	570e71212c9711166431918f	(As long as xamarin is free)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:17:24.128Z	56ce0e46e610378809c34a4b	alpox	570e71143ddb73ba105bb809	I wouldn't take anything else than Xamarin or just write native apps ^^
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:16:54.810Z	56ce0e46e610378809c34a4b	alpox	570e70f6af46361038643120	For native apps for sure
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:16:39.967Z	56ce0e46e610378809c34a4b	alpox	570e70e74c2125fc3f020bb9	Maybe its time to do a bit of it again :P
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:16:37.263Z	55a225235e0d51bd787b1c50	stefanjarina	570e70e52c97111664319177	well, it is definitely better solution than Node.js from performance and tooling perspective
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:16:35.055Z	56ce0e46e610378809c34a4b	alpox	570e70e34c2125fc3f020bb8	Well i just made the change to linux... And since i did that i didn't program C# anymore...
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:16:12.728Z	56ce0e46e610378809c34a4b	alpox	570e70cc2c97111664319169	:D have fun with it then
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:15:58.952Z	55a225235e0d51bd787b1c50	stefanjarina	570e70be5cd40114649af213	OMG, that changes a LOT :-D I always wanted to try Xamarin as I know C# as well. But it was too expensive and I just didn't want to invest money into hobby language
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:14:49.832Z	56ce0e46e610378809c34a4b	alpox	570e70792c97111664319142	Free for all now! :P even visual studio has a community version now
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:14:37.667Z	56ce0e46e610378809c34a4b	alpox	570e706d5ed5a4fd3fe2abf0	Yup it was like that :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:14:26.441Z	56ce0e46e610378809c34a4b	alpox	570e70622c9711166431913a	And so i thought i can take a look :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:14:13.256Z	56ce0e46e610378809c34a4b	alpox	570e7055548df1be102c8c69	I just remembered that microsoft & co changed their mind about free software with the new CEO
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:14:08.237Z	55a225235e0d51bd787b1c50	stefanjarina	570e70503ddb73ba105bb7ca	srsly? ot was like 1000 dolars per year per 1 developer per 1 platform :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:13:55.104Z	55a225235e0d51bd787b1c50	stefanjarina	570e70432c9711166431912b	did they changed it to free?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:13:49.179Z	56ce0e46e610378809c34a4b	alpox	570e703d5ed5a4fd3fe2abe4	Yup :-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:13:43.438Z	55a225235e0d51bd787b1c50	stefanjarina	570e7037af463610386430e7	I can't see that crazy pricing there anymore
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:13:33.631Z	55a225235e0d51bd787b1c50	stefanjarina	570e702d2c97111664319125	I am either blind, or hell has frozen
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:11:55.686Z	56ce0e46e610378809c34a4b	alpox	570e6fcb2c97111664319102	https://store.xamarin.com/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:11:49.013Z	55a225235e0d51bd787b1c50	stefanjarina	570e6fc52c971116643190fc	but that price :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:11:44.122Z	55a225235e0d51bd787b1c50	stefanjarina	570e6fc05ed5a4fd3fe2abb6	@alpox indeed, like Xamarin is just great technology with one of the best tooling
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:11:39.150Z	56ce0e46e610378809c34a4b	alpox	570e6fbb3ddb73ba105bb780	@stefanjarina I just see they provide a free xamarin version now as long as you are not a big company :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:11:14.881Z	55a225235e0d51bd787b1c50	stefanjarina	570e6fa25cd40114649af1a5	I have great experience with backend code for mobile with these:  Golang (Gin Framework, or plain Go), Elixir(Phoenix Framework), Node.js(Express.js)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:10:26.826Z	56ce0e46e610378809c34a4b	alpox	570e6f72af463610386430b5	I was mainly a C# developer for years but I lost a bit the interest since its too windows focused... and too expensive
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:10:24.329Z	55a225235e0d51bd787b1c50	stefanjarina	570e6f70af463610386430b2	so you write mobile app in Nodejs and then from that app you connect via socket to backend which runs on some server and there you can use whatever you want
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:09:52.521Z	56ce0e46e610378809c34a4b	alpox	570e6f505cd40114649af17e	Yeah thats hell of expensive
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:09:48.179Z	56ce0e46e610378809c34a4b	alpox	570e6f4caf463610386430a0	I lost the overview over all of them :D i just know Xamarin :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:09:40.576Z	55a225235e0d51bd787b1c50	stefanjarina	570e6f44af4636103864309b	if you know C# there is Xamarin project, but that is super expensive :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:09:28.199Z	55a225235e0d51bd787b1c50	stefanjarina	570e6f38b30cfa0f384b0eae	if you want it free
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:09:09.262Z	55a225235e0d51bd787b1c50	stefanjarina	570e6f25548df1be102c8bed	for cross-platform on mobile systems I would use Node.js personally -- specifically one of Phonegap, Ionic, Titanium
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:03:43.816Z	55a225235e0d51bd787b1c50	stefanjarina	570e6ddf5cd40114649af0fa	yeah, he then specified it later
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:03:30.986Z	56ce0e46e610378809c34a4b	alpox	570e6dd25ed5a4fd3fe2aaf5	@stefanjarina Ah sry :D i was refering to his first question
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:02:54.464Z	56ce0e46e610378809c34a4b	alpox	570e6daeaf46361038643015	
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:02:49.105Z	55a225235e0d51bd787b1c50	stefanjarina	570e6da93ddb73ba105bb6d3	unfortunately, it might be interesting to be able to write mobile apps in golang though :-D it will definitely be more performant than that Java abomination Android uses
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:02:15.469Z	55a225235e0d51bd787b1c50	stefanjarina	570e6d875ed5a4fd3fe2aae4	so no, you can't use golang over the native language of the OS
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:02:02.178Z	55a225235e0d51bd787b1c50	stefanjarina	570e6d7a5cd40114649af0cb	he asked this: I guess just if it's possible, and if so are there benefits to using golang over the naitive language of the OS.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:01:40.764Z	56ce0e46e610378809c34a4b	alpox	570e6d645cd40114649af0bd	@stefanjarina He was only talking about server side anyway i guess
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T16:01:37.902Z	55a225235e0d51bd787b1c50	stefanjarina	570e6d614c2125fc3f020a8b	as stated by @alpox, for backend you can use almost any language and Go is generaly great solution for server-client. It is best for http APIs where it can handle hell lot of connections. Or you can use socket approach, where your application will connect to Go server app via socket and it keeps open connection and communicate inside the socket
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:59:43.984Z	55a225235e0d51bd787b1c50	stefanjarina	570e6cef4c2125fc3f020a61	what you can write is server to which will mobile applciation connect, but application itself not
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:59:18.764Z	55a225235e0d51bd787b1c50	stefanjarina	570e6cd65ed5a4fd3fe2aaa1	@pdotsani You can't write mobile application in Go for iOS. There is some project to write in Go for Android, but it is in super beta
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:59:17.291Z	56ce0e46e610378809c34a4b	alpox	570e6cd5548df1be102c8b0c	"Where elixir/erlang would be the most stable, nodejs is the easiest to handle json and real-time data with the sockets. It can only handle one thread though unless you spawn multiple processes. .NET is great on windows servers and its TOP libraries like Entity Framework etc... 
+Golang is one of the fastest and provides good API possibility - i would set it next to NodeJS whereas you may still use NodeJS for task runners. What it can do better over Node is its concurrency model (Easy, readable async code), and its a compiled language what may or may not fit you. NodeJS on the other hand has a ton of libraries online, some very good, some not so good, the filtering would be up for you but what you want, it will be there in the NPM."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:55:12.494Z	55b977f00fc9f982beab7883	camperbot	570e6be0548df1be102c8ac2	> :star: 514 | @alpox | [http://www.freecodecamp.com/alpox](http://www.freecodecamp.com/alpox)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:55:10.376Z	55b977f00fc9f982beab7883	camperbot	570e6bde2c97111664318f6d	> pdotsani sends brownie points to @alpox :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:55:07.734Z	54e4767e15522ed4b3dc25ef	pdotsani	570e6bdb5ed5a4fd3fe2aa39	Awesome that's super helpful. Thanks @alpox !
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:54:26.228Z	54e4767e15522ed4b3dc25ef	pdotsani	570e6bb2548df1be102c8aae	Ic ic
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:54:25.046Z	56ce0e46e610378809c34a4b	alpox	570e6bb13ddb73ba105bb60b	So golang would be one possible choice next to nodejs, elixir, .NET etc.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:53:43.993Z	56ce0e46e610378809c34a4b	alpox	570e6b87af46361038642f29	It doesnt matter if you use another language on the serverside. Often you write apps for all devices anyway and they all use different languages as their baselanguage
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:53:08.617Z	56ce0e46e610378809c34a4b	alpox	570e6b64548df1be102c8a93	Well Golangs performance is great when its about its compile-time. Its not as fast at runtime as C or C++ yet, but its coming close i heard.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:53:05.058Z	54e4767e15522ed4b3dc25ef	pdotsani	570e6b614c2125fc3f0209e2	lol... I'm assuming for android it's Java, and for iOS it's Swift.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:52:32.903Z	54e4767e15522ed4b3dc25ef	pdotsani	570e6b40548df1be102c8a80	Fairly new to all this stuff. But I've heard a lot of great things about go, specifically regarding performance.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:52:21.186Z	56ce0e46e610378809c34a4b	alpox	570e6b355ed5a4fd3fe2a9f7	"What do you call the native language of ""the"" OS? :D"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:51:52.929Z	54e4767e15522ed4b3dc25ef	pdotsani	570e6b182c97111664318f2c	I guess just if it's possible, and if so are there benefits to using golang over the naitive language of the OS.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:50:32.069Z	56ce0e46e610378809c34a4b	alpox	570e6ac85cd40114649aefe4	Was there a specific question you have about golang on serverside?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:50:16.305Z	56ce0e46e610378809c34a4b	alpox	570e6ab8b30cfa0f384b0d07	@pdotsani I didn't use it yet for mobile apps or something but i researched quite a bit... my only go project was/is https://github.com/alpox/graphql-go-gen
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:48:16.674Z	54e4767e15522ed4b3dc25ef	pdotsani	570e6a402c97111664318eda	@stefanjarina any thoughts to the question I posted above?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:47:33.519Z	56ce0e46e610378809c34a4b	alpox	570e6a154c2125fc3f02096a	@dodiku I just wonder why it doesnt show me the right time.Now()... do they have set a wrong system time on the server? :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:47:30.567Z	55a225235e0d51bd787b1c50	stefanjarina	570e6a123ddb73ba105bb561	@dodiku you're welcome
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:46:24.205Z	569e0120e610378809bd1017	dodiku	570e69d02c97111664318ea5	"this is working good - 
+
+package main
+
+import (
+	""fmt""
+	""time""
+)
+
+func main() {
+
+	// the time now
+	fmt.Println(time.Now())
+	
+	// the time 50 minutes ago - WORKS
+	diff := (60 - 10) * time.Minute
+	newTime := time.Now().Add(-diff)
+	fmt.Println(newTime)
+	
+	// the time 50 minutes ago - WORKS!
+	i := 10
+	diff = time.Duration(60-i) * time.Minute
+	newTime = time.Now().Add(-diff)
+	fmt.Println(newTime)
+}"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:46:11.802Z	569e0120e610378809bd1017	dodiku	570e69c35cd40114649aef6c	now i get it
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:46:08.864Z	569e0120e610378809bd1017	dodiku	570e69c05cd40114649aef69	@stefanjarina thanks!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:37:46.415Z	55a225235e0d51bd787b1c50	stefanjarina	570e67ca548df1be102c893c	@dodiku you have different types. i is an Integer, you need to convert it to minutes first let me get home from work and will look into it
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-13T15:25:23.046Z	569e0120e610378809bd1017	dodiku	570e64e3af46361038642c8c	"Hi all,
+I'm new to Go myself.
+Not sure if this is the place to ask this question, but - 
+
+I'm trying to calculate the time 10 minutes ago.
+Why can't I do this calculation with variables (usable for a for loop).
+
+See - 
+`
+package main
+import (
+	""fmt""
+	""time""
+)
+
+func main() {
+
+	// the time now
+	fmt.Println(time.Now())
+	
+	// the time 50 minutes ago - WORKS
+	diff := (60 - 10) * time.Minute
+	newTime := time.Now().Add(-diff)
+	fmt.Println(newTime)
+	
+	// the time 50 minutes ago - DOESN'T WORKS!
+	i := 10
+	diff = (60 - i) * time.Minute
+	newTime = time.Now().Add(-diff)
+	fmt.Println(newTime)
+}`
+
+This is the error I'm getting - 
+>prog.go:20: invalid operation: (60 - i) * time.Minute (mismatched types int and time.Duration)
+
+For Go Playground: https://play.golang.org/p/TJ03K0ULg2"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-04-06T16:33:57.585Z	54e4767e15522ed4b3dc25ef	pdotsani	57053a7582aae5fc2799f30b	Hello all! I’m very new to go but I’ve heard alot of great things about it. Just curious if anyone has worked with go on the server side when creating mobile apps.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-27T13:33:51.266Z	5586719a15522ed4b3e23add	evaristoc	56f7e13fd39de41b495e16f0	^^^ OBS: invitation only for those who would like to know more about the API that belongs to THIS ROOM ONLY
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-27T12:47:15.932Z	5586719a15522ed4b3e23add	evaristoc	56f7d65311ea211749c2432c	"##Hi Everyone:
+The following is a SERIOUS job that it is being carried out for FCC.
+https://fccapi.herokuapp.com/
+
+Please read the documentation and contact the project owner FIRST if you are interesting in helping us to test the API.
+
+Thanks in advance!"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-19T13:11:05.315Z	56ce0e46e610378809c34a4b	alpox	56ed4fe98b806f6b7a189820	"@stefanjarina I just made some tests with Elixir and i have to say i really like it :D especially How save-running it is, Supervisor process recovery and distributed system processes.
+I will take a closer look on the web aspects as soon as i dive a bit deeper"
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T22:48:11.242Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56eb342bde00745d3dd38b21	https://github.com/RecursiveLogic/StockLabs
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T22:48:01.047Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56eb3421acb317593df5276a	Hey if anyone wants to chip in on a project I'm working on, feel free. It's in React/Go.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:37:55.846Z	56ce0e46e610378809c34a4b	alpox	56eaf9832316027b785e3f1a	Thanks for your explanation and have fun in the pub :-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:35:33.610Z	56ce0e46e610378809c34a4b	alpox	56eaf8f5d37167a26ea0c76f	@stefanjarina Just didnt do functional programming yet
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:35:25.689Z	56ce0e46e610378809c34a4b	alpox	56eaf8ed2316027b785e3eec	@stefanjarina Yeah i know golang :D i'm already using it a lot
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:34:53.146Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf8cdd37167a26ea0c766	Now back to pub stuff, bye for now :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:34:38.029Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf8be2316027b785e3ede	But I recommebd learn fubctional language at some point as it teaches you new paradigm and makes you a better programmer.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:34:06.544Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf89eec99d7bd40a077b7	Both languages are awesome. Just pick the right tool gor different type of work
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:33:45.912Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf889ec99d7bd40a077ad	Elixir I use for huge applications. It has rails like web framework called Phoenix. But it is waaay faster.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:33:04.260Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf860acb317593df514b5	I use golang mainly for linux toolsmithing and simple json apis
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:32:06.152Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf826d37167a26ea0c724	Golang is imperative language, very easy to write good code. Also very fast and compiled to single binary, which is just great for server applications or tools. Syntax is more c-like
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:30:42.245Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf7d2acb317593df5148b	But in general the main difference. Elixir is based on ruby syntax running in erlang virtual machine. Which is used for about 70℅ of telco ibfrastructure. If you now make a call, there 70% chance thatbitbis routed via erlang program. It is functional and fault tolerant. So fault tolerant that some people couldn't kill linux server, because erlang app refused to die :-D functional programming is in my opinion harder for a novice programer.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:27:23.992Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf70bacb317593df5144c	Sorry guys, in a pub, will reply later :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:22:01.093Z	559180fb15522ed4b3e30960	AnjanJ	56eaf5c9de00745d3dd377a7	I guess elixir has easy syntax than Haskell.. If you would just Google why elixir was created you would have a better idea 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:13:43.713Z	56ce0e46e610378809c34a4b	alpox	56eaf3d76fbc43bf4098e5d9	So maybe i'll take a look at elixir if its easier to get started with then
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:13:29.692Z	56ce0e46e610378809c34a4b	alpox	56eaf3c9c081db78786b0175	I don't know evm and otp but since i lately read quite much about functional languages i thought i might give it a try once. But i'm not sure with which to start
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:12:10.029Z	559180fb15522ed4b3e30960	AnjanJ	56eaf37a2316027b785e3ce4	I guess what elixir provides over Haskell is easy syntax and of course the power of evm and otp
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:11:31.214Z	559180fb15522ed4b3e30960	AnjanJ	56eaf353de00745d3dd376d9	New too go & elixir super awesome
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T18:06:39.753Z	56ce0e46e610378809c34a4b	alpox	56eaf22fc081db78786b00f0	@stefanjarina How does elixir compare to haskell?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T17:58:10.807Z	55a225235e0d51bd787b1c50	stefanjarina	56eaf0322316027b785e3bef	I'm now really torn in half between Elixir and Go and just can't decide. Both are just awesome. So I just use both.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:45:39.164Z	56ce0e46e610378809c34a4b	alpox	56ea7cc39f24605773d8f728	You're welcome
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:45:30.822Z	535b06f2fe5536b46433d6f0	louy2	56ea7cba89dd3cce10073dd7	Thanks a lot!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:36:41.837Z	56ce0e46e610378809c34a4b	alpox	56ea7aa96fde057c26878fe8	abbreviations*
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:34:53.361Z	56ce0e46e610378809c34a4b	alpox	56ea7a3d6fde057c26878fbe	https://github.com/alpox/graphql-go-gen/tree/master/generator
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:34:52.733Z	56ce0e46e610378809c34a4b	alpox	56ea7a3c0055f8f35a83f9ec	You see the code i wrote like that here if you need to see examples:
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:34:23.496Z	56ce0e46e610378809c34a4b	alpox	56ea7a1f6fde057c26878faf	Write a test for all possible use-cases
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:34:05.419Z	56ce0e46e610378809c34a4b	alpox	56ea7a0d89dd3cce10073d11	Well thats not hard in golang :D create a test file for each program file and write the tests first and then the program code.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:33:23.197Z	535b06f2fe5536b46433d6f0	louy2	56ea79e33194fbd11097d40d	How did you do it then?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:33:14.696Z	535b06f2fe5536b46433d6f0	louy2	56ea79da0055f8f35a83f9d4	That's good
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:32:39.347Z	56ce0e46e610378809c34a4b	alpox	56ea79b7c7364f7926bfc8a0	I did a bit of TDD then :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:32:25.978Z	56ce0e46e610378809c34a4b	alpox	56ea79a93194fbd11097d403	i've never seen the appreviations
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:32:17.516Z	56ce0e46e610378809c34a4b	alpox	56ea79a1618c335373eca2dc	I know lol :D ah oka
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:32:07.526Z	535b06f2fe5536b46433d6f0	louy2	56ea799711a3dbf55accc6ce	LOL = laugh out loud, TDD = test driven dev, BDD = behavior driven dev
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:31:35.365Z	56ce0e46e610378809c34a4b	alpox	56ea797789dd3cce10073cf1	@louy2 What is that?? :D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T09:30:53.479Z	535b06f2fe5536b46433d6f0	louy2	56ea794d6fde057c26878f77	Anyone familiar with TDD or BDD in go here ?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T08:59:41.955Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56ea71fdc7364f7926bfc6ae	I actually just switched today to Atom, rather instantly. I was surprised at how pleasant it is.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-17T08:59:05.328Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56ea71d90055f8f35a83f7cc	Go is awesome. 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-14T22:55:38.555Z	56069bbe0fc9f982beb1ea44	alayek	56e7416a618c335373ebd3f9	@stefanjarina cool got it
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-14T22:54:38.508Z	55a225235e0d51bd787b1c50	stefanjarina	56e7412e6fde057c2686c03b	@alayek sublime is also nice. But so far best golang plugin i saw is in VSCode. Works just nice.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-14T20:24:56.563Z	56ce0e46e610378809c34a4b	alpox	56e71e18618c335373ebc861	I think everyone can if one takes some time :-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-14T20:24:26.443Z	56069bbe0fc9f982beb1ea44	alayek	56e71dfa9f24605773d81b32	@alpox yeah, but not everyone can handle vim :pensive: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-14T20:21:48.543Z	56ce0e46e610378809c34a4b	alpox	56e71d5c11a3dbf55acbee1d	Golang works quite nice in Vim  @alayek ;-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-14T20:20:29.354Z	56069bbe0fc9f982beb1ea44	alayek	56e71d0d9f24605773d81ada	@stefanjarina what say? http://eefret.me/making-sublime-your-golang-ide/
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-09T12:13:12.187Z	56069bbe0fc9f982beb1ea44	alayek	56e0135819834f3c35361e34	@soumitrachakravarti cool man!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-09T11:59:30.136Z	56b34d22e610378809bfd892	soumitrachakravarti	56e0102268ddef776469e865	Hello guys, I'm really excited that FCC is taking up other languages, particularly Go. I have more fun developing in Go than Javascript/Python!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-09T09:46:20.059Z	55658f2715522ed4b3e0ff82	dc0d	56dff0ec68c077746483b2cf	Hi fellas! What package do you use for working with couchdb?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-08T09:35:12.573Z	55658f2715522ed4b3e0ff82	dc0d	56de9cd068c0777464835967	Howdy Recursive fella! You should continue recursively! (Despite the fact Go has no TCO and one probably should do it using channels!)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-08T07:49:38.640Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56de8412a549284116693f8a	Howdy gang.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:50:44.237Z	55658f2715522ed4b3e0ff82	dc0d	56dc51d468ddef7764690b44	Thanks!  :smile: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:49:46.323Z	55a225235e0d51bd787b1c50	stefanjarina	56dc519addfe3d4316281b03	nothing bad about it, everyone have preferences right? :-) I just write in more languages, so had to use VSCode, if I would write Go exclusively, or even like you 80% backend, LiteIDE would be my choice as well probably
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:48:09.248Z	55658f2715522ed4b3e0ff82	dc0d	56dc5139ddfe3d4316281afc	Pleas don't laugh! I use both at the same time! I'm a 80% backend 20% frontend dev!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:45:15.963Z	55a225235e0d51bd787b1c50	stefanjarina	56dc508b68c077746482dcbd	but as soon as you need to throw on it some frontend, for example in Vue.js, or just HTML5, LiteIDE just doesn’t support it well
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:44:33.141Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5061b0cc3f1b41507da3	for that case, it is probably the best, most feature rich
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:44:10.100Z	55a225235e0d51bd787b1c50	stefanjarina	56dc504a68c077746482dcb1	like LiteIDE is great, if you program only backend and nothing else, meaning, that you never need to switch language, just write in pure Go
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:42:43.511Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4ff3ddfe3d4316281ac7	I never use multiple folders, so not sure here
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:42:33.416Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4fe968ddef7764690af9	and multiple folders, yeah, thta I think you can’t (maybe there is a plugin for it?)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:42:06.450Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4fce68c077746482dc9b	go fmt works for me, but I use goimports
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:41:44.495Z	55658f2715522ed4b3e0ff82	dc0d	56dc4fb8b0cc3f1b41507d88	Am I missing smthing?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:41:33.126Z	55658f2715522ed4b3e0ff82	dc0d	56dc4fad12636738357156ed	My problem with VSCode is that I can not have mutile folders open on the left. Also so far I've failed to enable go fmt on save.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:39:52.839Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4f48a54928411668c724	so I don’t need to switch editor when I go from backend to frontend and etc.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:39:37.609Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4f3968ddef7764690ad5	I like it, because it has also support for React, Vue, Angular, etc.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:39:20.478Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4f28a54928411668c71c	https://github.com/Microsoft/vscode-go
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:38:56.553Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4f1068ddef7764690ac9	VSCode, has almost all the features
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:38:46.989Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4f06817dfa1e41ecc612	LiteIDE is a full featured IDE for golang, but it’s design is just oooold, and it lacks support for other languages if you need to write front-end for example as well
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:32:50.703Z	55658f2715522ed4b3e0ff82	dc0d	56dc4da268ddef7764690a7d	@stefanjarina Hi! I am using LightIDE for a long time. Would you please provide some comparison if possible? I am using VSCode for Typescript & the like.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:12:12.186Z	559180fb15522ed4b3e30960	AnjanJ	56dc48ccddfe3d431628196f	When will the go course from free code camp start?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:00:49.303Z	55b977f00fc9f982beab7883	camperbot	56dc4621126367383571556e	> :warning: alayek already gave stefanjarina points
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:00:48.543Z	55b977f00fc9f982beab7883	camperbot	56dc462068c077746482dafc	> alayek sends brownie points to @stefanjarina :sparkles: :thumbsup: :sparkles: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T15:00:47.236Z	56069bbe0fc9f982beb1ea44	alayek	56dc461fb0cc3f1b41507bf6	@stefanjarina thanks!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T14:57:30.946Z	55a225235e0d51bd787b1c50	stefanjarina	56dc455aa54928411668c581	It is similar to Atom. Actually I am moving from Atom to VSCode. And I would never thought that I would like Microsoft product so much. Oh, and it is open source
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T14:55:33.368Z	55a225235e0d51bd787b1c50	stefanjarina	56dc44e568c077746482daca	Yup.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T14:55:17.520Z	56069bbe0fc9f982beb1ea44	alayek	56dc44d568ddef7764690908	@stefanjarina is it platform independent, as in, would I be able run VSCode on Linux or Mac?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-06T14:39:31.351Z	55a225235e0d51bd787b1c50	stefanjarina	56dc412368ddef7764690871	Just btw guys, believe it or not, at this moment probably best editor for Go is VSCode from Microsoft. Used to use Sublime or Atom. But lately VSCode is really great. Probably 2nd product from Microsoft I actually like :-D first one is Xbox :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T13:02:01.111Z	55a225235e0d51bd787b1c50	stefanjarina	56d835c9b01413547d89d49e	ok, that's something I definitely can help with - just sent you my mail in private message
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:59:40.406Z	56069bbe0fc9f982beb1ea44	alayek	56d8353c44ba0664026ac853	At present, we need some help with creating articles
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:59:25.291Z	56069bbe0fc9f982beb1ea44	alayek	56d8352d44ba0664026ac84c	@stefanjarina are you kidding?! We would love to have you onboard!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:58:48.676Z	55a225235e0d51bd787b1c50	stefanjarina	56d835080bdb886502f70d87	If I am good enough I can help with curriculum, maybe even with projects, not sure if I am good enough though :-D never built any big project in go -- just some personal APIs (even though including database and user management and JWT authentication, etc.) -- also am just terrible at front-end -- know a bit Angular, but that's it -- and lately I am really interested in Vue.js -- like idea of components, but don't like React JSX, thus trying Vue, which is like simpler Angular
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:57:48.003Z	56069bbe0fc9f982beb1ea44	alayek	56d834cc048f9e65291bbb50	@stefanjarina escape it ;)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:55:15.972Z	55a225235e0d51bd787b1c50	stefanjarina	56d834330bdb886502f70d4a	hmmm, seems like @ work is already registered user, need to get rid of bad habit by referencing place with @ :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:54:36.396Z	55a225235e0d51bd787b1c50	stefanjarina	56d8340c44ba0664026ac7f5	1:54PM
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:54:33.081Z	56069bbe0fc9f982beb1ea44	alayek	56d83409f760676329bb492c	no problem!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:54:26.662Z	56069bbe0fc9f982beb1ea44	alayek	56d83402b01413547d89d439	@stefanjarina haha...what time it is over there?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:54:18.373Z	55a225235e0d51bd787b1c50	stefanjarina	56d833fa50b462292adfc32b	@alayek Sorry for late response - @work now and had to go to local University to present about our company :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T12:53:48.382Z	55a225235e0d51bd787b1c50	stefanjarina	56d833dc44ba0664026ac7e5	@alayek Yeah, I am from Czech Republic, so part of world where now is day light :-D
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T11:35:15.644Z	56069bbe0fc9f982beb1ea44	alayek	56d821739b722b537d192e21	?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T11:35:15.104Z	56069bbe0fc9f982beb1ea44	alayek	56d8217350b462292adfbd8b	@grsouza hey there! I am great, wbu
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T11:33:46.532Z	565875a216b6c7089cbc69be	grsouza	56d8211a048f9e65291bb53f	Hey guys, how are you? 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:50:27.883Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d816f3f760676329bb40d9	Completely new to Go but not React.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:50:15.358Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d816e750b462292adfbae2	@elimisteve A different project. I want to make it an algorithmic trading platform.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:49:42.966Z	56069bbe0fc9f982beb1ea44	alayek	56d816c6f760676329bb40c6	@elimisteve yeah, wish we had more gophers from parts of the world where there is day light at the moment!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:49:24.967Z	5475322adb8155e6700d82c1	elimisteve	56d816b4b01413547d89cb70	@RecursiveLogic You keeping the UI from https://github.com/RecursiveLogic/Stock-Ticker and rewriting the backend in Go, or is this a different project you're talking about?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:47:59.449Z	5475322adb8155e6700d82c1	elimisteve	56d8165f50b462292adfbac1	@alayek Most gophers are asleep, and I should be, too :-)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:47:47.500Z	5475322adb8155e6700d82c1	elimisteve	56d81653048f9e65291bb28d	@RecursiveLogic How much React do you know, and how much Go?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:47:42.501Z	56069bbe0fc9f982beb1ea44	alayek	56d8164e048f9e65291bb28b	There you Go!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:47:11.929Z	5475322adb8155e6700d82c1	elimisteve	56d8162f50b462292adfbab6	@RecursiveLogic Hi there. I do a lot of Go on the backend and need to learn more React/Redux ASAP
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:47:03.867Z	56069bbe0fc9f982beb1ea44	alayek	56d8162744ba0664026abfa7	But if you have Go questions, feel free to post them here
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:46:22.150Z	56069bbe0fc9f982beb1ea44	alayek	56d815fe44ba0664026abfa0	What you are looking for is collaboratively coding - for that you would have better luck finding them in the LetsPair channel
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:46:11.257Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d815f344ba0664026abf9c	Yeah figured as much, which is why I just left it there for when they do wake up I suppose.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:45:52.552Z	56069bbe0fc9f982beb1ea44	alayek	56d815e050b462292adfbaa6	@RecursiveLogic yes, I understand. But most Go people are not awake right now. That could be a reason.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:45:08.416Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d815b4b01413547d89cb30	I thought that channel was more oriented towards people who are trying to solve programming challenges together.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:44:53.126Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d815a5048f9e65291bb258	I'm looking to have this specifically done with Go.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:44:25.691Z	56069bbe0fc9f982beb1ea44	alayek	56d81589b01413547d89cb24	@RecursiveLogic hey! I would love to, but in the middle of something. try https://gitter.im/FreeCodeCamp/LetsPair
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:43:15.316Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d81543b01413547d89cb13	For the sake of learning. Only looking for one or two people at most to join.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T10:43:01.428Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d8153550b462292adfba7b	Anyone want to join in on a stock market trading platform project with Go/React/Redux?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:34:22.921Z	56069bbe0fc9f982beb1ea44	alayek	56d7f70e44ba0664026ab6fa	"I hope you have seen our curriculum for the back-end [projects](http://www.freecodecamp.com/map)? We want to help build our campers those 5 applications and 5 micro-services using Go.
+
+We also plan on adding challenges, like we have for JS, to hone their skills in Go.
+
+But for now, we are focused on creating articles on [FCC Wiki](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki) to help our campers start the back-end projects in Go."
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:27:21.594Z	56069bbe0fc9f982beb1ea44	alayek	56d7f5699b722b537d192205	@stefanjarina sure! I hope you would be available in this chatroom, to help out people with questions on Go.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:25:31.729Z	55a225235e0d51bd787b1c50	stefanjarina	56d7f4fbb01413547d89c1d6	@alayek I definitely join linux as well. Would be happy to help with go curriculum, have(or know about) lot of resources for Go
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:09:04.415Z	56069bbe0fc9f982beb1ea44	alayek	56d7f12044ba0664026ab56b	@stefanjarina also, you might be interested in https://gitter.im/FreeCodeCamp/linux
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:08:31.917Z	56069bbe0fc9f982beb1ea44	alayek	56d7f0ff9b722b537d1920c8	The curriculum is still at its infancy, and we could surely use someone as experienced at you :blush: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:08:05.131Z	56069bbe0fc9f982beb1ea44	alayek	56d7f0e59b722b537d1920c4	@stefanjarina I am new to Go, but I like what I see so far. Just to be clear, we are looking for some contribution in Go curriculum, so that our other campers can get a sense of direction.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:07:30.377Z	55a225235e0d51bd787b1c50	stefanjarina	56d7f0c206ba9a282a28c57f	and as I am unix administrator, golang is love for me, exactly for ease of deployment
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:06:50.502Z	55a225235e0d51bd787b1c50	stefanjarina	56d7f09a048f9e65291ba7f4	I wouldn't recommend it for web yet though (by web I mean full website including templates) -- but it is just great for JSON APIs
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:06:12.223Z	55a225235e0d51bd787b1c50	stefanjarina	56d7f0749b722b537d1920a4	Go is just great for command line application where you can't be sure you have runtime on target system -- so just compile app to single binary and scp it to machine and you're done.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:05:36.268Z	55a225235e0d51bd787b1c50	stefanjarina	56d7f05006ba9a282a28c56a	let's say I am hobyist (don't have job in programming [at least yet :-D]) so never used it professionaly, but I am working in it for year or so... Primarily using it for toolsmithing.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:00:53.376Z	56069bbe0fc9f982beb1ea44	alayek	56d7ef3544ba0664026ab501	How long have you been working with Go?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T08:00:42.312Z	56069bbe0fc9f982beb1ea44	alayek	56d7ef2ab01413547d89c060	@stefanjarina this is cool! 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T07:50:36.277Z	55a225235e0d51bd787b1c50	stefanjarina	56d7eccc50b462292adfafc3	@yatish27 Martini is great, but there is used a lot of reflection and it lacks in performance, I built few APIs in [Gin](https://gin-gonic.github.io/gin/), it is very similar to Martini but it aims for performance. Really pleasure to work with it. If you need something more robust (Rails/Django like) then I can recommend Beego.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T03:13:25.978Z	5665ed1116b6c7089cbdce40	sludge256	56d7abd544ba0664026aaaed	Last I heard he was climbing mountains
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T03:10:57.148Z	56069bbe0fc9f982beb1ea44	alayek	56d7ab419b722b537d1915bc	@sludge256 yeah, haven't heard from him in a while
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T03:09:38.113Z	5665ed1116b6c7089cbdce40	sludge256	56d7aaf2b01413547d89b5a3	Hehe. We keep pinging him but I don't think he's been on in awhile.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T03:08:59.762Z	56069bbe0fc9f982beb1ea44	alayek	56d7aacb9b722b537d1915aa	@yatish27 I hear Martini is great, but my personal Go knowledge is limited. @terakilobyte can help you out!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-03T00:29:30.215Z	5612c6c1d33f749381a85bef	yatish27	56d7856a44ba0664026aa3b6	Can someone suggest best webframework in Go ?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T22:51:18.493Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56d76e66048f9e65291b8fe1	@RecursiveLogic definitely. A lot of high performance apps are being built in it.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T21:59:40.233Z	56270f7216b6c7089cb7b95c	RecursiveLogic	56d7624c0bdb886502f6ddae	Looks like Go really is picking up a ton of steam.
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:46:59.452Z	56069bbe0fc9f982beb1ea44	alayek	56d743339b722b537d18f92d	@wholien that's awesome!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:44:44.987Z	5665ed1116b6c7089cbdce40	sludge256	56d742ac048f9e65291b802e	@wholien That would be great :+1: 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:44:17.358Z	56c18795e610378809c1767d	wholien	56d7429106ba9a282a289de6	Would be down to contribute to Go - related things. Use a lot of Go at work
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:25:12.088Z	56069bbe0fc9f982beb1ea44	alayek	56d73e18b01413547d899690	If you wanna practice some Go, check out [Go Koans](https://github.com/cdarwin/go-koans)!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:16:02.189Z	56069bbe0fc9f982beb1ea44	alayek	56d73bf244ba0664026a8b3b	@ltegman is probably right; but @terakilobyte is the man!
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:15:57.704Z	559b06ee15522ed4b3e3833f	Rafase282	56d73bedf760676329bb0bef	but freelance jobs on it are stacking up
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:15:42.673Z	559b06ee15522ed4b3e3833f	Rafase282	56d73bde0bdb886502f6cf81	I went to a conference once
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:15:36.551Z	559b06ee15522ed4b3e3833f	Rafase282	56d73bd806ba9a282a289b90	yes Go is relativelly new
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:15:06.499Z	55863c8015522ed4b3e23814	ltegman	56d73bba9b722b537d18f68e	@wholien I could be wrong but I think the Go stuff is in much earlier stages than Python. I’m sure someone else can answer better than me about that though
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:14:06.041Z	559b06ee15522ed4b3e3833f	Rafase282	56d73b7e50b462292adf872e	I'm joinign the party, teach us your ways
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:13:19.525Z	56c18795e610378809c1767d	wholien	56d73b4f0bdb886502f6cf57	or is there a post I can look at (also about all the other ones i.e. Elixir)
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T19:13:07.474Z	56c18795e610378809c1767d	wholien	56d73b430bdb886502f6cf52	What's the status on Go-related things?
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T02:57:59.523Z	56069bbe0fc9f982beb1ea44	alayek	56d656b7048f9e65291b40bb	Yes @terakilobyte, do teach us! 
+56d55897e610378809c460bf	FreeCodeCamp/go	2016-03-02T02:56:10.265Z	5665ed1116b6c7089cbdce40	sludge256	56d6564a06ba9a282a286016	@terakilobyte Teach us your ways :D

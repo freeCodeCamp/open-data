@@ -1,0 +1,184 @@
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2016-09-17T11:02:20.146Z	540a150e163965c9bc202eaf	abhisekp	57dd22bcaabc89857fad1eed	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2016-07-30T00:49:10.434Z	5798d25f40f3a6eec05cbba4	ucantbc00l	579bf986cdc68c4904aeb15c	Hi everyone! Noob here learning code and would like to meet others as well!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-10-06T21:42:18.802Z	546fc9f1db8155e6700d6e8c	QuincyLarson	5614403afd5c74d714142e71	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-24T23:04:53.530Z	56046ac20fc9f982beb1c18b	juferca	560481955c1379fe6459753d	Hello World! I'm new here and looking forward to learning to code.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-18T07:11:20.248Z	54e7910515522ed4b3dc4266	xracers12	55fbb9180ed44a00046ed735	@cconroy11 Hi and welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-18T02:11:39.586Z	55fb6e670fc9f982beb10a4f	cconroy11	55fb72db18e0111d7e4f7421	hello everyone, I'm new here as well, looking forward to possibly meeting up and learning how to code better.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-15T02:54:38.332Z	55f784ce0fc9f982beb0b1c3	gbravodev	55f7886efe4ca46810e1ac99	Hey everyone, I'm new here. Glad to be here and looking forward to meetups. I am over on the East side near UCF.  I pmed Mike on FB to see if there was any interest, but I figured I'd mention it here as well.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-15T00:01:08.952Z	55e790500fc9f982beaf7a5e	jktravis	55f75fc4a2c7aa6b10867d6e	Hey. Is there a meetup this week? 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T13:02:54.372Z	55e790500fc9f982beaf7a5e	jktravis	55f02dfe773a9de16f2d080d	Cool. Thanks.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T12:36:20.834Z	54e7910515522ed4b3dc4266	xracers12	55f027c4773a9de16f2d06ef	@jktravis I think it's fine to use whatever you can to get it done
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T10:27:06.843Z	55e790500fc9f982beaf7a5e	jktravis	55f0097a760979e727e94140	Question:  I'm working through the first set of ziplines and am wondering if using Angular for a particular task is appropriate given that Angular isn't introduced in the course for some time yet. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:57:27.883Z	55b4011f0fc9f982beaafae1	AshRoulston	55efa017d121757e4d20712b	I
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:57:06.512Z	55e4fb610fc9f982beaf3b72	gerizim17	55efa0026fe7b2a123ea7991	didn't know you can do that thanks @raydancer!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:56:47.402Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9fef760979e727e93596	wow that's exactly it
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:55:43.889Z	55863c6915522ed4b3e2380a	raydancer	55ef9faf760979e727e93594	this will call the arguments of that particular function
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:54:51.519Z	55863c6915522ed4b3e2380a	raydancer	55ef9f7b6fe7b2a123ea7982	I believe you use the function name, like so: `destroyer.arguments[i]`
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:51:36.935Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9eb824362d5253fe5036	but inside of that callback function how do i choose which items to remove?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:51:18.781Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9ea696450ece4d880d31	yeah i'm using the arguemnts object and I got the numbers to remove, I'm also calling a function when using the filter
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:49:56.205Z	55863c6915522ed4b3e2380a	raydancer	55ef9e5424362d5253fe5027	"I believe the [arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) is what you need to use...you for loop through ""arguments[1]"" and on"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:49:09.364Z	55b4011f0fc9f982beaafae1	AshRoulston	55ef9e2524362d5253fe5021	I did it today. Filter will do the loop for you, but remember filter has to be passed a function. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:46:36.213Z	55863c6915522ed4b3e2380a	raydancer	55ef9d8c760979e727e93570	I think you might have to put the filter within a for loop
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:46:18.100Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9d7a96450ece4d880d13	i wanted to pass the numbers that need to be removed into the callback function somehow
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:45:48.407Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9d5c6fe7b2a123ea795a	i'm struggling to figure out how to pass other parameters to the filter callback function
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:45:34.272Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9d4ed121757e4d2070ed	basically i'm using arr.filter
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:44:57.962Z	55863c6915522ed4b3e2380a	raydancer	55ef9d2996450ece4d880d0c	@gerizim17 I've done it, though I'm not sure I remember how I solved it
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:38:51.882Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9bbb760979e727e93535	it's one of the last ones in intro to algorithms
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-09T02:38:43.570Z	55e4fb610fc9f982beaf3b72	gerizim17	55ef9bb3760979e727e93531	"I'm working on the ""seek and destroy"" challenge, has anyone done that one yet?"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T22:52:37.891Z	55e9c5a00fc9f982beafabb6	cudel	55ee1535fd02f8cd4d2f9564	I'm planning on finishing up section 2, getting some dinner and relaxing as I need to work on some other code later tonight. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:34:32.794Z	55b4011f0fc9f982beaafae1	AshRoulston	55ee02e8fd02f8cd4d2f9358	"Yea, I am taking a break to cook dinner and take care of the kids then I'll be back on. I'm hoping to finish the rest of the basic algorithm scripting bnfires today/tonight. 
+
+"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:24:49.009Z	55e9c5a00fc9f982beafabb6	cudel	55ee00a124362d5253fe18af	Nice!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:18:46.771Z	55b4011f0fc9f982beaafae1	AshRoulston	55edff36fd02f8cd4d2f92b1	"I'm in the bonfires. Specifically Slasher Flick.  so far I've done 3 bonfires today and my brain is fried. 
+"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:17:36.703Z	55e9c5a00fc9f982beafabb6	cudel	55edfef09b79c35153198cbd	What about you?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:13:41.846Z	55b4011f0fc9f982beaafae1	AshRoulston	55edfe0596450ece4d87d5c3	awesome :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:11:33.120Z	55e9c5a00fc9f982beafabb6	cudel	55edfd8524362d5253fe1832	I am just on Responsive Design with Bootstrap. I joined FreeCodeCamp the other day.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:10:12.416Z	55b4011f0fc9f982beaafae1	AshRoulston	55edfd3496450ece4d87d595	Hello @cudel what are you working on today? 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-07T21:08:21.426Z	55e9c5a00fc9f982beafabb6	cudel	55edfcc596450ece4d87d56e	Thank you @ginjaninja78 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T23:11:58.581Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55ea253e2e48d88a543d8e0f	Welcome @cudel 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T23:11:08.645Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55ea250caa0b93be49621d10	Welcome @ricojamie 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T22:40:51.696Z	54e7910515522ed4b3dc4266	xracers12	55ea1df3b5c3114f7efe8078	@ricojamie  Welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T22:40:05.823Z	55e9c5a00fc9f982beafabb6	cudel	55ea1dc5aa0b93be49621c84	Hello @ricojamie
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T22:39:02.795Z	55e5160a0fc9f982beaf3d0a	ricojamie	55ea1d860b6aa72b12ffcf35	Hello Orlando area campers!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T22:38:12.546Z	55e9c5a00fc9f982beafabb6	cudel	55ea1d54b5c3114f7efe806d	Thank you @xracers
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T22:25:28.481Z	54e7910515522ed4b3dc4266	xracers12	55ea1a5805f4097b40f6ff2d	@cudel  Hi and welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T17:24:14.462Z	55e790500fc9f982beaf7a5e	jktravis	55e9d3bec473234d41df71b3	I think it's interesting that they basically start off by teaching TDD. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T16:54:05.523Z	55e9c5a00fc9f982beafabb6	cudel	55e9ccad17b2081605a5c2de	Hello everyone. Just joining and hope to meet you all soon.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T16:17:32.218Z	55b4011f0fc9f982beaafae1	AshRoulston	55e9c41c8671c04336d8b1ca	"I'm in the basic algorithm scripting bonfires. 
+"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T01:28:43.733Z	55d39ffb0fc9f982beadd354	RemainRelaxed	55e8f3cb4d3425403fb99311	I'm looking forward to that stuff. The structure of FCC really made it a lot easier to commit to than Codecademy. I know you never stop learning, but I like that there is sort of a beginning, middle and end. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T01:23:11.006Z	55863c6915522ed4b3e2380a	raydancer	55e8f27fd231aa8e59191405	@RemainRelaxed I had done quite a bit of Codecademy and some Code School before I started, so the early parts of FCC were a nice refresher.  I really like that FCC is a full curriculum though; I've learned a lot here, and the bonfires and ziplines will really get you to put what you've learned to use.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T01:14:03.138Z	55d39ffb0fc9f982beadd354	RemainRelaxed	55e8f05bd231aa8e591913e6	I've got a ways to go to get there. Did you have any prior knowledge before you started?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-04T00:25:02.357Z	55863c6915522ed4b3e2380a	raydancer	55e8e4de05f4097b40f6d582	I'm working through the first set of ziplines here (though I've finished ALL of the bonfires).
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-03T22:00:04.359Z	55d39ffb0fc9f982beadd354	RemainRelaxed	55e8c2e4faa620f25267f961	I just got to jQuery
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-03T21:59:55.784Z	55d39ffb0fc9f982beadd354	RemainRelaxed	55e8c2db05f4097b40f6d206	What's everyone working on?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-03T18:29:06.236Z	5588408515522ed4b3e267de	jkirsopp	55e8917217b2081605a59853	oh yeah!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-03T18:29:01.572Z	5588408515522ed4b3e267de	jkirsopp	55e8916d17b2081605a59851	dead room
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T19:21:09.997Z	5588408515522ed4b3e267de	jkirsopp	55e74c2517b2081605a565e0	@Kmartin77 lol :laughing: 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T18:08:17.746Z	5516f11115522ed4b3ddf902	XdarkomenX	55e73b1117b2081605a561fc	Facebook is like the face hugger from alien they just want to hug. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T18:00:30.759Z	5516f11115522ed4b3ddf902	XdarkomenX	55e7393ea75db4b375c3b0c4	No worry fac
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T17:56:47.938Z	5588408515522ed4b3e267de	jkirsopp	55e7385fd231aa8e5918cd59	anywhere to check out the schedule without being assimilated into face-borg?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T17:55:00.153Z	5516f11115522ed4b3ddf902	XdarkomenX	55e737f44efdf7f978eb1f1b	Thanks
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T16:25:38.097Z	55b4011f0fc9f982beaafae1	AshRoulston	55e723022ec6bacd1e2d8fe4	"https://www.facebook.com/groups/free.code.camp.orlando/
+https://www.facebook.com/groups/free.code.camp.orlando.fl/"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T16:11:52.584Z	5516f11115522ed4b3ddf902	XdarkomenX	55e71fc8d231aa8e5918c80d	@AshRoulston where on Facebook are the events for Orlando being posted?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-02T16:02:26.873Z	55b4011f0fc9f982beaafae1	AshRoulston	55e71d9217b2081605a55b5d	"I was looking at the ones in the Facebook page, but I'm still out of town. I wont be back until the first week in October and am slammed schedule wise until mid October. I'm hoping once I get back that I can attend some events, network, and maybe find an IRL coding pair. 
+"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-01T22:05:26.517Z	55863c6915522ed4b3e2380a	raydancer	55e62126e55df6ee79bf1bfb	Do any of you attend [Orlando events](https://madmimi.com/p/dfe996?fe=1&pact=32769307370)?  I'm a bit too far from Orlando to go, unfortunately.  There are several that look interesting to me.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-01T09:00:46.863Z	55b4011f0fc9f982beaafae1	AshRoulston	55e5693e8a8b32aa29a34788	group, I know that there are in person meet ups being arranged :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-01T09:00:17.014Z	55b4011f0fc9f982beaafae1	AshRoulston	55e569218a8b32aa29a3477f	@gerizim17 welcome, make sure to check out the free code camp Orlando facebook
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-01T01:14:33.388Z	55e4fb610fc9f982beaf3b72	gerizim17	55e4fbf98ca628307ecd3425	My name is Alex, i'm about to start my very first challenge
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-09-01T01:14:14.601Z	55e4fb610fc9f982beaf3b72	gerizim17	55e4fbe68a8b32aa29a33bde	Hello everyone, I'm new to free code camp
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T14:45:53.527Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55e07421cbf802f022f0d1a3	I don't think they cut us off here though. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T14:44:19.303Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55e073c3cbf802f022f0d193	Gotta have your priorities. Same here in Orlando, we went to get booze first, heading to Costco for water and batteries then to the prep station for sandbags. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T14:41:44.785Z	54e7910515522ed4b3dc4266	xracers12	55e073281b9798c846ec95ec	I know most of you all are over by Orlando and Orange and Seminole counties don't do it- I'm over here in Brevard county and when it hits hurricane warning, they cut off all sales of beer and adult beverages- it sucks! First thing everyone runs to over here is the liquor store, just in case....lol
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T14:01:05.133Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55e069a1cbf802f022f0cfdb	Yep, we already have vodka, getting ice for the cooler just in case. Nobody likes warm mixers! Working on bonfires later this afternoon. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T13:55:52.704Z	55b4011f0fc9f982beaafae1	AshRoulston	55e068681b9798c846ec93dc	Definitely working on my code today :) moving into bonfires
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T13:55:33.415Z	55b4011f0fc9f982beaafae1	AshRoulston	55e068551b9798c846ec93d8	nope, no Erica prep for me, I'm on an extended vacation in the ozarks. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T13:54:52.081Z	55b4011f0fc9f982beaafae1	AshRoulston	55e0682c1b9798c846ec93d3	Welcome :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-28T10:13:16.809Z	54e7910515522ed4b3dc4266	xracers12	55e0343c31f3baee64cac7c7	Anyone starting to prep for Erika?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-26T16:09:14.608Z	55d63ab70fc9f982beae16da	Yaptalk	55dde4aa9f8795cd3e1fb443	Is everyone working on their code today?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-26T08:57:57.154Z	54e7910515522ed4b3dc4266	xracers12	55dd7f956ebe0cd612643e8f	@RemainRelaxed @CLAV1ER  Welcome and Hello!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-26T03:25:43.882Z	55d63ab70fc9f982beae16da	Yaptalk	55dd31b7a6bcd8894068f80a	Hello & Welcome guys!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-26T00:56:17.406Z	55dd0c430fc9f982beae9b2d	CLAV1ER	55dd0eb1004c3e375ad0beb0	Hi! I'm new here as well. Looking forward to learning
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-25T23:56:24.486Z	55d39ffb0fc9f982beadd354	RemainRelaxed	55dd00a8004c3e375ad0bdcc	Hello fellow Orlandoans! I'm new here and excited to learn JS! 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-24T14:40:46.818Z	55d63ab70fc9f982beae16da	Yaptalk	55db2cee36e894436a9acff9	Thanks @AshRoulston  @xracers12 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-23T16:16:41.635Z	55b4011f0fc9f982beaafae1	AshRoulston	55d9f1e9004c3e375ad05e67	@Yaptalk Welcome :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-21T12:48:07.291Z	54e7910515522ed4b3dc4266	xracers12	55d71e07004c3e375ad0216a	@Yaptalk  Hello and welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-21T12:40:08.670Z	55d63ab70fc9f982beae16da	Yaptalk	55d71c28fcfd5a7865aebaba	Hello Everyone! New to FCC and just wanted to introduce myself.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-21T11:08:10.732Z	55d38a8f0fc9f982beadd12a	codeonthecob	55d7069a098731da7020b4c7	@mwiegman It was not horrible, however it may have changed recently. There was no min GPA but said it was competitive. The only other main admission requirement is that you have college algebra or better.  Ive read on message boards recently that they are getting a lot more applicants and are turning them away now. So I can't say for sure if that is true, but it's a sweet setup so I'd imagine so! I can walk you through the process or answer any questions tnat you need!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-20T11:55:11.361Z	55c81d350fc9f982beaccf28	mwiegman	55d5c01f0d29ce8f44b719ca	@codeonthecob How was the application process? I couldn't find much info on their site about admission requirements.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-20T04:15:03.963Z	55d38a8f0fc9f982beadd12a	codeonthecob	55d55447a92a8b4b219b0641	@mwiegman Yes I want some practical experience under my belt. I have this term off (4 months) so I can use that to work on coding skills and practicing for interviews! I am excited, this seems like a wonderful group and community!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-20T04:13:54.709Z	55d38a8f0fc9f982beadd12a	codeonthecob	55d55402a231f3815231de90	@mwiegman  I am doing the post bach program, my goal is about a year and a half total. It is pretty good. Each person will certainly have a different experience since it is distance learning. For the most part, you are on your own and must have self discipline. The classes are not easy at all, very very challenging. Since it is accelerated they start you off fast and tough. Without any classroom time it does make it a little harder to grasp concepts so quickly. I am grateful for the program, but without a doubt it is much tougher than my first degree!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-19T23:53:23.881Z	55c81d350fc9f982beaccf28	mwiegman	55d516f311c7afc249786854	@codeonthecob Welcome! I'm pretty new to FCC too.  How do you like the CS program at Oregon State? Are you doing the accelerated online program? I had looked into that program a few months ago but it was more than I could afford at the time. So I guess you will be using FCC for extra coding practice while you get your degree?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-19T01:03:34.682Z	55d38a8f0fc9f982beadd12a	codeonthecob	55d3d5e69c0eaccb36ae2fec	I am currently enrolled at Oregon State for CS. I have a previous degree in Polysci. I do have some basic skills. I've built webpages, played with flash, php. Also a couple terms of basic c++. So learning but also building on skills!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-19T00:02:37.321Z	55863c6915522ed4b3e2380a	raydancer	55d3c79d6b94865520d85010	@codeonthecob Hi Alan...first time learning to code, or adding to existing skills?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-18T23:21:57.841Z	55d38a8f0fc9f982beadd12a	codeonthecob	55d3be15bdd5d6c9362b7a88	thank you!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-18T22:26:57.363Z	55b4011f0fc9f982beaafae1	AshRoulston	55d3b131d46018562035b528	@codeonthecob  welcome :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-18T20:18:31.727Z	5516f11115522ed4b3ddf902	XdarkomenX	55d393174f6c9d30183181ab	@codeonthecob Welcome. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-18T19:53:29.077Z	55d38a8f0fc9f982beadd12a	codeonthecob	55d38d399c0eaccb36ae24b6	Hello everyone! I just joined codecamp, I am excited to get started and learn
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:31:16.719Z	55b4011f0fc9f982beaafae1	AshRoulston	55cbd74435e3e09b3ada7347	@raydancer 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:30:40.638Z	55b4011f0fc9f982beaafae1	AshRoulston	55cbd7203d8917890c15c3b5	"I just finished the build an adventure game waypoint
+my username on codeacademy is the same but it hasn't  tracked that I did the css/html on there for some reason. "
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:28:46.669Z	55863c6915522ed4b3e2380a	raydancer	55cbd6ae204de35b422fd369	@AshRoulston My FCC history is deceiving...I discovered Codecademy back in mid-2013, so I had completed a lot of the required FCC courses before I started FCC in June, which let me check off a lot of the earlier map.  Still, it will be very helpful to have just completed the courses when you reach the bonfires.  The bonfires are a great test of javascript skills.  I learned a lot.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:20:49.700Z	55b4011f0fc9f982beaafae1	AshRoulston	55cbd4d1204de35b422fd33b	@raydancer 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:20:45.931Z	55b4011f0fc9f982beaafae1	AshRoulston	55cbd4cd9b45e15c4263f277	I started JavaScript today
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:18:49.273Z	55863c6915522ed4b3e2380a	raydancer	55cbd459057d8c9d3a6d1650	@AshRoulston Lately I've been working through the ziplines, though I've been going slower than I should.  I'm nearly done with the weather zipline.  Where are you at on the FCC map?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:16:45.076Z	55b4011f0fc9f982beaafae1	AshRoulston	55cbd3dd3d8917890c15c359	@raydancer what are you working on? 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T23:16:12.713Z	55863c6915522ed4b3e2380a	raydancer	55cbd3bc35e3e09b3ada72f6	"@johnnyvcrow Have you tried [Inkscape](https://inkscape.org/en/)?  It's free and open source.  I've used it many times for personal projects; though I've never needed much out of it, so I'm not sure how it would compare to Illustrator.
+
+Still, SVG is essentially code (XML, which is not very dissimilar from HTML).  You can do a lot with just a text editor.  You can even [style it with CSS](http://www.smashingmagazine.com/2014/11/styling-and-animating-svgs-with-css/)."
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T06:01:06.686Z	54d64a54db8155e6700f8f1a	JohnnyR030T	55cae12221801cd866cad119	@raydancer  Yea, it's really cool what you can do with vectors now. I don't have Illustrator though. I can only afford Photoshop or Illustrator and I use Photoshop more. :/  
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-12T02:24:51.084Z	55863c6915522ed4b3e2380a	raydancer	55caae73aac97ada66dd93b3	Hey @johnnyvcrow , I'm in the same boat.  I've been trying to work on this with a full time job and family, too.  It's tough, but I've learned a lot.  I'm sure your animation background could be quite useful; have you ever looked into [animated SVG](http://davidwalsh.name/svg-animation)?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-10T23:42:47.206Z	55b4011f0fc9f982beaafae1	AshRoulston	55c936f72ee3da6275c37685	Welcome @johnnyvcrow 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-07T15:32:18.947Z	54d64a54db8155e6700f8f1a	JohnnyR030T	55c4cf822ee3da6275c31704	I work full time and have a family so I don't get to do the all nighters with this stuff like I used to when I was in my 20's, but I'm getting through it. :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-07T15:31:04.850Z	54d64a54db8155e6700f8f1a	JohnnyR030T	55c4cf388f067d63759875db	Hey everybody, just checking in. I'm a computer geek with a few years of web design experience in the Flash days. I went to school for Animation but ended up an IT Administrator and I'm at FreeCodeCamp hoping to switch from the hardware/IT side of things to Web Development. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-06T22:19:48.394Z	55be4c830fc9f982beabdf7f	Cheffheid	55c3dd849ecc6dfc28b5928a	There's some good stuff on the Map too, am enjoying it :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-06T22:18:39.111Z	55be4c830fc9f982beabdf7f	Cheffheid	55c3dd3f428d74fe28f77306	Oh, really? Interesting. :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-05T02:28:59.698Z	55863c6915522ed4b3e2380a	raydancer	55c174eb7a6037e67c5993ef	@Cheffheid I hear that @CodeNonprofit would be the one to speak to about helping the non-profits.  I'm sure he could point you in the right direction.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T14:51:46.084Z	55b4011f0fc9f982beaafae1	AshRoulston	55c0d1829fb911ea312a0801	Im just out of college so to say a career change is a bit of a misnomer. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T14:51:14.140Z	55b4011f0fc9f982beaafae1	AshRoulston	55c0d162eff8f1d77cc32086	sorry to respond so late! I'm small business branding professional with my own business. I am proficient in Wordpress CMS/blogs/ integrated woo commerce type stuff but considering a career in IT
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T10:53:23.339Z	55be4c830fc9f982beabdf7f	Cheffheid	55c099a39fb911ea3129ff18	"I am indeed, it's the ""helping non-profits"" bit that got me here in the first place"
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T02:00:01.594Z	55863c6915522ed4b3e2380a	raydancer	55c01ca168c869d67cf01641	So, @Cheffheid , you're a developer?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T01:55:31.580Z	55863c6915522ed4b3e2380a	raydancer	55c01b9337816be77caf7dbd	Hey @thedonz , were you at Orlando Code Camp earlier this year?  Your photo looks familiar to me...
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T01:54:12.297Z	55863c6915522ed4b3e2380a	raydancer	55c01b44eff8f1d77cc30b2c	Welcome @Cheffheid 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-04T01:18:26.024Z	55be4c830fc9f982beabdf7f	Cheffheid	55c012e2eff8f1d77cc30a4a	Heya
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-03T21:45:04.757Z	55863c6915522ed4b3e2380a	raydancer	55bfe0e09fb911ea3129eb81	Hi @thedonz 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-03T16:08:30.544Z	55a3fdba5e0d51bd787b4161	thedonz	55bf91fedd07863713f0dd27	Hello
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-01T03:56:12.922Z	55a588d15e0d51bd787b64c7	russbus	55bc435cdcea60b379fee0db	@raydancer Not really sure. It probably helps to have experience with the company and it definitely helps having shipped games. My primary focus right now is learning. I'll start thinking about ways to parley that into a position if/when I feel confident.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-08-01T01:28:30.835Z	55863c6915522ed4b3e2380a	raydancer	55bc20be12f77ab279a974e9	@russbus I saw that they are hiring.  Is there a lot of opportunity to move up once you're in?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T21:45:18.920Z	55a588d15e0d51bd787b64c7	russbus	55bbec6e12f77ab279a9709e	Yup.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T21:40:45.747Z	55863c6915522ed4b3e2380a	raydancer	55bbeb5d8deffbc44d8e0419	That's cool, @russbus ; are you at EA in Maitland?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T04:11:50.382Z	55a588d15e0d51bd787b64c7	russbus	55baf5867978296537a2c5b0	@raydancer I currently work as a game tester. Figured this'd be a good way to get closer to actual dev while at the same time building skills that are worth more money.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:57:29.072Z	55863c6915522ed4b3e2380a	raydancer	55baf229a0587bc54d68ca13	So far, FCC is the most comprehensive code learning site I've found; none of the others really seem to push me hard enough, or tie it all together the way that FCC does (though Codecademy is still pretty great).
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:54:22.339Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55baf16e7978296537a2c542	I was learning php when I stumbled on FCC. @raydancer that makes two of us. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:52:04.745Z	5516f11115522ed4b3ddf902	XdarkomenX	55baf0e4dcea60b379febcea	No worry. That's why we are all here 😎
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:49:55.157Z	55863c6915522ed4b3e2380a	raydancer	55baf063dcea60b379febcd7	I don't think they'll have php on FCC...it seems to be leaning toward the MEAN stack rather than the LAMP stack; keep in mind that I BARELY know what I'm talking about here
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:47:01.485Z	5516f11115522ed4b3ddf902	XdarkomenX	55baefb5dcea60b379febcc7	I got the html mostly done next is css and js then I want to learn more php
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:46:44.865Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55baefa443481e53375ff79f	JS, php
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:45:28.033Z	55863c6915522ed4b3e2380a	raydancer	55baef5812f77ab279a95268	HTML, CSS, and Javascript mainly...maybe some Ruby on Rails, but I'm not so sure about back end development yet; I haven't had much exposure to it
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:39:56.103Z	5516f11115522ed4b3ddf902	XdarkomenX	55baee0ca0587bc54d68c9c3	What are you wanting to learn? Java, JavaScript, php?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:36:07.196Z	55863c6915522ed4b3e2380a	raydancer	55baed27a0587bc54d68c9b8	I'm considering a career change, though I'm hoping at the very least I might be able to use it to make tools for my current work.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:32:41.845Z	5516f11115522ed4b3ddf902	XdarkomenX	55baec598deffbc44d8de552	I am a caregiver so I am home most of the time so I want to lean to add to income but I have always wanted to learn. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:23:06.327Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55baea1adcea60b379febc4a	I'm working towards a career change. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-31T03:09:13.520Z	55863c6915522ed4b3e2380a	raydancer	55bae6d98deffbc44d8de4ef	So, do any of you already work in this industry?  Are you learning as a hobby, or as a possible career change?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-26T18:35:15.758Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55b5286352d85d450f40388e	Welcome @AshRoulston!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-26T03:10:26.477Z	5516f11115522ed4b3ddf902	XdarkomenX	55b44fa2e923d83d6d46a4f9	@AshRoulston Welcome, I am new here as well.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-25T22:24:27.172Z	55b4011f0fc9f982beaafae1	AshRoulston	55b40c9bbab860d81689ff4f	thanks @raydancer 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-25T22:16:08.468Z	55863c6915522ed4b3e2380a	raydancer	55b40aa8bab860d81689ff30	Welcome @AshRoulston !
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-25T21:43:52.939Z	55b4011f0fc9f982beaafae1	AshRoulston	55b40318bab860d81689fe99	Hi I'm new!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-24T02:36:06.004Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55b1a496f2cdad46058b3185	@imdwit  Went there about 20 years for a few classes. @raydancer haven't had the chance yet, I'm pretty new to this but I'm down to meetup and work through some of the bonfires when anyone else is. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-24T01:25:42.212Z	55a588d15e0d51bd787b64c7	russbus	55b1941616ac52ff650f8db6	@imdwit Got a degree there maybe 5 years ago.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-24T01:25:10.385Z	55a588d15e0d51bd787b64c7	russbus	55b193f66e982043058b1e7a	@raydancer I'm on the second waypoint of the Javascript section. Haven't been to any meetups or anything.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-24T00:58:02.423Z	55863c0715522ed4b3e237fe	imdwit	55b18d9a16ac52ff650f8d32	where my fellow valencia students at
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-24T00:08:25.013Z	55863c6915522ed4b3e2380a	raydancer	55b181f95992e2977c4194b8	Has anyone gone to any of the [local tech meetups](https://madmimi.com/p/df0466?fe=1&pact=31372659107)?  I went to [Orlando Code Camp](http://orlandocodecamp.com/) earlier this year; it was pretty cool, though a lot was beyond my skill level at the time.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-23T23:53:00.029Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55b17e5c16ac52ff650f8be4	I'm on bonfire 16
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-23T23:47:09.968Z	5516f11115522ed4b3ddf902	XdarkomenX	55b17cfd4fdc50987c73ba89	When i have time I log in to learn more, I am on Jquery #3.
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-23T22:12:49.305Z	55863c6915522ed4b3e2380a	raydancer	55b166e16e982043058b1a80	hey out there; where is everyone at in the course?
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-13T18:20:03.444Z	55a3fdba5e0d51bd787b4161	thedonz	55a401538e28b0c71ac9709d	Awesome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-13T18:10:05.924Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55a3fefd6f087e6752f9ebc7	Welcome to O-town!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-13T18:04:50.566Z	55a3fdba5e0d51bd787b4161	thedonz	55a3fdc26f087e6752f9eba4	Greetings and salutations
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-12T23:15:58.854Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55a2f52ef7cff786317e1082	Hello there, welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-12T17:00:06.892Z	55a299745e0d51bd787b23e9	gavinkalika	55a29d160275142a24d66dcd	hello world
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-10T18:29:22.522Z	54e7910515522ed4b3dc4266	xracers12	55a00f026c1f3a445b67a49e	@wickedboy007 Welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-10T16:31:35.798Z	558c14f615522ed4b3e2bb7c	ginjaninja78	559ff3673886fb415bb10a00	Welcome!
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-10T03:05:16.839Z	559f260d0fc9f982beaa54c8	wickedboy007	559f366cbc5b6ab156b42156	Hey there- Orlando checking in. 
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-02T16:55:05.963Z	558c14f615522ed4b3e2bb7c	ginjaninja78	55956ce99132650b73906b36	Welcome! Any central Floridians are welcome here! :)
+5593985b15522ed4b3e32655	FreeCodeCamp/Orlando	2015-07-02T16:54:05.885Z	54e7910515522ed4b3dc4266	xracers12	55956cad3c7fae9e21b3184b	Hello, Orlando! This is the closest city to me- I'm in Palm Bay

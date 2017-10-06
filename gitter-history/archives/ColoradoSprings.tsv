@@ -1,0 +1,206 @@
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2016-09-17T11:03:18.506Z	540a150e163965c9bc202eaf	abhisekp	57dd22f6df21a7573004f9e1	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2016-04-12T13:26:00.916Z	55a448435e0d51bd787b48f1	Septimus	570cf768af4636103863c3be	But I would like to get one soon. If you follow our Facebook group then you can get notified on when we meet.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2016-04-12T13:25:31.877Z	55a448435e0d51bd787b48f1	Septimus	570cf74b4c2125fc3f01a119	@Jason-McKenna we don't have a regular scheduled meeting.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2016-04-12T05:29:35.549Z	55b04df00fc9f982beaaa02a	Jason-McKenna	570c87bf2a2f4d427613a61f	@ArielLeslie  Do you guys have a campfire in the springs on a regular scheduled basis? Looking to meet some other coders-to-be. ;) 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2016-01-10T19:47:26.207Z	55863caf15522ed4b3e2382c	ArielLeslie	5692b54e0712a5b63b4c9c10	Campfire right now at Jives coffee.  Come join us.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-05T17:28:02.883Z	55a448435e0d51bd787b48f1	Septimus	56631ea2c15bca7e3c963ced	Incase anyone doesn't know FCC summit is live. twitch.tv/freecodecamp
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:35:43.141Z	55a448435e0d51bd787b48f1	Septimus	565f2bef5993bcb005d2f974	Ahh. Makes sense.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:29:51.514Z	55863caf15522ed4b3e2382c	ArielLeslie	565f2a8f2488cc807874aefc	Ah, they changed the names of the variables since I did the challenge
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:23:27.304Z	55863caf15522ed4b3e2382c	ArielLeslie	565f290f6ddbc1b32747f2a5	"```js
+var array = [1,2,3,4,5,6,7,8,9,10];
+  // Only change code below this line.
+array = array.filter(function(val){
+  return val <= 5;
+});
+
+
+  // Only change code above this line.
+(function() {return array;})(
+```
+
+This should work but doesn't anymore
+"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:23:01.246Z	55a448435e0d51bd787b48f1	Septimus	565f28f565c2a5b027d75376	"I was doing:
+```
+var newArray = oldArray.filter(function(val){
+  return val > 5;  
+});
+```
+Last night because I thought it wanted the ones bigger than 5."
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:22:23.540Z	55a448435e0d51bd787b48f1	Septimus	565f28cf6ddbc1b32747f296	That is what I have and it worked.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:22:15.897Z	55a448435e0d51bd787b48f1	Septimus	565f28c719eee17f78e29a94	"```
+var newArray = oldArray.filter(function(val){
+  return val < 6;  
+});
+```"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:22:00.248Z	55863caf15522ed4b3e2382c	ArielLeslie	565f28b89a969fd24f3c2ae0	and my code previously passed
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:21:36.936Z	55863caf15522ed4b3e2382c	ArielLeslie	565f28a02488cc807874ae7e	< 6 is also failing
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:21:18.532Z	55863caf15522ed4b3e2382c	ArielLeslie	565f288e19eee17f78e29a8a	I did <=5, which is the same effect
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:21:11.640Z	55a448435e0d51bd787b48f1	Septimus	565f288719eee17f78e29a88	I think the instructions are just misleading.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:20:59.772Z	55a448435e0d51bd787b48f1	Septimus	565f287b65c2a5b027d7535e	< 6
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:20:56.686Z	55a448435e0d51bd787b48f1	Septimus	565f2878480c6db205175037	Did you do less than 6?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:20:45.909Z	55863caf15522ed4b3e2382c	ArielLeslie	565f286d22df37d14f938a00	It's failing the first test
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:20:29.631Z	55a448435e0d51bd787b48f1	Septimus	565f285d6ddbc1b32747f27e	What are you getting?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:19:37.875Z	55863caf15522ed4b3e2382c	ArielLeslie	565f2829480c6db205175024	@Septimus I think there actually might be.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:19:22.956Z	55a448435e0d51bd787b48f1	Septimus	565f281a65c2a5b027d75348	I was trying it last night at like 2:00am so i was tired I guess haha. I just opened it. Reread. Got it lol
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:18:57.464Z	55a448435e0d51bd787b48f1	Septimus	565f2801480c6db205175018	LMAO
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:18:56.430Z	55a448435e0d51bd787b48f1	Septimus	565f28006ddbc1b32747f267	Nvm. I just misread instructions :P
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:18:33.589Z	55863caf15522ed4b3e2382c	ArielLeslie	565f27e92488cc807874ae4d	Let me see if my old code still works
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:18:16.700Z	55a448435e0d51bd787b48f1	Septimus	565f27d86ddbc1b32747f258	I think there is a bug but I am not quite sure if perhapes I am missing something.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:17:58.814Z	55a448435e0d51bd787b48f1	Septimus	565f27c69a969fd24f3c2ab1	Has anyone done this one yet? http://www.freecodecamp.com/challenges/waypoint-filter-arrays-with-filter
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T17:10:54.899Z	55863caf15522ed4b3e2382c	ArielLeslie	565f261e19eee17f78e299e8	"@jzuchowski If you were just navigating to the bonfires themselves, whether or not your previous code shows up is dependent on your local cache.  If you clean your cache or use a different browser/etc, your old code will not show up.  However, if you go to your profile, the ""View My Solution"" should populate your submitted code.  If *that* is ever missing, it's a good time to submit an issue (if there isn't one currently open for the problem)"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T16:39:24.654Z	5638fcaf16b6c7089cb957c7	jzuchowski	565f1ebc5993bcb005d2f687	Sounds good, I'm gone all day tomorrow but will watch it after
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T16:38:34.564Z	55a448435e0d51bd787b48f1	Septimus	565f1e8a19eee17f78e2983a	I am working through the whole map myself now so once I get to the Bonfires I will stream. Should be tomorrow considering my score was [111] yesterday morning and it is now [240].
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T16:37:28.704Z	55a448435e0d51bd787b48f1	Septimus	565f1e48480c6db205174deb	Good! I was just going to tell you that I will probably do Bonfires tomorrow.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T16:36:03.015Z	5638fcaf16b6c7089cb957c7	jzuchowski	565f1df35993bcb005d2f661	Morning, how goes it?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T15:55:30.322Z	55a448435e0d51bd787b48f1	Septimus	565f14722488cc807874aa1d	Hey! Good morning.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T15:45:23.660Z	5638fcaf16b6c7089cb957c7	jzuchowski	565f12135993bcb005d2f398	@ArielLeslie No idea, I just went back into the 5 previous Bonfires and now all the code I put in to pass them is there... They weren't showing yesterday when I went back in. I'm just copying them to GitHub now when I finish them.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T15:15:27.989Z	55863caf15522ed4b3e2382c	ArielLeslie	565f0b0f19eee17f78e293f3	@jzuchowski Is the solution missing from your [profile](http://www.freecodecamp.com/jzuchowski)?  Or is it just that your cache was cleared?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:52:02.716Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e40b22488cc8078748fca	Even better.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:51:52.012Z	55a448435e0d51bd787b48f1	Septimus	565e40a85993bcb005d2d915	All of them.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:50:08.987Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e40406ddbc1b32747d3a4	Are you going to be trying to go through all of them tomorrow or just a few?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:49:46.013Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e402a19eee17f78e27ad9	Cool, I will be able to later, gotta run out for a little.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:49:23.297Z	55a448435e0d51bd787b48f1	Septimus	565e401319eee17f78e27ad7	Awesome. I will prolly stream tonight to if you want to watch some other stuff.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:49:04.454Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e40005993bcb005d2d90c	I'm around all day so that's perfect.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:48:43.773Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3feb65c2a5b027d73472	Cool, I'm following the channel.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:46:49.437Z	55a448435e0d51bd787b48f1	Septimus	565e3f79480c6db205173086	Hoping to start around 10am or so.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:46:34.788Z	55a448435e0d51bd787b48f1	Septimus	565e3f6a9a969fd24f3c0ba7	You will get an email once I start.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:46:29.074Z	55a448435e0d51bd787b48f1	Septimus	565e3f652488cc8078748faf	Word. I would follow the FCC Twitch channel at www.twitch.tv/freecodecamp
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:45:28.429Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3f2819eee17f78e27ac1	Yea I'm interested
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:45:05.170Z	55a448435e0d51bd787b48f1	Septimus	565e3f119a969fd24f3c0ba3	I am thinking about going through the Bonefires tomorrow if you are interested Justin.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:41:54.475Z	55a448435e0d51bd787b48f1	Septimus	565e3e5219eee17f78e27ab6	Github?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:41:11.329Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3e2719eee17f78e27ab4	I've run into the whole FCC not saving code issue when I go back and look at past bonfires. Is there a good place to keep the code for my own reference? 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:38:33.979Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3d8922df37d14f936a37	Yea, I'm all good with it now.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:37:03.666Z	55a448435e0d51bd787b48f1	Septimus	565e3d2f65c2a5b027d73441	That mean you fix it?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:35:15.142Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3cc319eee17f78e27a92	doh 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:35:09.827Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3cbd480c6db205173049	Just realized I didn't put a space in the split
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:34:46.175Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3ca69a969fd24f3c0b71	How's it going?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:34:30.170Z	55a448435e0d51bd787b48f1	Septimus	565e3c96480c6db205173044	Hello!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-12-02T00:33:34.314Z	5638fcaf16b6c7089cb957c7	jzuchowski	565e3c5e9a969fd24f3c0b6a	"I'm trying to find the longest string in the sentence for one of the bonfires. I'm not sure what is wrong with this, any thoughts? It's just returning ""1"" instead of the longest word, which should  be ""6""....
+
+function findLongestWord(str) {
+  var wordsSeparated = str.split("""");
+  // Split into separate strings to find longest word
+  var longestString = '';
+  
+  for (var i=0; i<wordsSeparated.length; i++){
+    if (longestString.length < wordsSeparated[i].length){
+   
+      longestString = wordsSeparated[i];
+    }
+  }
+  //Compares the broken up strings
+  str = longestString;
+  return str.length;
+}
+
+findLongestWord(""The quick brown fox jumped over the lazy dog"");
+"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-11-29T21:41:32.193Z	5638fcaf16b6c7089cb957c7	jzuchowski	565b710c2753fafb4af6062e	"Had a good time at the campfire today and learned a lot from @ArielLeslie and @Septimus , highly encourage any other ""noobs"" like me to join on the next one, don't be shy, very beneficial!"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-11-29T19:29:16.875Z	55863caf15522ed4b3e2382c	ArielLeslie	565b520c49e74fad21eba0d1	We're at Urban Steam peoples.  Come hang.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-11-28T03:23:51.811Z	5638fcaf16b6c7089cb957c7	jzuchowski	56591e47c3d575114e6c75cb	Where are most of you all at with the way points so far?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-11-12T00:31:40.363Z	55a448435e0d51bd787b48f1	Septimus	5643ddece87e46584ff831b2	SNOW :D It is awesome. I just got back to Colorado and I get to see snow!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-11-11T15:40:28.690Z	55863caf15522ed4b3e2382c	ArielLeslie	5643616cbf9b7d0c39873b67	![snow](http://geekyartistlibrarian.files.wordpress.com/2012/02/snowwhitechristmaslyric.jpg?w=300&h=177)
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-11-11T15:39:38.140Z	55863caf15522ed4b3e2382c	ArielLeslie	5643613aaed85e09393da934	First snow!  :snowflake: 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-10-06T21:40:20.280Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143fc476d984a358758aa7	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T18:00:49.969Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c5516fe7b2a123eace4b	I'm going to go enjoy that weather by eating my lunch outside.  See y'all around
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:56:11.182Z	55a448435e0d51bd787b48f1	Septimus	55f1c43b6fe7b2a123eacdf1	@ArielLeslie Ahh. I will wish you a good afternoon soon :P It is afternoon for me haha
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:55:43.051Z	55a448435e0d51bd787b48f1	Septimus	55f1c41fa486615314683b67	@agamotto1 The screen sharing software is going pretty good. I have most the design done and the functionality is nearly there. Right now I am stuck/working through GitHub auth. It is fairly hard to implement with Electron and offline apps.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:54:48.784Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c3e8a486615314683b5b	@Septimus It's 11:54 am.  In another 6 minutes it won't be morning anymore
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:54:15.387Z	55a448435e0d51bd787b48f1	Septimus	55f1c3c76fe7b2a123eacdc9	@ArielLeslie What do you mean?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:54:02.938Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c3ba6fe7b2a123eacdc5	
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:53:52.609Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c3b06fe7b2a123eacdc1	@Septimus Barely made it under the wire with that
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:53:00.223Z	559ec06415522ed4b3e3bd9b	agamotto1	55f1c37c4624296d78ae9eb5	How is the partnering software working out? I have been so swamped with work I haven't had a chance to hop in here
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:51:53.107Z	55a448435e0d51bd787b48f1	Septimus	55f1c3394b090e3d0be424d5	Good morning CO :)
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:50:08.647Z	559ec06415522ed4b3e3bd9b	agamotto1	55f1c2d0a486615314683b19	Very cool
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:49:24.190Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c2a42dc7775178dd3394	Hewlett-Packard
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:48:14.076Z	559ec06415522ed4b3e3bd9b	agamotto1	55f1c25e4b090e3d0be424ab	Nice, where do you work?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:47:52.317Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c2484b090e3d0be424a8	"I'm just in a cubicle like everyone else here, but I like to say that I have ""a corner office with a view"""
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:46:30.086Z	559ec06415522ed4b3e3bd9b	agamotto1	55f1c1f6a486615314683af6	Haha, definitely. Someday I hope to have a window
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:45:23.433Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c1b32dc7775178dd3361	I got really lucky in the cubicle lottery
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:43:27.897Z	559ec06415522ed4b3e3bd9b	agamotto1	55f1c13f4b090e3d0be42489	Your lucky, I'm in a windowless room..my only view of the outside world is one of the two laptops or my two monitors on my desktop
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:42:52.501Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1c11c6fe7b2a123eacd38	I sit by a window all day and just feel mountains calling to me
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T17:39:26.396Z	559ec06415522ed4b3e3bd9b	agamotto1	55f1c04e5ba1e0ea6b8085ef	Yea for sure...you can feel it at night and in the morning it's not going to last for a whole lot longer
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-09-10T16:19:48.460Z	55863caf15522ed4b3e2382c	ArielLeslie	55f1ada45ba1e0ea6b80823b	Anyone else having mad cabin fever? This weather is so perfect and I just want to soak it up before it goes away.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-24T14:21:28.275Z	55a448435e0d51bd787b48f1	Septimus	55db2868a6bcd8894068b282	We have 2k+ followers
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-24T14:21:11.637Z	55a448435e0d51bd787b48f1	Septimus	55db28576ebe0cd61263ee22	Is anyone here interested in livestreaming on the FreeCodeCamp twitch channel?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T20:00:27.166Z	55863caf15522ed4b3e2382c	ArielLeslie	55d631dbe3dd18904433b458	Neato
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:59:42.710Z	55a448435e0d51bd787b48f1	Septimus	55d631ae0d29ce8f44b72e72	Yes ambitious! I figured that out last night when I was trying to figure out auth. I am stream development of it on the FCC channel on Twitch.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:57:06.741Z	55863caf15522ed4b3e2382c	ArielLeslie	55d631120d29ce8f44b72e4f	very ambitious.  very cool.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:56:32.805Z	55863caf15522ed4b3e2382c	ArielLeslie	55d630f080e710630d6c0857	Ah.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:55:56.032Z	55a448435e0d51bd787b48f1	Septimus	55d630cc80e710630d6c0849	I am creating an app for campers to use for pair programming. It needs a name so we are voting on it :) @ArielLeslie
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:54:55.260Z	55863caf15522ed4b3e2382c	ArielLeslie	55d6308f1250e6600d08e707	@Septimus  Huh?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:54:05.135Z	55a448435e0d51bd787b48f1	Septimus	55d6305d80e710630d6c083b	Hey guys. We are trying to get a new name for the screen sharing up. If you could vote for the one you would like best I would appreciate it! http://strawpoll.me/5268042
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-20T19:24:34.213Z	55863caf15522ed4b3e2382c	ArielLeslie	55d62972b421ebcb0dadfb44	woah! Colorado Springs finally got its own room.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T15:12:11.546Z	55a448435e0d51bd787b48f1	Septimus	55d0a84b35e3e09b3adaf54f	Could I get some opinions? https://gyazo.com/62cdc369f1765710dc1962d305f7a365 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T02:17:26.539Z	559ec06415522ed4b3e3bd9b	agamotto1	55cff2b6057d8c9d3a6d8c2e	haha
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:47:20.607Z	55a448435e0d51bd787b48f1	Septimus	55cfdd983d8917890c16359d	Yeah, CO is pretty jaw dropping :D idk why i left haha
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:45:54.125Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfdd42057d8c9d3a6d8aac	Moved here when I was about 14...neighborhood we lived in was pretty bad and we came up for a wedding and my parents decided they loved it
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:35:59.930Z	55a448435e0d51bd787b48f1	Septimus	55cfdaef9b45e15c426463af	^.^ what brought you to CO?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:35:48.781Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfdae4204de35b423043b2	I think meetups would be a lot of fun and could be really beneficial to people learning...socially doing something like this helps me out anyway
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:35:04.838Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfdab835e3e09b3adae6f5	Awesome, I am from Ft. Lauderdale
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:34:22.419Z	55a448435e0d51bd787b48f1	Septimus	55cfda8e204de35b423043af	I am moving back to the springs in a few months
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:33:55.345Z	55a448435e0d51bd787b48f1	Septimus	55cfda73204de35b423043ad	Got yeah. Well I will vouch that they are a lot of fun! My local group in tampa has already had 4-5 and we just had one this morning!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:32:57.037Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfda393d8917890c16357d	This is pretty new, we have thrown the idea out there and have some support but haven't put anything together yet
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:32:33.967Z	55a448435e0d51bd787b48f1	Septimus	55cfda21255950880cfbb004	So, do you guys have regular meetings?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:32:19.421Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfda133d8917890c16357a	cool I will check it out...I don't think I have much on my github except for this one repo for botnet source code
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:32:04.460Z	55a448435e0d51bd787b48f1	Septimus	55cfda04204de35b423043a9	lol had the link wrong :)
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:31:47.387Z	55a448435e0d51bd787b48f1	Septimus	55cfd9f3204de35b423043a8	github.com/septimus/paircode
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:31:39.052Z	55a448435e0d51bd787b48f1	Septimus	55cfd9eb255950880cfbb001	Feel free to check out the screen sharing app on my github
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:31:23.045Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd9db35e3e09b3adae6ed	I agree with that
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:31:16.586Z	55a448435e0d51bd787b48f1	Septimus	55cfd9d4204de35b423043a5	Very helpful too
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:31:14.702Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd9d2204de35b423043a4	I have a crazy friend that says the same thing...you guys must be taking the same crazy pills
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:30:29.980Z	55a448435e0d51bd787b48f1	Septimus	55cfd9a59b45e15c426463a3	Ahh regex is sooo much fun :D
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:30:22.131Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd99e255950880cfbaffe	great I need all the help I can get..especially Regex
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:30:20.470Z	55a448435e0d51bd787b48f1	Septimus	55cfd99c35e3e09b3adae6e9	Idk if/when I will get back to curriculum. 98% of it will be review :/
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:29:50.831Z	55a448435e0d51bd787b48f1	Septimus	55cfd97e9b45e15c426463a0	I can help you out anytime :)
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:29:32.887Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd96c35e3e09b3adae6e5	awesome
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:29:29.681Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd969057d8c9d3a6d8a8c	I understand, when you get to the partner coding, let me know I can help you out or maybe you can help me out..haha
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:29:12.206Z	55a448435e0d51bd787b48f1	Septimus	55cfd9589b45e15c4264639e	Funny you ask though, because I am making a new screen sharing application to replace Screen Hero :)
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:28:49.715Z	55a448435e0d51bd787b48f1	Septimus	55cfd94135e3e09b3adae6e3	Been doing to much for FCC
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:28:43.435Z	55a448435e0d51bd787b48f1	Septimus	55cfd93b35e3e09b3adae6e2	Nope :/ I haven't had time.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:28:22.572Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd9263d8917890c163572	have you gotten to the partner coding?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:28:01.230Z	55a448435e0d51bd787b48f1	Septimus	55cfd9119b45e15c42646398	then I stopped haha
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:27:58.693Z	55a448435e0d51bd787b48f1	Septimus	55cfd90e255950880cfbaff9	done with jquery and javascript
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:27:53.186Z	55a448435e0d51bd787b48f1	Septimus	55cfd909057d8c9d3a6d8a86	Not far ummm skip HTML/CSS and bootstrap
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:16:52.389Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd6743d8917890c16353d	Not doing too bad but haven't been able to get on in a little bit...working on setting up mail for my business which is a pain...also got kind of sidetracked with Python which seems to be helping me a little with the JS...I'm at 99. Where are you at?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:15:18.274Z	55a448435e0d51bd787b48f1	Septimus	55cfd61635e3e09b3adae6b0	How is everyone doing? Pretty far in the curriculum? 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:02:22.358Z	55c1657a0fc9f982beac3d3d	SamusBailey	55cfd30e35e3e09b3adae687	hello as well 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-16T00:02:05.623Z	559ec06415522ed4b3e3bd9b	agamotto1	55cfd2fd9b45e15c42646336	Hey
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-15T22:34:39.270Z	55a448435e0d51bd787b48f1	Septimus	55cfbe7f204de35b4230418f	Hello!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-08T17:20:48.324Z	55a0da705e0d51bd787b03de	yogamonk	55c63a708f067d637598933e	I can be somewhat flexible. But weekends are probably best. Of course, we will need more input from everyone to determine anything.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-08T13:50:25.524Z	559ec06415522ed4b3e3bd9b	agamotto1	55c60921aac97ada66dd1fb5	Not yet, I posted it in the facebook page and there are quite a few people interested in it. I think we need to work together to figure out a time and place that would work for everybody. The only times I am available Mondays after 5, Fridays after 5 and over the weekend. 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-08T09:53:03.686Z	55a0da705e0d51bd787b03de	yogamonk	55c5d17f2ee3da6275c32de6	Oh good! I was just going to ask if we were still working on a local meet up. I'd love to participate in a few. I'm the only person I know that's learning code and would love to get around some people of various skill levels to discuss road markers and other things associated with learning this stuff. Any ideas for times and locations?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-07T19:27:41.589Z	559ec06415522ed4b3e3bd9b	agamotto1	55c506ad8f067d6375987e80	your brand?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-07T16:00:51.143Z	55a293a05e0d51bd787b2327	cerveaux	55c4d6337f578b465ff44083	I'm interested. Are you ready for my brand of local meet up?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-08-03T19:43:48.042Z	559ec06415522ed4b3e3bd9b	agamotto1	55bfc4745a5770ec0768405f	Would you guys be interested in a local meet up?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:46:52.002Z	559ec06415522ed4b3e3bd9b	agamotto1	55b43c0c61d39fd716066e86	No problem!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:46:24.005Z	55b04df00fc9f982beaaa02a	Jason-McKenna	55b43bf0e923d83d6d46a3f7	Sweet! Thanks for the support. I'll keep an eye on this chat room and letcha know when I'm there. Thanks agamotto!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:44:12.995Z	559ec06415522ed4b3e3bd9b	agamotto1	55b43b6c61d39fd716066e82	Well when you get to the Bonfires and need to pair up with anybody let me know
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:43:28.603Z	55b04df00fc9f982beaaa02a	Jason-McKenna	55b43b4061d39fd716066e7e	Gotcha - I totally get that. I was just wonder'n if there was one already - and there is apparently. So, I think I'll check it out eventually - once I get  a little further into the JS action on my end... maybe I'll see some other FCC CS folks there. ;)
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:41:10.457Z	559ec06415522ed4b3e3bd9b	agamotto1	55b43ab6e923d83d6d46a3e4	That is pretty cool, I didn't know there was a CS JS group. The only problem with meetup.com is it costs money to create a meetup group or at least it did when I tried to set something up a while ago
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:40:56.480Z	55b04df00fc9f982beaaa02a	Jason-McKenna	55b43aa861d39fd716066e72	Maybe that is more up everyone's alley?? I think this is something I'd be interested in checking out. Kinda wannuh meet folks and network a little and stay motivated locally I think. :) I get myt fill of the computer screen as it is lol ;) I'm sure you guys relate to that action.
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-26T01:39:44.028Z	55b04df00fc9f982beaaa02a	Jason-McKenna	55b43a6069ee33730f445969	Thanks for your responses :)  Yes - I do have a LinkedIn page - and I do use Google Hangouts - so whatever works for others I suppose. I would think hangouts would be the easiest and provide the most effective communication - but again not sure how many folks like that sortuh gig ;). Up to you guys. I was thinking along the lines of Meetups more I guess - and I did find one her ein the Springs... lemme find it here... http://www.meetup.com/coloradospringsjs/
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-24T17:04:25.488Z	559ec06415522ed4b3e3bd9b	agamotto1	55b27019e923d83d6d4680ab	We could start up a Linkedin page if you use that. 
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-24T16:51:41.534Z	559ec06415522ed4b3e3bd9b	agamotto1	55b26d1dbab860d81689df5c	We can absolutely look into that. Facebook is just a starting ground. Would Google Hangouts work for you?
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-24T15:18:01.382Z	55b04df00fc9f982beaaa02a	Jason-McKenna	55b2572952d85d450f40042f	Hi agamotto1 :)  If we do not use Facebook (personal reasons - just don't like giving big bro all my life info), are there other ways to form/join meetups in our area - if anyone is into that sorta thing?  Any Google Hangouts or Meetup stuff going on? Not imperative of course, but might be cool for staying motivated during the process and making like-minded contacts...
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-23T18:56:37.306Z	559ec06415522ed4b3e3bd9b	agamotto1	55b138e54fdc50987c73b106	How are you all doing? don't forget to check out out Springs FCC Facebook page as well!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-23T14:39:56.988Z	55b04df00fc9f982beaaa02a	Jason-McKenna	55b0fcbc6e982043058b081f	Hello peeps! (yes - I'm also just starting  ;) Good to see some others interested in the Springs area!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-23T02:54:42.848Z	55a0da705e0d51bd787b03de	yogamonk	55b05772f2cdad46058b069a	Hello, everyone!
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-22T19:13:49.599Z	559ec06415522ed4b3e3bd9b	agamotto1	55afeb6d16ac52ff650f55e8	hello
+55a0944b5e0d51bd787afdef	FreeCodeCamp/ColoradoSprings	2015-07-22T18:42:46.326Z	55a293a05e0d51bd787b2327	cerveaux	55afe4266e982043058ae5bc	Hello everyone

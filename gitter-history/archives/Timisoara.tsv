@@ -1,0 +1,127 @@
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2016-09-17T11:05:13.811Z	540a150e163965c9bc202eaf	abhisekp	57dd236918291e10487bff43	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-10-06T21:37:34.651Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143f1e9a2cfa1347ac65dd	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-10-05T17:03:05.611Z	55ff1e3e0fc9f982beb144e1	cosminandrei	5612ad490b9059c80b7a6cbe	"i gotta return the provided string with the first letter of each word capitalized and make sure that the rest of the string remains lowercase. tried to add ""toLowerCase()"" after str[i].slice(1) but it's not working"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-10-05T16:59:01.552Z	55ff1e3e0fc9f982beb144e1	cosminandrei	5612ac55ef36415027438a5d	"function titleCase(str) {
+  str = str.toLowerCase().split("" "");
+  for(var i =0;i<str.length;i++){
+    str[i]=str[i].charAt(0).toUpperCase() + str[i].slice(1) + "" ""
+  }
+  return str.join("" "");
+}
+
+titleCase(""I'm a little tea pot"","""");
+"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-10-05T16:58:26.834Z	55ff1e3e0fc9f982beb144e1	cosminandrei	5612ac320b9059c80b7a6c7b	@souldreamer  can you help me with something pls?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-09-25T12:50:20.491Z	55c312f60fc9f982beac6abe	souldreamer	5605430ccd8153a009aab8a2	@cosminandrei salut!
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-09-24T21:17:13.626Z	55ff1e3e0fc9f982beb144e1	cosminandrei	5604685940f4ecd92f71a123	hello world
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T12:00:13.565Z	55c312f60fc9f982beac6abe	souldreamer	55d46fcd79943724293cb227	So I need to help people online :D
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:59:18.611Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46f96bdd5d6c9362b8d69	:(
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:58:43.120Z	55c312f60fc9f982beac6abe	souldreamer	55d46f73bdd5d6c9362b8d64	[![Screenshot (5).png](https://files.gitter.im/FreeCodeCamp/Timisoara/Uj2F/thumb/Screenshot-_5_.png)](https://files.gitter.im/FreeCodeCamp/Timisoara/Uj2F/Screenshot-_5_.png)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:57:47.231Z	55c312f60fc9f982beac6abe	souldreamer	55d46f3be47fd26177842fdc	Nope. They add up to your score. Si cum nu mai am chestii non-externe (gen lectiile de node/angular/git), mi-e mai greu sa fac puncte to keep my streak alive :(
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:56:38.534Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46ef66b94865520d861f4	:)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:56:37.012Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46ef5bdd5d6c9362b8d55	si ce faci cu brownie points? do you buy brownies?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:56:15.090Z	55c312f60fc9f982beac6abe	souldreamer	55d46edfc99d78161f34caed	Hehehe :)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:55:43.102Z	55c312f60fc9f982beac6abe	souldreamer	55d46ebfe47fd26177842fd9	@camperbot help
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:55:41.963Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46ebdd46018562035ca6f	let's test it
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:55:34.033Z	55c312f60fc9f982beac6abe	souldreamer	55d46eb679943724293cb21e	se pare ca n-a mers... :( probably doar in camera principala
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:55:19.328Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46ea79c0eaccb36ae3f83	tu l-ai invatat pe el?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:55:09.716Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46e9dbdd5d6c9362b8d40	thanks @souldreamer 
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:54:10.963Z	55c312f60fc9f982beac6abe	souldreamer	55d46e6279943724293cb21b	btw, da-mi un thanks cu username-ul meu (ca in camera principala de freecodecamp) sa testez daca merge acum ca am invitat si robotelul :D
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:52:09.606Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46de99c0eaccb36ae3f6c	Cool, thanks!
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:51:56.974Z	55c312f60fc9f982beac6abe	souldreamer	55d46ddcc99d78161f34cae9	Also, functiile alea `b`, `c`, `d` si `e` pot avea parametri la randul lor and whatnot
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:51:12.210Z	55c312f60fc9f982beac6abe	souldreamer	55d46db0c99d78161f34cae8	What? It is! :D
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:50:59.319Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46da39c0eaccb36ae3f65	:-D
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:50:57.716Z	55c312f60fc9f982beac6abe	souldreamer	55d46da1c99d78161f34cae7	"to recap: ideea de baza e ca poti trata rezultatul unei functii direct ca obiectul pe care-l reprezinta. `a.b().c().d().e()` e echivalent cu:
+```
+var tmp1 = a.b();
+var tmp2 = tmp1.c();
+var tmp3 = tmp2.d();
+var tmp4 = tmp3.e();
+```"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:50:50.915Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46d9abdd5d6c9362b8d0b	javascriptissexy??
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:50:38.015Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46d8ed46018562035ca38	javascriptsexy?? really?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:49:06.701Z	55c312f60fc9f982beac6abe	souldreamer	55d46d32c99d78161f34cae5	They're kind of upper level in some parts, though
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:48:54.821Z	55c312f60fc9f982beac6abe	souldreamer	55d46d26e47fd26177842fd3	"http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html
+http://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:48:45.840Z	55c312f60fc9f982beac6abe	souldreamer	55d46d1d79943724293cb217	Mai multe informatii despre chestia cu functiile una dupa alta:
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:48:16.163Z	55c312f60fc9f982beac6abe	souldreamer	55d46d00c99d78161f34cae4	You're welcome, beautiful! :*
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:45:24.622Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46c549c0eaccb36ae3f47	:-)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:45:12.759Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46c48533d782f18d2fc7b	Thanks!!!
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:45:10.513Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46c464f6c9d3018319b12	it works, you are so good at explaining!
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:44:34.212Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46c22d46018562035ca10	da?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:44:30.058Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46c1e533d782f18d2fc75	cu punctul si virgula de rigoare
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:44:17.414Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46c119c0eaccb36ae3f40	"@juliageek
+function reverseString(str) {
+return str.split('').reverse().join('')
+}
+reverseString('hello');"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:41:02.350Z	55c312f60fc9f982beac6abe	souldreamer	55d46b4ec99d78161f34cade	And if you were to use _strict mode_ (which you should always use in modern JavaScript) [more details here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode), it would actually fail to run
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:39:08.353Z	55c312f60fc9f982beac6abe	souldreamer	55d46adcc99d78161f34cadb	:P
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:39:07.038Z	55c312f60fc9f982beac6abe	souldreamer	55d46adb79943724293cb212	and you hate pollution, right?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:39:01.041Z	55c312f60fc9f982beac6abe	souldreamer	55d46ad5e47fd26177842fd0	ce ai facut tu acolo merge, dar incalca niste reguli. (creeaza o variabila globala in plus care polueaza si nu e necesara)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:37:48.072Z	55c312f60fc9f982beac6abe	souldreamer	55d46a8c79943724293cb211	"```
+function() {
+    var x = ..........;
+    return x;
+}
+```
+e echivalent cu:
+```
+function() {
+    return .........;
+}
+```"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:36:46.689Z	55c312f60fc9f982beac6abe	souldreamer	55d46a4e79943724293cb210	si 2. Cum ti-am zis pe facebook:
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:36:36.033Z	55c312f60fc9f982beac6abe	souldreamer	55d46a44c99d78161f34cad9	Nu uita punct si virgula (desi merge de multe ori, pot aparea bug-uri interesante)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:36:07.013Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46a274f6c9d3018319ac6	more like this?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:35:47.360Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46a136b94865520d8614f	"function reverseString(str) {
+return reverseStrings = str.split('').reverse().join('')
+}
+reverseString('hello');"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:35:11.896Z	55c312f60fc9f982beac6abe	souldreamer	55d469efc99d78161f34cad7	LOL :D It **is** a common problem when switching programming languages :P
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:34:23.712Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d469bfbdd5d6c9362b8c94	gandeam in excel functions terms [blush]
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:34:04.243Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d469acbdd5d6c9362b8c8c	ok, I got it
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:33:40.867Z	55c312f60fc9f982beac6abe	souldreamer	55d46994e47fd26177842fcf	and what's your array? (nu ca variabila ci ca si expresie)
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:33:18.606Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d4697e4f6c9d3018319ab3	dap...
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:33:00.132Z	55c312f60fc9f982beac6abe	souldreamer	55d4696c79943724293cb20d	`array.join(...)`, nu?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:32:43.605Z	55c312f60fc9f982beac6abe	souldreamer	55d4695bc99d78161f34cad4	darling, cum folosesti `join` in mod normal?
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:31:20.854Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d469089c0eaccb36ae3ecd	but I suppose the order is still reversed
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:30:54.258Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d468ee533d782f18d2fc0e	"function reverseString(str) {
+return reverseStrings = join.( '',reverse.(str.split(''))
+}
+reverseString('hello');"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:30:50.708Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d468ea533d782f18d2fc0d	Eu doar gandeam...
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:29:15.086Z	55c312f60fc9f982beac6abe	souldreamer	55d4688be47fd26177842fcb	Darling, da click pe butonul de M(sageata jos) de langa cutiuta de text si vezi cum se introduce cod sursa
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:25:39.212Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d467b3bdd5d6c9362b8c45	and now to simplify...
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:25:28.959Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d467a8bdd5d6c9362b8c3f	"function reverseString(str) {
+ var arrayofStrings = str.split('');
+ var reverseArray = arrayofStrings.reverse();
+ var reverseStrings = reverseArray.join('');
+ return reverseStrings;
+}
+
+reverseString('hello');"
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:25:26.158Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d467a6d46018562035c957	solution was... 
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:24:34.557Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d467726b94865520d860f0	well, trying to be methodic here
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:24:24.266Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d46768d46018562035c94e	Basic Algorithm Scripting, Second Bonfire: Reverse a String
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:24:21.377Z	55c312f60fc9f982beac6abe	souldreamer	55d46765c99d78161f34cac1	And I don't think he's using it ATM
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:24:07.598Z	55c312f60fc9f982beac6abe	souldreamer	55d46757e47fd26177842fc0	:P
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:24:06.269Z	55c312f60fc9f982beac6abe	souldreamer	55d46756e47fd26177842fbf	Lol, currently others===Radu
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:23:38.963Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d4673ad46018562035c946	ok... so to recap for the others to see...
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:23:09.881Z	55c312f60fc9f982beac6abe	souldreamer	55d4671de47fd26177842fb8	Salut!
+55c3afe20fc9f982beac7e4a	FreeCodeCamp/Timisoara	2015-08-19T11:23:05.465Z	55c9dc6f0fc9f982beacfbb1	juliageek	55d467196b94865520d860e1	Hello!

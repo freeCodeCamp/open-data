@@ -1,0 +1,55 @@
+55a072305e0d51bd787afa0c	FreeCodeCamp/Multan	2016-09-17T11:03:17.086Z	540a150e163965c9bc202eaf	abhisekp	57dd22f518291e10487bfcdf	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55a072305e0d51bd787afa0c	FreeCodeCamp/Multan	2015-08-08T10:25:08.235Z	55b87fb80fc9f982beab5c1b	Optmistic	55c5d9048f067d6375988cf6	"what's wrong with this code ??
+```
+//Find the longest word in string ??
+function findLongestWord(str) {
+ var parts= str.split('');
+  var longest=0;
+  //var answer='';
+  for(var i=0; i< parts.length ;i++)
+    {
+      //parts[i] = parts[i].replace(/[^a-zA-Z]+/g, """");
+      if(parts[i].lenghth > longest)
+        {
+          longest= parts[i];
+          //answer.length=parts[i].length;
+        }
+    }
+   return longest; 
+ 
+}
+
+findLongestWord('The quick brown fox jumped over the lazy dog');
+```"
+55a072305e0d51bd787afa0c	FreeCodeCamp/Multan	2015-08-08T07:13:38.328Z	55b87fb80fc9f982beab5c1b	Optmistic	55c5ac22cdd8bb455f2fa508	" ```
+function reverseString(str) {
+  
+  return str.split('').reverse().join('');
+}
+
+reverseString('hello');
+
+ ```"
+55a072305e0d51bd787afa0c	FreeCodeCamp/Multan	2015-08-08T07:13:02.893Z	55b87fb80fc9f982beab5c1b	Optmistic	55c5abfe21801cd866ca54df	 ```
+55a072305e0d51bd787afa0c	FreeCodeCamp/Multan	2015-08-08T07:12:13.822Z	55b87fb80fc9f982beab5c1b	Optmistic	55c5abcd2ee3da6275c32c5b	"' ' ' 
+function reverseString(str) {
+  
+  return str.split('').reverse().join('');
+}
+
+reverseString('hello');
+' ' '
+
+"
