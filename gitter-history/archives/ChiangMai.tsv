@@ -1,0 +1,93 @@
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-09-17T11:01:16.078Z	540a150e163965c9bc202eaf	abhisekp	57dd227c27a8458f7f216904	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-01-22T04:06:14.828Z	55f715a50fc9f982beb0a970	christoph-phillips	56a1aab63165a6af1a3d3c46	"```
+'use strict';
+
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+  res.send('hello world');
+});
+
+var port = 3000;
+app.listen(port,  function () {
+	console.log('Node.js listening on port ' + port + '...');
+});
+
+
+```"
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-01-22T04:05:47.397Z	55f715a50fc9f982beb0a970	christoph-phillips	56a1aa9b59e3d04215bd3543	"```'use strict';
+
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+  res.send('hello world');
+});
+
+var port = 3000;
+app.listen(port,  function () {
+	console.log('Node.js listening on port ' + port + '...');
+});```
+"
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-01-22T04:05:38.255Z	55f715a50fc9f982beb0a970	christoph-phillips	56a1aa925de13b3f15e48472	```test```
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-01-22T04:04:52.513Z	55f715a50fc9f982beb0a970	christoph-phillips	56a1aa64a03e28ad1ae02e6a	"```test```
+
+
+
+"
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-01-22T04:02:45.532Z	55f715a50fc9f982beb0a970	christoph-phillips	56a1a9e55de13b3f15e48464	"``'use strict';
+
+
+
+
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+  res.send('hello world');
+});
+
+var port = 3000;
+app.listen(port,  function () {
+	console.log('Node.js listening on port ' + port + '...');
+});
+"
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2016-01-22T04:02:41.279Z	55f715a50fc9f982beb0a970	christoph-phillips	56a1a9e1a03e28ad1ae02e61	"'use strict';
+
+
+
+
+`var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+  res.send('hello world');
+});
+
+var port = 3000;
+app.listen(port,  function () {
+	console.log('Node.js listening on port ' + port + '...');
+});`
+"
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-12-27T03:04:08.260Z	55b758310fc9f982beab3c40	kmadill	567f55283c6894026924e54d	Anyone in Chiang Mai interested in a FreeCodeCamp meetup?
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-09-30T09:20:21.508Z	55f715a50fc9f982beb0a970	christoph-phillips	560ba955f4b61c106fb2c167	I just moved here and it would be great to share experiences, I am only on the easy bonfires at the moment but enjoying the challenge
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-09-30T09:19:49.997Z	55f715a50fc9f982beb0a970	christoph-phillips	560ba935ff22c70f6fab5176	hey guys is anyone thinking of having a freecodecamp meetup in chiang mai?
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-09-10T14:44:25.885Z	55f1944c0fc9f982beb0427d	j8d	55f197494b090e3d0be41b64	Hello Chiang Mai!
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-08-21T15:57:32.794Z	559494ca15522ed4b3e334e4	jjmax75	55d74a6cfcfd5a7865aec38b	Chiang Mai meetup evening September 5th?
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-08-21T09:46:57.037Z	55d2c4f40fc9f982beadb9c1	Mashadim	55d6f3910d29ce8f44b744f9	hi :smile: 
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-08-18T06:57:21.838Z	55b9c1090fc9f982beab7dd9	TaeKasidit	55d2d7513d8917890c168315	:)
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-08-18T06:52:21.468Z	54b8cc28db8155e6700ebc9f	ice5050	55d2d625057d8c9d3a6dd8d9	Hello :smile: 
+5593933b15522ed4b3e32545	FreeCodeCamp/ChiangMai	2015-08-18T06:00:18.511Z	55d2c4f40fc9f982beadb9c1	Mashadim	55d2c9f29b45e15c4264adcf	echo echo echo

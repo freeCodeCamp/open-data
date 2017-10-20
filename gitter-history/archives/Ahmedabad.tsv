@@ -1,0 +1,74 @@
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2016-10-28T10:22:14.314Z	58130558d73408ce4f3167a4	jigarsingh	581326d6c3569a036e29dd5a	Hey guy's let's learn to change the way we are today. To be a more better version of ourself
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2016-09-17T11:01:11.075Z	540a150e163965c9bc202eaf	abhisekp	57dd2277c3e7045a30584d64	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2016-06-11T10:50:31.607Z	575bebc8c2f0db084a1d502a	PattniVishal	575becf7064b9e7266f18d20	Hello world 
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2016-04-19T02:03:07.618Z	55efbc890fc9f982beb0164c	yamd00t	571591db4c2125fc3f038bfa	HELLO AHMEDABAD!
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2016-01-19T10:15:14.272Z	55ea5ca70fc9f982beafb6a3	niteshmanav	569e0cb25de13b3f15e3e575	hello
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-10-30T13:45:15.064Z	5633745216b6c7089cb8dc5d	viratpuar	5633746b3d7306ae0f293c4c	hello
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-10-11T10:33:09.870Z	55efbc890fc9f982beb0164c	yamd00t	561a3ae51b0e279854bdd041	"```function factorialize(num) {
+  for (var i = (num - 1); i === 1; i--) {
+    var factorial = 0;
+    factorial += (num * i);
+    num = factorial;
+  }
+  return factorial;
+}
+
+factorialize(5, '');
+```"
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-10-11T10:32:33.683Z	55efbc890fc9f982beb0164c	yamd00t	561a3ac183b69fe7548d75f8	"`function factorialize(num) {
+  for (var i = (num - 1); i === 1; i--) {
+    var factorial = 0;
+    factorial += (num * i);
+    num = factorial;
+  }
+  return factorial;
+}
+
+factorialize(5, '');
+`"
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-10-11T10:32:20.520Z	55efbc890fc9f982beb0164c	yamd00t	561a3ab44e0fa3e5544811a6	"'function factorialize(num) {
+  for (var i = (num - 1); i === 1; i--) {
+    var factorial = 0;
+    factorial += (num * i);
+    num = factorial;
+  }
+  return factorial;
+}
+
+factorialize(5, '');
+'"
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-10-06T21:41:01.288Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143fedce6e633c4518b551	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-09-09T05:31:25.129Z	55efbc890fc9f982beb0164c	yamd00t	55efc42dd121757e4d207456	hello, FCC/Ahm
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-09-06T06:19:07.927Z	55a3351c5e0d51bd787b3003	gschauhan	55ebdadb97535f4058ef844d	Zipline: Build a Personal Portfolio Webpage
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-09-06T06:18:31.308Z	55a3351c5e0d51bd787b3003	gschauhan	55ebdab7941cb60657c772f8	anyboudy at zipline?
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-09-05T03:33:10.834Z	55ea5ca70fc9f982beafb6a3	niteshmanav	55ea6276f36c100a351c0795	Seems not that active chat room. Right?
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-09-05T03:32:53.396Z	55ea5ca70fc9f982beafb6a3	niteshmanav	55ea6265aa0b93be49622174	hey
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-23T07:37:55.082Z	54f5d7e015522ed4b3dcbd4b	anumpatel	55d97853fcfd5a7865aef299	hey!
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-22T13:28:48.061Z	55d8328b0fc9f982beae3d0c	sravin	55d87910a6bcd88940687b93	hello
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-16T16:48:23.209Z	55a3351c5e0d51bd787b3003	gschauhan	55d0bed73d8917890c164546	Hows coding?
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-16T16:48:09.491Z	55a3351c5e0d51bd787b3003	gschauhan	55d0bec93d8917890c164544	Hello @brijesh68kumar 
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-12T05:57:21.316Z	55a01c7f5e0d51bd787aece2	brijesh68kumar	55cae0418f067d6375990438	@Kiran068  @gschauhan  @rushabhshah341  Hello
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-09T11:08:59.518Z	55c253790fc9f982beac57f8	Kiran068	55c734cb2ee3da6275c34384	hello there
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-08-05T19:14:29.892Z	55c253790fc9f982beac57f8	Kiran068	55c260959fb911ea312a3e42	Hi
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-13T07:53:31.203Z	55a3351c5e0d51bd787b3003	gschauhan	55a36e7bd72bcc7071753509	કેમ છો?
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-13T07:52:06.762Z	55a3351c5e0d51bd787b3003	gschauhan	55a36e2668eaaccb6c2ca2db	Hello
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-11T07:22:58.491Z	558e338c15522ed4b3e2e651	rushabhshah341	55a0c4523886fb415bb11de2	hello ahmedabad campers
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-10T19:27:41.279Z	55a01c7f5e0d51bd787aece2	brijesh68kumar	55a01cad8223831f09904080	hello world :smile:  
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-10T11:24:08.521Z	559d111f15522ed4b3e3a38a	learnchintan	559fab58c67809ab306363e4	hi
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-03T09:46:39.397Z	558ff88615522ed4b3e2f7b6	SwagataDas	559659ff15428d852a1d652d	hi
+5593907a15522ed4b3e324c8	FreeCodeCamp/Ahmedabad	2015-07-02T03:17:21.000Z	558e338c15522ed4b3e2e651	rushabhshah341	5594ad41a3aa0fa2043cd620	Hello all campers

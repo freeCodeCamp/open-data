@@ -1,0 +1,160 @@
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-09-17T11:05:14.249Z	540a150e163965c9bc202eaf	abhisekp	57dd236ac8af41d45f22013a	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-09-01T21:33:39.277Z	57b28efd40f3a6eec05faad5	frankievx	57c89eb3928ae0e7346df1f1	Ah
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-09-01T21:03:58.432Z	56e0e20585d51f252ab80c43	Alloffices	57c897beccfcf7147cb044ef	@frankievx I have not had a chance to get into React - I've only used scrollMagic with the Greensock API.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-09-01T18:04:29.177Z	57b28efd40f3a6eec05faad5	frankievx	57c86dad6efec7117c9d7c20	@Alloffices how familiar are you with React? maybe we could just discuss it and I can figure out what's wrong
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-08-31T18:58:22.003Z	56e0e20585d51f252ab80c43	Alloffices	57c728ce6bf4c26505bf8a61	@abhisekp NP - I'm always open for design feedback. :smile: 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-08-31T18:55:41.063Z	540a150e163965c9bc202eaf	abhisekp	57c7282ddc3c80b559a76386	@Alloffices :sparkles: thanks :blush: 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-08-31T18:52:01.247Z	56e0e20585d51f252ab80c43	Alloffices	57c72751d52261ec3443f332	@frankievx I've used it but not with react
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-08-31T18:51:37.371Z	56e0e20585d51f252ab80c43	Alloffices	57c727396efec7117c99be18	"@abhisekp Added some styles to your button: 
+
+.randomize {
+  cursor: pointer;
+  background:transparent;
+  border:2px solid #bbb;
+  padding:1em 2em;
+  border-radius:20px;
+  color:rgba(0,0,0,.7);
+  text-transform:uppercase;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:2px;
+}
+.randomize:hover {
+  background:royalblue;
+  border:2px solid royalblue;
+  color:rgba(255,255,255,1);
+}"
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-08-31T08:42:08.017Z	57b28efd40f3a6eec05faad5	frankievx	57c698608635a5ba6c841dc4	Has anyone here used ScrollMagic with React?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-08-25T13:48:11.203Z	576702d6c2f0db084a1ec98c	Alphanor	57bef71bce157d1b57a41789	@Utkarshbhimte  Wow really cool!
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-26T21:10:39.147Z	540a150e163965c9bc202eaf	abhisekp	5797d1cff7efdf1a36c996d7	thanks 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-26T21:10:30.357Z	540a150e163965c9bc202eaf	abhisekp	5797d1c69d3d8134765e5418	@Utkarshbhimte sure .. plz :blush: 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-26T18:39:51.994Z	565d71cf16b6c7089cbcdb11	Utkarshbhimte	5797ae788fb4820a46661f0a	@abhisekp  want me to help you with that?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-26T18:05:05.483Z	565d71cf16b6c7089cbcdb11	Utkarshbhimte	5797a6513383eb6221454bab	Portfolio Review?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-26T18:04:55.364Z	565d71cf16b6c7089cbcdb11	Utkarshbhimte	5797a6477c9324e20e002a13	https://utkarshbhimte.github.io/Portfolio/
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-13T09:44:34.536Z	540a150e163965c9bc202eaf	abhisekp	57860d8259e65852482b05f4	"### :question: :raising_hand: Any design suggestions for this page? 
+:point_right: https://jsbin.com/dotejuw/18/edit?css,js,output
+I'm really bad at design ideas :/"
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-06T14:20:15.471Z	56fea76c187bb6f0eadd6636	carlosvigil	577d139f9bedd84d0b2e019e	That’s awesome
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-06T11:54:06.777Z	56fea76c187bb6f0eadd6636	carlosvigil	577cf15e190978c078309154	Thanks @jarek-foksa 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-06T11:45:09.865Z	577cecbac2f0db084a21b299	jarek-foksa	577cef45f13ce42b2590edb5	Electron port of Boxy SVG will be released on the Mac App Store in up to two months. I initially planned to have it finished much earlier, but I had to postpone it due to the ongoing work on the Inspector panel which was requested by many users.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-06T10:52:50.092Z	5675c83816b6c7089cbf4fb8	sapioit	577ce302ca6a09817e4b5d91	The creator of Boxy-SVG (namely Jarek Foksa), said on the third of May that the Electron version is almost done. How many months will it take before a public release, I don't know. It could be ready, it could take another year, I don't know.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-06T10:43:49.612Z	5675c83816b6c7089cbf4fb8	sapioit	577ce0e554a0684d20cc8a39	let me search my mail adress
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-06T10:43:34.090Z	5675c83816b6c7089cbf4fb8	sapioit	577ce0d654a0684d20cc8a31	@carlosvigil I think it's built in electron. Otherwise it's in nw.js. 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-07-05T03:44:03.645Z	56fea76c187bb6f0eadd6636	carlosvigil	577b2d03e6659d1615554efb	@sapioit thanks! that’s awesome. I’ll make sure to share it. WIsh they’d make it in electron…but maybe i’ll do that some day
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-25T08:56:13.830Z	565d71cf16b6c7089cbcdb11	Utkarshbhimte	576e472d97171715543e778a	Design  Review on  http://bit.ly/UD-1
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-24T11:32:38.336Z	565d71cf16b6c7089cbcdb11	Utkarshbhimte	576d1a56c417e36c69e67674	Hey Guys Review my Website bit.ly/DCSP1234
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-22T07:50:48.955Z	546ccc51db8155e6700d634d	SangSatori	576a4358c7061d590d529df1	It's [fun](http://radiantmoons.me/post/144954431898/green-clouds-lines-002-became-green-clouds) to say the least, even if an odd approach.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-22T07:50:01.357Z	546ccc51db8155e6700d634d	SangSatori	576a43292554bbe049ba6679	One can also generate SVGs with JavaScript, but...
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-22T05:42:00.025Z	565d71cf16b6c7089cbcdb11	Utkarshbhimte	576a25285ba3ccaa25b679c3	Design review for this and any suggestions. https://utkarshbhimte.github.io/DashBoard-Prototype-2
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-21T19:54:28.221Z	5675c83816b6c7089cbf4fb8	sapioit	57699b742c45709c2d208912	For SVGs you could also try [boxy-svg.com][]. I found it by accident, but it seems to have potential...
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-21T18:25:06.688Z	56fea76c187bb6f0eadd6636	carlosvigil	57698682c417e36c69e4dab5	@SangSatori thanks, that's what I thought might be the case but I wasn't sure. I am on OSX and will take a look at other programs. Inkscape...was...ok. I'm sure I'll run into some thing or other when it's time to print 😂! Thanks for the help.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-21T13:54:55.165Z	546ccc51db8155e6700d634d	SangSatori	5769472f2554bbe049ba0d0a	With that being said, the last time I looked into printing some self-made business cards, there were some pitfalls I did not know before (such as margins issues & base tone of the paper), so I assume there's more where that came from regarding working with printed media.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-21T13:53:39.420Z	546ccc51db8155e6700d634d	SangSatori	576946e32554bbe049ba0cd9	Hey @carlosvigil - for scaling purposes, I think a vector editor is a better choice. It's possible to pull off that stuff with Inkscape and some self-discipline regarding the organization of layers & details of elements; you can then export the end result as an SVG or PDF file for printing. The interface and whole user experience is IMHO much inferior to that of Illustrator, but I still use it a lot. If you are on OS X, commercial software like Sketch or Affinity Designer could be a good choice too.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-19T00:20:17.402Z	56fea76c187bb6f0eadd6636	carlosvigil	5765e541a82a6b0079a6e477	"Hey, all,
+wondering what software I should use to edit/overlay some text over an image for print as stickers. I’d normally use something like photoshop or gimp, but I remembered how simple vectors are on Illustrator and thought that might be better
+
+I don’t have any of that software anymore, so that’s why I’m asking, which would be best?"
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-06T09:56:36.933Z	56e0e20585d51f252ab80c43	Alloffices	575548d4824488852c4f3cfc	Created a list of front-end code challenges for my class mates and thought I'd share with you all | Novice to Pro: https://goo.gl/8dJ7MQ :smile: 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-02T14:16:41.801Z	546fd823db8155e6700d6eb4	Rybar	57503fc96bbc2d1d4df0933d	I've 'reset' my profile, so now it appears I have almost no points. :)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-02T14:16:15.097Z	546fd823db8155e6700d6eb4	Rybar	57503faf454cb2be09515c88	I've been here off and on since FCC's inception.  I had completed most of the curriculum  before we had really hit the road creating our own teaching content, now just getting back into it, learning d3 and back-end stuff.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-02T14:13:39.592Z	56aeb63de610378809bf363f	elsalvadordali	57503f13f44fde236e52ced3	Yes! So, how far is everyone into freecodecamp?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-02T14:08:07.214Z	546fd823db8155e6700d6eb4	Rybar	57503dc7f44fde236e52ce52	Let's make it a more active chat room.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-06-02T12:21:53.895Z	56aeb63de610378809bf363f	elsalvadordali	575024e1da3f93da6f22b4da	I'm sad this isn't a more active chatroom
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-05-24T21:31:15.743Z	56fea76c187bb6f0eadd6636	carlosvigil	5744c8238d7585847f6d4f72	Hey, looking to share my first [blog post](https://medium.com/@Cairos/the-direction-i-needed-e9ec514c325e?source=linkShare-c55caadb4eef-1464125214) relating to ui/ux. It's not very technical at all but there's a code pen in it lol 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-05-21T14:38:22.015Z	56f7241085d51f252abb00da	daemedeor	574072ded3f431720bb275f2	It's been a while but for anyone reading after the fact: charge then premium or just let them know that they hired you as a professional designer and back your opinions with fact. 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-24T22:13:45.808Z	558da9ac15522ed4b3e2e024	cch5ng	571d45194bbb6abf7d5ea896	does anyone have advice working with a client who is micromanaging the design process? how do you assess that type of dynamic up front? how do you make the most of that type of relationship on a project? I've been googling the topic...
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:50:06.290Z	56f7241085d51f252abb00da	daemedeor	570e245eaf46361038641547	so used to just looking at the code myself
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:49:56.181Z	56f7241085d51f252abb00da	daemedeor	570e24545cd40114649ad6ab	totally forgot
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:49:53.278Z	56f7241085d51f252abb00da	daemedeor	570e2451af46361038641545	oh yea i have appalzyer
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:49:21.010Z	56f7241085d51f252abb00da	daemedeor	570e2431af4636103864153a	not really
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:48:11.593Z	547193eedb8155e6700d743a	duttakapil	570e23eb548df1be102c7072	Ya I guess, so no idea how much he paid for it?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:25:41.305Z	56f7241085d51f252abb00da	daemedeor	570e1ea53ddb73ba105b9a48	he could've self taught himself but given that level it's unlikely it was done alone 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:25:07.292Z	56f7241085d51f252abb00da	daemedeor	570e1e835ed5a4fd3fe28f69	or any other obvious CMS
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:24:56.587Z	56f7241085d51f252abb00da	daemedeor	570e1e782c97111664317479	there's no wordpress involved
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:24:42.231Z	56f7241085d51f252abb00da	daemedeor	570e1e6a5cd40114649ad54c	so i have to think he is not a web developer
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:24:32.378Z	56f7241085d51f252abb00da	daemedeor	570e1e605cd40114649ad547	he's running the line 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:24:27.286Z	56f7241085d51f252abb00da	daemedeor	570e1e5baf463610386413d8	i'm fairly certain
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:24:18.239Z	547193eedb8155e6700d743a	duttakapil	570e1e523ddb73ba105b9a32	It's appealing, except for the form. He bought the design/layout you say?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:18:48.072Z	56f7241085d51f252abb00da	daemedeor	570e1d08af46361038641399	thats why i'm being asked now to critique XD
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:18:39.971Z	56f7241085d51f252abb00da	daemedeor	570e1cff5ed5a4fd3fe28f17	i can't say i'd have done the work but meh
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:18:25.288Z	56f7241085d51f252abb00da	daemedeor	570e1cf1548df1be102c6ec4	thanks @duttakapil thats what i think too
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:17:33.982Z	547193eedb8155e6700d743a	duttakapil	570e1cbd4c2125fc3f01ef2c	Yes, the form needs work. Rest looks pretty good
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:12:16.344Z	540a150e163965c9bc202eaf	abhisekp	570e1b80075bfdca5a8e3f3b	k. then sry! :/
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:10:06.201Z	56f7241085d51f252abb00da	daemedeor	570e1afe3ddb73ba105b997a	just want to know what other designy people have to say
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:09:49.154Z	56f7241085d51f252abb00da	daemedeor	570e1aedb30cfa0f384af16e	you can be truthful
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:09:41.525Z	56f7241085d51f252abb00da	daemedeor	570e1ae52c9711166431739e	?????
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:09:22.266Z	540a150e163965c9bc202eaf	abhisekp	570e1ad21c4c9a2c07f201c3	"# Pure Awesome! 
+> *P.S. it's not a comment * ;)"
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:09:08.597Z	56f7241085d51f252abb00da	daemedeor	570e1ac45cd40114649ad487	hmmm he must've paid a lot for that site
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:08:36.774Z	540a150e163965c9bc202eaf	abhisekp	570e1aa4075bfdca5a8e3f37	@daemedeor no comments
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:04:31.642Z	56f7241085d51f252abb00da	daemedeor	570e19af5ed5a4fd3fe28e4f	so... my cousin is making a website (looks bought from an agnecy) any critiques? i think the submit form needs to be better made but: http://www.kiin.com/#lastPage
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:03:59.806Z	56f7241085d51f252abb00da	daemedeor	570e198f5ed5a4fd3fe28e49	@abhisekp lol
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:03:50.580Z	540a150e163965c9bc202eaf	abhisekp	570e19861c4c9a2c07f201bd	nope!
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:03:42.730Z	56f7241085d51f252abb00da	daemedeor	570e197e5cd40114649ad422	anyone here?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-04-13T10:03:36.686Z	56f7241085d51f252abb00da	daemedeor	570e19785ed5a4fd3fe28e3f	so.....
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-02-11T09:33:38.919Z	555384f115522ed4b3e055a6	rjsmith25	56bc557237437b6756088ebb	https://votexr.herokuapp.com thoughts on ui
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2016-01-29T21:33:44.756Z	5513eea115522ed4b3dddb35	HoBi	56abdab8eaf741c118d5bc0c	:point_up: [20. srpen 2015 17:34](https://gitter.im/FreeCodeCamp/Design?at=55d5f385f4d6ddcc0d920a9f) @GiacomoPatella not as bad as current FCC design, but it's not perfect either. 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-11-04T20:28:56.566Z	546ccc51db8155e6700d634d	SangSatori	563a6a885680530d270460fd	Hey there, all. I've been trying to get myself a Dribbble invite so I can have a platform for the [#DailyUI](http://dailyui.co/) challenge for designers -- any advice or anyone having an account and willing to spare an invite? :cat: 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-10-04T21:26:35.677Z	5586719a15522ed4b3e23add	evaristoc	5611998b76931cb7479efead	"Hi people! Can anyone advise about parallax? I would like to work on a short infography that does as the [following codepen](http://codepen.io/TheSisb/pen/wIhgn) for 3 different windows and with a ""header line"" (eg the navbar) fixed for all them.
+
+I just started yesterday by hacking some code here and there and so far I have just reached the this [first demo](http://codepen.io/ecccs/pen/GprdWB) (so sorry for the bit mess...)
+
+If you have any advice about this and also working on infographics it will be very appreciated."
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-09-30T18:25:27.803Z	55cb93810fc9f982bead2cb9	JakeOrichmond	560c2917f4b61c106fb2d805	"Hey everyone I am doing Mock interview questions and not really sure how to answer these two please help 
+4.	What is your process for introducing new design patterns and retiring old ones?
+5.	What is your favorite community project for CSS? (e.g., preprocessors, frameworks, best practices)."
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-09-28T17:54:33.358Z	560977830fc9f982beb218cb	AntonLivshits	56097ed9519547fc1e3ada3e	@GiacomoPatella Wow! Fantastic job!
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-09-04T23:53:38.770Z	55c5980a0fc9f982beaca83b	meowwwls	55ea2f02aa0b93be49621e32	@GiacomoPatella That looks incredible! 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:57:55.383Z	558cc06015522ed4b3e2d0bb	mutantspore	55e398838a8b32aa29a30cc6	I ws just making sure that”mobile first” was being considered. I haven’t done mine they.. I have made notes.. looked at stuff.. and have a rough idea. Same as you I guess. I must just do something then refine
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:55:44.699Z	558d896f15522ed4b3e2dd60	Spatzerny	55e39800017739836ed495f5	and somehow cannot bite into it
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:55:31.425Z	558d896f15522ed4b3e2dd60	Spatzerny	55e397f38a8b32aa29a30cc2	seems reasonable? :f i'm trying to tackle this for a month now
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:54:43.093Z	558cc06015522ed4b3e2d0bb	mutantspore	55e397c38a8b32aa29a30cbf	k
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:54:19.609Z	558d896f15522ed4b3e2dd60	Spatzerny	55e397ab017739836ed495ef	"probably tablet -> content behind the nav
+phone -> nav restyled on top"
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:20:17.765Z	558cc06015522ed4b3e2d0bb	mutantspore	55e38fb16d5732de5b7728fc	what’s the plan for a mobile environment?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:02:59.748Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38ba33dbd5ab9704fea9e	having the menu on the right is interesting but slightly counterintuitive
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:01:48.700Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38b5c017739836ed4954e	hopefully some description text but even that mostly hidden
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:01:33.127Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38b4d6d5732de5b7728b5	images
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:01:29.734Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38b493dbd5ab9704fea99	nope
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:01:15.114Z	546fd823db8155e6700d6eb4	Rybar	55e38b3b3d8fc2d12eaa5ff4	I don't think it's bad at all. IMO would be better fixed right instead of left.  Is your content going to be text-heavy?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:00:07.748Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38af7017739836ed4953f	what do you think
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T23:00:04.008Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38af48a8b32aa29a30bd3	on a scale from 1 to 10 how bad of an idea is this
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:59:56.932Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38aec6d5732de5b7728aa	http://codepen.io/Spatzerny/pen/VvwYxd
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:59:42.426Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38ade56211cd86f86a80c	and for some reason i'm terrible fixed on a position:fixed side nav
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:59:18.798Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38ac63d8fc2d12eaa5fe6	i'm trying to make something reminiscing portoflio
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:58:19.443Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38a8b017739836ed49536	yay
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:58:01.289Z	546fd823db8155e6700d6eb4	Rybar	55e38a793d8fc2d12eaa5fdc	sortof.
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:58:01.277Z	546fd823db8155e6700d6eb4	Rybar	55e38a798a8b32aa29a30bce	 I'm here
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:57:40.334Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38a6456211cd86f86a801	anybody here?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-30T22:57:29.059Z	558d896f15522ed4b3e2dd60	Spatzerny	55e38a593dbd5ab9704fea85	@Spatzerny watches as tumbleweeds roll by
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-21T12:11:10.467Z	552fb99415522ed4b3df19d7	oshliaer	55d7155e4eff2e7765382e19	@GiacomoPatella Great work! 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-21T00:51:11.161Z	546fd823db8155e6700d6eb4	Rybar	55d675ffb421ebcb0dae0597	I really like the camper profile layout! Great work
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:35:56.409Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f3dc1250e6600d08dba1	[![FAQ.png](https://files.gitter.im/FreeCodeCamp/Design/HXv0/thumb/FAQ.png)](https://files.gitter.im/FreeCodeCamp/Design/HXv0/FAQ.png)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:35:56.409Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f3dc1250e6600d08dba2	[![FAQ Open.png](https://files.gitter.im/FreeCodeCamp/Design/HXv0/thumb/FAQ-Open.png)](https://files.gitter.im/FreeCodeCamp/Design/HXv0/FAQ-Open.png)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:35:43.955Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f3cf1250e6600d08db9f	[![Map.png](https://files.gitter.im/FreeCodeCamp/Design/hF2y/thumb/Map.png)](https://files.gitter.im/FreeCodeCamp/Design/hF2y/Map.png)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:35:10.111Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f3aef4d6ddcc0d920aa5	[![Profile.png](https://files.gitter.im/FreeCodeCamp/Design/Mqi5/thumb/Profile.png)](https://files.gitter.im/FreeCodeCamp/Design/Mqi5/Profile.png)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:35:09.504Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f3ad1250e6600d08db9d	[![News.png](https://files.gitter.im/FreeCodeCamp/Design/VUKk/thumb/News.png)](https://files.gitter.im/FreeCodeCamp/Design/VUKk/News.png)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:34:56.366Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f3a01250e6600d08db9c	[![Homepage.png](https://files.gitter.im/FreeCodeCamp/Design/dJj5/thumb/Homepage.png)](https://files.gitter.im/FreeCodeCamp/Design/dJj5/Homepage.png)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-20T15:34:29.575Z	556452b915522ed4b3e0f2d3	GiacomoPatella	55d5f385f4d6ddcc0d920a9f	I redesigned a few pages of the FCC site in a techy-er feel and abandoned the camping theme just to make things easier for myself :)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T23:00:32.456Z	55c5980a0fc9f982beaca83b	meowwwls	55c68a10cdd8bb455f2fb471	OK, thank you! I didn't think about the limitations before, so now I'll play around with other methods of centering. It's still crazy to me that in 2015, it's so hard to center things! I first played with CSS in the late '90s, and it feels as if little progress has been made in that department. ;)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T20:07:35.994Z	546fd823db8155e6700d6eb4	Rybar	55c661878f067d63759896b6	That method is fine, given you're wary of the limitations.  Obviously if your text is too long you'll still have problems.  You could give the text container a max and do something with the overflow?
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T17:14:08.840Z	55c5980a0fc9f982beaca83b	meowwwls	55c638e0aac97ada66dd230c	One step forward and five steps back. It just all falls apart a bit on mobile, depending on the device. I don't suppose in general anyone has suggestions for where I can learn about responsive design best practices? I feel as if I may be making this harder on myself than need be. (I don't want to use frameworks like Bootstrap until I understand responsive design better. I don't want to depend on a framework without understanding what it's doing and how.) http://i.imgur.com/olV3vbs.png
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T16:46:52.133Z	55c5980a0fc9f982beaca83b	meowwwls	55c6327caac97ada66dd225f	@Rybar  Thank you! That's what I feared. I was hoping to get the effect that as long as the window was wide enough, it would always show that each section took up half of of the vh, no matter how much content was on each. I love how uniform it looks, vs the height being auto and based on the amount of content in each section. I've seen it work for others, but they only had maybe 2-3 lines of text in each section, so even when the window was made quite small, it still looked fine. I played around with it a bit more now with fresh eyes and was able to meet myself halfway: I kept the height at 50vh, but added a minimum height so that the content always has enough room. That way when the window is large enough, I get the effect I want, but when it's smaller, it still looks good without the content spilling out. Of course this all goes to hell on mobile. I'll keep playing with it. It seems to be the simple things that trip me up with responsive design. As for you commenting out the **top/transform** for the text wrapper,  do you have any suggestions for how to center the text vertically without using that method? I want it centered vertically no matter the amount of text nor the height of the container, and that's the only method that worked, even though as you saw, it pushes the content off the page if the window gets too small. 
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T13:42:10.868Z	546fd823db8155e6700d6eb4	Rybar	55c607328f067d6375988fa8	I forked your pen and made a few adjustments: http://codepen.io/Rybar/pen/yNwOzY
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T13:41:57.475Z	546fd823db8155e6700d6eb4	Rybar	55c607257f578b465ff45810	@meowwwls Your problems stem from using vh units to set the height of section. The content spills out because 50vh of a  200px screen is 100px.. and because it's hard-set the content flows out.  
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T13:27:57.067Z	546fd823db8155e6700d6eb4	Rybar	55c603dd8f067d6375988f78	
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T06:07:32.399Z	55c5980a0fc9f982beaca83b	meowwwls	55c59ca42ee3da6275c32bd1	(This is how it's supposed to look. I didn't realize the embed would show the issue!) http://i.imgur.com/TrGSD8H.png
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T05:56:01.119Z	55c5980a0fc9f982beaca83b	meowwwls	55c599f18f067d6375988a6b	And please forgive me if I am too rambly and we're supposed to be more concise! I'm new to Gitter. :)
+55c58de30fc9f982beaca7dd	FreeCodeCamp/Design	2015-08-08T05:55:23.920Z	55c5980a0fc9f982beaca83b	meowwwls	55c599cb7f578b465ff452e7	Thanks so much for the new chat room, Quincy! I hope it's OK if I get this started with asking for a bit of help! Google is failing me this time, perhaps because it's hard to describe the issue I'm having. I'm trying to use vh to dictate the height of my sections. It works wonderfully when the window is large enough. However, when the window shrinks, the content has nowhere to go. Whereas with an auto height the sections would just expand to fit the content, the content is spilling out of my sections and overlapping. It's a mess! Also, because of my method of centering vertically, when the window is resized and content starts to spill out, it also jumps off the top off the page. And as if that isn't enough, the last section - when the page is resized - does not reach the bottom of the page. The content spills out onto the body.  http://codepen.io/LuEm/pen/rVROqr Does anyone have any idea what the heck I'm doing wrong? Here's a couple of screenshots of what's happening http://i.imgur.com/OoPcbZ9.png http://i.imgur.com/u4O5qvA.png

@@ -1,0 +1,1353 @@
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-16T01:35:56.952Z	562c68c316b6c7089cb8277c	edwin0258	585344fc058ca96737514ef6	Hello, I've been working with Elixir for a week now and I like what I see :P . Phoenix also feels promising.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-12T19:35:09.929Z	55b977f00fc9f982beab7883	camperbot	584efbedb4ffd59e381cb242	> xhallix sends brownie points to @dancouper :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-12T19:35:09.497Z	55b977f00fc9f982beab7883	camperbot	584efbedaeb49008047ceea2	> :cookie: 386 | @dancouper |[http://www.freecodecamp.com/dancouper](http://www.freecodecamp.com/dancouper)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-12T19:35:06.712Z	54b25a54db8155e6700e8ab3	xhallix	584efbeaf666c5a13803af54	"@DanCouper I'm sorry I did not see the tcp server in the docs yet but will go and look for it.
+thank you for taking the time and giving such a comprehensive answer :+1: "
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-12T17:33:41.483Z	56860c1516b6c7089cc0c0a8	DanCouper	584edf75aeb49008047c2270	@xhallix 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-12T17:33:23.193Z	56860c1516b6c7089cc0c0a8	DanCouper	584edf63bb7d528222ebdfb9	EDIT TO ABOVE: I'm an idiot, the basic Elixir guides, on the main elixir-lang site, goes through building a TCP server. Do that, then look at the books if you can (it goes through things very quickly), and the Erlang docs. Learn You an Erlang for Great Good is free online as well, that should have supporting stuff. You need to understand structuring of OTP apps, it's key to why Erlang/Elixir is so useful, and basic understanding should let you build out the toy TCP server
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-11T00:25:55.842Z	56860c1516b6c7089cc0c0a8	DanCouper	584c9d13b4ffd59e38117224	"Like, you can do this thing, but but doing it so you can get a _grasp_ of Elixir sounds absolutely insane. Elixir/Erlang are _ideal_ for servers because of the characteristics of the language, but you’re going stright into the deep end. The parts of the language that make it ideal also happen to be the ones that people find hardest to grasp and put into practise. But, but but,  I assume you know what you’re doing, it’s maybe a good approach. It’ll be painful though.
+
+To have a chance here, you _need_ to know how to pattern applications using Erlang's OTP framework if you want to build a web server. You _need_ to know how use genservers, supervisors etc. Elixir has nice wrappers over the Erlang primitives, and enhances some of the base Erlang stuff.
+
+Try The Little Elixir & OTP Guidebook, it’ll give you an overview of using Elixir with OTP.  It has a load tester as one of the projects, so you can probably pull some stuff out of there. Reading the Erlang documentation is a good bet. And I’d look at Designing for Scalability by Franco Caeserini, which goes into detail about patterns and strategies in Erlang, with really good examples to work through. Read the Cowboy code once you can understand some Erlang. Read the Plug code (the Plug code is v good, it’s maintained alongside Elixir by the core team)."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-06T20:35:37.733Z	54b25a54db8155e6700e8ab3	xhallix	584721191eb3d6486965a321	Not using Plug or Cowboy. Its just to get the grasp of elixir. Anyone has a good starting source? All I found leads to Plug or Phoenix
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-12-06T20:34:22.632Z	54b25a54db8155e6700e8ab3	xhallix	584720ce6b32e870499564b1	Hi, just started with elixir and I like to build a Webserver from scratch
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-10-21T11:01:47.347Z	55f95c490fc9f982beb0dbcf	blackode	5809f59b36d64226369147b9	"hi 
+how to deal with `-callback onReceive() ->` type Erlang `syntax` in `#Elixir` 
+"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-10-02T14:21:19.921Z	55b977f00fc9f982beab7883	camperbot	57f117df6f39416b1ce095dc	> :cookie: 487 | @soulchainer |[http://www.freecodecamp.com/soulchainer](http://www.freecodecamp.com/soulchainer)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-10-02T14:21:19.502Z	55b977f00fc9f982beab7883	camperbot	57f117dfbe5dec7550129f9c	> :cookie: 266 | @dancouper |[http://www.freecodecamp.com/dancouper](http://www.freecodecamp.com/dancouper)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-10-02T14:21:19.346Z	55b977f00fc9f982beab7883	camperbot	57f117dfd38f186520bab380	> startupnerdseer sends brownie points to @dancouper and @soulchainer :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-10-02T14:21:17.118Z	5645d9dc16b6c7089cba960a	thepedropaulino	57f117ddc512d9653a5e2b11	@DanCouper @soulchainer  thank you!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T20:24:21.038Z	55b977f00fc9f982beab7883	camperbot	57dda67527a8458f7f22e71e	> :cookie: 242 | @dancouper |[http://www.freecodecamp.com/dancouper](http://www.freecodecamp.com/dancouper)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T20:24:20.417Z	55b977f00fc9f982beab7883	camperbot	57dda674fa660dd95feb7061	> egoscio sends brownie points to @dancouper :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T20:24:18.453Z	53e00b4a107e137846ba9357	Egoscio	57dda672c3e7045a3059bae6	@DanCouper Thanks for the info. I like the write once philosophy for the backend.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T17:07:13.045Z	55a68d515e0d51bd787b77dc	soulchainer	57dd784133c63ba01a0e1863	URL in the strict warning they are sending to all that channels.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T17:07:11.766Z	55a68d515e0d51bd787b77dc	soulchainer	57dd783fc8af41d45f22e783	BTW, @/all, maybe you want to check this https://github.com/FreeCodeCamp/FreeCodeCamp/issues/8418#issuecomment-247786790 Is the issue where they discussed about closing this channels. It's deeply hidden in the issue tracker. @luishendrix92 commented about preserving this channel (and others). And, like I was already there, I mentioned about the fact that they even mentioned this issue 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:46:52.893Z	55a68d515e0d51bd787b77dc	soulchainer	57dd2d2cfa660dd95fea090a	It's like Highlander: «There Can Only Be One!»
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:46:08.166Z	55a68d515e0d51bd787b77dc	soulchainer	57dd2d0027a8458f7f218973	It's a pity. And... FCC has at the moment 544 channels listed in Gitter. 14 are not marked as «We're closing this» ^_^U.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:45:21.604Z	55a68d515e0d51bd787b77dc	soulchainer	57dd2cd118291e10487c1e00	It's a wonderful world, @DanCouper. Unilateral decisions about closing channels that people are using, taken by people don't using them are the best thing ever :D.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:44:42.266Z	56860c1516b6c7089cc0c0a8	DanCouper	57dd2caac8af41d45f221a6b	Yup, I think Elixir Slack is the only choice as well :(
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:43:48.672Z	55a68d515e0d51bd787b77dc	soulchainer	57dd2c7418291e10487c1d1d	I guess I will use the Elixir Slack from now on, when needed. Obviously not the FCC forum, neither the general room or the, what? The HelpJavaScript gitter channel?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:43:27.022Z	56860c1516b6c7089cc0c0a8	DanCouper	57dd2c5f27a8458f7f218776	Wahey for inferior solutions! :fireworks: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:17:18.079Z	55a68d515e0d51bd787b77dc	soulchainer	57dd263ec3e7045a30585e6a	Another room closed by the closing team :D.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:17:00.786Z	55a68d515e0d51bd787b77dc	soulchainer	57dd262c33c63ba01a0d37aa	Yaaay
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T11:05:26.697Z	540a150e163965c9bc202eaf	abhisekp	57dd2376df21a7573004fcc1	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T10:51:27.766Z	56860c1516b6c7089cc0c0a8	DanCouper	57dd202fc3e7045a3058474c	It's designed to be (bar a tiny `phoenix.js` or whatever) agnostic regarding frontend. You build a backend with all the channel goodness, then build _n_ frontends, where that could be a single JS app, or it could be 10 apps, cross platform, including embedded systems etc.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T10:37:16.622Z	56860c1516b6c7089cc0c0a8	DanCouper	57dd1cdcaabc89857fad103f	@Egoscio re mobile clients, Phoenix by default uses JS for the frontend bit of the channel handling, but that can be Swift/ObjC/C#/whatever - the more popular ones are maintained under the Phoenix project itself on Github
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:43:58.869Z	53e00b4a107e137846ba9357	Egoscio	57dc91ce18291e10487ad156	lolwut. I could've sworn I saw it somewhere. Now that I'm searching again it seems less evident.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:43:26.040Z	56fb116785d51f252abb7f55	llamatarianism	57dc91aeaabc89857fabf081	completely different animal
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:43:22.018Z	56fb116785d51f252abb7f55	llamatarianism	57dc91aaaabc89857fabf07b	they run in the BEAM, which is occasionally called the EVM (erlang virtual machine)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:43:06.373Z	56fb116785d51f252abb7f55	llamatarianism	57dc919ac3e7045a30572039	who told you that
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:43:03.802Z	56fb116785d51f252abb7f55	llamatarianism	57dc919733c63ba01a0bf268	they don't run in the JVM
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:42:46.631Z	53e00b4a107e137846ba9357	Egoscio	57dc918633c63ba01a0bf23d	That bit always confused me.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:42:26.088Z	53e00b4a107e137846ba9357	Egoscio	57dc917233c63ba01a0bf21e	Oracle Java
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:42:12.856Z	53e00b4a107e137846ba9357	Egoscio	57dc916427a8458f7f2034bc	Btw, when they say Elixir and Erlang run in the JVM... Does that mean it runs in the same VM Java runs in?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:41:02.762Z	56fb116785d51f252abb7f55	llamatarianism	57dc911edf21a7573003cfed	(except it sucks the big one ;) )
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:40:57.725Z	56fb116785d51f252abb7f55	llamatarianism	57dc9119c3e7045a30571f54	via akka
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:40:53.527Z	56fb116785d51f252abb7f55	llamatarianism	57dc9115aabc89857fabef5b	scala has something similar to the BEAM's actor model
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:40:22.337Z	53e00b4a107e137846ba9357	Egoscio	57dc90f633c63ba01a0bf14d	It always caught my attention, when friends from other IRC channels would brag about how blazing fast the JVM is :P
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:39:49.644Z	55b977f00fc9f982beab7883	camperbot	57dc90d5fa660dd95fe8aa6e	> egoscio sends brownie points to @llamatarianism :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:39:48.886Z	55b977f00fc9f982beab7883	camperbot	57dc90d4c8af41d45f20cf3a	> :star2: 1380 | @llamatarianism |[http://www.freecodecamp.com/llamatarianism](http://www.freecodecamp.com/llamatarianism)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:39:45.569Z	53e00b4a107e137846ba9357	Egoscio	57dc90d1c8af41d45f20cf2c	"@llamatarianism Thanks for the info, I'm having a look at http://www.phoenixframework.org/docs/up-and-running
+I'm hoping to put Elixir into my toolbelt."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:38:39.344Z	56fb116785d51f252abb7f55	llamatarianism	57dc908fc8af41d45f20ce36	I think phoenix works with mobile clients
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:37:14.154Z	53e00b4a107e137846ba9357	Egoscio	57dc903adf21a7573003ce40	Would an instant messaging backend powered by Elixir for, let's say, an iOS use TCP or some other protocol? Coming from a web development background, I'm used to websockets.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:35:34.955Z	56fb116785d51f252abb7f55	llamatarianism	57dc8fd6aabc89857fabeced	course, things like instant messaging, which is a part of some social media websites, would be a pretty good thing for erlang/elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:35:10.509Z	56fb116785d51f252abb7f55	llamatarianism	57dc8fbe27a8458f7f203146	most social network stuff is just CRUD that you could do in basically any language
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:35:08.867Z	53e00b4a107e137846ba9357	Egoscio	57dc8fbcc3e7045a30571762	Yeah, I thought so.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:34:45.408Z	56fb116785d51f252abb7f55	llamatarianism	57dc8fa5c8af41d45f20cc60	second one, probably not so much
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:34:41.780Z	56fb116785d51f252abb7f55	llamatarianism	57dc8fa1df21a7573003cd58	first one, probably
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:32:35.754Z	53e00b4a107e137846ba9357	Egoscio	57dc8f23aabc89857fabeb6f	Or a social network type app.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:32:23.868Z	53e00b4a107e137846ba9357	Egoscio	57dc8f1733c63ba01a0bed8f	Let's say I'm trying to power the backend to an iOS multiplayer game. Would Elixir excel in such a situation?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:31:27.701Z	53e00b4a107e137846ba9357	Egoscio	57dc8edffa660dd95fe8a680	Whatsapp used Erlang, Elixir is basically the same, but I prefer the syntax.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:31:10.166Z	53e00b4a107e137846ba9357	Egoscio	57dc8ecec3e7045a305715b4	Yeah I heard about concurrency
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:31:02.721Z	56fb116785d51f252abb7f55	llamatarianism	57dc8ec6fa660dd95fe8a5fd	erlang was basically made for phones
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:30:56.164Z	56fb116785d51f252abb7f55	llamatarianism	57dc8ec027a8458f7f202f14	and things where concurrency is important, such as when you need to handle a lot of clients
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:30:54.187Z	53e00b4a107e137846ba9357	Egoscio	57dc8ebe27a8458f7f202f0e	At the moment, I'm comfortable with two technologies that are capable of powering a web API. Node + Express or similar, and Swift + [Vapor](https://vapor.codes/).
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:30:40.034Z	56fb116785d51f252abb7f55	llamatarianism	57dc8eb0c3e7045a30571595	things where you need a lot of uptime
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:30:34.357Z	56fb116785d51f252abb7f55	llamatarianism	57dc8eaa18291e10487ac5cd	it's good at server-y type stuff
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:29:32.189Z	53e00b4a107e137846ba9357	Egoscio	57dc8e6caabc89857fabea2e	Ah, I see. I kind of trying to wrap my head around what would be an ideal implementation of Elixir in a project. ie: What it's very good at
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:26:26.790Z	56fb116785d51f252abb7f55	llamatarianism	57dc8db2c8af41d45f20c8e4	then I read a bunch of blog posts and documentation and whatnot and some of programming phoenix
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:26:14.887Z	56fb116785d51f252abb7f55	llamatarianism	57dc8da627a8458f7f202cfa	I just read through it while messing around with the REPL
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:26:06.338Z	56fb116785d51f252abb7f55	llamatarianism	57dc8d9e27a8458f7f202ce8	@Egoscio the guide on the website
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:25:18.715Z	53e00b4a107e137846ba9357	Egoscio	57dc8d6e18291e10487ac347	@llamatarianism Elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-17T00:06:13.120Z	56fb116785d51f252abb7f55	llamatarianism	57dc88f5c3e7045a30570950	@Egoscio start out what?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T23:53:02.099Z	53e00b4a107e137846ba9357	Egoscio	57dc85de18291e10487ab160	@llamatarianism How did you start out?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T17:02:55.442Z	55a68d515e0d51bd787b77dc	soulchainer	57dc25bfdf21a7573002638e	Aha... xD.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T17:02:46.826Z	56fb116785d51f252abb7f55	llamatarianism	57dc25b6aabc89857faa8375	better
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T17:02:34.419Z	55a68d515e0d51bd787b77dc	soulchainer	57dc25aa27a8458f7f1ed624	How are Exercism probs? Ô_ó.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T17:02:20.625Z	55a68d515e0d51bd787b77dc	soulchainer	57dc259c33c63ba01a0a83cc	I'm doing the Elixir challenges. Just have «problems» with one exercise. And, in fact, it wasn't such a problem (I guessed easily what it was saying, and commented to get the description fixed, It was only a word) xD. And yes: I made some of g964 problems xD I'm doing right now a g964 problem, in fact xD.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:58:16.937Z	56fb116785d51f252abb7f55	llamatarianism	57dc24a833c63ba01a0a80ad	90% of them are made by one asshat named g946 or something and they're all terrible
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:58:08.032Z	55a68d515e0d51bd787b77dc	soulchainer	57dc24a0aabc89857faa7f75	But it's not that bad :þ. Well, I guess that's your opinion :þ.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:58:05.463Z	56fb116785d51f252abb7f55	llamatarianism	57dc249dc8af41d45f1f563c	it's especially noticeable for the elixir challenges
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:56:48.736Z	56fb116785d51f252abb7f55	llamatarianism	57dc2450fa660dd95fe72716	"""made by the community and the community doesn't give a crap"""
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:56:43.064Z	56fb116785d51f252abb7f55	llamatarianism	57dc244bdf21a75730025e06	I hear
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:56:40.763Z	56fb116785d51f252abb7f55	llamatarianism	57dc2448c3e7045a3055b09e	"""hard to get it right"""
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:56:38.602Z	56fb116785d51f252abb7f55	llamatarianism	57dc2446c8af41d45f1f5504	you say
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:56:20.503Z	55a68d515e0d51bd787b77dc	soulchainer	57dc243427a8458f7f1ecffe	Ummm... Well, yeah: the challenges sometimes are... well... hard to get it right (it gets resolved commenting and proposing changes in wording, or asking for clarification). And... yeah: challenges are pretty mathsy ^_^U.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:53:46.676Z	56fb116785d51f252abb7f55	llamatarianism	57dc239a18291e1048795f4b	every challenge is mathsy and boring and made by someone who barely speaks english, which means you can't tell what the hell the challenge is supposed to be
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:53:17.436Z	55a68d515e0d51bd787b77dc	soulchainer	57dc237dc8af41d45f1f5249	xDDDDDDDDDD. Why, @llamatarianism?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T16:30:21.631Z	56fb116785d51f252abb7f55	llamatarianism	57dc1e1d27a8458f7f1eb4d2	I absolutely 100% despise codewars
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T08:27:40.793Z	55a68d515e0d51bd787b77dc	soulchainer	57dbacfcf042063656d3b422	"@StartupNerdSeer Yeah, I guess you was talking about that. It would be nice, indeed. I also  use (still I didn't read  it fully, just the **Basics** part) elixirschool, @Egoscio. It's a fine resource. Just I didn't known what he was really asking :þ. After being around elixirschool, I guess the official guides & docs will me more approachable. For exercises, apart from Exercism, I would recommend also https://www.codewars.com Because is what I'm using right now  for practicing the (very very) basics. It has a decent amount of Elixir problems too (and growing), marked by difficulty level. And, when you try to do certain problems, you find yourself learning more and revisiting/learning more in elixirschool and the official docs, because you get in the situation of needing something you still don't learn :D.
+
+Good Morning people ;)."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T07:36:10.890Z	56860c1516b6c7089cc0c0a8	DanCouper	57dba0ea33c63ba01a087247	Elixir-lang Slack channel as well (link is on the Elixir site). And the Programming Elixir book for all the basics, Elixir in Action for a tutorial that covers the whole ecosystem (goes from a todo list app using the basics to a full deployed application that leverages all of Erlang's power)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T07:29:45.469Z	56860c1516b6c7089cc0c0a8	DanCouper	57db9f6933c63ba01a086d33	Exercism is good if you want a set of challenges, community is good as well; once you do a few challenges, people start commenting & you'll pick up a lot.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T00:11:51.102Z	55b977f00fc9f982beab7883	camperbot	57db38c7aabc89857fa76840	> :cookie: 44 | @egoscio |[http://www.freecodecamp.com/egoscio](http://www.freecodecamp.com/egoscio)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T00:11:50.884Z	55b977f00fc9f982beab7883	camperbot	57db38c618291e1048762176	> startupnerdseer sends brownie points to @egoscio :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T00:11:48.700Z	5645d9dc16b6c7089cba960a	thepedropaulino	57db38c4c8af41d45f1c2704	@Egoscio thank you for the link. I`ll check that.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-16T00:10:55.083Z	5645d9dc16b6c7089cba960a	thepedropaulino	57db388fc8af41d45f1c2688	@soulchainer I Thought FreeCodeCamp/Elixir was an address to a separate course
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-15T22:37:28.673Z	53e00b4a107e137846ba9357	Egoscio	57db22a8df21a75730ff1915	I never went too far with Elixir, but when I tried it, I used that site. Explains well.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-15T22:36:36.531Z	53e00b4a107e137846ba9357	Egoscio	57db2274c8af41d45f1bed17	http://elixirschool.com/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-15T17:03:08.247Z	55a68d515e0d51bd787b77dc	soulchainer	57dad44c27a8458f7f1a3145	For the... what? Ô_ó. I mean... you're talking about a Free Code Camp Elixir section, @StartupNerdSeer? If so, I'm afraid that thing doesn't exist (but I would be glad to be wrong).
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-15T14:56:32.633Z	5645d9dc16b6c7089cba960a	thepedropaulino	57dab6a033c63ba01a0552db	Can anyone send me the link  for the Code Camp Elixir ?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-15T14:56:20.758Z	5645d9dc16b6c7089cba960a	thepedropaulino	57dab694df21a75730fd65ae	Hello guys
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:16:47.675Z	56fb116785d51f252abb7f55	llamatarianism	57d415cf7b9f81671139c7b9	it already has union types and parameterised types
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:16:29.915Z	56fb116785d51f252abb7f55	llamatarianism	57d415bdb8d4c1384081bd20	really, if dialyzer provided generics and support for elixir's protocols, its type system would be really powerful
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:09:34.479Z	55b977f00fc9f982beab7883	camperbot	57d4141e83c1556511b6d3da	> :star2: 1367 | @llamatarianism |[http://www.freecodecamp.com/llamatarianism](http://www.freecodecamp.com/llamatarianism)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:09:34.323Z	55b977f00fc9f982beab7883	camperbot	57d4141eb8d4c1384081b985	> soulchainer sends brownie points to @llamatarianism :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:09:34.166Z	55a68d515e0d51bd787b77dc	soulchainer	57d4141e8efc3f200695dcf0	... Oh, damn. You're (obviously) right xD. Thanks, @llamatarianism. I gave so rounds to `IO.inspect` and `inspect` that I missed it xD.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:09:34.479Z	55b977f00fc9f982beab7883	camperbot	57d4141e83c1556511b6d3da	> :star2: 1367 | @llamatarianism |[http://www.freecodecamp.com/llamatarianism](http://www.freecodecamp.com/llamatarianism)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:06:55.515Z	56fb116785d51f252abb7f55	llamatarianism	57d4137fef19fa3f40747056	`inspect` just formats it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:06:52.869Z	56fb116785d51f252abb7f55	llamatarianism	57d4137ccba69fe7350134f2	`IO.inspect` outputs it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:06:48.638Z	56fb116785d51f252abb7f55	llamatarianism	57d41378d274dbdf3506b464	@soulchainer that's not the case
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:06:12.154Z	55a68d515e0d51bd787b77dc	soulchainer	57d413548744289d2905954f	(So, I didn't use `inspect(fun)` because that)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:05:40.402Z	55a68d515e0d51bd787b77dc	soulchainer	57d41334880624344546a9e7	(Is that the case or I still don't understand what you said?)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:05:20.158Z	55a68d515e0d51bd787b77dc	soulchainer	57d41320880624344546a9e2	"Oh... I get now what you wanted to say, @llamatarianism. But, now that I understand (I think xD), I believe you missed this part I say, maybe?
+
+> I needed to use the string interpolation, because, if not, `inspect` outputs the value to stdout."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T14:00:52.824Z	56fb116785d51f252abb7f55	llamatarianism	57d41214d274dbdf3506b038	there's probably a way to do it without macros, since `defmodule` does return something, but that seems very very hard
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:59:20.510Z	56fb116785d51f252abb7f55	llamatarianism	57d411b87b9f81671139bcc4	"```ocaml
+module type X_int = sig val x : int end;
+
+module Increment (M : X_int) : X_int = struct
+  let x = M.x + 1
+end
+
+module Three = struct let x = 3 end
+module Four = Increment(Three)
+```
+->
+```elixir
+defmodule Functor do
+  defmacro increment(module, new_name) do
+    quote do
+      defmodule unquote(new_name) do
+        def x, do: unquote(module).x + 1
+      end
+    end
+  end
+end
+
+defmodule Three do
+  def x, do: 3
+end
+
+Functor.increment(Three, Four)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:58:09.135Z	56fb116785d51f252abb7f55	llamatarianism	57d41171ef19fa3f40746c05	"`""#{inspect whatever}""` is the same as `inspect whatever`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:57:53.875Z	56fb116785d51f252abb7f55	llamatarianism	57d41161ef19fa3f40746be3	and since `inspect` always returns a string
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:57:46.440Z	56fb116785d51f252abb7f55	llamatarianism	57d4115ab8d4c1384081b26f	so you can just do `x` instead
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:57:43.092Z	56fb116785d51f252abb7f55	llamatarianism	57d41157ef19fa3f40746bc9	"`""#{x}""` is also `""foo""`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:57:35.241Z	56fb116785d51f252abb7f55	llamatarianism	57d4114fb37816b14fa79844	"@soulchainer if `x = ""foo""`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:57:23.954Z	55a68d515e0d51bd787b77dc	soulchainer	57d41143c045e50a3686e68d	"> @llamatarianism 
+> by the way, `""#{x}"" == to_string(x)`, and `to_string(x) when is_binary(x) == x`
+
+I didn't understand this really, sorry  (I know, I know ^_^U). Care to explain slooooooowly? (or point what to read) In fact, I didn't understand almost anything from there on and is a bit of a shame (and turns awkward and awkward the idea of breaking the conversation xD)  ^_^U. If you ask me, right now, you're talking chinese pretty amazingly :þ."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:56:24.245Z	56fb116785d51f252abb7f55	llamatarianism	57d41108d274dbdf3506ae16	since module names are just atoms, and you have macros, you basically have first-class modules
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:55:32.730Z	56fb116785d51f252abb7f55	llamatarianism	57d410d4b8d4c1384081b0f8	you know what's neat about elixir that not a lot of people talk about?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:54:44.479Z	55b977f00fc9f982beab7883	camperbot	57d410a4a0e8dbb04f285e0c	> :cookie: 220 | @dancouper |[http://www.freecodecamp.com/dancouper](http://www.freecodecamp.com/dancouper)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:54:44.340Z	55b977f00fc9f982beab7883	camperbot	57d410a4d274dbdf3506ad10	> llamatarianism sends brownie points to @dancouper :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:54:42.093Z	56fb116785d51f252abb7f55	llamatarianism	57d410a27b9f81671139ba7d	@DanCouper thanks
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:54:14.340Z	56860c1516b6c7089cc0c0a8	DanCouper	57d41086ef19fa3f407469d2	Not quite the same though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:53:47.669Z	56860c1516b6c7089cc0c0a8	DanCouper	57d4106bef19fa3f40746994	Design by contract talk (I loved that from the little bit of Racket I've done): https://youtu.be/-3OuorNPlaE
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:49:37.078Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40f71b8d4c1384081a849	And I'll try and find the talk where they talked about future improvements, I think it was via Erlang Solutions, defo watched it a few weeks ago
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:48:15.114Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40f1fef19fa3f407466bc	Stupid phone
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:48:07.166Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40f17d274dbdf3506a70a	:(
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:47:59.523Z	56fb116785d51f252abb7f55	llamatarianism	57d40f0fcba69fe73501298a	...dialyzer :P
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:47:44.076Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40f007b9f81671139b703	Dializer
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:47:34.321Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40ef6a0e8dbb04f285985	Aaagh
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:47:31.207Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40ef3a0e8dbb04f285980	Dialler
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:47:25.135Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40eed83c1556511b6c6bb	Which feeds into dialler
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:47:11.324Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40edfb37816b14fa78d21	Ah, ok Erlang 19 improves map support, because maps are now much much faster and effectively replace all other similar data structures 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:45:15.165Z	56fb116785d51f252abb7f55	llamatarianism	57d40e6bcba69fe73501287f	"```elixir
+@spec foo(integer) :: integer
+@spec foo(list) :: atom
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:45:00.426Z	56fb116785d51f252abb7f55	llamatarianism	57d40e5cef19fa3f407464dc	"huh, turns out typespecs actually can cover that function.
+```erlang
+-spec foo(integer()) -> integer();
+         (list()) -> atom().
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:44:02.575Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40e22cba69fe7350127eb	Yeah, I don't see how that couldn't be implemented- I just watched a talk on a contracts library which looked good
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:43:03.174Z	56fb116785d51f252abb7f55	llamatarianism	57d40de77b9f81671139b4be	it'd prob be way better
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:42:56.837Z	56fb116785d51f252abb7f55	llamatarianism	57d40de0a0e8dbb04f28573f	and they made it specially for elixir, so they could use macros and check that stuff implements a protocol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:42:34.723Z	56fb116785d51f252abb7f55	llamatarianism	57d40dcad274dbdf3506a47b	if someone started making their own tool from the ground up
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:42:12.649Z	56fb116785d51f252abb7f55	llamatarianism	57d40db47b9f81671139b418	yeah
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:42:03.013Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40dab7b9f81671139b408	Yeah, 2 secs, the issue is Erlang though, has to move really slowly because everything _has_ to work because of how much infrastructure depend on it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:41:00.254Z	56fb116785d51f252abb7f55	llamatarianism	57d40d6ca0e8dbb04f285495	I've been casually googling like a madman and I couldn't find anything useful :P
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:40:41.949Z	56fb116785d51f252abb7f55	llamatarianism	57d40d59d274dbdf3506a3b5	really? you got any links to info about it?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:40:20.793Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40d44ef19fa3f40746283	Are putting a few improvements into it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:40:05.109Z	56860c1516b6c7089cc0c0a8	DanCouper	57d40d35b37816b14fa7899c	Yeah, I know they
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:09:21.979Z	56fb116785d51f252abb7f55	llamatarianism	57d40601ef19fa3f4074521f	"```racket
+(: foo (case-> (-> Integer Integer)
+               (-> String Symbol))) ; rough approximation
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:08:54.163Z	56fb116785d51f252abb7f55	llamatarianism	57d405e6a0e8dbb04f2840a3	but typed racket totally can.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:08:49.464Z	56fb116785d51f252abb7f55	llamatarianism	57d405e1ef19fa3f407451dc	"one thing that always stood out to me from LYSE was this:
+
+```erlang
+foo(X) when is_integer(X) -> X + 1;
+foo(X) -> list_to_atom(X).
+```
+> Most type systems are unable to properly represent the types of the function above."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:02:47.183Z	56fb116785d51f252abb7f55	llamatarianism	57d40477a0e8dbb04f283d3a	hell, I think even mypy has generics
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:02:31.046Z	56fb116785d51f252abb7f55	llamatarianism	57d40467a0e8dbb04f283d1d	but if you compare it to like, typed racket or typed clojure, it looks pretty pedestrian
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:02:19.151Z	56fb116785d51f252abb7f55	llamatarianism	57d4045bd274dbdf35068ffd	it's pretty nice
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T13:01:26.096Z	56fb116785d51f252abb7f55	llamatarianism	57d40426a0e8dbb04f283c39	I wish dialyzer was more advanced.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T12:56:21.534Z	56fb116785d51f252abb7f55	llamatarianism	57d402f57b9f816711399990	"`inspect(fun) == ""&CheckingFuns.f1/1""`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T12:56:13.755Z	56fb116785d51f252abb7f55	llamatarianism	57d402eda0e8dbb04f283a12	so you could just do
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T12:56:11.308Z	56fb116785d51f252abb7f55	llamatarianism	57d402eb7b9f81671139996a	"by the way, `""#{x}"" == to_string(x)`, and `to_string(x) when is_binary(x) == x`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T12:55:25.075Z	56fb116785d51f252abb7f55	llamatarianism	57d402bda0e8dbb04f283970	a little weird and magic-string-y, but I can't really think of a better way :P
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T12:55:11.128Z	56fb116785d51f252abb7f55	llamatarianism	57d402afb8d4c1384081831f	@soulchainer :+1:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T11:05:25.637Z	55a68d515e0d51bd787b77dc	soulchainer	57d3e8f5c045e50a3686e4e1	"@DanCouper @llamatarianism I was redacting the question about this for posting it to StackOverflow, when, while writing it, I get it. And it's so simple that I feel stupid. **It was in front of me ALL THE TIME**. I got the initial idea when redacting it. It takes me a little more to be able to use it well :D. 
+
+Check this:
+
+```elixir
+defmodule CheckingFuns do
+    def  f1(x), do: x
+    def f2(x), do: x
+    def check(fun) do
+      ""#{inspect(fun)}"" == ""&CheckingFuns.f1/1""
+    end
+end
+
+IO.inspect(CheckingFuns.check(&CheckingFuns.f1/1))
+IO.inspect(CheckingFuns.check(&CheckingFuns.f2/1))
+```
+
+With this, you get:
+
+```sh
+true
+false
+```
+
+Because the first function used is the one I'm checking the equality, and the second not :D. 
+I needed to use the string interpolation, because, if not, `inspect` outputs the value to stdout."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T10:22:28.148Z	55a68d515e0d51bd787b77dc	soulchainer	57d3dee483c1556511b65b15	(Just mumbling)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T10:02:21.518Z	55a68d515e0d51bd787b77dc	soulchainer	57d3da2d8744289d290592d3	JA!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T01:36:47.055Z	56fb116785d51f252abb7f55	llamatarianism	57d363afb37816b14fa61d73	`(&CheckingFuns.f1/1) == (&CheckingFuns.f1/1)` is true
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T01:35:38.507Z	56fb116785d51f252abb7f55	llamatarianism	57d3636aef19fa3f4072efd3	it might be that, because `f1` has a different context inside and outside of `CheckingFuns`, it considers them different
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T01:34:56.478Z	56fb116785d51f252abb7f55	llamatarianism	57d3634083c1556511b53e47	unlike in C/C++ where macros are pretty much text manipulation
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T01:34:41.708Z	56fb116785d51f252abb7f55	llamatarianism	57d363317b9f8167113848f8	"every variable gets a ""context"" associated with it so that macros are usually mostly hygienic"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-10T01:34:06.343Z	56fb116785d51f252abb7f55	llamatarianism	57d3630eef19fa3f4072eeb3	maybe it *is* something to do with metaprogramming
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T22:58:02.551Z	55a68d515e0d51bd787b77dc	soulchainer	57d33e7ab8d4c138407fd6f3	Don't worry, pal :D. I really can pass without it, but now is just... I'm curious xD. If I find out, I will comment it :þ.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T22:44:38.586Z	56860c1516b6c7089cc0c0a8	DanCouper	57d33b56b37816b14fa5b9ad	Oh crap, just double checked and you're totally right.  I just reached for iex when you posted and quote was the first thing I thought of . And yeah, with an anonymous function bound to a variable, it should work fine, because you're asking for the name of a named expression that happens  to be a function. Balls. Sorry bout that. I'm not sure how you'd check what you're wanting to check
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T22:13:54.658Z	55a68d515e0d51bd787b77dc	soulchainer	57d334228806243445469fe4	So, still I don't see a way to check what function you got as parameter from inside a function. (Even if I need it or not, I'm now just curious).
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T22:11:38.871Z	55a68d515e0d51bd787b77dc	soulchainer	57d3339a8efc3f200695d2ab	"If you do:
+
+```elixir
+defmodule CheckingFuns do
+    def  f1(x), do: x
+    def f2(x), do: x
+    def check(fun) do
+      IO.inspect(quote do: fun)
+    end
+end
+
+CheckingFuns.check(&CheckingFuns.f1/1)
+CheckingFuns.check(&CheckingFuns.f2/1)
+```
+
+You get:
+
+```sh
+{:fun, [], CheckingFuns}
+{:fun, [], CheckingFuns}
+```
+
+^_^U."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T22:10:31.688Z	55a68d515e0d51bd787b77dc	soulchainer	57d33357c045e50a3686dcf5	"> > @DanCouper 
+> 
+ ```
+iex(1)> add = fn a,b -> a + b end
+#Function<12.50752066/2 in :erl_eval.expr/5>
+iex(2)> check = fn fun -> quote do: fun end
+#Function<6.50752066/1 in :erl_eval.expr/5>
+iex(3)> check.(add)
+{:fun, [], Elixir}
+```
+
+I checked this (and http://elixir-lang.org/getting-started/meta/quote-and-unquote.html and all that) and well, `quote` is interesting and all that... but doesn't work in the case I was explaining ;). And is plain clear just from your example. For being useful for that, check should return `:add` or something like that, for identifiying that function. Because the case I explained was:
+
+> Like in other languages (as JavaScript), you can pass a function as attribute to a elixir function. That's OK. But what if I want to check inside that function that the function passed as attribute is certain function. I don't know how I'm supposed to do that. I will illustrate this with an simplified example:
+>
+In javascript, you can do this:
+
+```js
+function f1(x) { return x}
+function is_f1(f) { return f === f1}
+is_f1(f1)  // will be true
+```
+
+> On the other hand, in Elixir, I have tried this:
+
+```elixir
+defmodule CheckingFuns do
+    def  f1(x), do: x
+    def is_f1?(fun), do: fun === &f1/1  # doesn't matter if you compare with == or ===, it will return false
+end
+
+CheckingFuns.is_f1?(&CheckingFuns.f1/1) # this will return false
+```
+
+> So... How would you check this? I mean, there should be some way to check the parameter you passed in, right? Even when it's a function, I guess.
+
+And, with `quote`, doesn't matter if you enclose it in an anonymous function or a named one, you always get something like:
+
+`{:fun, [], Elixir}`. So, there's no way to infer if you got the function `f1`, `f2` or what, from that data. "
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:43:32.689Z	56fb116785d51f252abb7f55	llamatarianism	57d302d43f7260fe4be0f96d	and *that* is why people don't like developing software in perl
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:42:23.904Z	56fb116785d51f252abb7f55	llamatarianism	57d3028ff4360c681821f81e	it's a bit like `this` in JS - it's a type of context
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:42:11.468Z	56fb116785d51f252abb7f55	llamatarianism	57d30283af75d5187be6594e	and it actually exists and is the same everywhere
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:42:05.508Z	56fb116785d51f252abb7f55	llamatarianism	57d3027dc475164703c2c492	except `$_` is one of perl's magic variables
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:41:58.874Z	56fb116785d51f252abb7f55	llamatarianism	57d30276af75d5187be65910	"it's a bit like this:
+```javascript
+for (let $_ of harambe) {
+  dicks(out);
+}
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:41:18.809Z	56fb116785d51f252abb7f55	llamatarianism	57d3024e473d7d833a8a3fdd	now, this is the tricky line: `dicks @out for (@harambe);`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:41:01.338Z	56fb116785d51f252abb7f55	llamatarianism	57d3023d473d7d833a8a3fa2	"`my @out = qw(DICKS OUT FOR HARAMBE);` == `var out = [""DICKS"", ""OUT"", ""FOR"", ""HARAMBE""]` == `out = ~w(DICKS OUT FOR HARAMBE)`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:40:33.749Z	56fb116785d51f252abb7f55	llamatarianism	57d302218cd0681e7bfc2393	`my @harambe = (0, 1, 2, 3)` == `var harambe = [0, 1, 2, 3];`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:40:22.326Z	56fb116785d51f252abb7f55	llamatarianism	57d30216f4360c681821f661	inside the brackets, it's the context variable. we'll get into that later.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:40:09.744Z	56fb116785d51f252abb7f55	llamatarianism	57d302093f7260fe4be0f652	it's actually the argument list (`@_`) outside the brackets, but because we're accessing an item inside it, we use the scalar sigil (`$`)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:39:43.885Z	56fb116785d51f252abb7f55	llamatarianism	57d301ef3f7260fe4be0f5eb	the `$_` inside those square brackets is different to the `$_` outside of them
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:39:31.286Z	56860c1516b6c7089cc0c0a8	DanCouper	57d301e3f4360c681821f5b0	That's what I was having trouble with
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:39:12.470Z	56fb116785d51f252abb7f55	llamatarianism	57d301d08cd0681e7bfc2201	"the closest analogue in JS would be `console.log(arguments[this] + "" "");`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:38:58.572Z	56fb116785d51f252abb7f55	llamatarianism	57d301c2f4360c681821f55e	"this line: `print $_[$_] . "" "";` is very tricky and weird."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:38:11.407Z	56fb116785d51f252abb7f55	llamatarianism	57d30193473d7d833a8a3d9e	I can do it if you want though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:38:07.894Z	56fb116785d51f252abb7f55	llamatarianism	57d3018f1aacfaf84b055dc9	I'm gonna assume you don't want me to explain the first 4 lines, cuz they're boring
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:37:51.427Z	56fb116785d51f252abb7f55	llamatarianism	57d3017faf75d5187be65514	it's gonna take some time :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:37:42.703Z	56860c1516b6c7089cc0c0a8	DanCouper	57d301761e2af9771893ecdf	This you'll need to explain
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:36:01.346Z	56fb116785d51f252abb7f55	llamatarianism	57d301111e2af9771893eb39	"the best program I ever wrote:
+```perl
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+sub dicks {
+    print $_[$_] . "" "";
+}
+
+my @harambe = (0, 1, 2, 3);
+my @out = qw(DICKS OUT FOR HARAMBE);
+
+dicks @out for (@harambe);
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:35:55.047Z	56860c1516b6c7089cc0c0a8	DanCouper	57d3010b1aacfaf84b055bba	Yeah, I don't envy those who had to write apps in in the 90s, but it's an interesting thing
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:34:46.239Z	56fb116785d51f252abb7f55	llamatarianism	57d300c61e2af9771893ea17	basically designed to let you do whatever you want
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:34:37.665Z	56fb116785d51f252abb7f55	llamatarianism	57d300bd1e2af9771893e9e9	it's the ultimate scripting language
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:34:34.096Z	56860c1516b6c7089cc0c0a8	DanCouper	57d300ba8cd0681e7bfc1d71	Love the fact it was designed by a linguist  as well
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:34:33.845Z	56fb116785d51f252abb7f55	llamatarianism	57d300b98cd0681e7bfc1d6f	unimaginable pain for anything more
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:34:28.048Z	56fb116785d51f252abb7f55	llamatarianism	57d300b4f4360c681821f1a4	it's neat for little scripts
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:34:08.343Z	56860c1516b6c7089cc0c0a8	DanCouper	57d300a01aacfaf84b055a89	Ha! I should have a crack at Perl, the programmers I know who used to use it heavily all loved writing it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:32:12.533Z	56fb116785d51f252abb7f55	llamatarianism	57d3002c1aacfaf84b05589c	"```perl
+mqabcq
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:32:07.057Z	56fb116785d51f252abb7f55	llamatarianism	57d300271aacfaf84b055898	but you can use literally anything instead
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:32:02.757Z	56fb116785d51f252abb7f55	llamatarianism	57d30022f4360c681821ef80	you can use `/` without needing the `m`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:31:58.171Z	56fb116785d51f252abb7f55	llamatarianism	57d3001e1aacfaf84b055876	"the ""default"" is `/`:
+```perl
+# these two are the same:
+/abc/
+m/abc/
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:31:39.590Z	56fb116785d51f252abb7f55	llamatarianism	57d3000bc475164703c2bc86	yep
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:31:29.195Z	56860c1516b6c7089cc0c0a8	DanCouper	57d30001c475164703c2bc27	Ha, that's awesome. Just as long as it's a single character point I guess?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:30:53.937Z	56fb116785d51f252abb7f55	llamatarianism	57d2ffdd1e2af9771893e66c	and perl lets you use *literally anything* :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:30:49.358Z	56fb116785d51f252abb7f55	llamatarianism	57d2ffd9c475164703c2bb38	well, the sigil-string stuff was originally from perl
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:30:33.186Z	56fb116785d51f252abb7f55	llamatarianism	57d2ffc93f7260fe4be0ed7a	"you know how in elixir, you can use different delimiters for sigil-strings? like `""""""`, `(`, `{`, etc."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:30:17.906Z	56fb116785d51f252abb7f55	llamatarianism	57d2ffb98cd0681e7bfc18fd	this braces talk reminds me of a weird perl fact
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:28:36.645Z	56fb116785d51f252abb7f55	llamatarianism	57d2ff541aacfaf84b0554f5	they should ***really*** just add generics.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:28:21.594Z	56fb116785d51f252abb7f55	llamatarianism	57d2ff458cd0681e7bfc16d8	the type system is the main problem
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:28:03.045Z	56fb116785d51f252abb7f55	llamatarianism	57d2ff338cd0681e7bfc1613	it does some neat stuff
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:27:44.995Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2ff20473d7d833a8a3444	"God, I keep thinking ""shall I try go out"" and then people say stuff like that"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:27:10.566Z	56fb116785d51f252abb7f55	llamatarianism	57d2fefef4360c681821eab3	of course, in go's case, you can't do that, because its type system sucks the big'un ;)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:27:00.647Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2fef48cd0681e7bfc1527	Ah yes, that :point_up: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:26:38.567Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2fedec475164703c2b73b	This is why (sorry!) keep going back to the braces
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:26:30.949Z	56fb116785d51f252abb7f55	llamatarianism	57d2fed63f7260fe4be0e937	maybe the matching braces function could take in a set of characters you wanna find pairs of
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:26:09.351Z	56fb116785d51f252abb7f55	llamatarianism	57d2fec1c475164703c2b6df	that is a good point
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:25:51.964Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2feaf1aacfaf84b055232	Then that suggests the data should be fed in
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:25:50.877Z	56fb116785d51f252abb7f55	llamatarianism	57d2feae3f7260fe4be0e636	(lol@`interface{}`)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:25:37.651Z	56fb116785d51f252abb7f55	llamatarianism	57d2fea1c475164703c2b670	and there ain't no way I'm gonna be a gopher
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:25:27.658Z	56fb116785d51f252abb7f55	llamatarianism	57d2fe97c475164703c2b662	copy/pasting functions over and over just to change 1 little symbol is something gophers do
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:25:16.278Z	56fb116785d51f252abb7f55	llamatarianism	57d2fe8c1aacfaf84b0551d9	yes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:25:11.831Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2fe87af75d5187be648b5	Does it though?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:24:57.523Z	56fb116785d51f252abb7f55	llamatarianism	57d2fe793f7260fe4be0e57d	who cares about doing something that's not-quite-idiomatic if it makes your code better
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:24:47.602Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2fe6faf75d5187be64848	`@doc`, `@vrs`, `@spec` etc would be good examples of module attributes, arbitrary data related to internal workings of functions less so. That's all, sorry about the way I phrased it, I didn't mean that they were actually classes, just that it is easy to code as if a module were a class
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:24:42.976Z	56fb116785d51f252abb7f55	llamatarianism	57d2fe6a1aacfaf84b05515f	meh
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T18:19:41.414Z	56860c1516b6c7089cc0c0a8	DanCouper	57d2fd3dc475164703c2b217	I know; as I say, splitting hairs, it's  more code style than anything else. By putting attributes in you are naturally, setting something in the module as constant. Which needs to be used carefully - you're effectively locking things into the module, which in many use cases is exactly what you want to do. Going back to my exercism example, if I use module attributes, that's OK, it's totally valid, but it's not _necessarily_ the best, or at least most idiomatic, way to do it.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:26:40.625Z	56fb116785d51f252abb7f55	llamatarianism	57d2e2c03f7260fe4be06aac	(course, this won't: `def ham, do: Eggs.get_some_state(eggs_pid)`)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:25:29.886Z	56fb116785d51f252abb7f55	llamatarianism	57d2e2793d16fa4f03985f58	`ham` will always return the same thing.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:25:23.655Z	56fb116785d51f252abb7f55	llamatarianism	57d2e2733f7260fe4be069c2	"```elixir
+defmodule Spam do
+  @ham Eggs.get_some_state(eggs_pid)
+  def ham, do: @ham
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:24:42.458Z	56fb116785d51f252abb7f55	llamatarianism	57d2e24aaf75d5187be5d415	if I do this:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:24:40.384Z	56fb116785d51f252abb7f55	llamatarianism	57d2e2483f7260fe4be0693a	like, let's say I have some random `GenServer` with some mutable state
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:23:57.949Z	56fb116785d51f252abb7f55	llamatarianism	57d2e21d8cd0681e7bfb9fc3	the function would work fine
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:23:55.523Z	56fb116785d51f252abb7f55	llamatarianism	57d2e21baf75d5187be5d37f	so even if that constant somehow disappeared (which it could never do)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:23:48.597Z	56fb116785d51f252abb7f55	llamatarianism	57d2e2141aacfaf84b04d892	also, elixir uses early binding
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:23:41.979Z	56fb116785d51f252abb7f55	llamatarianism	57d2e20d1aacfaf84b04d889	a constant is not state at all
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T16:23:38.642Z	56fb116785d51f252abb7f55	llamatarianism	57d2e20af4360c6818216e46	@DanCouper it doesn't have internal state though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:20:17.883Z	56860c1516b6c7089cc0c0a8	DanCouper	57d29af13d16fa4f039718c3	The metaprogramming book by Chris McCord is really good, really short as well. Rule is _generally_, if you need to use metaprogramming, don’t, write a function instead
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:18:53.328Z	55a68d515e0d51bd787b77dc	soulchainer	57d29a9daf75d5187be48cf9	ou need to know that's you need to find it :D. I will check both pages about that :D.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:18:52.397Z	55a68d515e0d51bd787b77dc	soulchainer	57d29a9c8cd0681e7bfa6083	Thanks again :D. I started reading the ElixirSchool site and even after finishing the **Basics** section, I jumped to start trying exercises in Codewars :þ. And return there from time to time, for reading/learning about bits I need when they appear :D. (Also reading, slowly, Elixir in Action). Appears than there is also an «Metaprograming» subsection, in Advanced. But, you know, y
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:18:51.527Z	56860c1516b6c7089cc0c0a8	DanCouper	57d29a9b3d16fa4f039717aa	"You’re getting into the metaprogramming side here though, and although it’s central to how Elixir works and one of the reasons why it’s so good, it’s getting toward here be dragons territory. Like, almost all the structures are macros like that, and you can totally write you're own structures like the following, which are magic, and noone will know how they work unless they dig through the codebase:
+
+```
+@spec fart_function_one(String.t) :: String.t
+deffart fart_function_one(str), do: str
+
+> fart_function_one('hello')
+""A very fart filled hello to you!""
+> fart_function_one('goodbye')
+""A very fart filled goodbye to you!""
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:12:36.107Z	56860c1516b6c7089cc0c0a8	DanCouper	57d299243d16fa4f0397125b	Here, this kinda provides an explanation of why this works: http://elixir-lang.org/getting-started/meta/quote-and-unquote.html
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:09:22.728Z	55b977f00fc9f982beab7883	camperbot	57d298623d16fa4f03970f55	> :cookie: 217 | @dancouper |[http://www.freecodecamp.com/dancouper](http://www.freecodecamp.com/dancouper)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:09:22.653Z	55b977f00fc9f982beab7883	camperbot	57d298623f7260fe4bdf1e5b	> soulchainer sends brownie points to @dancouper :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:09:20.532Z	55a68d515e0d51bd787b77dc	soulchainer	57d298609a92399d6bef2169	Ummm.... So I need to read more (because I don't know even the `quote` thing  ^_^U). I'm still reading the basics :þ. Thanks for the quick response, @DanCouper. I will read about that and try to understand it :D.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:06:14.949Z	56860c1516b6c7089cc0c0a8	DanCouper	57d297a68cd0681e7bfa56e3	"Elixir is mainly written in Elixir, as macros, you can `quote` to view the AST representation:
+> The first element is the function name, the second is a keyword list containing metadata and the third is the arguments list. "
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T11:04:37.859Z	56860c1516b6c7089cc0c0a8	DanCouper	57d297458cd0681e7bfa5590	"```
+iex(1)> add = fn a,b -> a + b end
+#Function<12.50752066/2 in :erl_eval.expr/5>
+iex(2)> check = fn fun -> quote do: fun end
+#Function<6.50752066/1 in :erl_eval.expr/5>
+iex(3)> check.(add)
+{:fun, [], Elixir}
+```
+"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T10:56:51.341Z	56860c1516b6c7089cc0c0a8	DanCouper	57d295738cd0681e7bfa4f76	:)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T10:55:15.540Z	56860c1516b6c7089cc0c0a8	DanCouper	57d29513c475164703c0e0e7	
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T10:54:46.766Z	55a68d515e0d51bd787b77dc	soulchainer	57d294f6b312c56774bdc141	"Hi there. I'm here again with what, I expect xD, is another silly question :þ.
+
+Like in other languages (as JavaScript), you can pass a function as attribute to a elixir function. That's OK. But what if I want to check inside that function that the function passed as attribute is certain function. I don't know how I'm supposed to do that. I will illustrate this with an simplified example:
+
+In javascript, you can do this:
+
+```js
+function f1(x) { return x}
+function is_f1(f) { return f === f1}
+is_f1(f1)  // will be true
+```
+
+On the other hand, in Elixir, I have tried this:
+
+```elixir
+defmodule CheckingFuns do
+    def  f1(x), do: x
+    def is_f1?(fun), do: fun === &f1/1  # doesn't matter if you compare with == or ===, it will return false
+end
+
+CheckingFuns.is_f1?(&CheckingFuns.f1/1) # this will return false
+```
+
+So... How would you check this? I mean, there should be some way to check the parameter you passed in, right? Even when it's a function, I guess.
+
+**Edit**: Sorry for getting in the middle, Dan :þ."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-09T10:53:24.620Z	56860c1516b6c7089cc0c0a8	DanCouper	57d294a48cd0681e7bfa4d01	"Oh, I get that, I think I just phrased that incorrectly - it’s not that they are at all like classes, it’s that in this case it acts almost as if the module has some internal state. Which is _fine_, but removes some of the dumbness from the functions in the module namespace - so the `check_brackets` function I wrote in the fourth example will not work standalone, it has a dependency upon a constant, wheras the one in the first example will work. If I hand a string to the fourth, there is a check against an attribute in the module; if I hand a string to the first, it will _just_ run the function.
+
+Maybe splitting hairs, but moving everything to a series of functions with different heads means more boilerplate, but reduces everything to input/output of single functions, which I’d prefer for testability."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:04:41.804Z	56fb116785d51f252abb7f55	llamatarianism	57d1d26968f483b41cb17d8e	but bits of them feel classy
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:04:21.554Z	56fb116785d51f252abb7f55	llamatarianism	57d1d255cdbf820f7faa300a	they're definitely ***not*** classes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:03:58.958Z	56fb116785d51f252abb7f55	llamatarianism	57d1d23ecdbf820f7faa2fd9	`defimpl SomeProtocol, for: SomeStruct do ... end`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:03:31.464Z	56fb116785d51f252abb7f55	llamatarianism	57d1d22377c1b70d7ff72cac	modules can have associated structs, and when you implement protocols for those structs, you use the module name:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:03:02.317Z	56fb116785d51f252abb7f55	llamatarianism	57d1d206fe284f6c3035be55	I think module attributes look like class variables in ruby on purpose
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:02:46.812Z	56fb116785d51f252abb7f55	llamatarianism	57d1d1f6f33967fc643d4774	the line between classes and modules is (probably intentionally) sometimes blurry in elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T21:00:14.980Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57d1d15e98f8df994d496b93	Actors are more of an 'object' in an OOP sense than modules, in fact Actors are more OOP than class instances in Java/C++/.NET/etc...
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:56:36.921Z	56fb116785d51f252abb7f55	llamatarianism	57d1b46489655972304eb0a7	if they were mutable, sure. but they aren't.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:56:06.763Z	56fb116785d51f252abb7f55	llamatarianism	57d1b44698f8df994d490460	they're just module constants
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:56:01.352Z	56fb116785d51f252abb7f55	llamatarianism	57d1b4411baa312a6be44cc9	just like there's nothing class-like about using `-define` in erlang
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:55:36.997Z	56fb116785d51f252abb7f55	llamatarianism	57d1b42877c1b70d7ff6ca1b	there's nothing class-like about module attributes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:55:19.958Z	56fb116785d51f252abb7f55	llamatarianism	57d1b41789655972304eaf39	mobile keyboards.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:55:15.910Z	56fb116785d51f252abb7f55	llamatarianism	57d1b41389655972304eaf33	...
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T18:55:11.970Z	56fb116785d51f252abb7f55	llamatarianism	57d1b40f89655972304eaf2d	there's boring class
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T12:31:56.458Z	56860c1516b6c7089cc0c0a8	DanCouper	57d15a3c1baa312a6be2e178	Good exercise for Erlang/Elixir though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T12:29:52.772Z	56860c1516b6c7089cc0c0a8	DanCouper	57d159c098f8df994d47ac18	The Erlang parser lib as well
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T12:29:27.971Z	56860c1516b6c7089cc0c0a8	DanCouper	57d159a768f483b41cafc2b3	Was going to use it to learn 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-08T12:24:09.864Z	56860c1516b6c7089cc0c0a8	DanCouper	57d1586977c1b70d7ff54b25	Yeah, first one was a quick run through before I looked at using binaries. Despite the extra boilerplate, I think the first one with binaries would be better code, possibly. Definitely more idiomatic. The module attributes...hmm. They dry the code up a bit, but at the expense of almost making it into a class-like thing. Probably should be some kind of map that gets passed in with required pairs.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:54:48.375Z	56fb116785d51f252abb7f55	llamatarianism	57cd9548f33967fc64302e9a	I thought we were comparing two different ones :P
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:54:43.492Z	56fb116785d51f252abb7f55	llamatarianism	57cd9543cdbf820f7f9c8adf	oh hey, I just realised those are both by you 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:49:16.106Z	56fb116785d51f252abb7f55	llamatarianism	57cd93fc896559723041b168	...nah, that last one kinda sucks.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:48:51.952Z	56fb116785d51f252abb7f55	llamatarianism	57cd93e3f33967fc64302658	"or perhaps
+```elixir
+with ^q_head <- @par_matches[head], do: check_brackets(tail, q_tail), else: (_ -> false)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:48:10.794Z	56fb116785d51f252abb7f55	llamatarianism	57cd93ba1baa312a6bd73c4c	"`with` would actually be quite nice there thinking about it, although it might be a little bit ""clever"".
+```elixir
+with true <- @par_matches[head] == q_head, do: check_brackets(tail, q_tail)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:46:27.995Z	56fb116785d51f252abb7f55	llamatarianism	57cd93531baa312a6bd73a92	and the first one makes a list and then pattern matches on that, whereas the second one just matches on the first binary, which avoids allocating a whole new data structure
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:45:17.427Z	56fb116785d51f252abb7f55	llamatarianism	57cd930df33967fc6430231c	"```elixir
+    case @par_matches[head] == q_head do
+      true  -> check_brackets(tail, q_tail)
+      _     -> false
+    end
+```
+should really just be `if`. I have no idea why some people have this irrational attraction to `case`."
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:44:43.425Z	56fb116785d51f252abb7f55	llamatarianism	57cd92ebcdbf820f7f9c821e	there's no point computing the length of the list, it's just a pointless extra iteration through the queue.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:44:08.396Z	56fb116785d51f252abb7f55	llamatarianism	57cd92c8896559723041ad19	"```elixir
+  def check([], queue) when length(queue) != 0, do: false
+```
+is worse than
+```elixir
+  def check_brackets(<<>>, _), do: false
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:43:39.822Z	56fb116785d51f252abb7f55	llamatarianism	57cd92ab77c1b70d7fe9821b	other minor nitpicks:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:40:47.567Z	56fb116785d51f252abb7f55	llamatarianism	57cd91ff896559723041a9da	more DRY
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T15:40:36.450Z	56fb116785d51f252abb7f55	llamatarianism	57cd91f4780310286bb3d131	I prefer the second one
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:45:16.639Z	55a68d515e0d51bd787b77dc	soulchainer	57cd3eac6bf4c26505cf9372	(And yeah, definitely it's easier (and fast) to read, I think :þ.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:44:50.082Z	56860c1516b6c7089cc0c0a8	DanCouper	57cd3e92928ae0e734795560	:) Some of it’s inherited from Prolog, the way that you explicitly put in place a set of conditions
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:44:10.843Z	55a68d515e0d51bd787b77dc	soulchainer	57cd3e6a928ae0e7347954ee	Good morning from Spain ;).
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:43:51.821Z	55b977f00fc9f982beab7883	camperbot	57cd3e57861faa7f07b8f7fe	> soulchainer sends brownie points to @dancouper :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:43:51.803Z	55b977f00fc9f982beab7883	camperbot	57cd3e576efec7117ca9cb74	> :cookie: 212 | @dancouper |[http://www.freecodecamp.com/dancouper](http://www.freecodecamp.com/dancouper)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:43:49.511Z	55a68d515e0d51bd787b77dc	soulchainer	57cd3e556bf4c26505cf91d5	Yeah, I see. Thanks, @DanCouper :D. Little by little, I will get used to it :þ. For now, I still fall into doing it half way and then submit the solution to Codewars (simple things ^_^U) and then: oh! I should had done «this» this way. It was so logical ^_^U.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:42:03.953Z	56860c1516b6c7089cc0c0a8	DanCouper	57cd3debff95228007af7423	Does mean more boilerplate, but easier to test, gets to be easier to understand
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:40:47.452Z	56860c1516b6c7089cc0c0a8	DanCouper	57cd3d9f928ae0e7347950d3	Fist one I think is better, no module attributes, just another function for every situation 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:40:06.512Z	56860c1516b6c7089cc0c0a8	DanCouper	57cd3d76ff95228007af72d8	http://exercism.io/submissions/e72a7b586aa646bb9c84ac3bcdb8f5d7
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:39:33.803Z	56860c1516b6c7089cc0c0a8	DanCouper	57cd3d55d52261ec345389d4	http://exercism.io/submissions/83db9111a5f24d67b203a457e461618d
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-05T09:39:31.267Z	56860c1516b6c7089cc0c0a8	DanCouper	57cd3d53d52261ec345389cb	@soulchainer just on idiomatic Elixir & module attributes, here's two Exercism submissions
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T21:50:19.370Z	56fb116785d51f252abb7f55	llamatarianism	57c9f41b928ae0e73471ee79	https://www.youtube.com/watch?v=cLno3Wf720c
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:19:44.968Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d0d0928ae0e734717318	Yeah.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:19:36.845Z	56fb116785d51f252abb7f55	llamatarianism	57c9d0c8928ae0e734717301	"```elixir
+iex(1)> Stream.cycle([1, 2, 3])
+#Function<59.89908360/2 in Stream.unfold/2>
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:19:20.039Z	56fb116785d51f252abb7f55	llamatarianism	57c9d0b8861faa7f07b117aa	streams contain functions
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:19:16.093Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d0b4d52261ec344bcf15	Like I said, I'm still learning, I guess xD
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:19:14.461Z	56fb116785d51f252abb7f55	llamatarianism	57c9d0b2958e6f4729e347b3	yeah, you're not allowed to have functions as module attributes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:19:01.396Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d0a5958e6f4729e34740	Ajá xD
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:18:53.094Z	56fb116785d51f252abb7f55	llamatarianism	57c9d09d861faa7f07b11744	then elixir wouldn't be properly functional anymore
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:18:42.875Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d0926efec7117ca1b935	so I can't use something like `@remainders Stream.cycle([1, 10, 9, 12, 3, 4])`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:18:40.489Z	56fb116785d51f252abb7f55	llamatarianism	57c9d09029ee4a670588df54	well if you could have mutable variables inside module attributes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:18:20.762Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d07cff95228007a7a0b1	I mean, you can define attributes with `@name`, but seems that it only allows constant attributes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:17:49.171Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d05d29ee4a670588de75	Right know, the thing more annoy me was that... ummm... I can't defined some kind of... variables for use in some functions in a module, I guess
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:16:44.317Z	55a68d515e0d51bd787b77dc	soulchainer	57c9d01c861faa7f07b1155e	Yeah. I guess, the more I use it, I will encounter these pitfalls :þ
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:16:21.665Z	56fb116785d51f252abb7f55	llamatarianism	57c9d005928ae0e734716fc8	so that's something you might use `if` for
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:16:02.004Z	56fb116785d51f252abb7f55	llamatarianism	57c9cff2ff95228007a79eaa	raises `** (CompileError) iex:2: cannot invoke remote function Access.get/2 inside guard`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:15:36.772Z	56fb116785d51f252abb7f55	llamatarianism	57c9cfd8d52261ec344bcbb7	"```elixir
+defmodule Foo do
+  def bar(map, key) when map[key] == ""foo"", do: ""foo""
+  def bar(map, _), do: ""bar""
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:15:11.330Z	56fb116785d51f252abb7f55	llamatarianism	57c9cfbf29ee4a670588dbff	one particularly annoying thing about guards is you can't access stuff in maps inside them
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:13:08.122Z	55a68d515e0d51bd787b77dc	soulchainer	57c9cf44dbb70a4b09aafa2d	I was just a bit shocked where I checked other solutions and... I can't find any `if` anywhere xD.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:12:23.463Z	55a68d515e0d51bd787b77dc	soulchainer	57c9cf176ec242015cdfdbc4	Yeah, yeah. I understand ;).
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:11:15.196Z	56fb116785d51f252abb7f55	llamatarianism	57c9ced3ff95228007a79abf	"they're definitely more idiomatic than
+```elixir
+case condition do
+  true  -> stuff
+  false -> other_stuff
+end
+```
+or
+```elixir
+case true do
+  condition1 -> stuff1
+  condition2 -> stuff2
+  condition3 -> stuff3
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:10:33.315Z	56fb116785d51f252abb7f55	llamatarianism	57c9cea9861faa7f07b1101d	that doesn't mean you should actively avoid `if` and `cond` by the way
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:09:42.626Z	55b977f00fc9f982beab7883	camperbot	57c9ce76861faa7f07b10f8a	> :star2: 1339 | @llamatarianism |[http://www.freecodecamp.com/llamatarianism](http://www.freecodecamp.com/llamatarianism)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:09:42.621Z	55b977f00fc9f982beab7883	camperbot	57c9ce7629ee4a670588d856	> soulchainer sends brownie points to @llamatarianism :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:09:40.420Z	55a68d515e0d51bd787b77dc	soulchainer	57c9ce7429ee4a670588d84a	No prob. You already helped me. Thanks, @llamatarianism
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:09:17.652Z	55a68d515e0d51bd787b77dc	soulchainer	57c9ce5d29ee4a670588d819	Ja ja ja xD
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:08:58.241Z	56fb116785d51f252abb7f55	llamatarianism	57c9ce4a861faa7f07b10f18	actually I can't think of any good examples :P
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:08:38.698Z	55a68d515e0d51bd787b77dc	soulchainer	57c9ce36ff95228007a79959	Ok :D. I was suspecting that. Just wanted to be sure :D. Thanks :D. Yeah, already suffered that limitation. Still trying to figure this out. Is a great change coming from OOP x_x
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:07:32.460Z	56fb116785d51f252abb7f55	llamatarianism	57c9cdf4958e6f4729e338e8	here's an example:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:06:16.290Z	56fb116785d51f252abb7f55	llamatarianism	57c9cda8928ae0e7347167b1	like, you can't call any old function in a guard clause. there are only a handful of ones you're allowed to use
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:05:55.156Z	56fb116785d51f252abb7f55	llamatarianism	57c9cd93861faa7f07b10791	but sometimes they're the right tool for the job
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:05:38.679Z	56fb116785d51f252abb7f55	llamatarianism	57c9cd82928ae0e73471674f	and pattern matching of any kind to `if` or `cond`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T19:05:28.008Z	56fb116785d51f252abb7f55	llamatarianism	57c9cd786efec7117ca1af66	people tend to prefer guards to case
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T18:59:46.142Z	55a68d515e0d51bd787b77dc	soulchainer	57c9cc226bf4c26505c782b5	guards, instead of using a simple `if`/ `case` statement/macro. Is this the way to go? (we are talking about behaviour conditioned by the function arguments). Sometimes this is cool, but when they rewrite the same function 3/4 times, it seems... pretty verbose, right?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-09-02T18:59:45.895Z	55a68d515e0d51bd787b77dc	soulchainer	57c9cc216efec7117ca1ab3f	Oh. There's a channel about Elixir :D. Hi, @/all. I'm just (trying to) learning Elixir and I have a really, really (I guess) dumb question: using `if` is not idiomatic? I asked this because, mainly, my only reference about Elixir is Codewars and seems like people avoids to use `if` (or even `case`) by all means. Seems like they prefer to declare the same function 3 o 4 times, with 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:12:50.491Z	5718ce91659847a7aff3d988	asok	57bdf1b261f3fa59598a1a69	true, thanks
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:12:15.178Z	56fb116785d51f252abb7f55	llamatarianism	57bdf18f61f3fa59598a19f6	instead of `if condition do then_code else else_code end`, which looks kinda awkward, you can do `if condition, do: then_code, else: else_code`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:11:44.937Z	56fb116785d51f252abb7f55	llamatarianism	57bdf1707de2114a799804e2	1 more thing
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:11:35.531Z	5718ce91659847a7aff3d988	asok	57bdf167757a871757b0693b	thanks again
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:11:25.267Z	56fb116785d51f252abb7f55	llamatarianism	57bdf15dc976227a1c4bba45	`Map.put(acc, k, v)`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:11:21.481Z	56fb116785d51f252abb7f55	llamatarianism	57bdf159757a871757b06908	although `Map.put` is probably better in this case
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:11:07.290Z	56fb116785d51f252abb7f55	llamatarianism	57bdf14b5bdd197c1cba7106	perhaps you want `Map.merge(acc, %{k => v})`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:11:00.306Z	56fb116785d51f252abb7f55	llamatarianism	57bdf144757a871757b068c5	`Map.merge` merges 2 maps, it doesn't merge a map and a tuple
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:10:52.718Z	56fb116785d51f252abb7f55	llamatarianism	57bdf13c757a871757b068ba	`Map.merge(acc, {k, v})`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:10:44.405Z	56fb116785d51f252abb7f55	llamatarianism	57bdf134c976227a1c4bb9cd	that merge won't work
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:10:42.609Z	56fb116785d51f252abb7f55	llamatarianism	57bdf132c976227a1c4bb9c9	by the way
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:10:36.718Z	5718ce91659847a7aff3d988	asok	57bdf12cc976227a1c4bb9c1	makes sense, thanks a lot!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:10:04.235Z	56fb116785d51f252abb7f55	llamatarianism	57bdf10ca7bd7e5579601c0b	but `Enum.reduce([], 0, &+/2)` returns `0`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:09:58.281Z	56fb116785d51f252abb7f55	llamatarianism	57bdf1067c2d3860599e49aa	for example, `Enum.reduce([], &+/2)` throws an emptyerror
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:09:40.961Z	56fb116785d51f252abb7f55	llamatarianism	57bdf0f4a7bd7e5579601bd1	you can fix it by giving it an initial value
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:09:07.032Z	56fb116785d51f252abb7f55	llamatarianism	57bdf0d361f3fa59598a177d	what is it supposed to return?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:09:01.741Z	56fb116785d51f252abb7f55	llamatarianism	57bdf0cd61f3fa59598a1777	and the enumerable is empty
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:08:57.731Z	56fb116785d51f252abb7f55	llamatarianism	57bdf0c9a7bd7e5579601b5d	if you don't give it an initial value
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:08:31.195Z	5718ce91659847a7aff3d988	asok	57bdf0af61f3fa59598a170b	that is why `Enum.reduce` is not accepting an empty Enum
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:08:27.320Z	56fb116785d51f252abb7f55	llamatarianism	57bdf0ab5bdd197c1cba6dfa	@asok because `%{}` is empty
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:08:16.032Z	5718ce91659847a7aff3d988	asok	57bdf0a0757a871757b061b1	"throws `** (Enum.EmptyError) empty error`
+"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-24T19:07:46.930Z	5718ce91659847a7aff3d988	asok	57bdf0825bdd197c1cba6d57	"Hi everyone, I have question why ```
+    Enum.reduce(%{}, fn {k, v}, acc ->
+      if v == """" do
+        acc
+      else
+        Map.merge(acc, {k, v})
+      end
+    end)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-16T01:31:55.095Z	56fb116785d51f252abb7f55	llamatarianism	57b26d0b7ce08cec69dcb4e2	extra webscaleness?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-16T01:31:35.390Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57b26cf7fd283f515c4f8dee	For extra dumbness you could create a supervisor that hosts fibonacci workers where each just calculates its own number and returns it to anyone who asks for it.  That way it is more memoized and distributed for extra...ness...  >.>
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-16T01:30:33.524Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57b26cb9fd283f515c4f8de8	Heh
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-14T07:05:03.136Z	56fb116785d51f252abb7f55	llamatarianism	57b0181fa00c6adb45e514c2	lol this is dumb
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-14T07:05:01.015Z	56fb116785d51f252abb7f55	llamatarianism	57b0181d625cb3d845454c05	"```elixir
+defmodule Fibonacci do
+  def server do
+    receive do
+      {from, n} when n in [0, 1] ->
+        send from, n
+      {from, n} ->
+        clone_x = spawn &server/0
+        clone_y = spawn &server/0
+        
+        send clone_x, {self, n - 1}
+        send clone_y, {self, n - 2}
+        
+        x = receive do: (x -> x)
+        receive do
+          y -> send from, x + y
+        end
+    end
+  end
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-14T04:03:49.495Z	56fb116785d51f252abb7f55	llamatarianism	57afeda5a00c6adb45e4e05f	it's like recursion, but webscale
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-08-14T04:03:44.069Z	56fb116785d51f252abb7f55	llamatarianism	57afeda0a00c6adb45e4e05a	"```elixir
+defmodule Factorial do
+  def server do
+    receive do
+      {from, 0} ->
+        send from, 1
+      {from, n} ->
+        clone = spawn &server/0
+        send clone, {self, n - 1}
+        receive do
+          x -> send from, x * n
+        end
+    end
+  end
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-30T00:11:56.716Z	570bdb29187bb6f0eadeecc1	OvermindDL1	579bf0cc62166b2d08191d3a	Yep?  Normal Erlang stuff.  :-)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-27T12:29:49.657Z	56fb116785d51f252abb7f55	llamatarianism	5798a93d3383eb6221476237	type in `:observer.start`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-27T12:29:45.861Z	56fb116785d51f252abb7f55	llamatarianism	5798a939d155b0294e0e0405	open up IEX
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-27T12:29:41.204Z	56fb116785d51f252abb7f55	llamatarianism	5798a9358fb4820a46682818	holy crapballs guys
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T10:33:56.103Z	56fb116785d51f252abb7f55	llamatarianism	578cb0949f79ee4f2bd9b98e	feels like stuff just works the way I think it should work
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T10:33:44.485Z	56fb116785d51f252abb7f55	llamatarianism	578cb088914c51592b3da9cd	at least, most of the time
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T10:33:41.965Z	56fb116785d51f252abb7f55	llamatarianism	578cb085196179690e01a700	I love solving problems in elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T10:27:20.494Z	56fb116785d51f252abb7f55	llamatarianism	578caf08d11cd28812464d7e	[so I did it in elixir](https://gist.github.com/llamatarianism/8fc05a631a2dc829f34832a41fc0ae35)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T10:27:17.931Z	56fb116785d51f252abb7f55	llamatarianism	578caf058423d0842459bb97	but I was finding it difficult, because javascript
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T10:27:04.534Z	56fb116785d51f252abb7f55	llamatarianism	578caef83cb52e8b24e171a7	I was trying to do the pairwise challenge in a more functional way
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:14:16.875Z	56fb116785d51f252abb7f55	llamatarianism	578c1f58d11cd2881240f585	`1` is a valid answer for all of them
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:14:13.594Z	56fb116785d51f252abb7f55	llamatarianism	578c1f55d11cd2881240f57f	so technically
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:14:11.911Z	56fb116785d51f252abb7f55	llamatarianism	578c1f53e4375c9212012a39	it doesn't specify, as far as I can tell, what the height of the triangle is for any given function
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:13:17.452Z	56fb116785d51f252abb7f55	llamatarianism	578c1f1d8423d084245441cf	[jesus goddamn christ what am I even supposed to be calculating here](https://www.codewars.com/kata/easy-diagonal/train/elixir)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:10:24.542Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1e703c5129720e4c7447	Mnesia as well - oh look, here's a hugely robust, production-standard DB that you use entirely native code with, and it comes bundled with the platform
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:07:11.860Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1dafd11cd2881240e9d4	I know crap all about devops but understood all of that, super simple and easy, just like magic only I get how everything works
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:05:28.719Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1d48e4375c9212011374	Saw an article a few months back where someone used it to implement production server monitoring - just made all the vertices the servers, load balancers, DBs etc, set up the edges between them then just got it to check connectivity using the pathfinding. Barely any code, fully functional and robust, mental
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:02:18.408Z	56fb116785d51f252abb7f55	llamatarianism	578c1c8a9f79ee4f2bd45705	oooh
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:01:52.086Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1c708423d08424542662	I love Digraph, just used it for some toy games I did, just brilliant, comes with pathfinding
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:01:01.485Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1c3dd11cd2881240d7be	Ah, there we go, didn't realise that - would be very useful at times
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:00:17.460Z	56fb116785d51f252abb7f55	llamatarianism	578c1c11196179690efc1a26	but it treats them like they're arrays
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:00:14.029Z	56fb116785d51f252abb7f55	llamatarianism	578c1c0e196179690efc1789	just uses tuples
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-18T00:00:02.545Z	56fb116785d51f252abb7f55	llamatarianism	578c1c02914c51592b37ca97	the array module is kinda neat
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:59:40.904Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1bece4375c9212010c22	Just looking at the Erlang docs now. I need to read them more, load of stuff that's really useful that won't get ported because it's already in Erlang/OTP standard lib
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:57:29.888Z	56fb116785d51f252abb7f55	llamatarianism	578c1b693cb52e8b24dbfd4c	"```elixir
+:lists.seq(2, 10, 2)
+# -> [2, 4, 6, 8, 10]
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:57:23.727Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1b63e4375c9212010a86	Ah, that is a good tip
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:57:02.082Z	56fb116785d51f252abb7f55	llamatarianism	578c1b4e3cb52e8b24dbf842	you can use `lists:seq` to have steps of arbitrary sizes
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:56:45.700Z	56fb116785d51f252abb7f55	llamatarianism	578c1b3d3cb52e8b24dbf7f4	whereas `..` only supports steps of size `-1` and `1`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:56:34.158Z	56fb116785d51f252abb7f55	llamatarianism	578c1b323c5129720e4c5977	top tip
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:55:10.426Z	56fb116785d51f252abb7f55	llamatarianism	578c1ade196179690efc0b77	^ kept saying mine was too slow
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:55:09.420Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1add914c51592b37bc1f	I think that's why I like Exercism, quite a few contrived things, but an effort made to have some realistic challanges
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:55:05.772Z	56fb116785d51f252abb7f55	llamatarianism	578c1ad9d11cd2881240cb7c	https://www.codewars.com/kata/559ce00b70041bc7b600013d/solutions/elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:55:02.811Z	56fb116785d51f252abb7f55	llamatarianism	578c1ad6196179690efc0b57	hey, I finally passed this one
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:54:14.012Z	56fb116785d51f252abb7f55	llamatarianism	578c1aa69f79ee4f2bd44cff	and they pass in ridiculously large inputs
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:54:07.710Z	56fb116785d51f252abb7f55	llamatarianism	578c1a9f8423d08424540c7c	but a bunch of problems end up running in exponential time just cuz of the nature of the problem
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:53:46.221Z	56fb116785d51f252abb7f55	llamatarianism	578c1a8a3cb52e8b24dbe917	and your algo has to run in under 8000 ms
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:53:13.642Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1a693c5129720e4c5073	No thanks :angry: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:53:12.836Z	56fb116785d51f252abb7f55	llamatarianism	578c1a68e4375c9212010891	lmao
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:52:57.923Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1a59914c51592b37b638	"""Localise the barycenter of a triangle"" is the first problem I see going on it now"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:51:04.553Z	56860c1516b6c7089cc0c0a8	DanCouper	578c19e89f79ee4f2bd444bc	Agh god, I know. I signed up for it, but kinda stalled after a while cos I couldn't face the style of problem
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:50:19.338Z	56fb116785d51f252abb7f55	llamatarianism	578c19bbd11cd2881240bd74	especially the elixir challenges. the elixir challenges in codewars are almost all made by the same guy, who is obsessed with maths, and no speak well english
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:49:57.671Z	56fb116785d51f252abb7f55	llamatarianism	578c19a5d11cd2881240bd3c	and they're always written by people with bad english
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:49:05.538Z	56fb116785d51f252abb7f55	llamatarianism	578c1971914c51592b37afdd	"""calculate this boring crap:""
+
+$$\sum\limits_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}$$"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:48:38.353Z	56fb116785d51f252abb7f55	llamatarianism	578c19563cb52e8b24dbdc42	90% of the challenges are like
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:48:35.306Z	56fb116785d51f252abb7f55	llamatarianism	578c1953914c51592b37acda	it's my biggest problem with codewars
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:48:31.178Z	56860c1516b6c7089cc0c0a8	DanCouper	578c194f914c51592b37acd3	And yeah, I love that about Elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:48:25.828Z	56fb116785d51f252abb7f55	llamatarianism	578c1949d11cd2881240b546	yeah me too
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:48:15.842Z	56860c1516b6c7089cc0c0a8	DanCouper	578c193fe4375c921200f9fd	Heh, that unfold makes sense. My brain always hurts with the textbook mathsish exercises, I think it's due to not coming from a CS background where I would've had the basics hammered in for a few years
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:48:00.167Z	56fb116785d51f252abb7f55	llamatarianism	578c1930d11cd2881240b2d2	"back in java land they're like ""yay we got lambdas now"""
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:47:50.307Z	56fb116785d51f252abb7f55	llamatarianism	578c1926e4375c921200f9a1	it's nice that the new things in elixir are actually both useful and cool
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:43:14.474Z	56fb116785d51f252abb7f55	llamatarianism	578c1812196179690efbf00f	"```elixir
+# StReAmS
+Stream.unfold {0, 1}, fn {pre, cur} -> {pre, {cur, pre + cur}} end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:42:36.917Z	56fb116785d51f252abb7f55	llamatarianism	578c17ec8423d0842453f866	it's just the textbook case for memoisation, because it's simple, easy to understand, and it's tree recursive
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:42:23.225Z	56fb116785d51f252abb7f55	llamatarianism	578c17df3cb52e8b24dbd491	it's not the most efficient way to do fibonacci numbers
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:42:15.964Z	56fb116785d51f252abb7f55	llamatarianism	578c17d79f79ee4f2bd42ba8	well
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:42:03.814Z	56860c1516b6c7089cc0c0a8	DanCouper	578c17cbd11cd2881240a925	I always have issues with Fibonacci/primes/etc stuff when I'm doing exercises, might have a play around using your macro technique 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:41:46.311Z	56fb116785d51f252abb7f55	llamatarianism	578c17ba8423d0842453f836	hell, even the 100th fibonacci number
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:40:44.568Z	56fb116785d51f252abb7f55	llamatarianism	578c177c196179690efbea7d	with memoisation, it takes way less time
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:40:35.727Z	56fb116785d51f252abb7f55	llamatarianism	578c17739f79ee4f2bd42af3	takes ages just to generate the 2000th fibonacci number that way without memoisation
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:40:25.443Z	56fb116785d51f252abb7f55	llamatarianism	578c1769d11cd2881240a8b5	the memoisation had a *big* effect
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:40:05.434Z	56860c1516b6c7089cc0c0a8	DanCouper	578c1755e4375c921200f417	How much effect did the memorisation have? About to try writing a markdown processor as practice, so might faff around with genstage to see how leveraging it affects parsing loads of biggish files
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:38:28.382Z	56fb116785d51f252abb7f55	llamatarianism	578c16f4914c51592b379a77	memoisation is cool.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:38:25.147Z	56fb116785d51f252abb7f55	llamatarianism	578c16f1914c51592b379a71	^ 100_000th fibonacci number
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:38:10.659Z	56fb116785d51f252abb7f55	llamatarianism	578c16e58423d0842453f278	25974069347221724166155034021275915414880485386517696584724770703952534543511273686265556772836716744754637587223074432111638399473875091030965697382188304493052287638531334921353026792789567010512765782716356080730505322002432331143839865161378272381247774537783372999162146340500546698603908627509966393664092118901252719601721050603003505868940285581036751176582513683774386849364134573388343651587754253719124105003321959913300622043630352137565254218239986908485563740801792517616293917549634585586163007628199160811098365263529954406942842065710460449038056471363460330005208522777075544467947237090309790190148604328468198579610159510018506082649192345873133991501339199323631023018641725364771362664750801339824312317034314529641817900511879573167668349799016820118499077566864568450662873924856039140476051995500662888263458771894106803700918793650017330117100283104739474562560914449328213748555738640805798130282666402703542944121049199958031318768058991865134251759599115205631553377039969410355182752749199598022575079020377981030899229849963044962558140455170002502997643221934621653662108418767454282982613982344783665815880408190033073829395000821320093747154851310272208173054322648669496309879147143629255542526240439996153269798768075106468190687921182991679644091782718685617029181022126792674013626504997849688436809752547001310045741864064482994858725517447466956518791269169932445648176733222571493149677633458466238303338202397024368594782876418757885729107101337003000942293335972927791914092128049015459762627910570552481588840517794181929052167695766087488155678601288183543542923073978101547857013284386127286201766539534449930019800629538936985500723286651317181135886613537472684585432548981137176605194616937916884425342594781263103889520479565943807153019112539648471126389007133628569101551453423329441284357220996286746119420951661002309740709965531900508158669911445442647882872642845017253320486483194578920399848938236367456182203750973485668474338872490493370316338265717607297788917989136673251906232471180372801739215723908227692280772924566627505383375006926077210593619421268920302567443565378008318306375933345023502569729065152853271943677560156660399164048825639676930792905029514886934137991251748566670747175149389790386533381395346848378086126737554383821108448976538368483182588363399173104558509056638462025014631311831087429077292622159430204291594740306101839816855066950261973761508571761199475875722129872053120607918649803615960923395941041186351688548839119185179061511562752936158490008721501922265117853150892510275280451512386037921846921215338292871369243215273327141574788295902601571954853164447945467502858402360002383447905203451080332820138038807089807348326201227952633606773669875783326254859449060219173688677862411205621098369850197290177157801120404586491539351157834995461006366357454485082418882790675313599505192062229760153765297973085881648731173082370598284894044874039320535929359764541655607954724778620299692329561389719894679422187273605123365595211331087787582288795975803204596084790245063851941743126163775104599211024868794963417068620929088930685252348056925998333775103901013166178123051145719327066291671254465121517468025481903583516889717075706778656188008220346836321018130262329960275994035799977740462449521145315883703579044832931500072461734173558055678321534543411700202585608091662941986374015145695722728369219632295111877625307534025947814482046574602884855000628069348113982760168555840795421620575435572915106415375929390228843561207926437055600623679865443824643739469724719459965557955058380348255978396827760847315302517889517186307227611036305093600742622617173630586132915440246954329046162586917746305785076749374879923291817501634840688134655343709975893536074051729094126976575932951568186247471276364688365517570183534172746626073065104511957628663499228486787805910851189856535554349587616640164475880286336297040462890970677362565843002353147494612339120686321466370878446992104275415694109122465685712047172411333784898167640969249816334211768571503116710400681753031921154156
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:37:45.591Z	56fb116785d51f252abb7f55	llamatarianism	578c16c9914c51592b37981c	I love making big numbers
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:37:37.721Z	56fb116785d51f252abb7f55	llamatarianism	578c16c13c5129720e4c2a80	I hope they do simplify it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:34:50.783Z	56860c1516b6c7089cc0c0a8	DanCouper	578c161ae4375c921200e179	Yeah, I didn't realise it would parse that; it seems a bit of an invitation to screw things up! I've barely played around with gen events, & gen stage still looks a bit clunky atm, but if they can simplify it, or provide some simplification like Task/Agent for genserver, could be an easy way to massively speed up stream processing
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:34:12.861Z	56fb116785d51f252abb7f55	llamatarianism	578c15f43c5129720e4c209d	looks neat though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:32:50.347Z	56fb116785d51f252abb7f55	llamatarianism	578c15a2196179690efbd3a3	since unary operators typically have very high precedence
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:32:37.551Z	56fb116785d51f252abb7f55	llamatarianism	578c1595d11cd2881240a2bf	I thought it had to be `&(&1 + 1)`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:32:30.024Z	56fb116785d51f252abb7f55	llamatarianism	578c158e3c5129720e4c1fdc	was that this: `Map.update(acc, word, 1, & &1 + 1)` is valid syntax
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:32:26.084Z	56fb116785d51f252abb7f55	llamatarianism	578c158a8423d0842453e6b6	so the most I got out of that article
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:32:12.856Z	56fb116785d51f252abb7f55	llamatarianism	578c157ce4375c921200dde4	haven't used genevents much though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:31:50.769Z	56fb116785d51f252abb7f55	llamatarianism	578c15669f79ee4f2bd4150a	@DanCouper I had a look
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-17T23:31:39.605Z	56860c1516b6c7089cc0c0a8	DanCouper	578c155b196179690efbd2d6	@llamatarianism slight tangent, but have you seen this that's being worked on? http://elixir-lang.org/blog/2016/07/14/announcing-genstage/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T22:31:45.147Z	56fb116785d51f252abb7f55	llamatarianism	578ab5d1e4375c9212f4d520	[macro for memoisation](https://gist.github.com/llamatarianism/10ace15f495456516b0fe6c03e4e1005)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T11:59:35.848Z	56fb116785d51f252abb7f55	llamatarianism	578a21a78423d08424417e03	unlike clojure, it doesn't appear that elixir has any sort of memoisation for streams. which is understandable I guess
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T11:59:07.116Z	56fb116785d51f252abb7f55	llamatarianism	578a218b3c5129720e3a5d02	not all that fast unfortunately
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T11:51:42.016Z	56fb116785d51f252abb7f55	llamatarianism	578a1fce8423d08424416fbe	"***StReAmS***
+```elixir
+defmodule SievePrimes do
+  def nats_above_2 do
+    Stream.unfold 2, fn n -> {n, n + 1} end
+  end
+
+  def primes do
+    Stream.unfold nats_above_2, fn nums ->
+      [prime] = Enum.take nums, 1
+      sieved =
+        nums
+        |> Stream.drop(1)
+        |> Stream.reject(& rem(&1, prime) == 0)
+      {prime, sieved}
+    end
+  end
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T07:42:25.305Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5789e561d11cd288122c869f	The () operator applies to something, right now it is static (ish) dispatch via the beam vm.  A function variable is a dynamic dispatch, that is what .() is for.  Has nothing to do with atom scope or so, it is purely for efficiency reasons based on how the erlang vm works.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T03:25:11.128Z	56fb116785d51f252abb7f55	llamatarianism	5789a917e4375c9212eb8b0b	I don't see your point
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T03:25:04.782Z	56fb116785d51f252abb7f55	llamatarianism	5789a910914c51592b21cf6d	can you elaborate?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T02:28:53.162Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57899be5542776fa2f7bd1fb	No you'd still need . since atoms would then not be uppercase
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T01:17:18.065Z	56fb116785d51f252abb7f55	llamatarianism	57898b1ed11cd2881229ab2e	rather than `f(x).(y).(z)`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T01:17:02.713Z	56fb116785d51f252abb7f55	llamatarianism	57898b0e9f79ee4f2bbd131b	or I guess `f(X)(Y)(Z)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T01:16:43.746Z	56fb116785d51f252abb7f55	llamatarianism	57898afb914c51592b20b7d2	you can just do `f(x)(y)(z)`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T01:16:29.486Z	56fb116785d51f252abb7f55	llamatarianism	57898aed3cb52e8b24c4a04b	because then if you have a function that returns a function
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T01:16:09.788Z	56fb116785d51f252abb7f55	llamatarianism	57898ad9914c51592b20b779	so we wouldn't need the `.()` syntax for anonymous functions
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-16T01:15:52.759Z	56fb116785d51f252abb7f55	llamatarianism	57898ac89f79ee4f2bbd12a3	I think maybe the devs should have stuck with uppercase variable names
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:17:38.162Z	56fb116785d51f252abb7f55	llamatarianism	5782ad62b79455146f886586	obviously it looks a little weird if you just use `Enum` functions
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:16:42.010Z	56fb116785d51f252abb7f55	llamatarianism	5782ad2a59cfbd4c5e6d624e	I love metaprogramming :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:16:31.428Z	56fb116785d51f252abb7f55	llamatarianism	5782ad1f7aeb0805279e1ad9	"```elixir
+VarArgs.var_args Enum.sum(1,2,3,4,5)
+# -> 15
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:16:02.334Z	56fb116785d51f252abb7f55	llamatarianism	5782ad02c9b49c1d6ff97523	example:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:15:59.472Z	56fb116785d51f252abb7f55	llamatarianism	5782acff7aeb0805279e17d8	basically just a reverse of `apply`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:15:54.489Z	56fb116785d51f252abb7f55	llamatarianism	5782acfabdafd1910759139e	"simple macro for allowing ""variable arity"""
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-10T20:15:41.529Z	56fb116785d51f252abb7f55	llamatarianism	5782aced59cfbd4c5e6d5f5a	"```elixir
+defmodule VarArgs do
+  defmacro var_args({fun, context, args}) do
+    {fun, context, [args]}
+  end
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T21:52:56.763Z	553bfbc115522ed4b3df843a	Insanitariume	57817238ed6e99892402a4a7	@llamatarianism np
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T21:52:38.961Z	55b977f00fc9f982beab7883	camperbot	57817226b79455146f7c9ab8	> :cookie: 316 | @insanitariume |[http://www.freecodecamp.com/insanitariume](http://www.freecodecamp.com/insanitariume)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T21:52:38.771Z	55b977f00fc9f982beab7883	camperbot	5781722659cfbd4c5e612a01	> llamatarianism sends brownie points to @insanitariume :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T21:52:38.676Z	56fb116785d51f252abb7f55	llamatarianism	578172263eaf66535e5f4326	@Insanitariume thanks
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T21:52:28.403Z	553bfbc115522ed4b3df843a	Insanitariume	5781721c2886c0303163ea90	@llamatarianism I believe there's only one book for Phoenix as of now, https://pragprog.com/book/phoenix/programming-phoenix, by the creator himself.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T20:46:43.266Z	56fb116785d51f252abb7f55	llamatarianism	578162b33eaf66535e5ea1e3	@terakilobyte what was the book you were recommending for learning to use phoenix?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-09T03:20:15.217Z	56fb116785d51f252abb7f55	llamatarianism	57806d6fb79455146f72b825	"some fake erlang syntax
+```elixir
+defmodule FakeErlang do
+  defmacro name ~> body do
+    quote do
+      def(unquote(name), do: unquote(body))
+    end
+  end
+end
+
+# example:
+# add(a, b) ~> a + b
+```
+and some fake ruby syntax
+```elixir
+defmodule FakeRuby do
+  defmacro block({args, body}) do
+    quote do
+      fn (unquote_splicing(args)) -> unquote(body) end
+    end
+  end
+  
+  def test do
+    inc = block {[x], x + 1} # { |x| x + 1 }
+    inc.(5)
+  end
+end
+```
+macros are fun"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-08T15:38:17.171Z	56fb116785d51f252abb7f55	llamatarianism	577fc8e9bdafd191073a4e9b	[: )](https://github.com/llamatarianism/lixp)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-08T11:03:58.538Z	553bfbc115522ed4b3df843a	Insanitariume	577f889ee9adfaa20e235b3b	@venkykuberan Awesome, glad you figured it out.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-08T04:52:29.254Z	55b977f00fc9f982beab7883	camperbot	577f318d1ca34a944ebf1f4a	> :cookie: 315 | @insanitariume |[http://www.freecodecamp.com/insanitariume](http://www.freecodecamp.com/insanitariume)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-08T04:52:28.974Z	55b977f00fc9f982beab7883	camperbot	577f318cb79455146f6476fa	> venkykuberan sends brownie points to @insanitariume :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-08T04:52:26.342Z	573e4cf6c43b8c601973e7eb	venkykuberan	577f318a59cfbd4c5e47060c	"@Insanitariume, thanks for the response. i ran clean and update commands didn’t help. After changing the phoenix version to :phoenix, ""~> 1.2.0” and adding :phoenix_pubsub, ""~> 1.0""},
+     {:phoenix_ecto, ""~> 3.0” helped me"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T19:13:11.173Z	553bfbc115522ed4b3df843a	Insanitariume	577ea9c777fac9980e6789d6	Because I feel like it's rebar3.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T19:12:43.840Z	553bfbc115522ed4b3df843a	Insanitariume	577ea9abb566e8dd7acbbafe	If not working can you please post the full error text, and your Erlang, elixir and phoenix versions and the commands you ran.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T19:11:37.189Z	553bfbc115522ed4b3df843a	Insanitariume	577ea96977fac9980e6789d0	"@venkykuberan Can't really help much since not enough informations.
+Try running
+` mix deps.update --all`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T18:32:50.845Z	573e4cf6c43b8c601973e7eb	venkykuberan	577ea0521ca34a944eb876a0	"@venkykuberan
+Hello elixir, I am newbie to Elixir still going through the documentation
+I am trying to setup a elixir/phoneix project locally on my Mac. But i am stuck with this error
+ Package cf-0.2.1 not found. Fetching registry updates and trying again...
+===> Updating package registry...
+i have cleaned the deps, deleted the build and reps folder, but still getting the same error on deps.compile"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T05:02:50.301Z	55b6fc710fc9f982beab34c5	combsco	577de27ac9b49c1d6fc2a552	Absolutely readable
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T05:02:13.111Z	5471b82adb8155e6700d7478	terakilobyte	577de255bdafd19107217202	I think it turned out very readable
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T05:02:04.601Z	5471b82adb8155e6700d7478	terakilobyte	577de24cb79455146f5393fe	I just opted not too
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T05:01:59.233Z	5471b82adb8155e6700d7478	terakilobyte	577de24759cfbd4c5e360d0d	lol it's not bad
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T05:01:33.478Z	55b6fc710fc9f982beab34c5	combsco	577de22dbdafd19107216f2b	I mean... I'd be bad and throw some if's in there for sho
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T05:00:58.478Z	5471b82adb8155e6700d7478	terakilobyte	577de20a064f828707ce0107	@combsco you like?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T04:08:43.518Z	55b6fc710fc9f982beab34c5	combsco	577dd5cbbdafd1910720ba4d	oh gawd @terakilobyte 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T01:22:28.426Z	5471b82adb8155e6700d7478	terakilobyte	577daed4e84c8f002782ee91	beautiful
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T01:22:25.940Z	5471b82adb8155e6700d7478	terakilobyte	577daed17aeb08052765a87e	not a single if, cond, or case
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T01:22:01.845Z	5471b82adb8155e6700d7478	terakilobyte	577daeb97aeb08052765a855	"```
+defmodule Sublist do
+  @doc """"""
+  Returns whether the first list is a sublist or a superlist of the second list
+  and if not whether it is equal or unequal to the second list.
+  """"""
+
+  @spec compare(list, list) :: :atom
+  def compare(a, a), do: :equal
+  def compare(a, b) when length(a) == length(b), do: :unequal
+  def compare(a, b) do
+    do_compare(a, b)
+    |> evaluate_result(a, b)
+  end
+
+  defp evaluate_result(:unequal, _, _), do: :unequal
+  defp evaluate_result(true, a, b) when length(a) > length(b), do: :superlist
+  defp evaluate_result(true, a, b) when length(b) > length(a), do: :sublist
+  defp evaluate_result(false, _, _), do: :unequal
+
+  defp do_compare(a, b) when length(b) > length(a), do: do_compare(b, b, a, a)
+  defp do_compare(a, b), do: do_compare(a, a, b, b)
+
+  defp do_compare(_, a, a, _), do: true
+  defp do_compare(_, _, _, []), do: true
+  defp do_compare(_, [], _, _), do: false
+  defp do_compare(_, [h_a|t_a], b, [h_b|t_b]) when length(t_b) > length(t_a), do: false
+  defp do_compare(a, [h_a|t_a], b, [h_b|t_b]) when h_a === h_b, do: do_compare(a, t_a, b, t_b)
+  defp do_compare(a, [h_a|t_a], b, [h_b|_]) when h_a !== h_b, do: do_compare(a, t_a, b, b)
+
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-07T01:21:28.613Z	5471b82adb8155e6700d7478	terakilobyte	577dae98b79455146f5142ef	@llamatarianism @combsco 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:49:54.891Z	56fb116785d51f252abb7f55	llamatarianism	577a698269ed53d81424582a	sort of.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:49:31.439Z	56fb116785d51f252abb7f55	llamatarianism	577a696b4fd38161098f7f9b	in which case it works.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:49:28.706Z	56fb116785d51f252abb7f55	llamatarianism	577a69684fd38161098f7f99	"I think this state would be illegal
+```
+_ | O | X
+_ | _ | X
+_ | _ | _
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:48:50.921Z	56fb116785d51f252abb7f55	llamatarianism	577a6942ef3990705ba39d12	I'm too tired and bored to tell what's an illegal state and what isn't
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:48:35.060Z	56fb116785d51f252abb7f55	llamatarianism	577a693369ed53d81424524b	actually I think it does
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:41:47.520Z	56fb116785d51f252abb7f55	llamatarianism	577a679b584c2e775bd43587	or not
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:41:02.133Z	56fb116785d51f252abb7f55	llamatarianism	577a676e69ed53d8142433ac	seems like it works
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-04T13:40:59.863Z	56fb116785d51f252abb7f55	llamatarianism	577a676b584c2e775bd432ad	[redid my tic tac toe thingy in elixir, sort of](https://gist.github.com/llamatarianism/580257e54c083dde06a162c9e48a0082)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-03T22:20:23.809Z	56fb116785d51f252abb7f55	llamatarianism	57798fa735bfead379755739	also works with `for` although it's not really necessary in comprehensions
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-03T22:20:02.278Z	56fb116785d51f252abb7f55	llamatarianism	57798f92bdf63af92df13cfd	"`with a when is_integer(a) <- ""foo"", do: a + 1`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-03T22:19:23.072Z	56fb116785d51f252abb7f55	llamatarianism	57798f6bbdf63af92df13a1c	you can have guards with `<-` now in 1.3
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-03T22:19:05.108Z	56fb116785d51f252abb7f55	llamatarianism	57798f595c023e194f704cee	hey I just remembered 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-02T01:15:09.172Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5777159d35bfead379598caf	No do block separation from declaration like in with
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-02T01:14:25.316Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57771571d4b6d5012ea9557c	The @tags are wonderfully useful
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-02T01:14:00.464Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5777155801d3c8d8790e1afc	Default handler, no -> crap, I could do:  a when is_integer(a) = do something
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:55:11.904Z	56fb116785d51f252abb7f55	llamatarianism	577702df01d3c8d8790d4679	now that it's been upgraded in 1.3
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:54:59.617Z	56fb116785d51f252abb7f55	llamatarianism	577702d36a8f789e4afdcc7d	how is that any better than just using `with` though?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:51:35.013Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57770207725023b5032b303f	More advanced (I only have like two of these with 'else's)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:51:15.740Z	570bdb29187bb6f0eadeecc1	OvermindDL1	577701f3507e526a5712567c	Better example
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:51:12.532Z	570bdb29187bb6f0eadeecc1	OvermindDL1	577701f0725023b5032b303d	"```elixir
+  def index(conn, %{""id"" => id} = _params) do
+    happy_path!(else: handle_error(conn)) do
+      @perm true = conn |> can?(search(%Perms.Nursing.Student{}))
+      @id {:ok, {_cnum, uid, obj}} = verify_cnum_uid(id)
+      nursing_student = Repo.get(Nursing.Student, uid)
+      render(conn, :index, obj: obj, nursing_student: nursing_student)
+    else
+      {:id, _err} ->
+        conn
+        |> put_flash(:error, gettext(""Invalid ID""))
+        |> render(:index, obj: nil, nursing_student: nil)
+    end
+  end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:50:38.462Z	570bdb29187bb6f0eadeecc1	OvermindDL1	577701ce74aad35853831d0f	The requirement and changeset lines are superfluous here I guess
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:50:26.525Z	570bdb29187bb6f0eadeecc1	OvermindDL1	577701c2507e526a57125679	Like my permission check (the @perm line) checks if they have this permission, if that fails then they get redirected to a login page with a message saying they need to login with an account that has access to this
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:49:56.890Z	570bdb29187bb6f0eadeecc1	OvermindDL1	577701a45522bb3636d5ec8d	I use a default handle_error error handler that I built that handles the 'bad' output of generic errors as well as speciality messages and such for my happy helpers
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:49:19.592Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5777017f725023b5032b303b	"```elixir
+  def edit(conn, %{""id"" => id}) do
+    happy_path!(else: handle_error(conn)) do
+      @perm true = conn |> can?(index(%Perms.Nursing.Requirement{}))
+      requirement = Repo.get!(Requirement, id)
+      changeset = Requirement.changeset(requirement)
+      render(conn, :edit, requirement: requirement, changeset: changeset)
+    end
+  end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:47:14.334Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5777010274aad35853831d09	Nah, it is basically with (though created before with), let me go grab some code that uses it of mine, sec...
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:46:55.830Z	56fb116785d51f252abb7f55	llamatarianism	577700efcdab7a1f4fc33244	seems like it'd make the code harder to grok for other people
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:46:39.231Z	56fb116785d51f252abb7f55	llamatarianism	577700df01d3c8d8790d2fe5	structures*
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:46:34.407Z	56fb116785d51f252abb7f55	llamatarianism	577700da5c023e194f555ff6	though I'm hesitant about using libraries that implement their own control flow structure
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:46:13.800Z	56fb116785d51f252abb7f55	llamatarianism	577700c5bdf63af92dd51bcf	@OvermindDL1 I'll give it a look
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T23:13:32.166Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5776f91c26ff03984aa456cb	@llamatarianism If you like `with` then lookup the `happy` library on hex.pm, and  to a lesser extent `ok_jose`.  `happy` is like `with`, on steroids, with a better syntax, and works in older Elixir versions.  I use it extensively! 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T15:36:21.793Z	5471b82adb8155e6700d7478	terakilobyte	57768df51dceb23731536510	I personally do it the second way
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:59.596Z	56fb116785d51f252abb7f55	llamatarianism	5776779b1dceb2373151de1e	because sometimes the above is a lot less ugly
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:47.037Z	56fb116785d51f252abb7f55	llamatarianism	5776778f6ba19c46139b1c78	`]`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:44.191Z	56fb116785d51f252abb7f55	llamatarianism	5776778c7b0ff722314666f9	"`some_thing: ""the thing""`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:30.305Z	56fb116785d51f252abb7f55	llamatarianism	5776777e15b5519062d227fa	`[`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:27.083Z	56fb116785d51f252abb7f55	llamatarianism	5776777b7b0ff72231466441	is that preferred to this?:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:17.386Z	56fb116785d51f252abb7f55	llamatarianism	577677712abfd64a13b3754d	in the lispy sort of way
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T14:00:06.009Z	56fb116785d51f252abb7f55	llamatarianism	57767766739e06eb2f402d88	"` another_thing: ""this thing""]`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T13:59:44.118Z	56fb116785d51f252abb7f55	llamatarianism	5776775015b5519062d2253d	"`[some_thing: ""the thing"",`"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T13:59:26.545Z	56fb116785d51f252abb7f55	llamatarianism	5776773e2abfd64a13b36fec	my mix project files indent their multiline collections like this (sorry for the horrible formatting, on a phone):
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T13:58:37.022Z	56fb116785d51f252abb7f55	llamatarianism	5776770d1dceb2373151d495	another stylistic question
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T13:58:12.190Z	56fb116785d51f252abb7f55	llamatarianism	577676f46ba19c46139b0ba5	I <3 `with`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:44:14.085Z	56860c1516b6c7089cc0c0a8	DanCouper	57763b6e8441a8124da7e9b0	Btw, thanks for the blog posts, they've been really useful
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:37:09.811Z	56860c1516b6c7089cc0c0a8	DanCouper	577639c5265214c130be31c7	It’s maybe a contrived example - I’m working through Elixir in Action, it’s one of the examples
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:07:37.525Z	5471b82adb8155e6700d7478	terakilobyte	577632d99717171554a7bc35	remember that `with` is now on steroids
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:07:27.357Z	5471b82adb8155e6700d7478	terakilobyte	577632cf265214c130bdc59b	the rest can be fished out pretty easily
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:07:18.188Z	5471b82adb8155e6700d7478	terakilobyte	577632c61ac8bd1a4db0ee7d	@DanCouper I try to pattern match on small, secular things. In controllers I really only pattern match on session info
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:06:30.324Z	5471b82adb8155e6700d7478	terakilobyte	57763296632b75030fc8d769	you'll have access to the struct keys anyway
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T09:06:20.513Z	5471b82adb8155e6700d7478	terakilobyte	5776328c8c9263ba304b9d19	I might ask why you are matching a struct like that
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-07-01T08:59:35.965Z	56860c1516b6c7089cc0c0a8	DanCouper	577630f78c9263ba304b928c	"In the same vein, what does everybody do with huge arguments? Because you can pattern match in them, sometimes they get enormous - eg in Phoenix controllers, when you match on the `conn` struct. Or like this, which gives enormous line lengths:
+
+```
+def add_entry(%TodoList{ auto_id: auto_id, entries: entries } = todo_list, entry) do
+  entry = Map.put(entry, :id, auto_id)
+  new_entries = Map.put(entries, auto_id, entry)
+
+  %TodoList{ todo_list | auto_id: auto_id + 1, entries: new_entries }
+end
+```
+
+or do you do this, which is super ugly
+
+```
+def add_entry(
+  %TodoList{ auto_id: auto_id, entries: entries } = todo_list,
+  entry
+) do
+  entry = Map.put(entry, :id, auto_id)
+  new_entries = Map.put(entries, auto_id, entry)
+
+  %TodoList{ todo_list | auto_id: auto_id + 1, entries: new_entries }
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-30T15:20:01.374Z	56fb116785d51f252abb7f55	llamatarianism	577538a18c9263ba303f001b	it's in the most popular style guide for whatever reason
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-30T15:19:51.264Z	56fb116785d51f252abb7f55	llamatarianism	57753897265214c130b18b00	thought so
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-30T00:00:50.342Z	5471b82adb8155e6700d7478	terakilobyte	57746132a0c12d110fc8ba1e	or guard clauses
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-30T00:00:43.066Z	5471b82adb8155e6700d7478	terakilobyte	5774612ba0c12d110fc8b9e7	just use pattern matching
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-30T00:00:38.297Z	5471b82adb8155e6700d7478	terakilobyte	577461261ac8bd1a4d99e242	also keep in mind the community tries to stay away from if
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T23:59:29.602Z	5471b82adb8155e6700d7478	terakilobyte	577460e1265214c130a65be4	if it's short like that
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T23:59:25.325Z	5471b82adb8155e6700d7478	terakilobyte	577460dd1ac8bd1a4d99e1c7	"you should only use the form
+```
+def some_fun(arg_a), do: stuff
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T23:58:26.319Z	5471b82adb8155e6700d7478	terakilobyte	577460a21ac8bd1a4d99df1f	"```
+def some_fun(arg_a, arg_b) do
+  stuff
+end
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T23:58:00.898Z	5471b82adb8155e6700d7478	terakilobyte	577460888c9263ba3033aa89	not idiomatic elixir at all
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:51:18.395Z	56fb116785d51f252abb7f55	llamatarianism	577418a6632b75030fad6840	"```elixir
+def a_rather_long(function, declaration),
+  do: a_fairly_long(but_one_line, function_body)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:50:22.847Z	56fb116785d51f252abb7f55	llamatarianism	5774186ebb1de91c54aa3b5e	what are you guys' thoughts about writing function declarations like this?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:50:13.414Z	56fb116785d51f252abb7f55	llamatarianism	57741865632b75030fad6754	oh by the way
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:17:10.606Z	56fb116785d51f252abb7f55	llamatarianism	577410a6bb1de91c54a9c13e	"```elixir
+def foo(bar), do:
+    with baz <- bar + 2, do:
+        :math.pow(baz, 6)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:16:50.686Z	56fb116785d51f252abb7f55	llamatarianism	57741092265214c130a20b06	unless you use ***WITH!!!***
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:16:10.720Z	56fb116785d51f252abb7f55	llamatarianism	5774106a97171715548b1e6c	"```elixir
+def foo(bar), do:
+    baz = bar + 2; \
+    :math.pow(baz, 6)
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:15:40.131Z	56fb116785d51f252abb7f55	llamatarianism	5774104ca0c12d110fc42dd2	doesn't work with variable definitions sadly, so the pythonicness only goes so far
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:14:41.179Z	56fb116785d51f252abb7f55	llamatarianism	57741011632b75030facd53a	kjekekekek
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-29T18:14:33.975Z	56fb116785d51f252abb7f55	llamatarianism	577410098441a8124d8aefd2	"```elixir
+elixir = 2
+python = 2
+
+if elixir == python, do:
+    IO.puts ""muh offside rule""; \
+    2 + 2
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-12T02:06:44.678Z	5471b82adb8155e6700d7478	terakilobyte	575cc3b4064b9e7266f1b193	happy alchemy!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-12T02:06:31.760Z	5471b82adb8155e6700d7478	terakilobyte	575cc3a72eaa837d71e8a887	glad you sorted it out, was just about to dive in
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-12T02:06:02.615Z	5603715b0fc9f982beb1a952	keithn	575cc38aa1be01c01a791a75	oh, had to run mix local.hex
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-12T02:04:07.460Z	5603715b0fc9f982beb1a952	keithn	575cc3176092456f66334b14	"hey, anyone know why mix doesn't have the ""hex.info"" command?"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-11T00:12:55.264Z	5471b82adb8155e6700d7478	terakilobyte	575b57871cf76dd6453619c5	@OvermindDL1 I'm not sure tbh
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-09T22:13:26.425Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5759ea06064b9e7266f1168e	Another question, say I have a map of structs, where the key is equal to the value's \_\_struct\_\_ key, is there any container for these kind of things already in an elixir library?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-09T17:52:21.997Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5759acd52eaa837d71e7f7a7	And yeah, a boundary should probably be specified too
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-09T17:52:03.030Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5759acc36092456f66329ec3	Cool, just making sure of the community styles, thanks
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T23:45:38.693Z	5471b82adb8155e6700d7478	terakilobyte	5758ae2297e1b2d245e10059	this way there are no surprises to anyone about how to use your software
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T23:45:17.156Z	5471b82adb8155e6700d7478	terakilobyte	5758ae0d6092456f6632549c	I think you should **always** be explicit with your dependencies
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T23:45:02.964Z	5471b82adb8155e6700d7478	terakilobyte	5758adfee20024bd1ad1bd1c	you can specify as much in the mix file
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T23:44:55.555Z	5471b82adb8155e6700d7478	terakilobyte	5758adf7a1be01c01a782397	in regards to your original question, the adapter should be pulled out of the library and stand on its' own and depend on ecto
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T23:44:13.278Z	5471b82adb8155e6700d7478	terakilobyte	5758adcd6092456f6632548b	@OvermindDL1 keep in mind the word boundary selector for regex
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:23:32.784Z	570bdb29187bb6f0eadeecc1	OvermindDL1	575870b4e20024bd1ad1a8a1	Why is gitter.im missing `elixir` syntax coloring, I thought github supports it...  >.>
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:21:17.110Z	570bdb29187bb6f0eadeecc1	OvermindDL1	5758702d814a5680714123c6	"Or if you do not want a list of lists (since you are only doing a single match in  your regex) then you could flatten it too:
+```elixir
+iex(3)> Regex.scan(~r/[A-Za-z][a-z]*/, ""Testing more and more"") |> List.delete([""""]) |> List.flatten
+[""Testing"", ""more"", ""and"", ""more""]
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:20:06.181Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57586fe6a1be01c01a780f26	As an example
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:20:02.214Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57586fe2a1be01c01a780f24	"```elixir
+iex(2)> Regex.scan(~r/[A-Za-z][a-z]*/, ""Testing more and more"") |> List.delete([""""])
+[[""Testing""], [""more""], [""and""], [""more""]]
+```"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:19:25.366Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57586fbde20024bd1ad1a829	You should rewrite your regex to not match unless it matches at least 1 character.  If you truly only want it to match a capitalized letter at the start or a lower case, then the rest with lower case, then perhaps something like `~r/[A-Za-z][a-z]*/` would work for you?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:17:05.078Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57586f316092456f663240af	@stefanjarina For note, your regex is the reason why, take the part of `[A-Z]?`, it may or may-not consume a single something of A-Z, the rest is `[a-z]*`, which means consume a-z or 0 or more, so when a match is not able to be found then it will consume nothing, I.E., it will return an empty string at places where it does not match
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-06-08T19:13:26.876Z	570bdb29187bb6f0eadeecc1	OvermindDL1	57586e562eaa837d71e79536	Say I am making a library, and I want to make a module in it that adds an adapter to `ecto`, but I do not want it to depend on `ecto`, is it safe to only depend on it at `:dev`/`:test` times and tell the user to make sure they have `ecto` if they want to use that module, otherwise not require `ecto`if they do not touch that module?  Or should I make them distinct libraries, I.E. split it up (which if I go down this route I will be making a lot of little sub-libraries...)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-05-13T11:20:14.057Z	55a225235e0d51bd787b1c50	stefanjarina	5735b86ec61823687d3b8603	"Hey guys, have one problem (well not really a problem, just don't understand, why that function produces also empty string in my list:
+Let's say I have this string: ""ComplementaryTestFight Metal-Oxide-Lolek semiconductor"" and I need it to be splited to 7 words (so based on capitalization, dashes, empty chars, etc.)
+Now I have this simple regex, but it somehow always add into list also [""""]
+```elixir
+defp split_inconsistent_case(string) do
+    # TO-DO: Fix regex to not produce [""""] - not sure why it does though
+    Regex.scan(~r/[A-Z]?[a-z]*/, string) |> List.delete([""""])
+  end
+```
+And as you can see, I need to remove that empty element, not sure if it is bad regex or rather wrong function"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-05-09T03:24:18.187Z	55a225235e0d51bd787b1c50	stefanjarina	573002e2f9a53a60793ce55e	Good code written in scala.js is almost always faster/better optimized as good code written in javascript. Programmer would have to sacrifice productivity and nice looking code in order to have ot optimized directly in JavaScript. However it has its flaws as well, when debugging one would probably need to go to generated JS if he can't find bug in Elixir code. And that can be ugly as ......
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-05-08T22:10:00.934Z	56860c1516b6c7089cc0c0a8	DanCouper	572fb938f9a53a60793cdad3	@combsco Same reason as clojurescript/scala.js/opal/etc I reckon, you can do some funky optimisations, and it means there’s less context shifting, and you’d expect immutability out-of-the-box. It kinda, sorta makes sense  - for example Om (for clojurescript) is a pretty superb example of what’s achievable.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-05-06T15:55:06.393Z	55b6fc710fc9f982beab34c5	combsco	572cbe5ab51b0e29484fc733	Why would you want Elixir to compile to JavaScript?!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-05-06T01:29:40.689Z	5529cb4c15522ed4b3dede05	prashcr	572bf384df1a01ff18fcf1d4	Given its concurrency and fault-tolerance strengths, it makes much more sense to use it for the backend, where those things matter
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-05-06T01:28:48.343Z	5529cb4c15522ed4b3dede05	prashcr	572bf3500149d6bb04b92deb	@thegreatnews elixir can compile to JS but there aren't any strong solutions to writing front-end web pages in Elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-28T11:07:38.912Z	571bfacd659847a7aff43603	thegreatnews	5721eefae8a4670f2b5d5332	Hello everyone, just wondering what your thoughts on this: since alot of people have been mentioning  using Elm as frontend with Elixir for Backend; but what since Elixir can compile to Javascript, would there still be an need to use Elm? to what extent? Thanks.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-12T06:04:55.493Z	56ac8317e610378809bef7bd	muhifauzan	570c900774d45a71586f7cfb	Ah, it's working again. No problem. Thank you guys
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-12T06:01:39.577Z	56ac8317e610378809bef7bd	muhifauzan	570c8f43ddb5a2cf3bbb7ca1	@all
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-12T05:58:52.419Z	56ac8317e610378809bef7bd	muhifauzan	570c8e9c8b17927458e38a9b	whichever I choose is not work
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-12T05:57:59.650Z	56ac8317e610378809bef7bd	muhifauzan	570c8e672a2f4d427613a73d	I have problem using elixir-build. I can only see two available version, master and dev.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-12T05:56:20.969Z	56ac8317e610378809bef7bd	muhifauzan	570c8e04c65c9a6f7f28d1b5	anyone here using exenv?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-10T19:19:38.437Z	54761685db8155e6700d86a4	imranismail	570aa74af55f5c717febce53	If anyone's looking for a nice way to manage authorization in phoenix, do take a look at this small library:  https://github.com/127labs/can/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-06T02:50:32.219Z	55ff63e70fc9f982beb14867	green4ao	57047978f7d63d897f23a5c8	Someone here using Debian unstable, i'm struggle with installation process of Erlang
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-04-02T15:48:11.154Z	56069bbe0fc9f982beb1ea44	alayek	56ffe9bbd39de41b495ff45c	https://twitter.com/FreeCodeCamp/status/716288225816391681
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T15:45:43.807Z	55a225235e0d51bd787b1c50	stefanjarina	56f40ba7d39de41b495d702a	Yes, indeed. But I believe, that it gets similar attention as Rails got in the beginning
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T15:13:08.575Z	55b6fc710fc9f982beab34c5	combsco	56f4040411ea211749c19c29	I prefer to use Maru because I don’t need the weight of Phoenix for an API.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T15:12:03.315Z	55b6fc710fc9f982beab34c5	combsco	56f403c311ea211749c19c04	Do note… Phoenix isn’t the only thing Elixir is about.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T14:05:32.929Z	56ac8317e610378809bef7bd	muhifauzan	56f3f42c8f5147e119f02f27	@stefanjarina agree. It's so cool to have the pipeline
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T14:03:09.730Z	55a225235e0d51bd787b1c50	stefanjarina	56f3f39dd39de41b495d65a1	@mufauzan Nice, what I love about Elixir, is it's web framework - Phoenix + pipe operator |> --- completely changed the way I write my code and how readable the code is
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T13:43:12.210Z	56ac8317e610378809bef7bd	muhifauzan	56f3eef08d2a72471b79d94a	Including Elixir. It's kind of fun to shift my mind a little. I'm glad to hear that FCC is extending its range
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T13:39:01.096Z	56ac8317e610378809bef7bd	muhifauzan	56f3edf5d9b73e635f661637	Ah, i see. Well, I currently learn functional programming
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T13:34:27.361Z	56069bbe0fc9f982beb1ea44	alayek	56f3ece3bbffcc665fa8fff8	@mufauzan well, we extended! Are you interested in Elixir?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-24T12:34:32.517Z	56ac8317e610378809bef7bd	muhifauzan	56f3ded8e4a8384a1bbba5cb	Wow! How can FCC have elixir community? I tough FCC is only about Java Script :confused: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-21T16:13:08.459Z	5529cb4c15522ed4b3dede05	prashcr	56f01d940ac0de6626ff52d2	Try here instead: https://gitter.im/FreeCodeCamp/php
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-21T16:11:01.002Z	5529cb4c15522ed4b3dede05	prashcr	56f01d15c0d1b40a431f625c	@roshanbasnet This channel is for Elixir (another programming language), not PHP
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-21T12:42:07.469Z	56eecd0585d51f252ab9d26d	roshanbasnet	56efec1f8984fd494f7fe1cb	anyone can help me with how to use gulp on laravel. I get  error called segementation error while running gulp command
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T15:36:20.581Z	55a225235e0d51bd787b1c50	stefanjarina	56eec374ce5b0c6e7a1c326a	so far it works just great
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T15:36:12.550Z	55a225235e0d51bd787b1c50	stefanjarina	56eec36c8680486236c173bd	yup, fixed it, thanks
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T15:26:43.911Z	55b6fc710fc9f982beab34c5	combsco	56eec133bb4a1731739b69e6	by default
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T15:26:41.241Z	55b6fc710fc9f982beab34c5	combsco	56eec131bb4a1731739b69e5	May want to look at that so your dokku instance doesn’t return the first app/site it hosts
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T15:26:25.324Z	55b6fc710fc9f982beab34c5	combsco	56eec121dec81665365dfbad	http://dokku.viewdocs.io/dokku/nginx/#default-site
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T15:11:05.872Z	55b6fc710fc9f982beab34c5	combsco	56eebd890425c72f73f17628	@stefanjarina You shold be able to do ```dokku domains:add <app> <domain>```
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T11:41:05.194Z	55a225235e0d51bd787b1c50	stefanjarina	56ee8c510d69dfd12221545f	nevermind :-D solved
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T11:39:18.449Z	55a225235e0d51bd787b1c50	stefanjarina	56ee8be6dec81665365df42c	but I can access application by just apps.my_domain.com which is not what I nwant
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T11:38:43.487Z	55a225235e0d51bd787b1c50	stefanjarina	56ee8bc38b806f6b7a18bd5e	have one small problem though, deployed app is in main domain and not in subdomain even though I configured it to set app names in <app_name>.apps.my_domain.com — need to find out why :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T11:37:25.252Z	55a225235e0d51bd787b1c50	stefanjarina	56ee8b75dec81665365df422	@combsco tried that Dokku and maan, that thing is awesome!!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:58:34.267Z	55a225235e0d51bd787b1c50	stefanjarina	56ee744a8680486236c168ca	looks interesting
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:54:15.858Z	55a225235e0d51bd787b1c50	stefanjarina	56ee73478680486236c168bc	ah, student offers :-D how I am envious for all these student offers :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:52:47.540Z	5529cb4c15522ed4b3dede05	prashcr	56ee72ef8b806f6b7a18bab5	http://vpsdime.com/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:52:46.474Z	5529cb4c15522ed4b3dede05	prashcr	56ee72eedec81665365df16b	This looks really promising too
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:50:04.216Z	5529cb4c15522ed4b3dede05	prashcr	56ee724c0425c72f73f16c1e	GitHub student pack
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:49:54.138Z	55a225235e0d51bd787b1c50	stefanjarina	56ee7242654d30d022e48364	nice, where did you get ree credit :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:49:12.163Z	5529cb4c15522ed4b3dede05	prashcr	56ee7218654d30d022e48361	So far I have $100 of free credit with DO so I'll probably stick with them for a while
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:47:52.975Z	5529cb4c15522ed4b3dede05	prashcr	56ee71c80425c72f73f16c14	Interesting, haha
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:45:18.912Z	55a225235e0d51bd787b1c50	stefanjarina	56ee712ebb4a1731739b5f24	but now with Elixir, I write more CPU hungry apps that don’t use memory that much… so digital ocean might be better now
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:44:50.455Z	55a225235e0d51bd787b1c50	stefanjarina	56ee71120425c72f73f16c0d	but DigitalOcean is good for people abroad, similar, I used to write a lot of Ruby code which is memory hungry and thus I liked the additional memory from wedos.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:41:09.423Z	55a225235e0d51bd787b1c50	stefanjarina	56ee70350425c72f73f16c00	:-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:41:08.089Z	55a225235e0d51bd787b1c50	stefanjarina	56ee7034654d30d022e4833d	which made other providers let’s say “screwed” as they lost they last fight
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:40:41.170Z	55a225235e0d51bd787b1c50	stefanjarina	56ee70198b806f6b7a18ba86	they bought some crazy devide and since then, they just happily report how many DDoS attacks they mitigated :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:40:20.572Z	55a225235e0d51bd787b1c50	stefanjarina	56ee70048680486236c1687a	so wedos had to buy class 1 ddos protection
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:40:14.704Z	5529cb4c15522ed4b3dede05	prashcr	56ee6ffe0425c72f73f16bfb	Hmm
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:40:04.514Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6ff4ce5b0c6e7a1c2790	attacks*
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:39:59.485Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6fef8b806f6b7a18ba82	they started with DDoS attackes towards wedos
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:39:48.949Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6fe4654d30d022e48336	yeah, there was a “customer war” last year, when other providers started loosing customers
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:39:42.996Z	5529cb4c15522ed4b3dede05	prashcr	56ee6fde8b806f6b7a18ba7f	All my local providers are like 5x more expensive than DigitalOcean xD
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:39:15.322Z	5529cb4c15522ed4b3dede05	prashcr	56ee6fc3dec81665365df138	That's nice
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:39:02.335Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6fb60d69dfd12221512f	They are among the cheapest in Czech Republic with best offers :-D primarily because all other providers here use some expensive server housing… this company spend money to build their own datacenters, equipped with new fujitsu blades and thanks to that they managed to lower their expenses extremely
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:37:03.089Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6f3f654d30d022e4832c	site is ugly as hell though :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:36:55.049Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6f37bb4a1731739b5f01	https://hosting.wedos.com/en/virtual-servers-ssd.html
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:36:38.571Z	5529cb4c15522ed4b3dede05	prashcr	56ee6f268680486236c16863	Could I check your provider out? :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:35:41.596Z	5529cb4c15522ed4b3dede05	prashcr	56ee6eedce5b0c6e7a1c2778	That's awesome haha
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:35:17.242Z	5529cb4c15522ed4b3dede05	prashcr	56ee6ed58b806f6b7a18ba63	@stefanjarina wtf
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T09:31:27.169Z	55a225235e0d51bd787b1c50	stefanjarina	56ee6def0d69dfd122215109	@combsco checking DigitalOcean, but it is more expensive for what I use now in my local provider from Czech… I have for about 9 dollars double RAM and unlimited bandwith… but administration panel looks really nice...
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-20T02:57:13.159Z	5529cb4c15522ed4b3dede05	prashcr	56ee11890d69dfd12221493c	"@combsco Woah, I""ll have to check that out"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T22:10:20.299Z	55a225235e0d51bd787b1c50	stefanjarina	56edce4c0d69dfd1222141ad	@combsco  Nice site :-D got A+ on my VPS :-D didn’t even know
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:10:08.336Z	55b6fc710fc9f982beab34c5	combsco	56edc0308680486236c1577c	Got me an [A]
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:10:02.146Z	55b6fc710fc9f982beab34c5	combsco	56edc02a0d69dfd122213f9c	https://www.ssllabs.com/ssltest/analyze.html?d=api.highwayapp.co
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:09:05.839Z	55b6fc710fc9f982beab34c5	combsco	56edbff18680486236c15775	It’s just like heroku except on your own hardware/vps
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:08:28.054Z	55a225235e0d51bd787b1c50	stefanjarina	56edbfccbb4a1731739b4da9	hmm, I keep hearing about dokku but never tried, need to check it closer. I’m old style linux admin :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:08:14.632Z	55b6fc710fc9f982beab34c5	combsco	56edbfbe654d30d022e47214	and dokku-letsencrypt plugin gives me SSL
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:08:04.787Z	55b6fc710fc9f982beab34c5	combsco	56edbfb40d69dfd122213f8b	Dokku already comes with Nginx as the reverse proxy
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:07:42.412Z	55b6fc710fc9f982beab34c5	combsco	56edbf9edec81665365ddfb8	`git push dokku master` and were live.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T21:07:31.804Z	55b6fc710fc9f982beab34c5	combsco	56edbf930425c72f73f15a56	I use DigitalOcean with Dokku Droplet… and the Elixir Buildpack.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T20:04:16.644Z	55a225235e0d51bd787b1c50	stefanjarina	56edb0c08680486236c154ec	@prashcr yeah, I use VPS usually as well, but sometimes I just like the comfort of heroku :-)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T12:01:50.620Z	5529cb4c15522ed4b3dede05	prashcr	56ed3faedec81665365dcca2	"I would do the same setup that I use for my Node.js apps
+1. Run app as non-sudo user on some non-privileged (>1024) localhost port e.g. localhost:8135
+2. Install Nginx and listen to port 80
+3. Add a server block in Nginx to reverse proxy to your app"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T11:59:13.326Z	5529cb4c15522ed4b3dede05	prashcr	56ed3f11ce5b0c6e7a1c032c	DigitalOcean has the nicest interface and is really beginners friendly
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T11:58:44.393Z	5529cb4c15522ed4b3dede05	prashcr	56ed3ef4dec81665365dcc95	I haven't tried hosting elixir yet, but VPS has never let me down with Node.js
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-19T10:10:08.557Z	55a225235e0d51bd787b1c50	stefanjarina	56ed2580654d30d022e45bcb	Hey all, how do you host your apps? on VPS? or some PaaS? So far I can see support only for Heroku and Openshift, any exprience with those?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:24:35.458Z	5501e71115522ed4b3dd2ebb	boriscy	56e094939f24605773d6b312	Thanks
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:20:23.148Z	55a225235e0d51bd787b1c50	stefanjarina	56e093979f24605773d6b2b3	@boriscy btw, if you're willing to spend some money, this book [Programming Phoenix](https://pragprog.com/book/phoenix/programming-phoenix) is just superb. Written directly by creators of Phoenix and Elixir. Bought it myself and it is worth the money.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:19:38.117Z	563887f316b6c7089cb9496c	samconnor	56e0936a6fde057c26854ab4	Hello @0x0936 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:18:56.444Z	5480db5bdb8155e6700dba90	0x0936	56e093406fde057c26854a9d	hey sam
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:18:11.426Z	563887f316b6c7089cb9496c	samconnor	56e093139f24605773d6b27d	Hello everyone 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:18:01.910Z	55b977f00fc9f982beab7883	camperbot	56e09309618c335373ea5e13	## welcome to FreeCodeCamp @samconnor!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:18:00.667Z	563887f316b6c7089cb9496c	samconnor	56e0930889dd3cce1005065f	Hello world 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:16:09.068Z	5501e71115522ed4b3dd2ebb	boriscy	56e09299618c335373ea5df1	I will :)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:14:27.618Z	55a225235e0d51bd787b1c50	stefanjarina	56e092330055f8f35a81b771	Forgot to mention, i am there as Stiwy
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:10:56.831Z	55a225235e0d51bd787b1c50	stefanjarina	56e091600055f8f35a81b71c	Np, if you accept my answer on stack exchange I would be glad :-)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:10:04.302Z	5501e71115522ed4b3dd2ebb	boriscy	56e0912c6fde057c268549c5	OK got it thanx a lot
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:09:36.035Z	55a225235e0d51bd787b1c50	stefanjarina	56e0911011a3dbf55aca8447	Means, that there is already something listening on that port
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:09:13.318Z	55a225235e0d51bd787b1c50	stefanjarina	56e090f96fde057c268549b5	eaddrinuse
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T21:07:33.335Z	5501e71115522ed4b3dd2ebb	boriscy	56e0909511a3dbf55aca840a	"Thanx for the answer but I get this error message
+=INFO REPORT==== 9-Mar-2016::17:07:04 ===
+    application: logger
+    exited: stopped
+    type: temporary
+** (Mix) Could not start application chat: Chat.start(:normal, []) returned an error: shutdown: failed to start child: Chat.Endpoint
+    ** (EXIT) shutdown: failed to start child: Phoenix.Endpoint.Server
+        ** (EXIT) shutdown: failed to start child: {:ranch_listener_sup, Chat.Endpoint.HTTP}
+            ** (EXIT) shutdown: failed to start child: :ranch_acceptors_sup
+                ** (EXIT) {:listen_error, Chat.Endpoint.HTTP, :eaddrinuse}
+"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T20:59:20.190Z	55a225235e0d51bd787b1c50	stefanjarina	56e08ea889dd3cce100504e9	Try to run `iex -S mix phoenix.server`
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T20:58:43.502Z	55a225235e0d51bd787b1c50	stefanjarina	56e08e83618c335373ea5c88	It is not enough to run just iex -S mix
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T20:58:23.200Z	55a225235e0d51bd787b1c50	stefanjarina	56e08e6f89dd3cce100504d0	Your server needs to run
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-09T20:54:05.978Z	5501e71115522ed4b3dd2ebb	boriscy	56e08d6d3194fbd110959d10	"Hi there I have a question about channels http://stackoverflow.com/questions/35901853/how-to-broadcast-a-message-from-console-or-any-module-in-phoenix?noredirect=1#comment59464759_35901853, could someone help me with this, learning  Elixir, Phoenix enjoying a lot.
+I would like to make the transition from Ruby to Elixir"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-08T15:06:43.556Z	54761685db8155e6700d86a4	imranismail	56deea8319834f3c3535cf87	https://i.imgur.com/tgkJn9f.png
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T17:41:04.725Z	5473a836db8155e6700d7c69	jchaing	56ddbd30b0cc3f1b4150c9c7	lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T17:40:59.470Z	5473a836db8155e6700d7c69	jchaing	56ddbd2b126367383571a2ea	![alt](https://i.imgflip.com/10f3ex.jpg)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T17:05:42.273Z	55b6fc710fc9f982beab34c5	combsco	56ddb4e6817dfa1e41ed104d	Still don’t use Phoenix @imranismail 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T16:56:24.147Z	54761685db8155e6700d86a4	imranismail	56ddb2b81263673835719f74	take a look at this https://github.com/127labs/fawkes.js/tree/develop
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T16:56:20.649Z	54761685db8155e6700d86a4	imranismail	56ddb2b4b0cc3f1b4150c5fa	If you use redux and redux saga with phoenix channels
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:40:44.261Z	55a225235e0d51bd787b1c50	stefanjarina	56dda0fca549284116690970	Yeah, did read about it, but never used. Yet
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:39:37.465Z	55b6fc710fc9f982beab34c5	combsco	56dda0b968c0777464831ea0	I’m trying to get into Vue.js’s version of Redux … Vuex
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:39:25.204Z	55b6fc710fc9f982beab34c5	combsco	56dda0ad68c0777464831e99	Me too… 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:31:51.176Z	55a225235e0d51bd787b1c50	stefanjarina	56dd9ee719834f3c35357d40	I just wish he would use Vue.js instead of React.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:30:29.158Z	55b6fc710fc9f982beab34c5	combsco	56dd9e95817dfa1e41ed08ae	I don’t use Phoenix
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:24:59.289Z	562edb0916b6c7089cb85e1b	mmacedoeu	56dd9d4bddfe3d4316285c7c	@stefanjarina amazing
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:24:55.069Z	562edb0916b6c7089cb85e1b	mmacedoeu	56dd9d4719834f3c35357ca1	@combsco heey
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:21:11.644Z	55a225235e0d51bd787b1c50	stefanjarina	56dd9c67817dfa1e41ed07ec	https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T15:20:07.660Z	55b6fc710fc9f982beab34c5	combsco	56dd9c2719834f3c35357c21	Hi @mmacedoeu 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T14:52:13.306Z	55b977f00fc9f982beab7883	camperbot	56dd959d817dfa1e41ed057f	## welcome to FreeCodeCamp @mmacedoeu!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T14:52:11.986Z	562edb0916b6c7089cb85e1b	mmacedoeu	56dd959bb0cc3f1b4150bbbb	hello world Elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-07T09:55:50.743Z	54761685db8155e6700d86a4	imranismail	56dd5026817dfa1e41ecf26c	https://github.com/127labs/fawkes.js/tree/develop
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:56:03.275Z	55b6fc710fc9f982beab34c5	combsco	56dc6123b0cc3f1b41508069	Nice
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:36:16.114Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5c80817dfa1e41ecc87a	:-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:36:13.997Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5c7db0cc3f1b41507fa7	I have a feeling, that it won’t be wasted money
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:36:04.227Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5c7468c077746482dec6	so far good, nicely written explanations (immutability for example) - nice code formatting
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:22:32.557Z	55a225235e0d51bd787b1c50	stefanjarina	56dc59481263673835715887	will let you know, how good it is
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:22:24.643Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5940817dfa1e41ecc7eb	Soo, I couldn’t resist and bought that redfour
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:20:01.849Z	55b6fc710fc9f982beab34c5	combsco	56dc58b1a54928411668c8ba	then finally updated
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:19:58.101Z	55b6fc710fc9f982beab34c5	combsco	56dc58ae68c077746482de37	I waited a few
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:19:55.946Z	55b6fc710fc9f982beab34c5	combsco	56dc58aba54928411668c8b8	El Capitan broke everything for me the first time
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:19:47.951Z	55b6fc710fc9f982beab34c5	combsco	56dc58a3a54928411668c8b7	lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:15:59.459Z	55a225235e0d51bd787b1c50	stefanjarina	56dc57bfddfe3d4316281c1d	El Capitan, is just — meh
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:15:51.041Z	55a225235e0d51bd787b1c50	stefanjarina	56dc57b7a54928411668c895	Also completely honestly, with every new mac update I am less and less happy
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:15:11.990Z	55a225235e0d51bd787b1c50	stefanjarina	56dc578fb0cc3f1b41507ee6	but I assume that with Linux on powerful machine, it won’t be needed
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:52.466Z	55a225235e0d51bd787b1c50	stefanjarina	56dc577c68ddef7764690c46	maybe I’ll keep that mac mini though
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:49.227Z	55b6fc710fc9f982beab34c5	combsco	56dc5779a54928411668c887	If I get a new job they’ll give me a MacBook Pro
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:42.181Z	55b6fc710fc9f982beab34c5	combsco	56dc577268c077746482ddfa	"gaming machine = Windows
+coding/general = Mac Mini (for now)"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:32.005Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5768817dfa1e41ecc7a6	So I decided to build up my PC from components
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:29.666Z	55b6fc710fc9f982beab34c5	combsco	56dc5765817dfa1e41ecc7a5	I have both
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:27.690Z	55b6fc710fc9f982beab34c5	combsco	56dc576368ddef7764690c3f	tru
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:13.248Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5755b0cc3f1b41507ede	is it useful for anything else? :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:05.087Z	55a225235e0d51bd787b1c50	stefanjarina	56dc574d19834f3c35353cdd	and windows for games :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:14:01.656Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5749a54928411668c87d	MAC is waaay too expensive where I live, also I worked like linux admin, so I pretty much am able to do everything on mac in my linux
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:12:53.880Z	55b6fc710fc9f982beab34c5	combsco	56dc5705ddfe3d4316281bfc	ooo why the switch?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:06:19.382Z	55a225235e0d51bd787b1c50	stefanjarina	56dc557b68ddef7764690be9	I think I’m gonna buy it. Just waiting for their response, because it look slike you are buing it for particular platform. but in about 2 months I am going to switch from mac to Windows/Linux completely and so don’t wanna waste my money
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:04:58.925Z	55a225235e0d51bd787b1c50	stefanjarina	56dc552a19834f3c35353c89	and you have some learning materials to help with it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:04:49.495Z	55a225235e0d51bd787b1c50	stefanjarina	56dc552119834f3c35353c84	yeah, it looks interesting, it is like fictional organization, where boss will give you some tasks and you do it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:04:15.981Z	55b6fc710fc9f982beab34c5	combsco	56dc54ff12636738357157cd	I saw… a test in the video that said **Blow up PostgreSQL** never knew one had to test something like that lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T16:03:16.167Z	55b6fc710fc9f982beab34c5	combsco	56dc54c4b0cc3f1b41507e6c	Red:4 supposed to be like working for a space org… and making software apparently by there intro video lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:59:46.021Z	55b6fc710fc9f982beab34c5	combsco	56dc53f2126367383571579e	Hmm
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:58:26.123Z	55a225235e0d51bd787b1c50	stefanjarina	56dc53a2126367383571578d	It is very tempting to try it :-D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:56:25.815Z	55a225235e0d51bd787b1c50	stefanjarina	56dc5329ddfe3d4316281b4e	From the video it looks interesting, but not sure, if it is worth the 25$
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:56:03.092Z	55a225235e0d51bd787b1c50	stefanjarina	56dc531368ddef7764690b77	http://www.redfour.io/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:55:54.760Z	55a225235e0d51bd787b1c50	stefanjarina	56dc530a68c077746482dd39	Just today I found this thing: redfour.io
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:53:18.306Z	55a225235e0d51bd787b1c50	stefanjarina	56dc526eb0cc3f1b41507e04	nice
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:52:42.430Z	55b6fc710fc9f982beab34c5	combsco	56dc524addfe3d4316281b2c	"My deploy command is pretty much..
+`npm run build && surge -p ./dist  -d highway.surge.sh` :D"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:52:26.014Z	55a225235e0d51bd787b1c50	stefanjarina	56dc523a1263673835715747	yeah, it works like that in Phoenix as well, usually phoenix compile JS for you, but you can remove brunch.io, so Phoenix does care only about backend and you can then use webpack and take care of frontend only with webpack
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:51:26.734Z	55a225235e0d51bd787b1c50	stefanjarina	56dc51fe817dfa1e41ecc6b5	yeah, vue-cli is just awesome
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:51:23.577Z	55b6fc710fc9f982beab34c5	combsco	56dc51fb817dfa1e41ecc6b2	Frontend is all kinds of a seperate concern
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:51:14.768Z	55b6fc710fc9f982beab34c5	combsco	56dc51f2126367383571573a	Oh… I use full Webpack/Vue.js from vue-cli
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:51:02.179Z	55b6fc710fc9f982beab34c5	combsco	56dc51e6817dfa1e41ecc6aa	Thenhiding things once authenticated
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:51:00.231Z	55a225235e0d51bd787b1c50	stefanjarina	56dc51e41263673835715739	it was a bit challenging to use it with Phoenix — Phoenix use brunch.io by default, so had to change it from brunch to webpack (for Vue webpack is just great)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:50:55.418Z	55b6fc710fc9f982beab34c5	combsco	56dc51df68c077746482dcf1	Spent hours yesterday getting header component, nav component and router working properly.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:50:31.973Z	55b6fc710fc9f982beab34c5	combsco	56dc51c7a54928411668c78e	Same… I’m making an application with a Vue.js front and elixir back...
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:50:08.948Z	55a225235e0d51bd787b1c50	stefanjarina	56dc51b068c077746482dce9	I am still learning it, but love it so far
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:49:05.902Z	55b6fc710fc9f982beab34c5	combsco	56dc5171ddfe3d4316281aff	I also use Vue.js :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:48:38.328Z	55a225235e0d51bd787b1c50	stefanjarina	56dc515619834f3c35353bf9	Hmm, that is nice, it really must be problem in some plugin, I use quite a lot of them for Vue.js and React
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:47:43.680Z	55b6fc710fc9f982beab34c5	combsco	56dc511f817dfa1e41ecc687	moves fairly fast
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:47:37.077Z	55b6fc710fc9f982beab34c5	combsco	56dc511919834f3c35353be8	My atom...
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:47:34.487Z	55b6fc710fc9f982beab34c5	combsco	56dc511668c077746482dcd4	![](http://g.recordit.co/wOPlSKuJzQ.gif)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:46:07.863Z	55a225235e0d51bd787b1c50	stefanjarina	56dc50bf19834f3c35353bdb	same here, to be honest, it is really hard to switch to functional paradigm after so many years in imperative or OO
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:42:24.540Z	55b6fc710fc9f982beab34c5	combsco	56dc4fe019834f3c35353bae	I don’t even know if I’m doing it right lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:37:30.878Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4eba68c077746482dc6c	but I am having hard times to switch to functional thinking, I’m not there yet
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:37:15.659Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4eab19834f3c35353b71	:-) I mainly program in Golang, but lately Elixir really catch my eye :-D I used to rite a lot of Ruby before, and it is sooo similar in syntax
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:36:37.499Z	55b6fc710fc9f982beab34c5	combsco	56dc4e85ddfe3d4316281a80	But… I find it a bit enjoyable
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:36:26.686Z	55b6fc710fc9f982beab34c5	combsco	56dc4e7a68ddef7764690aae	Nice. Yeah, I like elixir alot not sure why I’m moving away from Node.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:35:53.659Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4e59a54928411668c6ef	He have looot of screencasts (older ones were for pre-1.0 elixir, but from about 50+ all should be for Elixir1 and thus they won’t get out-dated
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:34:52.947Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4e1c68c077746482dc53	know that, nice — I am also signed for http://elixirsips.com/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:34:07.739Z	55b6fc710fc9f982beab34c5	combsco	56dc4defb0cc3f1b41507d3b	I did… https://www.learnelixir.tv/
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:33:23.888Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4dc3a54928411668c6c0	The book I’ve posted before costs like 25$ but it is written by creator of Elixir and creator of Phoenix, and it is just great. If you have no problem with paid materials
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:32:45.824Z	55b6fc710fc9f982beab34c5	combsco	56dc4d9da54928411668c6b8	I’m using Maru for API and that’s about it…. (like using Grape with Ruby)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:32:08.590Z	55b6fc710fc9f982beab34c5	combsco	56dc4d78b0cc3f1b41507d26	I have yet to touchthe Phoenix framework.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:28:49.943Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4cb168c077746482dc09	but other than that Elixir is just great, especialy Phoenix Framework
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:27:18.419Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4c56b0cc3f1b41507cf6	yeah, might be the case, need to see plugins and disable/enable it one by one to find a problem
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:24:56.467Z	55b6fc710fc9f982beab34c5	combsco	56dc4bc8ddfe3d4316281a01	like loading files would take ages
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:24:48.333Z	55b6fc710fc9f982beab34c5	combsco	56dc4bc068c077746482dbd8	because some plugin was killing it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:24:40.660Z	55b6fc710fc9f982beab34c5	combsco	56dc4bb819834f3c35353ace	Only once have I had to uninstall atom and every dependency i could find
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:24:38.392Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4bb668c077746482dbd4	but I have slow Atom in general, not just for Elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:24:07.791Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4b971263673835715636	might be in system then
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:24:01.033Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4b9168c077746482dbc8	same here
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:23:56.965Z	55b6fc710fc9f982beab34c5	combsco	56dc4b8c68c077746482dbc6	2012 Mac Mini
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:23:53.744Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4b8968c077746482dbc5	takes several seconds to load, tried reinstall it but no luck
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:23:50.381Z	55b6fc710fc9f982beab34c5	combsco	56dc4b86b0cc3f1b41507cb8	fast on mine :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:23:34.888Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4b76ddfe3d43162819f2	yeah, Atom has it, not sure why though, for me it is slow as hell on my mac
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:23:07.850Z	55b6fc710fc9f982beab34c5	combsco	56dc4b5b68ddef7764690a14	is what your talking about right?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:22:59.858Z	55b6fc710fc9f982beab34c5	combsco	56dc4b53817dfa1e41ecc566	![](http://i.imgur.com/LGrFTbD.png)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:22:07.271Z	55b6fc710fc9f982beab34c5	combsco	56dc4b1fa54928411668c64a	@stefanjarina my Atom editor does autocomplete.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:19:45.815Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4a9168ddef77646909ea	lucky you :-) for me autocomplete is a big deal.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:18:37.278Z	55b6fc710fc9f982beab34c5	combsco	56dc4a4d19834f3c35353a8f	I’m not concerned with autocomplete… and I have some paid content.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:01:28.590Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4648ddfe3d431628190c	And very poor editor support. Only editor with great autocomplete is Emacs. Even though Atom has autocompletion as well, but is slow as hell.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T15:00:19.239Z	55a225235e0d51bd787b1c50	stefanjarina	56dc460368c077746482daf6	Usually poor free materials. Paid one on the other hand are top notch
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:59:43.081Z	55a225235e0d51bd787b1c50	stefanjarina	56dc45dfddfe3d43162818f7	The only 2 problr s I have with Elixir are:
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:53:53.232Z	55a225235e0d51bd787b1c50	stefanjarina	56dc4481a54928411668c560	It is directly from creator of Elixir and creator of Phoenix :-D these 2 guys are just awesome
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:52:10.028Z	55a225235e0d51bd787b1c50	stefanjarina	56dc441aa54928411668c558	Link is still correct
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:51:55.788Z	55a225235e0d51bd787b1c50	stefanjarina	56dc440b19834f3c353539ab	Doh, it is Programming Phoenix
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:51:42.574Z	55b977f00fc9f982beab7883	camperbot	56dc43fe817dfa1e41ecc44d	> :star: 176 | @stefanjarina | [http://www.freecodecamp.com/stefanjarina](http://www.freecodecamp.com/stefanjarina)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:51:41.546Z	55b977f00fc9f982beab7883	camperbot	56dc43fdddfe3d43162818bc	> alayek sends brownie points to @stefanjarina :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:51:40.177Z	56069bbe0fc9f982beb1ea44	alayek	56dc43fca54928411668c555	@stefanjarina thanks!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-06T14:51:04.897Z	55a225235e0d51bd787b1c50	stefanjarina	56dc43d8817dfa1e41ecc446	BTW guys, not sure how open are you for paid books, but I've been in beta of this one: [Programming Elixir](https://pragprog.com/book/phoenix/programming-phoenix) and definitely can recomend it if youre already a bit familiar wit Elixir and want to learn phoenix
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-05T16:44:48.487Z	54487724db8155e6700cdb1b	robertd	56db0d001263673835712870	:+1: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:14:57.420Z	55b977f00fc9f982beab7883	camperbot	56d8fdb1f760676329bb894e	> :star: 390 | @prashcr | [http://www.freecodecamp.com/prashcr](http://www.freecodecamp.com/prashcr)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:14:56.486Z	55b977f00fc9f982beab7883	camperbot	56d8fdb050b462292ae00136	> vietntframgia sends brownie points to @prashcr :sparkles: :thumbsup: :sparkles: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:14:55.141Z	5484fdbbdb8155e6700dccb1	vietntframgia	56d8fdafb01413547d8a12ca	@prashcr Thank you. 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:11:37.816Z	5529cb4c15522ed4b3dede05	prashcr	56d8fce9f760676329bb891f	@vietntframgia 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:10:29.501Z	5529cb4c15522ed4b3dede05	prashcr	56d8fca5048f9e65291bfabf	It's somewhat like Javascript/Coffescript
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:09:45.225Z	5529cb4c15522ed4b3dede05	prashcr	56d8fc79048f9e65291bfab1	But some people find Erlang slightly ugly, so they created Elixir, which runs on the same VM as Erlang, but with a prettier, ruby-inspired syntax
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T03:08:58.657Z	5529cb4c15522ed4b3dede05	prashcr	56d8fc4a44ba0664026b0701	"There's a language called Erlang, which is about 30 years old.
+It's very well known for its reliability and scalability.
+Whatsapp had 900 million users, with only 50 engineers, thanks to Erlang
+Most cellular/mobile networks around the world are run on Erlang. "
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T02:56:52.995Z	5484fdbbdb8155e6700dccb1	vietntframgia	56d8f9749b722b537d19732e	Which are the good points in Elixir? Please show me. It's a function language  but i need some reason to like it. :smile:  Thank you so much.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:54:48.742Z	56069bbe0fc9f982beb1ea44	alayek	56d8eae8048f9e65291bf807	Haha...just started @prashcr 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:42:47.542Z	5529cb4c15522ed4b3dede05	prashcr	56d8e8179b722b537d19706d	and you? @alayek 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:21:45.436Z	56069bbe0fc9f982beb1ea44	alayek	56d8e329f760676329bb84c1	@prashcr cool!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:21:34.099Z	5529cb4c15522ed4b3dede05	prashcr	56d8e31e44ba0664026b0334	halfway through the official tutorial :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:20:43.954Z	56069bbe0fc9f982beb1ea44	alayek	56d8e2ebb01413547d8a0e79	@prashcr what about you? How long have you been into Elixir?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:19:54.042Z	5529cb4c15522ed4b3dede05	prashcr	56d8e2ba50b462292adffd17	Hmm, I see
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:19:18.352Z	56069bbe0fc9f982beb1ea44	alayek	56d8e29606ba9a282a291283	Plus, writing articles like that help us build on that - the challenges, for example
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:18:54.072Z	5529cb4c15522ed4b3dede05	prashcr	56d8e27e50b462292adffd08	But yeah^
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:18:46.028Z	5529cb4c15522ed4b3dede05	prashcr	56d8e27606ba9a282a29127c	"What I do find lacking in these official tutorials is that it's all ""follow along with what the tutorial's doing"", which is great for people with experience to familiarise themselves quickly
+If FCC could have a short task to complete after every section, that'd be perfect"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:18:41.057Z	56069bbe0fc9f982beb1ea44	alayek	56d8e2719b722b537d196f77	@prashcr we write it so that it is easily accessible by camper bot and can be quickly checked in chat room to look something up 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:16:56.143Z	5529cb4c15522ed4b3dede05	prashcr	56d8e2080bdb886502f747fd	"Especially when the official elixir tutorial is pretty nice
+http://elixir-lang.org/getting-started/introduction.html"
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T01:16:42.346Z	5529cb4c15522ed4b3dede05	prashcr	56d8e1fa44ba0664026b02fd	Hmm, I don't quite see the point of writing our own articles for every lang
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T00:48:16.670Z	55b6fc710fc9f982beab34c5	combsco	56d8db50b01413547d8a0d53	:D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T00:48:03.422Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56d8db430bdb886502f746d6	I'm learning some Elixir already :)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-04T00:47:54.808Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56d8db3af760676329bb837d	@combsco awesome - nice gif. 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T18:00:24.012Z	56069bbe0fc9f982beb1ea44	alayek	56d87bb844ba0664026ae2f7	If you are somewhat familiar with these languages, that would be more than enough :blush: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:57:50.881Z	56069bbe0fc9f982beb1ea44	alayek	56d87b1eb01413547d89eec6	We need help from volunteers to start the articles
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:57:41.061Z	56069bbe0fc9f982beb1ea44	alayek	56d87b159b722b537d194ea9	@combsco No, I mean if you are moderately familiar with it, that would be great!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:52:25.787Z	55b6fc710fc9f982beab34c5	combsco	56d879d99b722b537d194e47	How do you define good? lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:52:06.741Z	56069bbe0fc9f982beb1ea44	alayek	56d879c69b722b537d194e40	@combsco how good are you at Elixir?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:50:28.111Z	55b6fc710fc9f982beab34c5	combsco	56d879640bdb886502f72701	lol
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:50:26.748Z	55b6fc710fc9f982beab34c5	combsco	56d879629b722b537d194e07	Boom some elixir
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:50:23.363Z	55b6fc710fc9f982beab34c5	combsco	56d8795f44ba0664026ae216	![](http://g.recordit.co/DaNECADhVd.gif)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:34:25.192Z	56069bbe0fc9f982beb1ea44	alayek	56d875a19b722b537d194c85	we need to first create some articles on it
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:34:01.965Z	56069bbe0fc9f982beb1ea44	alayek	56d875899b722b537d194c7b	not yet started
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:33:51.483Z	55b6fc710fc9f982beab34c5	combsco	56d8757f9b722b537d194c79	Who’s making these challenges… or has it even started.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:33:31.700Z	56069bbe0fc9f982beb1ea44	alayek	56d8756bf760676329bb616a	yeah!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:33:26.505Z	56069bbe0fc9f982beb1ea44	alayek	56d875669b722b537d194c72	hey
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T17:28:51.244Z	55b6fc710fc9f982beab34c5	combsco	56d8745344ba0664026ae03c	lol… we have an Elixir room?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T06:31:21.093Z	5473a836db8155e6700d7c69	jchaing	56d7da39b01413547d89bc90	Doing fine thank you. Can't wait to for FCC elixir course
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T06:19:26.976Z	56069bbe0fc9f982beb1ea44	alayek	56d7d76e06ba9a282a28c0fe	@jchaing doing great, what about you?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T06:18:51.184Z	5473a836db8155e6700d7c69	jchaing	56d7d74b06ba9a282a28c0f8	Hey @alayek. How are you?
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T05:33:51.014Z	56069bbe0fc9f982beb1ea44	alayek	56d7ccbfb01413547d89bacd	@jchaing hey there!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T05:19:33.968Z	5473a836db8155e6700d7c69	jchaing	56d7c9659b722b537d191a9e	Yay elixir.
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T03:08:23.226Z	56069bbe0fc9f982beb1ea44	alayek	56d7aaa750b462292adfa583	hey there! Welcome everyone :)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T01:52:51.134Z	54eb4c7915522ed4b3dc5d3d	Shamash2014	56d798f350b462292adfa280	Will see how it goes)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T01:52:24.767Z	54eb4c7915522ed4b3dc5d3d	Shamash2014	56d798d806ba9a282a28b71f	I come from Ruby and it is has very natural syntax for me)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T01:08:04.271Z	54761685db8155e6700d86a4	imranismail	56d78e74b01413547d89b06a	Hey all! elixir is awesome
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-03T00:32:33.247Z	5529cb4c15522ed4b3dede05	prashcr	56d78621b01413547d89aec8	Hey everyone :D
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T22:12:37.715Z	54b3f45fdb8155e6700e9307	jeanleonino	56d7655544ba0664026a9a3f	awesome @Shamash2014 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T20:39:47.223Z	56069bbe0fc9f982beb1ea44	alayek	56d74f9344ba0664026a91c6	Glad you could join us :blush: 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T20:39:36.467Z	54eb4c7915522ed4b3dc5d3d	Shamash2014	56d74f8806ba9a282a28a286	Just start my elixir journey) 
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T20:39:30.768Z	56069bbe0fc9f982beb1ea44	alayek	56d74f829b722b537d18fd3e	@Shamash2014 hey there!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T20:39:20.736Z	54eb4c7915522ed4b3dc5d3d	Shamash2014	56d74f78f760676329bb1291	Hi guys!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T05:33:28.840Z	56069bbe0fc9f982beb1ea44	alayek	56d67b28048f9e65291b46a6	@jeanleonino likewise
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T04:36:48.762Z	54b3f45fdb8155e6700e9307	jeanleonino	56d66de09b722b537d18bcd7	@alayek nice to meet you :)
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T04:24:37.505Z	56069bbe0fc9f982beb1ea44	alayek	56d66b05048f9e65291b442c	hey!
+56d5592fe610378809c460e4	FreeCodeCamp/elixir	2016-03-02T03:57:00.474Z	54b3f45fdb8155e6700e9307	jeanleonino	56d6648c048f9e65291b4314	hello fcc/elixir :) 

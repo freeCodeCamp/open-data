@@ -1,0 +1,350 @@
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-10-25T02:27:59.263Z	56045dd30fc9f982beb1c002	sjames1958gm	580ec32fe4e68c5058b267d2	Go to the Front End or Help java script rooms
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-10-25T02:04:31.743Z	573fd40fc43b8c6019741c0a	Gmunker	580ebdafab78365b2057a603	Anyone active in here?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-09-17T11:05:19.248Z	540a150e163965c9bc202eaf	abhisekp	57dd236ffa660dd95fe9e90d	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-08-13T16:47:09.480Z	5586c26215522ed4b3e23f3a	DanStockham	57af4f0d418e6fc44cfc0d5b	Anyone have trouble with React 0.15 and Codepen?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-08-08T23:35:37.926Z	5586c26215522ed4b3e23f3a	DanStockham	57a91749bc688a1339073f05	You use ```onKeyDown``` prop to listen for keyboard events
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-08-08T23:35:10.645Z	5586c26215522ed4b3e23f3a	DanStockham	57a9172e16b0696856a4a0d8	I figured it out.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-08-08T23:34:30.121Z	574f8ac8c43b8c6019763df8	DuskyPixel	57a9170616b0696856a4a09f	"I guess you just do this window.addEventListener(""keydown"", myFunction, true);"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-08-08T23:18:49.086Z	574f8ac8c43b8c6019763df8	DuskyPixel	57a91359ff82b9fc7e6d1345	no but I am about to 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-08-08T23:17:48.684Z	5586c26215522ed4b3e23f3a	DanStockham	57a9131cbc688a13390736a0	Has anyone ever messed with keyboard events in React?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-28T21:37:59.906Z	55b163f10fc9f982beaac24d	gazzer82	579a7b374536c1f33fd4fce4	http://dcc-game-of-life.herokuapp.com/
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-28T21:37:59.032Z	55b163f10fc9f982beaac24d	gazzer82	579a7b378df57475625f5c43	Ok, so if anyone has the time, here is my Game of Life implementation, thoughts/comments appreciated!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-28T18:48:16.549Z	55b163f10fc9f982beaac24d	gazzer82	579a5370ac80b5ea3f143bb5	Thanks @moigithub, i think i’ve solved my issues by using HTML Canvas rather than DOM based rendering.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-28T18:47:40.415Z	5586b1bb15522ed4b3e23e29	moigithub	579a534ca8a477b515814d73	@gazzer82 try helpbackend room
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-27T16:15:18.098Z	55b163f10fc9f982beaac24d	gazzer82	5798de168fb4820a4668c927	Hmm, seems this room is not well fequented at all, and i really need some React/Redux help.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-25T08:03:33.444Z	57160447187bb6f0eae0279e	Marinolinderhof	5795c7d5959ee82b3e57644d	i could use function with arguments but i’m not sure that’s the way to go
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-25T07:57:16.699Z	57160447187bb6f0eae0279e	Marinolinderhof	5795c65cbc636a263ef11d3d	hello! Could some one explain me the following: I made a service component which will do an ajax call to my api and then return a promise with json.  For my ajax call i need a TOKEN. The token is available in my store (redux). but my service isn’t a react component so how do i access my state from my store?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-24T14:59:30.530Z	5586c26215522ed4b3e23f3a	DanStockham	5794d7d21b9de56c0edd6c69	"@DanStockham
+I'm so lost with the Recipe Box project...
+The component will not update when I change something in ```localStorage```"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-20T01:34:56.709Z	5586b1bb15522ed4b3e23e29	moigithub	578ed5403d74e5a0166b0123	"or call forceUpdate() method.. but the ""recommended"" way is using setState"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-20T01:33:58.634Z	5586b1bb15522ed4b3e23e29	moigithub	578ed5063d74e5a0166afdb6	using setState method will change the state and call the rerender function
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-20T00:00:21.503Z	5586c26215522ed4b3e23f3a	DanStockham	578ebf15841e619d1613592d	Is there way to reload the parent component after something has changed in local storage?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-19T02:31:26.883Z	5586b1bb15522ed4b3e23e29	moigithub	578d90fe841e619d1604395c	@DanStockham cuz of `this` keyword pointing to another object... 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-15T22:39:53.246Z	55b163f10fc9f982beaac24d	gazzer82	57896639914c51592b1f9822	https://facebook.github.io/react/docs/component-api.html
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-15T22:39:12.847Z	55b163f10fc9f982beaac24d	gazzer82	578966109f79ee4f2bbbdd2f	@DanStockham you should not manipulate the state directly, you should change it by sending the changes to setState();
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-14T23:36:19.679Z	5586c26215522ed4b3e23f3a	DanStockham	578821f3d11cd288121a4adb	"```
+class Recipes extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      recipeNames: null,
+      showEdit: false
+    }
+  }
+
+  componentWillUpdate(recipe, recipeNames) {
+    return recipe.id !== this.props.id;
+  }
+
+  getIngredents(recipe) {
+    var ingredents = localStorage.getItem(recipe).split(',');
+    console.log(ingredents);
+    return ingredents;
+  }
+
+  render() {
+  return (
+    <div>
+      <h1>
+        {this.state.recipeNames}
+      </h1>
+      <ul>
+        {getIngredents({recipeNames}).map(function(c,i) {
+            return (
+              <li key={i}>{c}</li>
+            );
+          })}
+      </ul>
+        <Button bsStyle=""info"" onClick={function() {this.state.showEdit = true}}>Edit</Button>
+      <Button bsStyle=""danger"">Delete</Button>
+    </div>
+  );
+  }
+}
+
+//React compenents and render
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      //store an instances of local storage
+      localKey: function() {
+        var eachKey = [];
+        for(var i = 0; i < localStorage.length; i++) {
+          eachKey.push(localStorage.key(i));
+        }
+
+        return eachKey;
+      }
+    }
+
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.localKey().map(function(c,i,arr) {
+            return <Recipes key={i} recipeNames={c} />
+        })}
+      </div>
+    )
+  }
+}
+
+
+
+render(<App />, document.getElementById('app'))
+```"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-07-14T23:35:57.922Z	5586c26215522ed4b3e23f3a	DanStockham	578821dde4375c9212dae142	Why is it that when I set my state property to a value, when I attempt to change it I get an error stating that my state property is null?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-17T09:23:08.688Z	55a4007f5e0d51bd787b41b9	alanbuchanan	5763c17cf0528c4c5bb9c270	@DanStockham  @moigithub thanks guys
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-15T21:48:13.300Z	5586c26215522ed4b3e23f3a	DanStockham	5761cd1d52352c8402828e97	Anyone notice with webpack that the api calls only work from time to time?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-14T14:56:48.187Z	5586b1bb15522ed4b3e23e29	moigithub	57601b30a1be01c01a79f23f	"@alanbuchanan u could use es6 spread operator
+but u still need to build an object with those data
+but.. if data comes from parent.. `<Foo {...this.props} />`"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-14T09:21:47.214Z	5586c26215522ed4b3e23f3a	DanStockham	575fccab2eaa837d71e9623c	Though I'm not as deep in React too much yet.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-14T09:21:28.046Z	5586c26215522ed4b3e23f3a	DanStockham	575fcc98a1be01c01a79d216	@alanbuchanan Sadly, that's the only way you can pass props in :(
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-14T08:49:54.028Z	55a4007f5e0d51bd787b41b9	alanbuchanan	575fc5322eaa837d71e95f60	"anyone know if there is a shortcut round this kind of thing?:
+
+```
+<Foo
+   thing1={thing1}
+   samename={samename}
+   repetitive={repetitive}
+   notagain={notagain}
+/>
+```"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:26:32.948Z	5586c26215522ed4b3e23f3a	DanStockham	575b30886092456f66330ac4	So I don't think I'll have too much trouble.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:26:24.036Z	5586c26215522ed4b3e23f3a	DanStockham	575b3080814a56807141f581	It's daunting but it's the leaderboard
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:25:58.897Z	54f0c3c315522ed4b3dc9542	anthonygallina1	575b3066a1be01c01a78dacb	No you will :)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:25:46.579Z	54f0c3c315522ed4b3dc9542	anthonygallina1	575b305a2eaa837d71e86708	yikes
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:25:34.566Z	5586c26215522ed4b3e23f3a	DanStockham	575b304e1cf76dd645361188	Now all I have to do is just do the project.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:25:12.064Z	54f0c3c315522ed4b3dc9542	anthonygallina1	575b303897e1b2d245e1b910	@DanStockham Good Job :)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T21:24:45.555Z	5586c26215522ed4b3e23f3a	DanStockham	575b301d1cf76dd64536117a	Hallelujah! I got webpack to work locally.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T18:42:40.035Z	5586c26215522ed4b3e23f3a	DanStockham	575b0a2097e1b2d245e1ac61	You!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-06-10T18:35:16.437Z	56b3ad56e610378809bfe989	karolgorecki	575b0864814a56807141e83e	Hello!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-05-31T01:00:07.983Z	5586c26215522ed4b3e23f3a	DanStockham	574ce217454cb2be0950630b	React doesn't like the marked framework all that well
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-05-26T20:42:14.949Z	5586c26215522ed4b3e23f3a	DanStockham	57475fa6454cb2be094f4dd4	@anthonygallina1 What's man? I haven't talked you for awhile
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-05-26T14:45:16.995Z	54f0c3c315522ed4b3dc9542	anthonygallina1	57470bfc6bbc2d1d4dee69c0	@DanStockham Hi
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-05-26T00:11:37.853Z	5586c26215522ed4b3e23f3a	DanStockham	57463f39a78d5a256e37dfc5	@anthonygallina1 Hey!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-05-25T08:33:50.425Z	54f0c3c315522ed4b3dc9542	anthonygallina1	5745636e28011d9f574b9f8a	Hi  @BoilingOil 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-04-10T01:43:08.300Z	56ee432885d51f252ab9c3c8	BoilingOil	5709afac74d45a71586eeb85	Hello, everyone
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-03-07T21:04:32.504Z	56c50cf0e610378809c1fd6f	maxifjaved	56ddece0ddfe3d43162876e7	"i want to share a confusion in mind i am new here so please do the favor to figure out my confusion   I am confused, how does the system know to treat a module as a module?
+
+import React from ""react"";
+import { hello } from ""./hello.js"";
+var Ctrl = React.createClass ({
+    render : function () {
+        return (
+            <div .... random data ></div>
+        );
+    }
+});
+export default Ctrl;
+To me, a module is just a file with global code written in it. We reference the module via its filename.
+
+However, I wonder how does this all gel together when we build the production build.
+
+How does the system know that this is a module & not just global varaibles being declared?
+
+Is it the import / export commands that actually make it say: 'aha, this is a module!'"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:43:21.889Z	5624351a16b6c7089cb7719f	mca62511	56c69d69e1786831677bf010	I added this to the external javascript (//cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react-dom.min.js) and that worked
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:42:43.074Z	54b8246bdb8155e6700eb84c	crisberrios	56c69d437a66b5965f68c988	then use react-dom
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:42:40.222Z	54b8246bdb8155e6700eb84c	crisberrios	56c69d405c3b0559674d496a	(without tags of course)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:42:24.510Z	54b8246bdb8155e6700eb84c	crisberrios	56c69d30f2410a955f22d2a7	"import both <script src=""https://fb.me/react-0.14.7.js""></script>
+<script src=""https://fb.me/react-dom-0.14.7.js""></script>"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:41:14.595Z	5624351a16b6c7089cb7719f	mca62511	56c69ceafb02ccf10fbdbeb9	hmmk
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:40:50.617Z	54b8246bdb8155e6700eb84c	crisberrios	56c69cd27a66b5965f68c979	since it's going to be used in a dom anyways
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:40:42.695Z	54b8246bdb8155e6700eb84c	crisberrios	56c69ccaddb99257675399e2	web version uses React 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:40:33.046Z	54b8246bdb8155e6700eb84c	crisberrios	56c69cc1ddb99257675399df	yeah that's why
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:40:17.842Z	5624351a16b6c7089cb7719f	mca62511	56c69cb1ddb99257675399dd	I'm just using Codepen, so I didn't do the imports. I just used their quick-add for external javascript
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:39:25.761Z	54b8246bdb8155e6700eb84c	crisberrios	56c69c7de1786831677beff1	but it should be ReactDOM in normal case
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:38:25.374Z	54b8246bdb8155e6700eb84c	crisberrios	56c69c411aea4f30675252ab	depends on how you did the imports
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:37:52.896Z	5624351a16b6c7089cb7719f	mca62511	56c69c20e1786831677befe8	... but why doesn't ReactDOM work? The react version should be 0.14.3, and that should have ReactDOM
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:37:22.360Z	5624351a16b6c7089cb7719f	mca62511	56c69c025c3b0559674d4948	changing it from ReactDOM.render to React.render fixed it
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-02-19T04:16:03.191Z	5624351a16b6c7089cb7719f	mca62511	56c69703fb02ccf10fbdbe3a	"Heya. I wanted to start trying to learn the absolute basics of React, so I was going to use LevelUpTut's tutorial (https://www.youtube.com/watch?v=u-5aLUck_jc)
+
+All I'm trying to do is render ""Hello World"" on the page. What am I doing wrong? I'm guessing it is something to do with the way that I have Codepen set up.
+
+http://codepen.io/mca62511/pen/MKdmrB/"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T22:52:47.211Z	55b163f10fc9f982beaac24d	gazzer82	56a7f8bfdc33b33c75480e91	So, next question, how do i control the load order of reducers? I want to set initial states for them, but some of them will rely on the default state of other to load correctly?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T22:51:56.114Z	55b163f10fc9f982beaac24d	gazzer82	56a7f88cdc33b33c75480e7e	Ok, actually got it working, woo hoo.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T22:11:39.031Z	55b163f10fc9f982beaac24d	gazzer82	56a7ef1b586242210adfb51e	Ok, so i have everything hooked up with redux-thunk finally, however wheever i load the page it appears my mapped function is being called in an endless loop, so i’ve obviously gotten something wrong. Anyone free to take a look and see if you can spot the mistake?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T17:32:17.302Z	55863c8015522ed4b3e23814	ltegman	56a7ada1aaae7a3a759339b7	@gazzer82 Good luck!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T17:27:50.234Z	55b163f10fc9f982beaac24d	gazzer82	56a7ac96aaae7a3a75933979	@ltegman i’ll play around with it a bit and see what happens :) I’ll let you know.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T17:25:15.156Z	55863c8015522ed4b3e23814	ltegman	56a7abfb6b6468374a099e95	@gazzer82 Hmm, it’s hard to say without seeing the architecture of your app. If your thunk has access to the getState() function though so should your action creator, so I don’t think that’s the right solution (from my understanding, but I’m also mid-learning, so I could be wrong). Sorry I can’t be more help.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T17:13:34.275Z	55b163f10fc9f982beaac24d	gazzer82	56a7a93e6b6468374a099df9	@ltegman i guess that’s what i’m asking, how to make the getState() function available in the action creator. Do i pass it in via binActionCreators, or do i use redux-thunk to wrap the function and access it that way?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T17:02:32.025Z	55863c8015522ed4b3e23814	ltegman	56a7a6a86b6468374a099d49	@gazzer82 You shouldn’t need to. Just make sure that your store’s getState() function is available within the scope of the action creator and use that.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-26T16:46:53.088Z	55b163f10fc9f982beaac24d	gazzer82	56a7a2fd80ad69394a7a904e	"@gazzer82
+Morning all.
+Question, how would i go about accessing a value on the global redux state in an action creater?
+Do i need to use redux-thunk?"
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:42:12.892Z	55b163f10fc9f982beaac24d	gazzer82	56a4805480ad69394a7a20aa	Yeah keeping track of state and props can be nightmare. Redux does make a lot of sense to me once I got my head around it. I've done a reasonable amount of objective c and the messaging system is similar. 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:38:45.284Z	55863c8015522ed4b3e23814	ltegman	56a47f85aaae7a3a7592c459	I used React without Redux for my Twitch zipline and I think I only had 3 layers of components and I was still getting confused trying to make sure I was passing my state functions through every layer correctly.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:37:39.472Z	55863c8015522ed4b3e23814	ltegman	56a47f43c54bc2bf180bb17c	Yeah, I think for most of these projects Redux is probably over the top, but at the same time passing all the state management functions around the vanilla React way can get out of hand pretty quick, so I don’t think it’s bad practice to start with Redux and leave room for growth rather than needing to refactor for it when it inevitably gets to unmanagable.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:32:59.190Z	55b163f10fc9f982beaac24d	gazzer82	56a47e2baaae7a3a7592c44c	Yeah good so far, did a good course on Udemy that took me through the basics of Redux, so I've used Redux for them all, despite it being massive overkill. But at least it makes sense now. 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:28:35.957Z	55863c8015522ed4b3e23814	ltegman	56a47d23eaf741c118d48d49	Haha, how are you liking them? End up playing with any Flux implementations or other state management systems in the process?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:08:10.537Z	55b163f10fc9f982beaac24d	gazzer82	56a4785a8fbaf4220af8fd33	I'm nearly done with the initial React projects though so it'll be too late for me. 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:07:41.948Z	55b163f10fc9f982beaac24d	gazzer82	56a4783d6b6468374a092c35	I hope so :)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:04:43.219Z	55863c8015522ed4b3e23814	ltegman	56a4778baaae7a3a7592c3e7	Hello! Hopefully this room will get less quiet as React becomes a core part of the curriculum
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2016-01-24T07:03:58.144Z	55b163f10fc9f982beaac24d	gazzer82	56a4775e6b6468374a092c24	Ok, ok going to do it, hello room, can't believe the last comment on here was last year :)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-12-21T01:59:38.360Z	55863c8015522ed4b3e23814	ltegman	56775d0ab5777fb85ba4e0c4	Only took me hours of desperately trying to make it work to realize react-redux doesn’t work in CodePen and you have to wire them up manually… -_-
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-12-13T15:54:28.293Z	5586c51315522ed4b3e23f7b	mildused	566d94b47eae7fe80e60a689	@aldraco Can you help me out :(
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-12-10T22:17:08.544Z	5488eea8db8155e6700dded5	aldraco	5669f9e47eae7fe80e604d22	yeah, my friend corrected me as well ... still a pretty cool project
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-12-10T00:18:48.029Z	5586c51315522ed4b3e23f7b	mildused	5668c4e8868b8da62a25aded	@aldraco Actually, Wordpress is only having their admin dashboard in React. I highly doubt Wordpress will ever deviate from PHP -- especially in the ~future.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-24T17:53:50.536Z	5488eea8db8155e6700dded5	aldraco	5654a42e0d627297620ca346	awesome
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-24T17:52:31.407Z	55863c8015522ed4b3e23814	ltegman	5654a3df63bfb30b58e40a55	Whaaaat. That’s big news.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-24T17:51:55.606Z	5488eea8db8155e6700dded5	aldraco	5654a3bbe34e2efc2fbf3833	hey React friends -- wordpress is moving to node/React. That's another huge OSS project that FCC campers can now contribute to!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:40:30.259Z	558646c815522ed4b3e238e7	miguelc1221	564faf6e54ba2ca24260b093	teaching jobs, unless you are a math or science teacher, are hard to find outside of where you grew up
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:40:13.217Z	55863c8015522ed4b3e23814	ltegman	564faf5d1a00e4f00803c62a	Oh yeah, I hear that.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:39:54.841Z	558646c815522ed4b3e238e7	miguelc1221	564faf4aa051fea34242ccfc	too political
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:39:07.255Z	55863c8015522ed4b3e23814	ltegman	564faf1b1a00e4f00803c621	That bad, eh?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:38:24.496Z	558646c815522ed4b3e238e7	miguelc1221	564faef0051b93d13c8d5b6a	yea, i did Physical education, but i knew i didnt want to teach after doing my student teaching
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:37:24.649Z	55863c8015522ed4b3e23814	ltegman	564faeb4051b93d13c8d5b60	Oh wow! You've been using your time wisely then. I know a lot of people who rest easy after college and expect a job to come to them.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:36:34.581Z	558646c815522ed4b3e238e7	miguelc1221	564fae82ce18827866f4fc5d	benefits of still living at home
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:36:21.157Z	558646c815522ed4b3e238e7	miguelc1221	564fae75225892ce3ce12242	yea i graduated college in may, no job and 10hrs+ each day coding lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:34:57.792Z	55863c8015522ed4b3e23814	ltegman	564fae21225892ce3ce12239	Wow! You've come a long way quick!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:33:56.510Z	558646c815522ed4b3e238e7	miguelc1221	564fade454ba2ca24260b044	i started FCC mid April with no idea what html even was lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:33:37.425Z	55863c8015522ed4b3e23814	ltegman	564fadd1051b93d13c8d5b42	Nice!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:33:26.637Z	558646c815522ed4b3e238e7	miguelc1221	564fadc6a051fea34242ccad	i am going to start applying in Jan.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:32:55.646Z	558646c815522ed4b3e238e7	miguelc1221	564fada7a051fea34242cca5	yea
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:32:49.645Z	55863c8015522ed4b3e23814	ltegman	564fada1225892ce3ce12228	Yeah, and there's still a ton of companies out there using and hiring for angular
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:32:32.338Z	558646c815522ed4b3e238e7	miguelc1221	564fad90a051fea34242cc9c	i am going to make my next app in angular though, just to have diversity in my portfolio aha
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:31:22.106Z	55863c8015522ed4b3e23814	ltegman	564fad4a1a00e4f00803c5f2	I know a react curriculum is in the works. Don't know how far off it is
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:31:17.993Z	558646c815522ed4b3e238e7	miguelc1221	564fad451a00e4f00803c5f1	yea and angular2 already took the best parts of react
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:30:43.498Z	55863c8015522ed4b3e23814	ltegman	564fad23ce18827866f4fc2a	I completely agree. I think angular tends to teach bad habits or things that don't apply at all to other JS, where React rewards modern and good JS
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:30:01.446Z	558646c815522ed4b3e238e7	miguelc1221	564facf91a00e4f00803c5ec	it improved my js soooo much
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:29:57.137Z	558646c815522ed4b3e238e7	miguelc1221	564facf5051b93d13c8d5b2f	FCC should switch to teaching react.js 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:29:05.197Z	558646c815522ed4b3e238e7	miguelc1221	564facc154ba2ca24260b002	aha
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:29:03.669Z	558646c815522ed4b3e238e7	miguelc1221	564facbfa051fea34242cc57	im very anal about using boilerplate code and not knowing what is going on
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:28:44.980Z	55863c8015522ed4b3e23814	ltegman	564facac051b93d13c8d5b25	Ahhh, okay. That's rad you learned that though. I don't know many people who've taken the time to dive into authentication.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:28:35.779Z	558646c815522ed4b3e238e7	miguelc1221	564faca354ba2ca24260affb	they it became clear how to do it in react
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:28:12.255Z	558646c815522ed4b3e238e7	miguelc1221	564fac8ca051fea34242cc49	and the reason i say angular is because many tutorials online use angular
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:27:47.067Z	558646c815522ed4b3e238e7	miguelc1221	564fac7354ba2ca24260aff4	because i didn’t know about tokens 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:27:31.901Z	558646c815522ed4b3e238e7	miguelc1221	564fac6354ba2ca24260afef	i had to do projects with angular so i can learn it
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:27:05.197Z	558646c815522ed4b3e238e7	miguelc1221	564fac49a051fea34242cc36	authentication for sure
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:26:50.768Z	55863c8015522ed4b3e23814	ltegman	564fac3a541ec57a66e2e284	What was the hardest part of it to learn? Redux? Authentication? Something else?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:25:52.425Z	558646c815522ed4b3e238e7	miguelc1221	564fac00541ec57a66e2e27c	yea np 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:25:37.536Z	55863c8015522ed4b3e23814	ltegman	564fabf1051b93d13c8d5b1b	I'll make sure to come to you with any questions then when I find the time to dive back into redux :P
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:25:08.886Z	558646c815522ed4b3e238e7	miguelc1221	564fabd4051b93d13c8d5b15	oh and learned redux
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:24:45.332Z	558646c815522ed4b3e238e7	miguelc1221	564fabbdce18827866f4fc0c	took like 2 months lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:24:37.405Z	558646c815522ed4b3e238e7	miguelc1221	564fabb51a00e4f00803c5d2	learned node.js, rest apis and learned how to implement my own jwt authentication
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:24:06.818Z	558646c815522ed4b3e238e7	miguelc1221	564fab961a00e4f00803c5cf	it was a good learning experience
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:23:54.230Z	558646c815522ed4b3e238e7	miguelc1221	564fab8a051b93d13c8d5b12	ahaha yea thanks @ltegman 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:21:12.817Z	55863c8015522ed4b3e23814	ltegman	564faae854ba2ca24260afa4	@miguelc1221 Woot! Just made a poll -- works great!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-20T23:11:32.853Z	558646c815522ed4b3e238e7	miguelc1221	564fa8a4a051fea34242cb6a	finished first basejump in react http://letsvoteapp.herokuapp.com/
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-16T01:19:12.772Z	540a150e163965c9bc202eaf	abhisekp	56492f104a40632d674ce252	Ding dong. No help here. :P
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-14T22:52:58.814Z	5586c51315522ed4b3e23f7b	mildused	5647bb4a96589f4338675686	Ding dong. I need some help please?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-11-11T22:49:50.758Z	5586c51315522ed4b3e23f7b	mildused	5643c60eaed85e09393dccfb	Is this room dead?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-10-06T02:02:40.694Z	558646c815522ed4b3e238e7	miguelc1221	56132bc0261e77ba2dbada08	what flux implementation are you guys using?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:29:55.152Z	5488eea8db8155e6700dded5	aldraco	560c1c13dfb3151302858d79	ah, I see now. Thanks!!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:29:48.439Z	558646c815522ed4b3e238e7	miguelc1221	560c1c0cdfb3151302858d77	you would get the link or blog post to the link
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:29:28.705Z	558646c815522ed4b3e238e7	miguelc1221	560c1bf8552ed791327a0a52	usually though if you just google the “slack channel name” + invite
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:28:52.954Z	558646c815522ed4b3e238e7	miguelc1221	560c1bd495756f1402bcb1d1	yea
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:28:48.992Z	558646c815522ed4b3e238e7	miguelc1221	560c1bd095756f1402bcb1d0	for example reactiflux slack channel you get the invite through this linkhttp://www.reactiflux.com/
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:28:38.722Z	5488eea8db8155e6700dded5	aldraco	560c1bc6081f3a9c044da881	so you still have to be invited, in other words?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:28:17.376Z	558646c815522ed4b3e238e7	miguelc1221	560c1bb1dfb3151302858d69	link to a site that sends you the invite
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:28:11.109Z	558646c815522ed4b3e238e7	miguelc1221	560c1babdfb3151302858d66	i usually find it on reddit or twitter 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:27:59.694Z	558646c815522ed4b3e238e7	miguelc1221	560c1b9f95756f1402bcb1c9	different channels have different method
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:27:35.355Z	5488eea8db8155e6700dded5	aldraco	560c1b87f4b61c106fb2d562	n00b question: @miguelc1221 how does one join a slack channel that they are not a member of the team? My only experience with Slack is through FCC's old slack channel (RIP)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:26:23.754Z	558646c815522ed4b3e238e7	miguelc1221	560c1b3f081f3a9c044da866	reactiflux is like the go to slack for react
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:26:09.228Z	5488eea8db8155e6700dded5	aldraco	560c1b31552ed791327a0a21	interesting!! thanks @miguelc1221 for the data and website
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:26:07.758Z	558646c815522ed4b3e238e7	miguelc1221	560c1b2fff22c70f6fab6589	and on the jobs section there is always people looking for developers
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:25:45.555Z	558646c815522ed4b3e238e7	miguelc1221	560c1b19552ed791327a0a1d	i mostly hand out on slack, reactiflux channel
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:25:07.728Z	55863c8015522ed4b3e23814	ltegman	560c1af3081f3a9c044da855	@miguelc1221 Nice! Good to see it's not just catching up but has already caught up.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:24:28.764Z	558646c815522ed4b3e238e7	miguelc1221	560c1accdfb3151302858d2f	seems react caught up
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:24:24.731Z	558646c815522ed4b3e238e7	miguelc1221	560c1ac895756f1402bcb198	but that graph is the trend on indeed
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:24:07.837Z	558646c815522ed4b3e238e7	miguelc1221	560c1ab7552ed791327a09f9	there is a lot of react jobs popping up in NYC
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:23:54.215Z	558646c815522ed4b3e238e7	miguelc1221	560c1aaa95756f1402bcb18e	http://www.ryan-williams.net/hacker-news-hiring-trends/2015/september.html?compare1=AngularJS&compare2=Backbone&compare3=Ember&compare4=React
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T17:00:34.479Z	55863c8015522ed4b3e23814	ltegman	560c1532f4b61c106fb2d3ec	There's definitely not as many as Angular yet, but it's experiencing a lot of growth right now. And atleast in the Seattle area I've seen no shortage of job postings asking for React experience (although there are more with Angular asked for).
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T16:50:54.677Z	5488eea8db8155e6700dded5	aldraco	560c12ee081f3a9c044da688	not a whole lot of React jobs unfortunately, I think that has a lot to do with the decision to focus on angular
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-30T16:01:08.185Z	55863c8015522ed4b3e23814	ltegman	560c0744ff22c70f6fab6160	Yeah -- I don't think it helps that the FCC curriculum doesn't even mention React. I sort of wish the front-end framework path branched and you could either learn to use Angular or React (or both). Then we'd definitely have more interest in this room.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-26T21:47:58.041Z	558646c815522ed4b3e238e7	miguelc1221	5607128eb25b32533216dba8	we gotta get more people in here!!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-11T04:03:23.632Z	558646c815522ed4b3e238e7	miguelc1221	55f2528b5c328fe25abc6e66	@aldraco i read that i can make /login /signup endpoints and then just have some fetch functions in my store. so i can just call the api from my component. Now i just gotta figure out how to even make those endpoints lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T23:09:28.372Z	558646c815522ed4b3e238e7	miguelc1221	55f0bc28e30ef74f74f968b1	sure will
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T22:30:02.011Z	5488eea8db8155e6700dded5	aldraco	55f0b2ea24362d5253fe7baf	@miguelc1221 I am also interested in figuring out how to do user authentication w react. If you find anything please post it :) 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T22:03:15.082Z	54b8246bdb8155e6700eb84c	crisberrios	55f0aca35a3d7ec73373364a	keep it simple, improve it afterwards
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T22:02:51.170Z	54b8246bdb8155e6700eb84c	crisberrios	55f0ac8b643be1e50bdc0a08	you can still use jquery, zepto or fetch inside a component
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T22:01:54.038Z	558646c815522ed4b3e238e7	miguelc1221	55f0ac525ba1e0ea6b805c9f	everything online uses angular
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T22:01:42.630Z	558646c815522ed4b3e238e7	miguelc1221	55f0ac4624362d5253fe7a78	there isn’t much resources online
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T22:01:33.259Z	558646c815522ed4b3e238e7	miguelc1221	55f0ac3d5ba1e0ea6b805c9a	im stuck in learning backend, struggling in how to connect it with a react front end
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T21:57:27.208Z	558646c815522ed4b3e238e7	miguelc1221	55f0ab47643be1e50bdc09cf	but stuck in making a login
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T21:57:18.843Z	558646c815522ed4b3e238e7	miguelc1221	55f0ab3e24362d5253fe7a4b	i am doing the first basejump in React
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T21:57:07.250Z	558646c815522ed4b3e238e7	miguelc1221	55f0ab335a3d7ec733733618	yea screw it lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T21:56:48.119Z	54b8246bdb8155e6700eb84c	crisberrios	55f0ab205ba1e0ea6b805c61	most of the times you don't
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T21:56:42.071Z	54b8246bdb8155e6700eb84c	crisberrios	55f0ab1a643be1e50bdc09ca	the problem with flux is that people think that they NEED flux
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T20:51:05.216Z	558646c815522ed4b3e238e7	miguelc1221	55f09bb95ba1e0ea6b8059a8	so much boilerplate
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-09T20:50:59.098Z	558646c815522ed4b3e238e7	miguelc1221	55f09bb3e30ef74f74f96376	man screw flux
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-06T18:52:01.209Z	540a150e163965c9bc202eaf	abhisekp	55ec8b519ce373de62038205	@mildused :+1: 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-06T18:50:44.625Z	5586c51315522ed4b3e23f7b	mildused	55ec8b04d92b7f6f11d40553	@abhisekp I got this stuff down
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-06T06:56:03.128Z	540a150e163965c9bc202eaf	abhisekp	55ebe383e8e2f6e335e3aeb1	@mildused lolz :D
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-09-06T05:16:32.844Z	5586c51315522ed4b3e23f7b	mildused	55ebcc302e48d88a543daaf2	Someone want to work on a react proj with me?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-23T20:48:43.874Z	558646c815522ed4b3e238e7	miguelc1221	55da31ab36e894436a9ab62b	anyone uses redux as their flux lib?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-22T18:57:06.370Z	5488eea8db8155e6700dded5	aldraco	55d8c602b6d887d9704d220b	Cool, thanks for the tip! 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-22T18:42:31.951Z	558646c815522ed4b3e238e7	miguelc1221	55d8c297098731da7020e23d	i plan on making something in react/meteor
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-22T18:42:14.997Z	558646c815522ed4b3e238e7	miguelc1221	55d8c287b6d887d9704d21c9	@aldraco there is a course in pluralsight that was release this week for building a full stack app in React/express
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-22T18:41:32.072Z	558646c815522ed4b3e238e7	miguelc1221	55d8c25cb6d887d9704d21c6	i am starting to learn flux now
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-21T20:39:21.989Z	5488eea8db8155e6700dded5	aldraco	55d78c79098731da7020ccb9	tricky part is just figuring out how to integrate the API calls and where they all go
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-21T20:38:43.687Z	5488eea8db8155e6700dded5	aldraco	55d78c53b6d887d9704d0b8e	same here, I was intimidated by Flux for a while
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-21T20:34:23.922Z	55863c8015522ed4b3e23814	ltegman	55d78b4f4eff2e776538447f	That sounds awesome! I still need to jump into the whole flux thing. So far I’ve just been using React by itself.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-21T20:23:03.481Z	5488eea8db8155e6700dded5	aldraco	55d788a7fcfd5a7865aecf45	Hi React room! I just started trying to work with Flux / Express today. Thinking I may try to build a BASE jump with refluxpress :)
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-20T00:21:04.831Z	5586c51315522ed4b3e23f7b	mildused	55d51d70a92a8b4b219b0119	@miguelc1221 https://atom.io/packages/react
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-20T00:20:46.826Z	5586c51315522ed4b3e23f7b	mildused	55d51d5e1ba62e4a21fa7921	@miguelc1221 I do
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-19T02:56:14.440Z	558646c815522ed4b3e238e7	miguelc1221	55d3f04e4f6c9d3018318d6f	anyone use atom with react?
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T18:37:29.649Z	558646c815522ed4b3e238e7	miguelc1221	55ca40e9aac97ada66dd8541	only thing i miss from Angular, is being able to everything with one framework lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:11:57.332Z	54b8246bdb8155e6700eb84c	crisberrios	55c9760d7f578b465ff4a11e	I'm leaving now. good night!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:11:38.132Z	54b8246bdb8155e6700eb84c	crisberrios	55c975fa7f578b465ff4a11b	so well
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:11:35.722Z	54b8246bdb8155e6700eb84c	crisberrios	55c975f78f067d637598d99b	or webpack
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:11:28.266Z	54b8246bdb8155e6700eb84c	crisberrios	55c975f00c29567545d9a01c	also npm 3.0 is a must since it acts weird with react-router and browserify 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:10:28.022Z	54b8246bdb8155e6700eb84c	crisberrios	55c975b4aac97ada66dd6b8e	I'm still kind of struggling with react-router, I hope 1.0 fixes many of the issues it has right now
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:09:58.855Z	54b8246bdb8155e6700eb84c	crisberrios	55c97596aac97ada66dd6b8b	sounds like a good deal
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:09:25.558Z	546fd823db8155e6700d6eb4	Rybar	55c975752ee3da6275c37bf9	starts from zero knowledge assumption and goes all the way to flux/react-router and build tools
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:08:51.585Z	546fd823db8155e6700d6eb4	Rybar	55c975532ee3da6275c37bf8	it's been quite good so far
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:08:43.331Z	54b8246bdb8155e6700eb84c	crisberrios	55c9754b0c29567545d9a010	didn't knew udemy had a react course
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:08:34.925Z	54b8246bdb8155e6700eb84c	crisberrios	55c97542aac97ada66dd6b87	cool
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:07:56.022Z	546fd823db8155e6700d6eb4	Rybar	55c9751c0c29567545d9a00c	prepping for js13k
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:07:42.368Z	546fd823db8155e6700d6eb4	Rybar	55c9750eaac97ada66dd6b84	not much.  doing udemy's react course
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:02:00.371Z	54b8246bdb8155e6700eb84c	crisberrios	55c973b87f578b465ff4a0f5	sup @Rybar 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T04:00:26.814Z	546fd823db8155e6700d6eb4	Rybar	55c9735a2ee3da6275c37bcf	@crisberrios o/
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:43:14.770Z	55863c8015522ed4b3e23814	ltegman	55c96f520c29567545d99f8e	@crisberrios Hello! :smile: 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:43:03.384Z	54b8246bdb8155e6700eb84c	crisberrios	55c96f4721801cd866caa405	hey React ppl :D
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:32:30.171Z	558646c815522ed4b3e238e7	miguelc1221	55c96cce8f067d637598d8da	taking advantage
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:32:24.057Z	558646c815522ed4b3e238e7	miguelc1221	55c96cc821801cd866caa3d1	lol
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:32:21.445Z	558646c815522ed4b3e238e7	miguelc1221	55c96cc58f067d637598d8d9	so still living at home and unemployed
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:32:14.003Z	5586c51315522ed4b3e23f7b	mildused	55c96cbe21801cd866caa3d0	Hello
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:32:13.642Z	558646c815522ed4b3e238e7	miguelc1221	55c96cbd0c29567545d99f5d	i just graduated college
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:32:02.736Z	558646c815522ed4b3e238e7	miguelc1221	55c96cb22ee3da6275c37b49	i do like 8+ hours each day haha
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:31:51.560Z	55863c8015522ed4b3e23814	ltegman	55c96ca78f067d637598d8d6	@miguelc1221 Dang, you’ve taken to web dev quickly if that’s when you got started!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:30:33.956Z	558646c815522ed4b3e238e7	miguelc1221	55c96c5921801cd866caa3ca	wrote my first html 
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:30:28.170Z	558646c815522ed4b3e238e7	miguelc1221	55c96c5421801cd866caa3c9	i started in May
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:30:09.801Z	546fd823db8155e6700d6eb4	Rybar	55c96c417f578b465ff4a061	It's definitely a more 'general developer' approach to webdev, and IMO where webdev is heading. I completed FCC's curriculum last year before so much of it was brought 'in house' and am now going back and doing the zipline projects with react
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:30:01.704Z	558646c815522ed4b3e238e7	miguelc1221	55c96c397f578b465ff4a060	and downloaded all the videos
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:29:54.774Z	558646c815522ed4b3e238e7	miguelc1221	55c96c3221801cd866caa3c7	i signed up for a month
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:29:46.311Z	558646c815522ed4b3e238e7	miguelc1221	55c96c2a2ee3da6275c37b45	kk
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:29:12.632Z	55863c8015522ed4b3e23814	ltegman	55c96c088f067d637598d8c5	I grabbed an egghead subscript for a year when it was one sale a while back :smile: thanks though
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:28:47.080Z	55863c8015522ed4b3e23814	ltegman	55c96bef7f578b465ff4a05a	That’s true. It didn’t click for me until I got hands on with it for the twitch zipline, and then everything just fell into place.
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:28:43.518Z	558646c815522ed4b3e238e7	miguelc1221	55c96beb8f067d637598d8c4	i have the videos if you want them
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:28:34.631Z	558646c815522ed4b3e238e7	miguelc1221	55c96be2aac97ada66dd6ad2	the egghead course by tyler mcginnis is the best course on React i have done
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:27:49.208Z	558646c815522ed4b3e238e7	miguelc1221	55c96bb5aac97ada66dd6ad1	yea, but honestly with react, i feel like you just get a better understanding of it when you start using it
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:27:30.515Z	55863c8015522ed4b3e23814	ltegman	55c96ba22ee3da6275c37b3b	@Rybar Think I’m going to take a look at the udemy course for all their stuff on the tooling though. I’m really light on my knowledge of using any buildtools when it wasn’t prebuilt for me by yeoman
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:26:22.765Z	55863c8015522ed4b3e23814	ltegman	55c96b5e8f067d637598d8b9	It only covers the barebones basics, but I really liked this article by the facebook team: https://facebook.github.io/react/docs/thinking-in-react.html
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:25:54.850Z	558646c815522ed4b3e238e7	miguelc1221	55c96b420c29567545d99f49	since i wasn’t interested in reflux
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:25:47.129Z	558646c815522ed4b3e238e7	miguelc1221	55c96b3b2ee3da6275c37b38	i took the course but stopped at flux
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:24:51.128Z	546fd823db8155e6700d6eb4	Rybar	55c96b030c29567545d99f41	https://www.udemy.com/learn-and-understand-reactjs/ is what I'm currently working through, it's quite good.  With a discount code you can get it for $18
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:24:05.528Z	55863c8015522ed4b3e23814	ltegman	55c96ad5aac97ada66dd6ac2	Woot! That was what first got me looking at React too :P That and the performance of some of my pretty simple angular stuff
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:23:58.297Z	546fd823db8155e6700d6eb4	Rybar	55c96ace8f067d637598d8ac	so agreed, on needing an FCC place to discuss.  
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:23:29.673Z	546fd823db8155e6700d6eb4	Rybar	55c96ab12ee3da6275c37b27	I'm currently teaching myself react after disliking how angular works
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:22:48.033Z	558646c815522ed4b3e238e7	miguelc1221	55c96a880c29567545d99f30	nice!
+55c96a410fc9f982beacf1f7	FreeCodeCamp/React	2015-08-11T03:22:42.812Z	546fd823db8155e6700d6eb4	Rybar	55c96a827f578b465ff4a041	Welcome to the brand-spankin-new React channel

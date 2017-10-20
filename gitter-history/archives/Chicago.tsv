@@ -1,0 +1,511 @@
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-12-11T00:38:33.318Z	584c9e92d73408ce4f3c2afd	prateekpanther	584ca00928d755bf14ed2329	Hello everyone I am a mainframe programmer. I am interested in learning some web developement
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-09-17T11:02:19.671Z	540a150e163965c9bc202eaf	abhisekp	57dd22bb27a8458f7f216a4f	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-08-10T13:57:47.023Z	55af1cf40fc9f982beaa8648	adevenuto	57ab32dbd7087a017fa8e56f	You should be able to use: modulo ex...12 % 5 // 2 @ManuelaJa 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-06-13T21:15:37.977Z	5524875b15522ed4b3dea46c	CandidKilsborne	575f2279e20024bd1ad344c0	@ManuelaJa What number is it?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-06-08T03:25:21.252Z	5744e293c43b8c601974be8e	ManuelaJa	5757902145cf128e5f1d6dca	hi! im stuck on finding a remainder in javascript anyone go through that part already possible explain it to me please
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-06-07T17:58:17.527Z	55ca0cac0fc9f982bead0254	kelseybcoding	57570b39970521a45839c8f8	Anyone in Chicago already been playing in Rails 5? Action Cable? I am looking for someone for advanced with it than I that can perhaps tutor me as I build out a project for my bootcamp.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-05-03T00:50:47.036Z	5524875b15522ed4b3dea46c	CandidKilsborne	5727f5e7df1a01ff18fbde0d	@kelseybcoding you're welcome! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-05-03T00:31:05.219Z	55ca0cac0fc9f982bead0254	kelseybcoding	5727f149944fc7ba04cc710e	@CandidKilsborne  thanks much!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-22T00:25:40.481Z	5524875b15522ed4b3dea46c	CandidKilsborne	57196f8498c544f1396d70c2	Yeah I wish more people would be active 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-22T00:24:40.487Z	56f6e99585d51f252abafab3	ZoeyCluff	57196f4825b4886636261e8d	aww
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-22T00:24:12.277Z	5524875b15522ed4b3dea46c	CandidKilsborne	57196f2c5b5164bf56eed99a	@siadevelopment I haven't noticed much activity in here as of late
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-21T21:21:59.390Z	56f6e99585d51f252abafab3	ZoeyCluff	57194477599a529856da098e	anyone around?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-07T23:44:45.400Z	5524875b15522ed4b3dea46c	CandidKilsborne	5706f0ed8b7b2f457634b2a5	@kelseybcoding Not sure if you still need help with the Ruby challange, if you do this might help http://stackoverflow.com/questions/1614147/odd-or-even-entries-in-a-ruby-array
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-06T01:55:25.291Z	55ca0cac0fc9f982bead0254	kelseybcoding	57046c8df7d63d897f23a3d5	"Hi all! I am working on a little challenge as a first time playing in Ruby. The exercise is such that the program needs to ask the user 5 times in a row to enter a word by saying ""Please enter a word"". Each time the user enters a random word and once the user enters 5 words one after the other, the program says ""Here are your words"" and lists them alphabetically and each word alternating uppercase and lower case like so, WORD A, word b, WORD C, word d, WORD E. Although the exercise specifies creating a program with 5 words, I need to write it in such a way that I need it to handle 500 words, I can do so with making only 1 simple change. I am also not to use the each_with_index method. So far, I have this for my code and it is running correctly, but the only thing I can't figure out is the alternating upcase and downcase. Please help me figure it out:
+words = []
+5.times do
+    puts ""Please enter a word""
+    words<<gets.chomp
+end
+puts ""Here are your words:""
+puts words.sort"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-19T03:11:51.158Z	551c3e1215522ed4b3de3395	alexcampillo	56c687f7ddb99257675397d8	http://stackoverflow.com/questions/2125714/explanation-of-slice-call-in-javascript
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-19T02:50:24.170Z	55f838840fc9f982beb0c2bc	Orbers	56c682f0e1786831677bed91	@alexcampillo
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-19T02:50:03.661Z	55f838840fc9f982beb0c2bc	Orbers	56c682db5c3b0559674d4702	@lybogany hi
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T03:09:07.567Z	559ee3c5b3498e315909040c	tknovember	56be9e5337437b675608f995	@wildlifehexagon Yeah I joined that a couple weeks ago. I’m just not a fan of Facebook and avoid it if I can.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T03:03:31.014Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	56be9d031fbcdac17897df72	https://www.facebook.com/groups/free.code.camp.chicago/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T02:54:34.492Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	56be9aea4dfe1fa71ffc7d19	@tknovember I think everything has moved to the Facebook group now
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T02:53:40.693Z	559ee3c5b3498e315909040c	tknovember	56be9ab496d748c4782fa611	Anyone still on here ever?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-12-11T17:32:37.068Z	566a2f1216b6c7089cbe42ad	GaurangB	566b08b5d09f6139361fd708	Hi @xunxdd 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-12-10T00:10:16.227Z	55c7e5030fc9f982beaccb83	Kparelius	5668c2e8981d32824933af2f	I have no issue using this. It's not going anywhere, after all. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-14T01:24:07.886Z	55def14c0fc9f982beaec3b3	BlackADeath	561daeb7658d372177442c59	"Okay but synchronous chat is alright for this chatroom  too if you bother to scroll up and read a few posts. It's only when people refuse to try that we are forced to change ""for the better"" despite what the community wants. Was there a poll I missed?"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-06T21:33:00.582Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143e0c76d984a358758a48	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-02T12:11:58.850Z	55a8e5e18a7b72f55c3fae41	adampinsky	560e748eef36415027431d18	*UPDATE* I've got worked out I think. Thanks though. :smile: 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-02T01:47:42.117Z	55a8e5e18a7b72f55c3fae41	adampinsky	560de23eb6a13ea04467bbdf	"Hello everyone.   I'm working on the first zipline right. I'm supposed to reverse engineer a portfolio.(  I'm using Bootstrap )  And, I don't know why its not working so far.  So, the navigation list should collapse when the viewport is too small. Instead,  there's nothing.  If someone has any sage advice I could totally use it. Thanks in advance!
+```
+<body>
+		<div class=""container"">
+			<nav class=""navbar navbar-fixed-top"">
+				<div class=""container"">
+					<div class=""navbar-header"">
+						<button type=""button"" class=""navbar-toggle collapsed"" data-toggle=""collapse"" data-target=""#nav-links"" aria-expanded=""false"">
+							<span class=""sr-only"">Toggle navigation</span>
+							<span class=""icon-bar""></span>
+							<span class=""icon-bar""></span>
+							<span class=""icon-bar""></span>
+						</button>
+						<a class=""navbar-brand navbar-left"" href=""https://freecodecamp.com/kcpinskys"">Adam R. Pinsky</a>
+					</div>
+					<div class=""collapse navbar-colapse navbar-right"" id=""nav-links"">
+						<ul class=""nav navbar-nav nav-pills"">
+							<li class=""presentation active""><a href=""#home"">Home <span class=""sr-only"">(current)</span></a></li>
+							<li class=""presentation""><a href=""#about"">About</a></li>
+							<li class=""presentation""><a href=""#portfolio"">Portfolio</a></li>
+							<li class=""presentation""><a href=""#contact"">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</body>
+```
+"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-01T14:46:50.540Z	54fc639e15522ed4b3dcf849	zaynaib	560d475a081f3a9c044dd399	The Chicago Urban League is having a Hackathon on Halloween http://www.eventbrite.com/e/community-code-app-development-challenge-tickets-18424143108
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-01T05:17:12.236Z	55df80ce0fc9f982beaed4df	vbabatchev	560cc1d895756f1402bcc844	After flying through the first two ziplines, I spent a considerable amount of time on the weather one. Learned a lot, and was hoping for some feedback! [title]http://codepen.io/vbabatchev/pen/KdNdOK
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-30T21:02:07.626Z	55c7e5030fc9f982beaccb83	Kparelius	560c4dcfdfb3151302859784	Is anyone planning a New Wave meet soon?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-26T16:43:21.795Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	5606cb29696b13767a909d02	@DMBarnett http://www.builtinchicago.org/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T22:57:41.503Z	5601d17b0fc9f982beb18199	pkneeland78	56047fe5a0ecf0e07a8ea9b9	"sorry guys, was testing the post feature on here.... :(
+"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T22:57:17.540Z	5601d17b0fc9f982beb18199	pkneeland78	56047fcde85e8d337252c710	"```html
+var ourArray = [""Stimpson"", ""J"", [""cat""]];
+ourRemoved = ourArray.shift();
+// ourArray now equals [""J"", [""cat""]].
+
+var myArray = [""John"", 23, [""dog"", 3]];
+// Only change code below this line.
+
+var myRemoved = myArray; // This should be [""John""] and myArray should now be [23, [""dog"", 3]].
+
+// Only change code above this line.
+
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(y, z){return 'myArray = ' + JSON.stringify(y) + ' & myRemoved = ' + JSON.stringify(z);})(myArray, myRemoved);
+```"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T22:56:42.808Z	5601d17b0fc9f982beb18199	pkneeland78	56047faa5c1379fe645974c8	"```js
+var ourArray = [""Stimpson"", ""J"", [""cat""]];
+ourRemoved = ourArray.shift();
+// ourArray now equals [""J"", [""cat""]].
+
+var myArray = [""John"", 23, [""dog"", 3]];
+// Only change code below this line.
+
+var myRemoved = myArray; // This should be [""John""] and myArray should now be [23, [""dog"", 3]].
+
+// Only change code above this line.
+
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(y, z){return 'myArray = ' + JSON.stringify(y) + ' & myRemoved = ' + JSON.stringify(z);})(myArray, myRemoved);
+```"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T02:41:30.286Z	547d029cdb8155e6700da3e3	DMBarnett	560362da40f4ecd92f717941	Anyone know of a good job board for chicago
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-21T21:01:22.768Z	55f577890fc9f982beb08add	BruceJamesH	560070223a8116ed5f69a59f	Anytime @Orbers . For once I had an answer instead of a question. Rare for me when it comes to FCC. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-20T16:18:07.721Z	55f838840fc9f982beb0c2bc	Orbers	55fedc3f18e0111d7e4fc28e	Thanks @BruceJamesH !
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-19T13:58:23.988Z	55f577890fc9f982beb08add	BruceJamesH	55fd69ffaef03edd3ed1519b	@Orbers command + right or left arrow does it on mac
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-18T16:37:05.926Z	55f838840fc9f982beb0c2bc	Orbers	55fc3db10ed44a00046eeb70	"Is there a short cut key to get to the end of a line of text or outside of the current [, {, ', or "" that you are in? "
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-18T16:23:58.594Z	55f838840fc9f982beb0c2bc	Orbers	55fc3a9e615196327150afba	When typing code, is there a keyboard shortcut to get out of quotation marks without using the arrow keys? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-17T15:56:06.756Z	55e60ff30fc9f982beaf5621	Tao0fpooh	55fae2966f976dff036ef361	any pair coders out there? I'm working on basic algorithms. Would be nice to chat over logic of function organization
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-16T10:54:33.150Z	55f577890fc9f982beb08add	BruceJamesH	55f94a69aef03edd3ed0c5c0	Thanks @Orbers .  Just gotta dig in.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-16T01:45:17.784Z	55f838840fc9f982beb0c2bc	Orbers	55f8c9ada2c7aa6b1086b26e	Sorry to here that @BruceJamesH! I completely understand hitting a wall with coding! Keep up the hard work though!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-15T23:01:05.382Z	55f577890fc9f982beb08add	BruceJamesH	55f8a331a2c7aa6b1086aece	Hey,  this is just to vent a little. Progress going through FCC was just fine - maybe a few bumps - but hitting algorithm scripting was like hitting a brick wall.  A little discouraging. All of a sudden I have no idea.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-15T16:02:56.715Z	55f838840fc9f982beb0c2bc	Orbers	55f84130f66d320b4fbda68c	Hey! I've been trying to learn to code by myself for a while and am excited for the community focus that FreeCodeCamp seems to focus on. If anyone is interested in working on learning code at a coffee shop somewhere in the city before work off the redline, I'm interested in meeting up.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-14T17:56:41.757Z	55e60ff30fc9f982beaf5621	Tao0fpooh	55f70a59f66d320b4fbd778e	Im in the burbs but down to meet anywhere
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-14T17:55:45.496Z	55e60ff30fc9f982beaf5621	Tao0fpooh	55f70a21fe4ca46810e19812	Hey any FCCers wan to meetup to paircode? Im starting the jQuery section
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-13T14:48:38.157Z	55f577890fc9f982beb08add	BruceJamesH	55f58cc610cd1e2f0213c69c	Hi guys - I'm a marketing communications guy just getting started with some html/css online lessons -- thinking it will be a valuable addition to marcom skill set. Really like it. Working FT right now, but looking to get back into freelancing down the road. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-10T02:42:26.718Z	55ec88230fc9f982beafd486	thomasmathew	55f0ee125a3d7ec733733e12	Thanks!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-08T16:03:05.377Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	55ef06b9b69ff6ab0ec53dd2	@rvchs @thomasmathew Welcome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-08T04:11:23.790Z	55ee39650fc9f982beaff51d	rvchs	55ee5febfd02f8cd4d2f9aa9	Hey guys! My name is Rachel...I just started on FCC, but wanted to introduce myself to the Chicago crew. I'm a designer who wants to learn front end web development. Nice to meet you all!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T20:43:13.851Z	55ce845c0fc9f982bead6e84	xunxdd	55eca5612e48d88a543db993	outside my work, feel free to reach me for support of all sorts
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T20:41:59.660Z	55ce845c0fc9f982bead6e84	xunxdd	55eca517941cb60657c78079	i make a living by doing the web stuff, still loves free code camp (fcc sounds like cdc, cia, all that terrible sounding institutions), because i get to learn node js,  work on some cool projects
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T20:40:32.115Z	55ce845c0fc9f982bead6e84	xunxdd	55eca4c0ece6c2581e09018e	hi, welcome @thomasmathew. i work at downtown too, believe many people here do too. yeah, agree with you about working on weekends and nights, especially there is a family to tend and just to be with
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T18:41:20.227Z	55ec88230fc9f982beafd486	thomasmathew	55ec88d097535f4058ef8f4c	*in case anyone else does.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T18:41:13.123Z	55ec88230fc9f982beafd486	thomasmathew	55ec88c90b6aa72b12fff858	I live in Logan Square and work in the Loop in case.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T18:40:54.247Z	55ec88230fc9f982beafd486	thomasmathew	55ec88b6941cb60657c77dc0	Hey all, I'm a product designer who'd like to get good at JavaScript (beyond fiddling badly with some jQuery). Hoping to learn on a structured but relaxed pace, my biggest issue's been motivating myself and adhering to some structure after work and on weekends.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T23:09:01.987Z	55b062440fc9f982beaaa197	spramp	55e7818da75db4b375c3be97	@oyp @jramirez135  Hi there. Will probably be at the Spoke & Bird after lunch (noon-ish) tomorrow and on Friday. Hope to see you there! 👍🏼
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T22:15:19.237Z	55c5049f0fc9f982beac9f08	oyp	55e774f7f6fb4f034f6b6704	@spramp @jramirez135 Hi guys, so i've never been to The Spoke and Bird but it seems like cool spot. Are either of you planning to drop by today or later on this week?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T05:26:30.249Z	55b062440fc9f982beaaa197	spramp	55e68886b4f7751c343acf65	@jramirez135 Hey there! The Spoke and Bird is pretty much my second office. You can't miss me. I have bright red Beats earphones and often have a confused look on my face trying to complete the FCC lessons. Haha. Say hello if I'm there. It would be great to connect with other S Loop FCC'ers. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T04:29:42.748Z	55e3a7e00fc9f982beaf1c04	jramirez135	55e67b36c856a83f6e6a5b48	@spramp I actually frequent The Spoke & Bird cafe! Just like @oyp, I'm in the South and West Loop all the time.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T02:19:43.010Z	55b062440fc9f982beaaa197	spramp	55e65cbff0248505272d912b	@oyp Just let me know when works for you. So far only you've expressed interest in the SL. I usually work at the Spoke and Bird on 18th and Indiana. Anyone else on the South Loop, get in touch with me. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T01:50:43.254Z	55c5049f0fc9f982beac9f08	oyp	55e655f356211cd86f870afe	@spramp Please add me to your South Loop group! I'm always in the south loop!!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T01:50:10.542Z	55c5049f0fc9f982beac9f08	oyp	55e655d2b4f7751c343acad4	Welcome to @BDesprat & @jramirez135 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-01T21:57:51.345Z	55b062440fc9f982beaaa197	spramp	55e61f5f56211cd86f870485	Are there any folks in the South Loop interested in meeting up at a cafe or whatnot to work on FreeCodeCamp stuff?  Msg me.  Onwards!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-31T13:57:56.405Z	54fc639e15522ed4b3dcf849	zaynaib	55e45d648ca628307ecd1a89	@jramirez135  Welcome 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-31T01:13:40.888Z	55e3a7e00fc9f982beaf1c04	jramirez135	55e3aa448a8b32aa29a30e53	Hey y'all! I'm a Computer Engineer major at UIC, and I'm interested in getting to learn some web development skills. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-28T23:12:29.799Z	55ca0cac0fc9f982bead0254	kelseybcoding	55e0eaddfbbdfcbd3b5dc814	@BDesprat welcome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-26T17:06:26.550Z	55ddf1650fc9f982beaeaf4a	BDesprat	55ddf21268a150880e91151f	Hello everyone! I'm a Computer Science major at Roosevelt U. Looking forward to working with you all through here :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-22T04:37:50.538Z	55ce845c0fc9f982bead6e84	xunxdd	55d7fc9eb6d887d9704d15ab	Thanks
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T18:11:52.487Z	54fc639e15522ed4b3dcf849	zaynaib	55d769e8004c3e375ad02f06	@xunxdd http://www.meetup.com/js-chi/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T16:37:06.019Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d753b2004c3e375ad02b3c	@dudelorf Thanks so much!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T04:30:27.502Z	55ce845c0fc9f982bead6e84	xunxdd	55d6a963e3dd18904433c173	@dudelorf , hi, this perked up my interest. Where is this at? What time? Any topic specifically?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T02:55:51.188Z	55abacf237f2ad22587e6625	dudelorf	55d6933780e710630d6c13b6	@kelseybcoding if you are interested in a meetup the Chicago Javascript Meetup Group is totally worth checking out. I've been to a few meetups and have met some cool people and learned a lot! They have an event this coming Tuesday.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:37:57.894Z	55ce845c0fc9f982bead6e84	xunxdd	55d664d5f4d6ddcc0d921d71	sorry, my fault, did not get the definition of symmetric difference right. Thanks!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:26:26.886Z	55ce845c0fc9f982bead6e84	xunxdd	55d6622280e710630d6c0f32	@QuincyLarson, Mr. Larson, do you think so?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:25:36.578Z	55ce845c0fc9f982bead6e84	xunxdd	55d661f080e710630d6c0f2a	though code camp expected it to deeply equal [ 1, 4, 5 ]
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:24:34.913Z	55ce845c0fc9f982bead6e84	xunxdd	55d661b20d29ce8f44b7357f	the symmetric difference of the three sets, [1,2,5], [2,3,5], [3,4,5] to me should be [1,4] 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:23:18.780Z	55ce845c0fc9f982bead6e84	xunxdd	55d66166b421ebcb0dae03aa	hi, guys, i wonder if this coding exercise is a bug, sym([1, 2, 5], [2, 3, 5], [3, 4, 5])
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T21:04:51.786Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d640f3e3dd18904433b718	I am definitely interest in UX/UI and web design. My original background is in Photography and have worked in that industry for many years, so I would one day love to have a side business building websites for photographers. I am such a newbie....I had to look up Digital Design to see what you meant exactly and that sounds pretty fun too. So I am terrible at answering your question because I guess I just am not totally sure. :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T19:49:52.033Z	55ce18c00fc9f982bead6577	scroniser	55d62f60e3dd18904433b3ea	@kelseybcoding do you know what kinds of design things you're looking for? As in, are you looking to tackle more the UI/UX side of things or are you looking for classes geared toward digital design?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T06:02:39.426Z	54fc639e15522ed4b3dcf849	zaynaib	55d56d7fa231f3815231e108	@kelseybcoding awesome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T00:28:09.125Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d51f19a231f3815231d91c	I live in Logan but work in the loop so could do a meetup some weekday after work. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T22:51:51.795Z	54fc639e15522ed4b3dcf849	zaynaib	55d5088731c67ec1498a1a34	Is anyone going to do a meetup around the downtown area?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T17:09:43.182Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d4b85772b5607e52e91da0	Thanks @scroniser !!!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T13:11:53.118Z	55ce18c00fc9f982bead6577	scroniser	55d480994f6c9d3018319e77	@kelseybcoding - you're right, but here's the event I was thinking of: http://www.meetup.com/Chicago-Startup-Community/events/224103628/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T04:47:20.830Z	55c5049f0fc9f982beac9f08	oyp	55d40a586b94865520d8559f	@kelseybcoding many other sections got revamped with more waypoints or waypoints broken down more concisely 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T04:46:37.882Z	55c5049f0fc9f982beac9f08	oyp	55d40a2d9c0eaccb36ae33d3	@kelseybcoding I started last week too! Over the weekend there were a few changes. The jQuery section changed almost entirely. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T01:32:29.807Z	55a139af5e0d51bd787b0b47	singhparwinder	55d3dcadbdd5d6c9362b7e17	Did anyone else attend the Facebook tech talk tonight ?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T23:39:45.889Z	55c67e980fc9f982beacb6fa	NoHands	55d3c241d46018562035b7a6	"Cafe Mustache is a great idea. I love that place.I've only been on FCC for a couple weeks but I would go.
+"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T22:26:07.621Z	55a7e4358a7b72f55c3f9b99	MityaDSCH	55d3b0ffd46018562035b51f	@pinkswansays Either is fine by me!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T22:04:26.188Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d3abead46018562035b44e	@scroniser I am not seeing a meetup group for General Assembly....only for Dev Bootcamp
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T21:29:01.383Z	55ce18c00fc9f982bead6577	scroniser	55d3a39d6b94865520d84a90	@kelseybcoding - they also offer some basic classes through meetup.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T20:25:55.566Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d394d39c0eaccb36ae2626	Has anyone taken any of the classes at General Assembly? Not the on-campus immersion ones, but the online Web Design and such? I would like some additional coursework outside of FCC that is targeted more toward the design of things. Any suggestions?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T13:54:08.884Z	55a139af5e0d51bd787b0b47	singhparwinder	55d33900d460185620359deb	@pinkswansays Any place would be fine with me. I'm just concerned with the day. On the weekend I would have to drive down here cause i live in the suburbs.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T12:11:46.205Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d32102204de35b42309958	@oyp  I just started last week. When was the update done?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T04:05:32.979Z	55c5049f0fc9f982beac9f08	oyp	55d2af0c255950880cfbf913	What do you guys think of this somewhat updated Free Code Camp, it took about two days for me to get used to it but now I like it A LOT!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T01:43:28.917Z	55a5065b5e0d51bd787b56c1	pinkswansays	55d28dc0255950880cfbf5b4	But I think we were planning on the next one being in Logan again. We got lucky at New Wave but it was busy. Would people be cool about meeting at Cafe Mustache like @kelseybcoding suggested? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T01:43:19.090Z	55a5065b5e0d51bd787b56c1	pinkswansays	55d28db7057d8c9d3a6dd1c5	Hey all. I'm down for another meet up! @singhparwinder would be cool to meet at a place like Next Door Cafe in Lincoln Park where you can reserve space for a few hours.   
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-17T16:23:35.634Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55d20a873d8917890c1666d1	I'm slapping a spreadsheet together on my lunch  break and will post later today 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-12-11T00:38:33.318Z	584c9e92d73408ce4f3c2afd	prateekpanther	584ca00928d755bf14ed2329	Hello everyone I am a mainframe programmer. I am interested in learning some web developement
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-09-17T11:02:19.671Z	540a150e163965c9bc202eaf	abhisekp	57dd22bb27a8458f7f216a4f	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-08-10T13:57:47.023Z	55af1cf40fc9f982beaa8648	adevenuto	57ab32dbd7087a017fa8e56f	You should be able to use: modulo ex...12 % 5 // 2 @ManuelaJa 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-06-13T21:15:37.977Z	5524875b15522ed4b3dea46c	CandidKilsborne	575f2279e20024bd1ad344c0	@ManuelaJa What number is it?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-06-08T03:25:21.252Z	5744e293c43b8c601974be8e	ManuelaJa	5757902145cf128e5f1d6dca	hi! im stuck on finding a remainder in javascript anyone go through that part already possible explain it to me please
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-06-07T17:58:17.527Z	55ca0cac0fc9f982bead0254	kelseybcoding	57570b39970521a45839c8f8	Anyone in Chicago already been playing in Rails 5? Action Cable? I am looking for someone for advanced with it than I that can perhaps tutor me as I build out a project for my bootcamp.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-05-03T00:50:47.036Z	5524875b15522ed4b3dea46c	CandidKilsborne	5727f5e7df1a01ff18fbde0d	@kelseybcoding you're welcome! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-05-03T00:31:05.219Z	55ca0cac0fc9f982bead0254	kelseybcoding	5727f149944fc7ba04cc710e	@CandidKilsborne  thanks much!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-22T00:25:40.481Z	5524875b15522ed4b3dea46c	CandidKilsborne	57196f8498c544f1396d70c2	Yeah I wish more people would be active 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-22T00:24:40.487Z	56f6e99585d51f252abafab3	ZoeyCluff	57196f4825b4886636261e8d	aww
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-22T00:24:12.277Z	5524875b15522ed4b3dea46c	CandidKilsborne	57196f2c5b5164bf56eed99a	@siadevelopment I haven't noticed much activity in here as of late
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-21T21:21:59.390Z	56f6e99585d51f252abafab3	ZoeyCluff	57194477599a529856da098e	anyone around?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-07T23:44:45.400Z	5524875b15522ed4b3dea46c	CandidKilsborne	5706f0ed8b7b2f457634b2a5	@kelseybcoding Not sure if you still need help with the Ruby challange, if you do this might help http://stackoverflow.com/questions/1614147/odd-or-even-entries-in-a-ruby-array
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-04-06T01:55:25.291Z	55ca0cac0fc9f982bead0254	kelseybcoding	57046c8df7d63d897f23a3d5	"Hi all! I am working on a little challenge as a first time playing in Ruby. The exercise is such that the program needs to ask the user 5 times in a row to enter a word by saying ""Please enter a word"". Each time the user enters a random word and once the user enters 5 words one after the other, the program says ""Here are your words"" and lists them alphabetically and each word alternating uppercase and lower case like so, WORD A, word b, WORD C, word d, WORD E. Although the exercise specifies creating a program with 5 words, I need to write it in such a way that I need it to handle 500 words, I can do so with making only 1 simple change. I am also not to use the each_with_index method. So far, I have this for my code and it is running correctly, but the only thing I can't figure out is the alternating upcase and downcase. Please help me figure it out:
+words = []
+5.times do
+    puts ""Please enter a word""
+    words<<gets.chomp
+end
+puts ""Here are your words:""
+puts words.sort"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-19T03:11:51.158Z	551c3e1215522ed4b3de3395	alexcampillo	56c687f7ddb99257675397d8	http://stackoverflow.com/questions/2125714/explanation-of-slice-call-in-javascript
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-19T02:50:24.170Z	55f838840fc9f982beb0c2bc	Orbers	56c682f0e1786831677bed91	@alexcampillo
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-19T02:50:03.661Z	55f838840fc9f982beb0c2bc	Orbers	56c682db5c3b0559674d4702	@lybogany hi
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T03:09:07.567Z	559ee3c5b3498e315909040c	tknovember	56be9e5337437b675608f995	@wildlifehexagon Yeah I joined that a couple weeks ago. I’m just not a fan of Facebook and avoid it if I can.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T03:03:31.014Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	56be9d031fbcdac17897df72	https://www.facebook.com/groups/free.code.camp.chicago/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T02:54:34.492Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	56be9aea4dfe1fa71ffc7d19	@tknovember I think everything has moved to the Facebook group now
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2016-02-13T02:53:40.693Z	559ee3c5b3498e315909040c	tknovember	56be9ab496d748c4782fa611	Anyone still on here ever?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-12-11T17:32:37.068Z	566a2f1216b6c7089cbe42ad	GaurangB	566b08b5d09f6139361fd708	Hi @xunxdd 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-12-10T00:10:16.227Z	55c7e5030fc9f982beaccb83	Kparelius	5668c2e8981d32824933af2f	I have no issue using this. It's not going anywhere, after all. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-14T01:24:07.886Z	55def14c0fc9f982beaec3b3	BlackADeath	561daeb7658d372177442c59	"Okay but synchronous chat is alright for this chatroom  too if you bother to scroll up and read a few posts. It's only when people refuse to try that we are forced to change ""for the better"" despite what the community wants. Was there a poll I missed?"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-06T21:33:00.582Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143e0c76d984a358758a48	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-02T12:11:58.850Z	55a8e5e18a7b72f55c3fae41	adampinsky	560e748eef36415027431d18	*UPDATE* I've got worked out I think. Thanks though. :smile: 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-02T01:47:42.117Z	55a8e5e18a7b72f55c3fae41	adampinsky	560de23eb6a13ea04467bbdf	"Hello everyone.   I'm working on the first zipline right. I'm supposed to reverse engineer a portfolio.(  I'm using Bootstrap )  And, I don't know why its not working so far.  So, the navigation list should collapse when the viewport is too small. Instead,  there's nothing.  If someone has any sage advice I could totally use it. Thanks in advance!
+```
+<body>
+		<div class=""container"">
+			<nav class=""navbar navbar-fixed-top"">
+				<div class=""container"">
+					<div class=""navbar-header"">
+						<button type=""button"" class=""navbar-toggle collapsed"" data-toggle=""collapse"" data-target=""#nav-links"" aria-expanded=""false"">
+							<span class=""sr-only"">Toggle navigation</span>
+							<span class=""icon-bar""></span>
+							<span class=""icon-bar""></span>
+							<span class=""icon-bar""></span>
+						</button>
+						<a class=""navbar-brand navbar-left"" href=""https://freecodecamp.com/kcpinskys"">Adam R. Pinsky</a>
+					</div>
+					<div class=""collapse navbar-colapse navbar-right"" id=""nav-links"">
+						<ul class=""nav navbar-nav nav-pills"">
+							<li class=""presentation active""><a href=""#home"">Home <span class=""sr-only"">(current)</span></a></li>
+							<li class=""presentation""><a href=""#about"">About</a></li>
+							<li class=""presentation""><a href=""#portfolio"">Portfolio</a></li>
+							<li class=""presentation""><a href=""#contact"">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</body>
+```
+"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-01T14:46:50.540Z	54fc639e15522ed4b3dcf849	zaynaib	560d475a081f3a9c044dd399	The Chicago Urban League is having a Hackathon on Halloween http://www.eventbrite.com/e/community-code-app-development-challenge-tickets-18424143108
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-10-01T05:17:12.236Z	55df80ce0fc9f982beaed4df	vbabatchev	560cc1d895756f1402bcc844	After flying through the first two ziplines, I spent a considerable amount of time on the weather one. Learned a lot, and was hoping for some feedback! [title]http://codepen.io/vbabatchev/pen/KdNdOK
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-30T21:02:07.626Z	55c7e5030fc9f982beaccb83	Kparelius	560c4dcfdfb3151302859784	Is anyone planning a New Wave meet soon?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-26T16:43:21.795Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	5606cb29696b13767a909d02	@DMBarnett http://www.builtinchicago.org/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T22:57:41.503Z	5601d17b0fc9f982beb18199	pkneeland78	56047fe5a0ecf0e07a8ea9b9	"sorry guys, was testing the post feature on here.... :(
+"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T22:57:17.540Z	5601d17b0fc9f982beb18199	pkneeland78	56047fcde85e8d337252c710	"```html
+var ourArray = [""Stimpson"", ""J"", [""cat""]];
+ourRemoved = ourArray.shift();
+// ourArray now equals [""J"", [""cat""]].
+
+var myArray = [""John"", 23, [""dog"", 3]];
+// Only change code below this line.
+
+var myRemoved = myArray; // This should be [""John""] and myArray should now be [23, [""dog"", 3]].
+
+// Only change code above this line.
+
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(y, z){return 'myArray = ' + JSON.stringify(y) + ' & myRemoved = ' + JSON.stringify(z);})(myArray, myRemoved);
+```"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T22:56:42.808Z	5601d17b0fc9f982beb18199	pkneeland78	56047faa5c1379fe645974c8	"```js
+var ourArray = [""Stimpson"", ""J"", [""cat""]];
+ourRemoved = ourArray.shift();
+// ourArray now equals [""J"", [""cat""]].
+
+var myArray = [""John"", 23, [""dog"", 3]];
+// Only change code below this line.
+
+var myRemoved = myArray; // This should be [""John""] and myArray should now be [23, [""dog"", 3]].
+
+// Only change code above this line.
+
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(y, z){return 'myArray = ' + JSON.stringify(y) + ' & myRemoved = ' + JSON.stringify(z);})(myArray, myRemoved);
+```"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-24T02:41:30.286Z	547d029cdb8155e6700da3e3	DMBarnett	560362da40f4ecd92f717941	Anyone know of a good job board for chicago
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-21T21:01:22.768Z	55f577890fc9f982beb08add	BruceJamesH	560070223a8116ed5f69a59f	Anytime @Orbers . For once I had an answer instead of a question. Rare for me when it comes to FCC. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-20T16:18:07.721Z	55f838840fc9f982beb0c2bc	Orbers	55fedc3f18e0111d7e4fc28e	Thanks @BruceJamesH !
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-19T13:58:23.988Z	55f577890fc9f982beb08add	BruceJamesH	55fd69ffaef03edd3ed1519b	@Orbers command + right or left arrow does it on mac
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-18T16:37:05.926Z	55f838840fc9f982beb0c2bc	Orbers	55fc3db10ed44a00046eeb70	"Is there a short cut key to get to the end of a line of text or outside of the current [, {, ', or "" that you are in? "
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-18T16:23:58.594Z	55f838840fc9f982beb0c2bc	Orbers	55fc3a9e615196327150afba	When typing code, is there a keyboard shortcut to get out of quotation marks without using the arrow keys? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-17T15:56:06.756Z	55e60ff30fc9f982beaf5621	Tao0fpooh	55fae2966f976dff036ef361	any pair coders out there? I'm working on basic algorithms. Would be nice to chat over logic of function organization
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-16T10:54:33.150Z	55f577890fc9f982beb08add	BruceJamesH	55f94a69aef03edd3ed0c5c0	Thanks @Orbers .  Just gotta dig in.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-16T01:45:17.784Z	55f838840fc9f982beb0c2bc	Orbers	55f8c9ada2c7aa6b1086b26e	Sorry to here that @BruceJamesH! I completely understand hitting a wall with coding! Keep up the hard work though!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-15T23:01:05.382Z	55f577890fc9f982beb08add	BruceJamesH	55f8a331a2c7aa6b1086aece	Hey,  this is just to vent a little. Progress going through FCC was just fine - maybe a few bumps - but hitting algorithm scripting was like hitting a brick wall.  A little discouraging. All of a sudden I have no idea.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-15T16:02:56.715Z	55f838840fc9f982beb0c2bc	Orbers	55f84130f66d320b4fbda68c	Hey! I've been trying to learn to code by myself for a while and am excited for the community focus that FreeCodeCamp seems to focus on. If anyone is interested in working on learning code at a coffee shop somewhere in the city before work off the redline, I'm interested in meeting up.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-14T17:56:41.757Z	55e60ff30fc9f982beaf5621	Tao0fpooh	55f70a59f66d320b4fbd778e	Im in the burbs but down to meet anywhere
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-14T17:55:45.496Z	55e60ff30fc9f982beaf5621	Tao0fpooh	55f70a21fe4ca46810e19812	Hey any FCCers wan to meetup to paircode? Im starting the jQuery section
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-13T14:48:38.157Z	55f577890fc9f982beb08add	BruceJamesH	55f58cc610cd1e2f0213c69c	Hi guys - I'm a marketing communications guy just getting started with some html/css online lessons -- thinking it will be a valuable addition to marcom skill set. Really like it. Working FT right now, but looking to get back into freelancing down the road. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-10T02:42:26.718Z	55ec88230fc9f982beafd486	thomasmathew	55f0ee125a3d7ec733733e12	Thanks!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-08T16:03:05.377Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	55ef06b9b69ff6ab0ec53dd2	@rvchs @thomasmathew Welcome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-08T04:11:23.790Z	55ee39650fc9f982beaff51d	rvchs	55ee5febfd02f8cd4d2f9aa9	Hey guys! My name is Rachel...I just started on FCC, but wanted to introduce myself to the Chicago crew. I'm a designer who wants to learn front end web development. Nice to meet you all!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T20:43:13.851Z	55ce845c0fc9f982bead6e84	xunxdd	55eca5612e48d88a543db993	outside my work, feel free to reach me for support of all sorts
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T20:41:59.660Z	55ce845c0fc9f982bead6e84	xunxdd	55eca517941cb60657c78079	i make a living by doing the web stuff, still loves free code camp (fcc sounds like cdc, cia, all that terrible sounding institutions), because i get to learn node js,  work on some cool projects
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T20:40:32.115Z	55ce845c0fc9f982bead6e84	xunxdd	55eca4c0ece6c2581e09018e	hi, welcome @thomasmathew. i work at downtown too, believe many people here do too. yeah, agree with you about working on weekends and nights, especially there is a family to tend and just to be with
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T18:41:20.227Z	55ec88230fc9f982beafd486	thomasmathew	55ec88d097535f4058ef8f4c	*in case anyone else does.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T18:41:13.123Z	55ec88230fc9f982beafd486	thomasmathew	55ec88c90b6aa72b12fff858	I live in Logan Square and work in the Loop in case.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-06T18:40:54.247Z	55ec88230fc9f982beafd486	thomasmathew	55ec88b6941cb60657c77dc0	Hey all, I'm a product designer who'd like to get good at JavaScript (beyond fiddling badly with some jQuery). Hoping to learn on a structured but relaxed pace, my biggest issue's been motivating myself and adhering to some structure after work and on weekends.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T23:09:01.987Z	55b062440fc9f982beaaa197	spramp	55e7818da75db4b375c3be97	@oyp @jramirez135  Hi there. Will probably be at the Spoke & Bird after lunch (noon-ish) tomorrow and on Friday. Hope to see you there! 👍🏼
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T22:15:19.237Z	55c5049f0fc9f982beac9f08	oyp	55e774f7f6fb4f034f6b6704	@spramp @jramirez135 Hi guys, so i've never been to The Spoke and Bird but it seems like cool spot. Are either of you planning to drop by today or later on this week?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T05:26:30.249Z	55b062440fc9f982beaaa197	spramp	55e68886b4f7751c343acf65	@jramirez135 Hey there! The Spoke and Bird is pretty much my second office. You can't miss me. I have bright red Beats earphones and often have a confused look on my face trying to complete the FCC lessons. Haha. Say hello if I'm there. It would be great to connect with other S Loop FCC'ers. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T04:29:42.748Z	55e3a7e00fc9f982beaf1c04	jramirez135	55e67b36c856a83f6e6a5b48	@spramp I actually frequent The Spoke & Bird cafe! Just like @oyp, I'm in the South and West Loop all the time.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T02:19:43.010Z	55b062440fc9f982beaaa197	spramp	55e65cbff0248505272d912b	@oyp Just let me know when works for you. So far only you've expressed interest in the SL. I usually work at the Spoke and Bird on 18th and Indiana. Anyone else on the South Loop, get in touch with me. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T01:50:43.254Z	55c5049f0fc9f982beac9f08	oyp	55e655f356211cd86f870afe	@spramp Please add me to your South Loop group! I'm always in the south loop!!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-02T01:50:10.542Z	55c5049f0fc9f982beac9f08	oyp	55e655d2b4f7751c343acad4	Welcome to @BDesprat & @jramirez135 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-09-01T21:57:51.345Z	55b062440fc9f982beaaa197	spramp	55e61f5f56211cd86f870485	Are there any folks in the South Loop interested in meeting up at a cafe or whatnot to work on FreeCodeCamp stuff?  Msg me.  Onwards!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-31T13:57:56.405Z	54fc639e15522ed4b3dcf849	zaynaib	55e45d648ca628307ecd1a89	@jramirez135  Welcome 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-31T01:13:40.888Z	55e3a7e00fc9f982beaf1c04	jramirez135	55e3aa448a8b32aa29a30e53	Hey y'all! I'm a Computer Engineer major at UIC, and I'm interested in getting to learn some web development skills. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-28T23:12:29.799Z	55ca0cac0fc9f982bead0254	kelseybcoding	55e0eaddfbbdfcbd3b5dc814	@BDesprat welcome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-26T17:06:26.550Z	55ddf1650fc9f982beaeaf4a	BDesprat	55ddf21268a150880e91151f	Hello everyone! I'm a Computer Science major at Roosevelt U. Looking forward to working with you all through here :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-22T04:37:50.538Z	55ce845c0fc9f982bead6e84	xunxdd	55d7fc9eb6d887d9704d15ab	Thanks
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T18:11:52.487Z	54fc639e15522ed4b3dcf849	zaynaib	55d769e8004c3e375ad02f06	@xunxdd http://www.meetup.com/js-chi/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T16:37:06.019Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d753b2004c3e375ad02b3c	@dudelorf Thanks so much!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T04:30:27.502Z	55ce845c0fc9f982bead6e84	xunxdd	55d6a963e3dd18904433c173	@dudelorf , hi, this perked up my interest. Where is this at? What time? Any topic specifically?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-21T02:55:51.188Z	55abacf237f2ad22587e6625	dudelorf	55d6933780e710630d6c13b6	@kelseybcoding if you are interested in a meetup the Chicago Javascript Meetup Group is totally worth checking out. I've been to a few meetups and have met some cool people and learned a lot! They have an event this coming Tuesday.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:37:57.894Z	55ce845c0fc9f982bead6e84	xunxdd	55d664d5f4d6ddcc0d921d71	sorry, my fault, did not get the definition of symmetric difference right. Thanks!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:26:26.886Z	55ce845c0fc9f982bead6e84	xunxdd	55d6622280e710630d6c0f32	@QuincyLarson, Mr. Larson, do you think so?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:25:36.578Z	55ce845c0fc9f982bead6e84	xunxdd	55d661f080e710630d6c0f2a	though code camp expected it to deeply equal [ 1, 4, 5 ]
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:24:34.913Z	55ce845c0fc9f982bead6e84	xunxdd	55d661b20d29ce8f44b7357f	the symmetric difference of the three sets, [1,2,5], [2,3,5], [3,4,5] to me should be [1,4] 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T23:23:18.780Z	55ce845c0fc9f982bead6e84	xunxdd	55d66166b421ebcb0dae03aa	hi, guys, i wonder if this coding exercise is a bug, sym([1, 2, 5], [2, 3, 5], [3, 4, 5])
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T21:04:51.786Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d640f3e3dd18904433b718	I am definitely interest in UX/UI and web design. My original background is in Photography and have worked in that industry for many years, so I would one day love to have a side business building websites for photographers. I am such a newbie....I had to look up Digital Design to see what you meant exactly and that sounds pretty fun too. So I am terrible at answering your question because I guess I just am not totally sure. :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T19:49:52.033Z	55ce18c00fc9f982bead6577	scroniser	55d62f60e3dd18904433b3ea	@kelseybcoding do you know what kinds of design things you're looking for? As in, are you looking to tackle more the UI/UX side of things or are you looking for classes geared toward digital design?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T06:02:39.426Z	54fc639e15522ed4b3dcf849	zaynaib	55d56d7fa231f3815231e108	@kelseybcoding awesome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-20T00:28:09.125Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d51f19a231f3815231d91c	I live in Logan but work in the loop so could do a meetup some weekday after work. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T22:51:51.795Z	54fc639e15522ed4b3dcf849	zaynaib	55d5088731c67ec1498a1a34	Is anyone going to do a meetup around the downtown area?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T17:09:43.182Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d4b85772b5607e52e91da0	Thanks @scroniser !!!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T13:11:53.118Z	55ce18c00fc9f982bead6577	scroniser	55d480994f6c9d3018319e77	@kelseybcoding - you're right, but here's the event I was thinking of: http://www.meetup.com/Chicago-Startup-Community/events/224103628/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T04:47:20.830Z	55c5049f0fc9f982beac9f08	oyp	55d40a586b94865520d8559f	@kelseybcoding many other sections got revamped with more waypoints or waypoints broken down more concisely 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T04:46:37.882Z	55c5049f0fc9f982beac9f08	oyp	55d40a2d9c0eaccb36ae33d3	@kelseybcoding I started last week too! Over the weekend there were a few changes. The jQuery section changed almost entirely. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-19T01:32:29.807Z	55a139af5e0d51bd787b0b47	singhparwinder	55d3dcadbdd5d6c9362b7e17	Did anyone else attend the Facebook tech talk tonight ?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T23:39:45.889Z	55c67e980fc9f982beacb6fa	NoHands	55d3c241d46018562035b7a6	"Cafe Mustache is a great idea. I love that place.I've only been on FCC for a couple weeks but I would go.
+"
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T22:26:07.621Z	55a7e4358a7b72f55c3f9b99	MityaDSCH	55d3b0ffd46018562035b51f	@pinkswansays Either is fine by me!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T22:04:26.188Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d3abead46018562035b44e	@scroniser I am not seeing a meetup group for General Assembly....only for Dev Bootcamp
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T21:29:01.383Z	55ce18c00fc9f982bead6577	scroniser	55d3a39d6b94865520d84a90	@kelseybcoding - they also offer some basic classes through meetup.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T20:25:55.566Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d394d39c0eaccb36ae2626	Has anyone taken any of the classes at General Assembly? Not the on-campus immersion ones, but the online Web Design and such? I would like some additional coursework outside of FCC that is targeted more toward the design of things. Any suggestions?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T13:54:08.884Z	55a139af5e0d51bd787b0b47	singhparwinder	55d33900d460185620359deb	@pinkswansays Any place would be fine with me. I'm just concerned with the day. On the weekend I would have to drive down here cause i live in the suburbs.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T12:11:46.205Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d32102204de35b42309958	@oyp  I just started last week. When was the update done?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T04:05:32.979Z	55c5049f0fc9f982beac9f08	oyp	55d2af0c255950880cfbf913	What do you guys think of this somewhat updated Free Code Camp, it took about two days for me to get used to it but now I like it A LOT!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T01:43:28.917Z	55a5065b5e0d51bd787b56c1	pinkswansays	55d28dc0255950880cfbf5b4	But I think we were planning on the next one being in Logan again. We got lucky at New Wave but it was busy. Would people be cool about meeting at Cafe Mustache like @kelseybcoding suggested? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-18T01:43:19.090Z	55a5065b5e0d51bd787b56c1	pinkswansays	55d28db7057d8c9d3a6dd1c5	Hey all. I'm down for another meet up! @singhparwinder would be cool to meet at a place like Next Door Cafe in Lincoln Park where you can reserve space for a few hours.   
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-17T16:23:35.634Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55d20a873d8917890c1666d1	I'm slapping a spreadsheet together on my lunch  break and will post later today 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-17T16:21:32.797Z	55a7e4358a7b72f55c3f9b99	MityaDSCH	55d20a0ce5a8f5f438664176	I think we're planning to meet again next Sunday at around the same time. We'll be sure to post in the facebook and here before!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-17T16:11:01.859Z	559ee3c5b3498e315909040c	tknovember	55d207959b45e15c4264937d	Hola fellow Chicagoans! It seems I found this group a day too late and missed the meetup. I would really like to get to the next one whenever it happens.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-17T14:34:02.355Z	55a139af5e0d51bd787b0b47	singhparwinder	55d1f0da204de35b4230703b	I'm not sure if anything new is planned. I was not there for the meetup as well. If we do plan another meetup it would be awesome if we do it in the evening after work. Maybe Friday evening? It makes it easier for people who don't live in Logan :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-17T14:30:53.723Z	55ca0cac0fc9f982bead0254	kelseybcoding	55d1f01d057d8c9d3a6db7ca	I am super bummed I had to miss the meetup yesterday. Had a problem at my apartment and had to meet with the landlord and handle some things. Has there been any talk of the next one?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-16T22:35:06.586Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55d1101a9b45e15c426479f3	Meet up was cool guys anyone shall I be in charge of making our progress tracking Google doc?? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-16T18:16:11.792Z	55a6af3f5e0d51bd787b7ae2	Adonislw6	55d0d36b3d8917890c164727	it took 4ever to find this group
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-16T18:15:51.835Z	55a6af3f5e0d51bd787b7ae2	Adonislw6	55d0d357057d8c9d3a6d9c7f	finally
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-15T00:42:41.651Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55ce8b013d8917890c161afc	Good news! I am NOT going to new wave tonight! Instead I am getting turnt up 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-15T00:26:51.836Z	55ce845c0fc9f982bead6e84	xunxdd	55ce874b3d8917890c161a9b	thanks! @Kparelius 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-15T00:16:17.205Z	55c7e5030fc9f982beaccb83	Kparelius	55ce84d19b45e15c426447f6	welcome @xunxdd 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-15T00:15:47.991Z	55ce845c0fc9f982bead6e84	xunxdd	55ce84b39b45e15c426447f1	hello world, hello chicago
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T23:40:43.081Z	5595d83615522ed4b3e346db	ryanlennon	55ce7c7b9b45e15c42644759	@kelseybcoding  well if you or anyone wants to meet up next Sunday or even Saturday  I'm 100% in!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T20:32:41.728Z	55ce28cc0fc9f982bead670c	HurricaneRunner	55ce5069057d8c9d3a6d6987	Thanks @singhparwinder! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T20:27:09.683Z	55a139af5e0d51bd787b0b47	singhparwinder	55ce4f1d255950880cfb8ed3	@HurricaneRunner great to have you here. Let us know if you have any problems with the coding challenges.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T20:26:08.151Z	55ce28cc0fc9f982bead670c	HurricaneRunner	55ce4ee035e3e09b3adac500	Hey fellow Chicagoans.  Just getting started on FreeCodeCamp, and looking forward to meeting future coding buddies.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T20:20:01.324Z	55a139af5e0d51bd787b0b47	singhparwinder	55ce4d71057d8c9d3a6d68f1	@scroniser welcome!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T17:52:24.210Z	55ca0cac0fc9f982bead0254	kelseybcoding	55ce2ad83d8917890c160e62	@scroniser welcome! I'm totally new as well! A bunch of us are making an attempt to meet Sunday at 2pm at new wave cafe in Logan square. If it's too busy there we might head elsewhere
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T16:53:11.752Z	55ce18c00fc9f982bead6577	scroniser	55ce1cf7204de35b42301a25	Hey Chicago People! I just joined the FB group (or I'm trying to), and I'd love to meet up with you guys! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T03:28:12.419Z	55ca0cac0fc9f982bead0254	kelseybcoding	55cd604c204de35b4230050b	@speedkils whenever we want it to be!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T01:54:38.748Z	5595d83615522ed4b3e346db	ryanlennon	55cd4a5e204de35b42300384	Aww Ill be out of town this Sunday!! Any idea when the next one might be?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-14T00:30:22.496Z	55ca33960fc9f982bead0771	jadams414	55cd369e255950880cfb6e17	@jedcarr  - Hola mi amigo!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T23:18:10.855Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55cd25b2057d8c9d3a6d44ff	Round effing 3 at new wave ugh that place is my second office 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T17:27:15.918Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55ccd3739b45e15c4264108c	Most definitely. But yeah I'm tethered to those wall sockets 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T14:52:12.478Z	55ca0cac0fc9f982bead0254	kelseybcoding	55ccaf1c204de35b422feae9	@thedev-ninja I frequent NW as well although I am usually sitting outside (in the summer) reading or knitting. Obviously inside in the cold weather months. I bet we have seen each other many times already. Ha!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T14:23:49.035Z	55ca0cac0fc9f982bead0254	kelseybcoding	55cca875057d8c9d3a6d2d0b	@thedev-ninja Well, I guess you are by far cooler than I. lol
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T14:19:07.040Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55cca75b35e3e09b3ada8937	@kelseybcoding since 2000!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T14:08:24.360Z	55ca0cac0fc9f982bead0254	kelseybcoding	55cca4d89b45e15c42640781	@rustyautoparts Because Logan is full of geniuses. Ha! It's just an awesome neighborhood. Been here 10 years!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T12:41:58.270Z	55a139af5e0d51bd787b0b47	singhparwinder	55cc9096057d8c9d3a6d2912	@thedev-ninja @kelseybcoding Why are so many devs from Logan ? Am I missing something?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T12:41:02.589Z	55a139af5e0d51bd787b0b47	singhparwinder	55cc905e255950880cfb50f4	@rustyautoparts I think everyone is planning to meet at new wave cafe on Sunday at 2. Check @kelseybcoding 's messages here or the Facebook page.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T12:21:06.252Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55cc8bb2057d8c9d3a6d2885	"My immediate reaction to this meetup at 2pm was ""get there at 11 so you can get work done also before FCC stuff"" "
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T12:18:02.812Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55cc8afa057d8c9d3a6d2864	When my job requires me to do extra work (almost every day) I'm usually there from 7-closing on weeknights. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T02:30:35.164Z	55ca0cac0fc9f982bead0254	kelseybcoding	55cc014b204de35b422fd717	@thedev-ninja LOL. Are you there every night?!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T01:30:29.580Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55cbf335255950880cfb4225	Lol I am at NW right now... As always. A devs job is never done 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T01:27:05.047Z	55ca0cac0fc9f982bead0254	kelseybcoding	55cbf26935e3e09b3ada75d7	It is possible it will have to move to a new location considering the farmers market is happening at that time and New Wave may be too busy to house us all.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-13T01:26:23.009Z	55ca0cac0fc9f982bead0254	kelseybcoding	55cbf23f255950880cfb4214	@wildlifehexagon  Yup! we are meeting Sunday at 2pm at New Wave Cafe
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-12T20:39:44.851Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	55cbaf1035e3e09b3ada6da4	FYI - there has been talk of a meetup on the FCC Chicago Facebook page: https://www.facebook.com/groups/free.code.camp.chicago/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-12T19:41:35.169Z	5470b0dbdb8155e6700d713c	rustyautoparts	55cba16f204de35b422fcbc0	@singhparwinder Cool! I'd be interested in a meetup.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-12T18:36:41.536Z	55b661150fc9f982beab253d	ecdown	55cb9239057d8c9d3a6d0aee	I am in Hoffman Estates, but work downtown
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-12T00:40:16.155Z	55ca0cac0fc9f982bead0254	kelseybcoding	55ca95f00c29567545d9c525	I'm pretty much brand new to coding. I took two semesters of web design in college but that was about 7 years ago. Mainly we designed and built photography sites since I was in the photo program. I'm not around the neighborhood tonight. Maybe another evening!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T23:04:25.059Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55ca7f7921801cd866cac87a	I'm actually going to be at new wave in ab an hour (php coding not FCC) 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T23:03:44.657Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55ca7f507f578b465ff4c3b5	@kelseybcoding sorries! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T21:41:07.033Z	55ca0cac0fc9f982bead0254	kelseybcoding	55ca6bf32ee3da6275c39c37	@thedev-ninja  whom are you asking?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T21:27:15.749Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55ca68b38f067d637598f94f	New to coding? Or have some experience? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T20:40:51.982Z	55ca0cac0fc9f982bead0254	kelseybcoding	55ca5dd38f067d637598f758	@thedev-ninja  Thank you! Logan is the best!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T18:16:18.714Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55ca3bf2aac97ada66dd8476	Welcome kelsey I'm in Logan also! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T17:23:11.796Z	55ca0cac0fc9f982bead0254	kelseybcoding	55ca2f7f7f578b465ff4b78e	@oyp Yes! I am brand new to code camp and I live in Logan Square and work in the loop.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T17:11:37.647Z	5559630115522ed4b3e08b06	legendofcolt	55ca2cc90c29567545d9b645	I’m interested in a meet up. I’m in Lakeview East/Lincoln Square
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T03:29:34.831Z	54bf2c23db8155e6700ee3a6	Jwing28	55c96c1e8f067d637598d8c7	sounds good to me! this month would work well
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-11T00:39:12.661Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	55c94430aac97ada66dd66b5	I'm interested as well
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-10T21:33:28.153Z	55c62cb20fc9f982beacb0d0	jedcarr	55c918a82ee3da6275c372d8	Hello! Wanted to introduce myself.. I'm just starting FreeCodeCamp and live in Albany Park, Chicago!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-10T19:26:29.954Z	55c7e5030fc9f982beaccb83	Kparelius	55c8fae5aac97ada66dd5d0c	Also Logan Square here. I'm up for a meetup for sure. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-10T04:04:22.475Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55c822c68f067d637598b1d3	I'm in logan square. Seems alot of my fellow nerds are in the area as well, just FYI 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-10T04:03:52.884Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55c822a80c29567545d9784d	Yes please! 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-10T04:00:18.949Z	55c5049f0fc9f982beac9f08	oyp	55c821d22ee3da6275c353d8	Hello Chicago team, would you guys be interested in meeting up sometime this month to get to know each other face-to-face, exchange Linkedin, and work on some Free Code Camp course work?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-10T01:02:53.685Z	55c67e980fc9f982beacb6fa	NoHands	55c7f83d2ee3da6275c3510a	West Town
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-01T20:10:31.190Z	5559630115522ed4b3e08b06	legendofcolt	55bd27b7dcea60b379feec56	@wildlifehexagon Awesome, thanks!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-01T19:50:55.083Z	55b2a5240fc9f982beaae3d1	wildlifehexagon	55bd231f7978296537a2f595	@coltborg There is a Meetup group but nothing scheduled yet. http://www.meetup.com/Free-Code-Camp-Chicago/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-08-01T19:16:20.694Z	5559630115522ed4b3e08b06	legendofcolt	55bd1b047978296537a2f4f3	Hello World! I’m a Web Developer who codes from home. I just moved to Chicago a month ago. Are there any meet ups anytime soon?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-31T17:54:37.953Z	5595d83615522ed4b3e346db	ryanlennon	55bbb65d43481e5337600cf9	Fox Lake/Wauconda anyone?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-30T22:12:57.625Z	55ba9f2e0fc9f982beab9874	abercell	55baa16943481e53375ff0f2	Batavia
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-28T19:51:07.144Z	546fda59db8155e6700d6ece	CodeNonprofit	55b7dd2baaa7fab9633dc4d0	I just visited Chicago for the first time, on my way back from visiting my family in MN. You all have a gorgeous city! I’ll definitely be back.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-27T14:06:03.539Z	55a139af5e0d51bd787b0b47	singhparwinder	55b63acb52d85d450f405051	@rustyautoparts Nice someone close by finally. I'm in South Elgin
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-24T13:43:36.711Z	5470b0dbdb8155e6700d713c	rustyautoparts	55b24108f2cdad46058b412c	Elgin
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:08:39.471Z	55abd21337f2ad22587e69e0	Ok0yim	55b12da74fdc50987c73aefc	@bgrrtt  depends what you are looking for and your price range. Suburbs or city every area has its characteristics that would be great for some and terrible for others.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:08:12.543Z	55a3d9055e0d51bd787b3d8c	alec-parks	55b12d8c16ac52ff650f7fee	Problem comes to be cost... One of my old coworkers was living in a studio, paying for a parking space, and his monthly rent was close enough to my mortgage and monthly train pass.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:07:11.336Z	55a3d9055e0d51bd787b3d8c	alec-parks	55b12d4f16ac52ff650f7fe0	Defitinely. I know a few people who've lived in that area.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:06:50.945Z	5597712215522ed4b3e3587c	bgrrtt	55b12d3a16ac52ff650f7fda	@alec-parks Ive heard Logan Sq is nice
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:06:25.577Z	55a3d9055e0d51bd787b3d8c	alec-parks	55b12d21f2cdad46058b2283	So, for me, many of the suburbs are best :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:06:08.149Z	55a3d9055e0d51bd787b3d8c	alec-parks	55b12d104fdc50987c73aee7	@bgrrtt  Depends on a lot. I absolutely abhor the city.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T18:03:22.581Z	55a3d9055e0d51bd787b3d8c	alec-parks	55b12c6a6e982043058b10ec	@thedev-ninja  Bolingbrook!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T17:12:16.208Z	5597712215522ed4b3e3587c	bgrrtt	55b120704fdc50987c73ac81	So, if I am going to move to Chicago - where is the best place to be?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-23T15:24:28.694Z	5501061c15522ed4b3dd251b	ehartline	55b1072c16ac52ff650f7904	Another Ravenswood here :smile: 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-22T21:12:47.395Z	55abd21337f2ad22587e69e0	Ok0yim	55b0074f5992e2977c4164cf	Buena Park, but looks like I need to move to Ravenswood 😝
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-22T03:52:33.631Z	55adad2637f2ad22587e9783	Rmacias91	55af13819402748911922659	Join the meet up group for chicago. We should have one soonish :)
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-21T16:10:36.647Z	55ae6e630fc9f982beaa726e	MoistPockets	55ae6efc94027489119213b0	Hey guys, I'm new to this all is there any sort of beginner meetups?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-21T02:44:25.128Z	55adad2637f2ad22587e9783	Rmacias91	55adb2090b0e863a256f57a7	Ravneswood
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-19T14:31:46.222Z	55a169d15e0d51bd787b0f5c	rjweditor	55abb4d2071d142f4778c89b	Ravenswood
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-19T14:18:23.677Z	55ab07618a7b72f55c3fca99	krpatel21	55abb1af0b9672bf3694a86a	Schaumburg
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-17T17:22:49.376Z	55a1d2135e0d51bd787b177b	siscd072	55a939e910521a7e52557e60	Edgewater
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-17T12:01:36.899Z	55a8e5e18a7b72f55c3fae41	adampinsky	55a8eea0f5bacb4732b0575b	Rogers Park
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-17T03:52:43.777Z	558678df15522ed4b3e23b36	amuhana	55a87c0b70a864597784127d	http://www.meetup.com/Free-Code-Camp-Chicago/members/
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-17T02:17:48.072Z	55a139af5e0d51bd787b0b47	singhparwinder	55a865cc6551f5f12e71449e	South Elgin
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-17T01:09:40.357Z	54bf2c23db8155e6700ee3a6	Jwing28	55a855d46551f5f12e7143c2	Lincoln Square
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-16T23:51:13.503Z	5589ead115522ed4b3e294b3	iBrunch	55a8437170a8645977840ef7	Uptown
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-16T23:48:16.670Z	5473b237db8155e6700d7c97	gfinchitown	55a842c0b83437005acb5823	Andersonville
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-16T23:41:52.925Z	55a158415e0d51bd787b0dc8	unigiri	55a84140b83437005acb5808	andersonville
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-16T22:31:24.318Z	55a3fdff5e0d51bd787b4171	geoffdgeorge	55a830bc6551f5f12e7140a3	East Lakeview
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-15T00:33:12.642Z	558678df15522ed4b3e23b36	amuhana	55a5aa48f2f123ed05c6c982	Hickory Hills
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-15T00:30:16.391Z	55a5885c5e0d51bd787b64b7	lockerroomtech	55a5a99817582ac167f4087f	Rockford
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T23:51:37.810Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a5a089e60033aa58b17f95	Sup nerds. Where does everyone live?? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:24:02.829Z	55a139af5e0d51bd787b0b47	singhparwinder	55a561d22c7ce75c0a890c43	Lol, we have all been there. Everything is high priority and everything was due yesterday
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:16:13.676Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55ffdc132f78d06ad2ce9	So I may not be able to dive back into FCC until after this week 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:12:53.937Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55f3517582ac167f3fdfb	Done *
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:12:43.707Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55f2bc132f78d06ad2ccb	Lol not enough time in the day, alot of the time 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:12:17.788Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55f112c7ce75c0a890bdf	I'm working on a project for Northwestern University right now and it was literally dropped in my lap and I need it don't by Friday 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:12:02.546Z	55a139af5e0d51bd787b0b47	singhparwinder	55a55f02e60033aa58b17536	Must be keeping you busy and the days go by fast
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:11:48.905Z	55a139af5e0d51bd787b0b47	singhparwinder	55a55ef42c7ce75c0a890bd9	Ah nice! That's a lot on your plate
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:11:22.167Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55edac132f78d06ad2cbd	Also do tech support, consulting and devops stuff 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T19:10:56.918Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55ec0f2f123ed05c6bf89	WAMP stack Developer 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T18:58:30.601Z	55a139af5e0d51bd787b0b47	singhparwinder	55a55bd6e60033aa58b174ca	@thedev-ninja What do you do if I may ask /
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T18:58:16.751Z	55a139af5e0d51bd787b0b47	singhparwinder	55a55bc8e60033aa58b174c4	@thedev-ninja Same here. I do it when I need a break. I joined 4 days ago
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T18:57:27.457Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55b97e810027406edac21	Coding for work took priority over coding for FCC. 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T18:56:01.942Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a55b412c7ce75c0a890b59	Hey. I've been here about 2 months but have been on a short hiatus for a month 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T16:02:04.696Z	55a139af5e0d51bd787b0b47	singhparwinder	55a5327ce3268c381d5b7425	@all How far are you guys in the program and how's it been so far ?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:51:52.441Z	559abe3015522ed4b3e37d7b	Jsamul1	55a522088e28b0c71ac98f90	did it wrong
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:51:45.528Z	559abe3015522ed4b3e37d7b	Jsamul1	55a522018e28b0c71ac98f8d	"""""""
+sup
+"""""""
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:51:23.241Z	559abe3015522ed4b3e37d7b	Jsamul1	55a521eb0884568e32e8388a	@thedev-ninja 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:51:22.817Z	559abe3015522ed4b3e37d7b	Jsamul1	55a521ea8e28b0c71ac98f83	""""""" "
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:50:33.117Z	559abe3015522ed4b3e37d7b	Jsamul1	55a521b90f06658529b4f9bd	sup
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:50:28.333Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a521b4e3268c381d5b70e9	Hiya 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T14:49:31.031Z	559abe3015522ed4b3e37d7b	Jsamul1	55a5217b8e28b0c71ac98f72	HI ALL
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T00:49:59.329Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a45cb768eaaccb6c2cc09d	a whirlwind of work-related headaches centered around 4th of july weekend
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T00:49:38.562Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a45ca26f087e6752f9f7c3	i'll admit its been a while since ive been back on FCC
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-14T00:49:22.377Z	55a45c8b5e0d51bd787b4b06	thedev-ninja	55a45c928e28b0c71ac97c0b	hi guys!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-13T20:07:41.617Z	55a139af5e0d51bd787b0b47	singhparwinder	55a41a8d6f087e6752f9f01d	Welcome @geoffdgeorge Let us know if you have any issues. Happy to help.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-13T19:00:05.496Z	55a3fdff5e0d51bd787b4171	geoffdgeorge	55a40ab5adc533306a5d8367	Hello, Chicago! I'm new to freecodecamp.com and a novice coder with courses from codeacademy.com and codeschool.com under my belt. Looking forward to meeting and learning from y'all.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-13T14:57:19.396Z	55a139af5e0d51bd787b0b47	singhparwinder	55a3d1cfc1adf9245132a9cd	Hello @fizzyfaze & @mikeeprivera How's everything going on this stormy monday morning
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-12T07:28:59.082Z	55a087dc5e0d51bd787afc6a	mikeeprivera	55a2173b3cc28b2c216cf711	Have a great Sunday everyone!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-11T21:48:01.413Z	55a189f05e0d51bd787b1269	fizzyfaze	55a18f11bca25c6c65820a51	Hello fellow Chicagoans!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-11T16:04:43.466Z	55a139af5e0d51bd787b0b47	singhparwinder	55a13e9b7fd3d2277f781bac	Hello Chicago!
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T18:30:47.739Z	559abe3015522ed4b3e37d7b	Jsamul1	559ebdd7c9a784f30e740f03	Imma go offline for a little, like imma use the computer while I watch tv maybe and eat lunch/breakfast. Might do a little coding later, thanks for all the help.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:36:15.738Z	5473b237db8155e6700d7c97	gfinchitown	559eb10fd43569db7b07fece	No problem
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:35:37.081Z	559abe3015522ed4b3e37d7b	Jsamul1	559eb0e90689b34a3bccc2a9	I already got the answer elsewhere, but thanks anyways
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:35:29.871Z	559abe3015522ed4b3e37d7b	Jsamul1	559eb0e1d43569db7b07fec8	kinda
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:33:29.843Z	5473b237db8155e6700d7c97	gfinchitown	559eb069d43569db7b07feab	Does this make sense?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:32:47.557Z	5473b237db8155e6700d7c97	gfinchitown	559eb03fcadf72f40e489beb	Then add a class attribute of class=“red-text” to your h2 element.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:32:02.589Z	5473b237db8155e6700d7c97	gfinchitown	559eb012ac5618dd7b629754	Then create a class declaration of: .red-text { color: red; }
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:30:59.425Z	5473b237db8155e6700d7c97	gfinchitown	559eafd3d43569db7b07fe78	Ok. First delete the h2 declaration. You will be replacing it with your class declaration.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:28:50.393Z	559abe3015522ed4b3e37d7b	Jsamul1	559eaf52cadf72f40e489bbe	@gfinchitown ok
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:28:39.004Z	5473b237db8155e6700d7c97	gfinchitown	559eaf47ac5618dd7b62972e	give me a minute to read through the instructions. It’s been a while since I did this exercise.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:27:40.682Z	559abe3015522ed4b3e37d7b	Jsamul1	559eaf0cac5618dd7b629726	umm
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:27:32.389Z	5473b237db8155e6700d7c97	gfinchitown	559eaf04d43569db7b07fe4d	actually add the .red-text within the h2 declaration.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:26:45.845Z	5473b237db8155e6700d7c97	gfinchitown	559eaed51bbf5a493b658bc0	within the <style> tag, under the h2 declaration create a class called “red-text”, which would be .red-text
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:24:20.883Z	559abe3015522ed4b3e37d7b	Jsamul1	559eae44ac5618dd7b6296f6	well, I don't know how to put the stuff inside the style tag
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:23:38.353Z	5473b237db8155e6700d7c97	gfinchitown	559eae1aac5618dd7b6296f1	Jsamul1. What are you having problems with?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:09:47.392Z	559abe3015522ed4b3e37d7b	Jsamul1	559eaadb0689b34a3bccc1aa	Does anyone think they can help me on Waypoint: Use a CSS class to Style an Element? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-09T17:09:12.670Z	559abe3015522ed4b3e37d7b	Jsamul1	559eaab81bbf5a493b658b06	Sup
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-08T03:50:56.766Z	559008e615522ed4b3e2f890	pk422	559c9e201c1634674f8a8165	Hi all
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T23:17:00.900Z	5589ead115522ed4b3e294b3	iBrunch	559c5dec1c1634674f8a7d0e	You?
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T23:17:00.871Z	5589ead115522ed4b3e294b3	iBrunch	559c5dec60f8b4c531f223c2	Good just finishing up at work.
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T22:17:31.232Z	559abe3015522ed4b3e37d7b	Jsamul1	559c4ffb5331f9985a7fd099	@iBrunch 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T22:17:27.819Z	559abe3015522ed4b3e37d7b	Jsamul1	559c4ff760f8b4c531f2225a	how's it going? 
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T22:17:15.105Z	559abe3015522ed4b3e37d7b	Jsamul1	559c4feb1c1634674f8a7b82	sup
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T22:17:05.413Z	5589ead115522ed4b3e294b3	iBrunch	559c4fe1c983bd58340b35d2	Hey
+5593934815522ed4b3e32548	FreeCodeCamp/Chicago	2015-07-07T22:15:48.377Z	559abe3015522ed4b3e37d7b	Jsamul1	559c4f945331f9985a7fd088	Hiya all

@@ -1,0 +1,65 @@
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2016-09-17T11:04:18.240Z	540a150e163965c9bc202eaf	abhisekp	57dd2332c8af41d45f21ff91	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-10-06T21:39:11.232Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143f7f76d984a358758a90	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:32:44.977Z	55d2851f0fc9f982beadb574	Jolferz	55d54a5c1ba62e4a21fa7dba	"```
+document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};
+```"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:32:34.622Z	55d2851f0fc9f982beadb574	Jolferz	55d54a5272b5607e52e931db	"document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:28:39.917Z	55d2851f0fc9f982beadb574	Jolferz	55d5496711c7afc249786d49	"`````````````document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};`````````````"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:25:50.265Z	55d2851f0fc9f982beadb574	Jolferz	55d548be31c67ec1498a20a1	"``` var code = ""format"" ```"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:24:23.878Z	55d2851f0fc9f982beadb574	Jolferz	55d5486772b5607e52e931ac	"``` document.getElementById(""eightBallImage"").onclick = function () { ""use strict""; alert(""You just clicked the 8-ball""); }; ```"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:23:43.963Z	55d2851f0fc9f982beadb574	Jolferz	55d5483fa231f3815231dd65	"``` document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+}; ```"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:19:52.311Z	55d2851f0fc9f982beadb574	Jolferz	55d5475831c67ec1498a2083	"document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:17:49.209Z	55d2851f0fc9f982beadb574	Jolferz	55d546dda92a8b4b219b0511	"``` document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+}; ```"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T03:16:39.347Z	55d2851f0fc9f982beadb574	Jolferz	55d54697a92a8b4b219b0509	"```document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};```"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T02:58:49.725Z	55d2851f0fc9f982beadb574	Jolferz	55d54269a92a8b4b219b04bd	"
+<document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};>"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T02:55:13.327Z	55d2851f0fc9f982beadb574	Jolferz	55d54191a92a8b4b219b04a7	"<code>@Jolferz
+Good evening, I'm learning JS and have encounter a issue. I'm trying to make an image clickable using JS, the plan is that when the user clicks the image an alert message will popup. Would appreciate if someone could help me out. 
+This is the snippet:
+document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};</code>"
+55aefb460fc9f982beaa826d	FreeCodeCamp/Lakeland	2015-08-20T02:54:46.555Z	55d2851f0fc9f982beadb574	Jolferz	55d5417631c67ec1498a200d	"document.getElementById(""eightBallImage"").onclick = function () {
+    ""use strict"";
+    alert(""You just clicked the 8-ball"");
+};"

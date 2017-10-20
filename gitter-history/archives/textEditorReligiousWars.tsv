@@ -1,0 +1,308 @@
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-09-20T18:20:34.364Z	5490eb39db8155e6700e0001	ahstro	57e17df227a8458f7f2f5c83	
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-09-17T11:01:09.995Z	540a150e163965c9bc202eaf	abhisekp	57dd2275c8af41d45f21fd4f	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T17:08:47.908Z	56fb116785d51f252abb7f55	llamatarianism	57b49a1f8d93113d5f04788d	but I managed to make vim prettier.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T17:08:44.088Z	56fb116785d51f252abb7f55	llamatarianism	57b49a1c8d93113d5f04787b	it only took like, an hour
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T17:08:41.383Z	56fb116785d51f252abb7f55	llamatarianism	57b49a198d93113d5f047871	well
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T15:00:03.941Z	5490eb39db8155e6700e0001	ahstro	57b47bf3be8025f1694a061c	Yeah, I tried emacs a bit when I was new to text editors, so I mainly used Ctrl+ f/b/n/p, so it didn't feel all that great, but I'm sure you can do a lot with it given time and knowledge
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:58:59.061Z	56fb116785d51f252abb7f55	llamatarianism	57b47bb38d93113d5f04101f	I dunno, maybe I just didn't learn enough shortcuts, but it didn't feel nearly as powerful as vim
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:58:39.438Z	56fb116785d51f252abb7f55	llamatarianism	57b47b9fd65128415f9e2704	looking back
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:58:28.839Z	56fb116785d51f252abb7f55	llamatarianism	57b47b941a7d02075687093a	I used to use emacs and I can't understand how people compare it to vim
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:56:50.609Z	5490eb39db8155e6700e0001	ahstro	57b47b327ce08cec69e19570	Hahah truth
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:56:44.164Z	56fb116785d51f252abb7f55	llamatarianism	57b47b2cbe8025f1694a039f	massive toolbars everywhere freak me out
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:56:40.467Z	5490eb39db8155e6700e0001	ahstro	57b47b285a4ad61056829bef	Personally, I converted to neovim, and damn, those defaults are waaay more sane than vim's defaults
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:56:33.830Z	56fb116785d51f252abb7f55	llamatarianism	57b47b214f819cfa3da7b4d9	I like that it's pretty minimal
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:56:15.905Z	5490eb39db8155e6700e0001	ahstro	57b47b0f7ce08cec69e1951a	Yeah,  you need to do quite a lot of tweaking for Vim to look and feel good
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:56:06.308Z	56fb116785d51f252abb7f55	llamatarianism	57b47b061a7d020756870762	but that can be fixed
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:55:56.264Z	56fb116785d51f252abb7f55	llamatarianism	57b47afc7ce08cec69e194f4	ugly as hell because it uses the default colour scheme of my terminal
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:55:48.431Z	5490eb39db8155e6700e0001	ahstro	57b47af44f819cfa3da7b44d	Cool :D
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:55:36.948Z	56fb116785d51f252abb7f55	llamatarianism	57b47ae86a2fa2ff3d92fd79	and it wasn't too bad tbh
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:55:04.357Z	56fb116785d51f252abb7f55	llamatarianism	57b47ac81a7d0207568706c7	"```python
+#!/usr/bin/python3
+
+from sys import argv
+from subprocess import call
+
+command_half = ' '.join(argv[1:])
+
+while True:
+        command = input(command_half + '> ')
+        if command == ':q':
+                print(""Bye!"")
+                break
+        call(argv[1:] + command.split())
+```"
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:54:12.249Z	56fb116785d51f252abb7f55	llamatarianism	57b47a94be8025f1694a0185	it's really short
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:54:03.975Z	56fb116785d51f252abb7f55	llamatarianism	57b47a8b5a4ad61056829a63	and you can use options and whatnot
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:54:00.548Z	56fb116785d51f252abb7f55	llamatarianism	57b47a88be8025f1694a0172	the `echo` gets automatically prepended to it
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:53:55.527Z	56fb116785d51f252abb7f55	llamatarianism	57b47a83be8025f1694a015a	"it basically lets you do this:
+```sh
+$ with echo
+echo> foo
+foo
+echo> bar
+bar
+```"
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:53:16.401Z	56fb116785d51f252abb7f55	llamatarianism	57b47a5c8d93113d5f040b42	wrote a simple clone of this little shell script I saw on /r/programming
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:53:02.784Z	5490eb39db8155e6700e0001	ahstro	57b47a4ed65128415f9e22df	Ah, nice :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:52:36.079Z	56fb116785d51f252abb7f55	llamatarianism	57b47a348d93113d5f040adf	> I did actually decide I'd try actual vim earlier today
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:52:32.825Z	56fb116785d51f252abb7f55	llamatarianism	57b47a304f819cfa3da7b1a8	I was about to say
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:52:29.809Z	56fb116785d51f252abb7f55	llamatarianism	57b47a2d7ce08cec69e192cd	nah
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:52:28.635Z	5490eb39db8155e6700e0001	ahstro	57b47a2cd65128415f9e229f	Well, yeah
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:52:25.488Z	5490eb39db8155e6700e0001	ahstro	57b47a294f819cfa3da7b1a2	So, you use IntelliJ for everything?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:52:18.836Z	56fb116785d51f252abb7f55	llamatarianism	57b47a22d65128415f9e2282	that requires you to know the line number though
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:50.740Z	5490eb39db8155e6700e0001	ahstro	57b47a06be8025f16949ffdf	I just use {linenumber}G
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:46.305Z	56fb116785d51f252abb7f55	llamatarianism	57b47a02be8025f16949ffd6	because `x takes way less time than moving the mouse
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:35.074Z	56fb116785d51f252abb7f55	llamatarianism	57b479f78d93113d5f0409d0	I'll use marks
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:33.210Z	56fb116785d51f252abb7f55	llamatarianism	57b479f5be8025f16949ffb1	if I *know* I'll be jumping there a lot
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:29.393Z	56fb116785d51f252abb7f55	llamatarianism	57b479f11a7d020756870499	course
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:27.562Z	5490eb39db8155e6700e0001	ahstro	57b479efbe8025f16949ffa4	Oh
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:21.329Z	56fb116785d51f252abb7f55	llamatarianism	57b479e96a2fa2ff3d92fa9c	@ahstro I click on part of the scrollbar
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:03.992Z	5490eb39db8155e6700e0001	ahstro	57b479d7d65128415f9e21c2	That's what search is for, search and numbers+move. But how do you jump around in IntelliJ?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:51:02.602Z	56fb116785d51f252abb7f55	llamatarianism	57b479d67ce08cec69e1919d	I did actually decide I'd try actual vim earlier today
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:50:41.378Z	56fb116785d51f252abb7f55	llamatarianism	57b479c14f819cfa3da7aff1	since it's an IDE and not just an editor
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:50:29.224Z	56fb116785d51f252abb7f55	llamatarianism	57b479b56a2fa2ff3d92f9f8	and intellij has a bunch of other neat stuff that vim doesn't
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:49:36.658Z	56fb116785d51f252abb7f55	llamatarianism	57b479804f819cfa3da7af05	@ahstro I still like being able to quickly jump around without setting marks everywhere
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:40:43.163Z	5490eb39db8155e6700e0001	ahstro	57b4776b4f819cfa3da7a8c3	Still, actually using hjkl doesn't really happen. Every real vimmer knows it's {}ftbwe that's the real deal
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:39:15.839Z	56fb116785d51f252abb7f55	llamatarianism	57b47713be8025f16949f65d	cuz if I did I'd just type random crap
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:39:05.171Z	56fb116785d51f252abb7f55	llamatarianism	57b477097ce08cec69e188b4	@ahstro I don't type when I'm thinking about stuff
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:38:57.179Z	56fb116785d51f252abb7f55	llamatarianism	57b477015a4ad61056828f8f	but HJKL is in a straight line
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:38:43.651Z	5490eb39db8155e6700e0001	ahstro	57b476f3d65128415f9e1777	>not typing all the time
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:38:41.319Z	56fb116785d51f252abb7f55	llamatarianism	57b476f1d65128415f9e176f	I wouldn't even have a huge problem if it was WASD or IJKL (ignoring the fact that I is insert)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:38:13.617Z	56fb116785d51f252abb7f55	llamatarianism	57b476d54f819cfa3da7a6dc	when I wanna type stuff, I type it
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:38:08.050Z	56fb116785d51f252abb7f55	llamatarianism	57b476d04f819cfa3da7a6ce	my fingers rest on my sandwich
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:38:03.608Z	56fb116785d51f252abb7f55	llamatarianism	57b476cb6a2fa2ff3d92f059	home row keys are for chumps
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-17T14:37:47.393Z	5490eb39db8155e6700e0001	ahstro	57b476bb7ce08cec69e1878b	hjklove <3 They're right there on your home row!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-16T12:48:33.585Z	56fb116785d51f252abb7f55	llamatarianism	57b30ba1be8025f169467df7	and it's pretty goddamn neat.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-16T12:48:30.756Z	56fb116785d51f252abb7f55	llamatarianism	57b30b9e1a7d02075683886d	but I'm trying out ideavim
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-16T12:48:27.093Z	56fb116785d51f252abb7f55	llamatarianism	57b30b9b7ce08cec69de0eb7	because navigating with HJKL? ew.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-08-16T12:48:21.144Z	56fb116785d51f252abb7f55	llamatarianism	57b30b957ce08cec69de0eac	I'd never use actual vim
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-14T14:15:18.088Z	54a8366cdb8155e6700e55b0	zcassini	57879e763cb52e8b24adef69	@llamatarianism any language that co opts a grateful dead logo for their main logo is pretty awesome.   TAking a lil brek from htdp to read some Clojure brave and true.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-14T14:13:25.641Z	54a8366cdb8155e6700e55b0	zcassini	57879e058423d0842425b7cf	@llamatarianism drracket is like plain emacs.   it does some reall amazing things but editing text is not one of them.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-10T19:14:24.164Z	56fb116785d51f252abb7f55	llamatarianism	57829e907aeb0805279d917e	why aren't you arguing for drracket
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-10T19:14:20.407Z	56fb116785d51f252abb7f55	llamatarianism	57829e8c59cfbd4c5e6cbf3b	@zcassini that's the racket logo on your face
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-10T19:10:56.591Z	556fbf1615522ed4b3e1643d	R4meau	57829dc0c9b49c1d6ff8c2e5	Sublime Text 3 > to everything else
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-10T19:10:33.180Z	556fbf1615522ed4b3e1643d	R4meau	57829da9c9b49c1d6ff8c2b6	To say
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-07-10T19:10:29.823Z	556fbf1615522ed4b3e1643d	R4meau	57829da53eaf66535e6a716c	Just passing by
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-06-17T01:18:52.457Z	54a8366cdb8155e6700e55b0	zcassini	57634ffc52352c8402831264	Emacs via spacemacs > all
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T16:43:06.551Z	56ed9a4c85d51f252ab9b324	bharris62	5738a71aae26c1967f9ea899	as long as its atom
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T16:43:01.285Z	56ed9a4c85d51f252ab9b324	bharris62	5738a7150cb634927f7f0efa	(or whatever you wanna use)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T16:42:50.222Z	56ed9a4c85d51f252ab9b324	bharris62	5738a70a64dbdadc7dec40ad	atom, atom, atom!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:36:37.553Z	54a8366cdb8155e6700e55b0	zcassini	5737d2a5feb8cb327ee1e931	it helps make sure ppl get the message
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:36:00.272Z	54a8366cdb8155e6700e55b0	zcassini	5737d2808b845b284193fadd	np.   you can just click on somones name to mention them in the text if you wnt  @eakl 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:35:09.448Z	5737ca3dc43b8c601972f82d	eakl	5737d24deea93e5742d1f97a	thanks zcassimi
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:19:34.445Z	54a8366cdb8155e6700e55b0	zcassini	5737cea6feb8cb327ee1e922	spacesmacs is like vim in emacs.   
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:18:36.715Z	54a8366cdb8155e6700e55b0	zcassini	5737ce6c0f07acdc7a042dcd	if you wanna get a feel for vim checkout http://vim-adventures.com/     
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:17:08.278Z	5737ca3dc43b8c601972f82d	eakl	5737ce14eea93e5742d1f919	Is that VIM painful to learn?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:16:59.603Z	5737ca3dc43b8c601972f82d	eakl	5737ce0b831fd2d97d9e8894	yeah I just begin to learn how to code. Better to forget about the text editor?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:15:17.618Z	54a8366cdb8155e6700e55b0	zcassini	5737cda5feb8cb327ee1e917	If you are busy learning how to code though,  concentrate on learning to code and not on a new editor.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:14:30.499Z	54a8366cdb8155e6700e55b0	zcassini	5737cd762867f61b7b26ba35	Learn spacemacs
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:13:38.282Z	5737ca3dc43b8c601972f82d	eakl	5737cd421794136a7d08bd0f	is it a waste of time to start learning VIM?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:13:26.757Z	5737ca3dc43b8c601972f82d	eakl	5737cd36e2996a5a42c874bd	I use ST3 on Windows and just moved to Linux
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:13:06.627Z	5737ca3dc43b8c601972f82d	eakl	5737cd221794136a7d08bd0d	I have a quick question
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-15T01:13:00.485Z	5737ca3dc43b8c601972f82d	eakl	5737cd1cae26c1967f9e8d02	hi guys
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-14T05:48:27.200Z	5504f03715522ed4b3dd46a8	tyrantwarship	5736bc2b0cb634927f7ec923	ah nice to see another person using spacemacs
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2016-05-02T22:15:27.964Z	54a8366cdb8155e6700e55b0	zcassini	5727d17fb16b91060f798b34	http://spacemacs.org/  
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-12-24T13:32:26.578Z	556fbf1615522ed4b3e1643d	R4meau	567bf3ea0199d70069df95e7	@doxanthropos Lollll, go away! :smile: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-13T05:27:26.015Z	55a2973d5e0d51bd787b23b3	doxanthropos	561c963e83b69fe7548dc130	"@R4meau  `""Sublime Text Master race!"".replace(""Sublime Text"", ""Emacs""); `"
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-13T01:25:05.517Z	556fbf1615522ed4b3e1643d	R4meau	561c5d7199bbd76f0f3108bb	Sublime Text Master race! :D
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-09T06:41:38.086Z	5490eb39db8155e6700e0001	ahstro	561761a299bbd76f0f307727	@desmoquak Looks like there's an error at line 4, character 1 in the file located at `~/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings`. I've never used Sublime Text 2, so I can't tell you what the error is, but go prodding around, you just might learn something :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-08T21:43:21.694Z	55f5b57c0fc9f982beb08e79	rickstewart	5616e3790376066b0f8bb6de	@samosale sorry but I never noticed it before. I just tested it in RubyMine and my editor does it as well.  I tried turning some of my editor setting on and off to see if I could make it go away, but no luck.  So I'm afraid I cannot help...  : (\
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-08T21:16:58.950Z	55a3e7255e0d51bd787b3f18	samosale	5616dd4a4e0fa3e55447b523	`function windDirection(angle){`
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-08T21:12:39.720Z	55a3e7255e0d51bd787b3f18	samosale	5616dc470376066b0f8bb59e	@rickstewart hello.I am referring to a small window on the upper left corner. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-08T21:12:35.366Z	55a3e7255e0d51bd787b3f18	samosale	5616dc434e0fa3e55447b4ef	[![Selection_011.png](https://files.gitter.im/FreeCodeCamp/textEditorReligiousWars/CmTL/thumb/Selection_011.png)](https://files.gitter.im/FreeCodeCamp/textEditorReligiousWars/CmTL/Selection_011.png)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-08T20:37:29.281Z	55f5b57c0fc9f982beb08e79	rickstewart	5616d40983b69fe7548d160a	Hello @samosale , are your referring to tag matching? Where you click on a bracket, a brace, or a closing HTML tag and it highlights the matching tag or brace or bracket?  If so, in Webstorm for example, its just called matching tag highlighting. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-08T10:30:50.270Z	55a3e7255e0d51bd787b3f18	samosale	561645da261e77ba2dbb4f07	How is it called a extension in IDE where if I click on a closing curly bracket I can see in a small window a function to which it belongs(a closing bracket of that function/statement) - in case I can not see that function bc it is up in the editor?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-06T22:27:45.938Z	5502924e15522ed4b3dd3408	desmoquak	56144ae19a2cfa1347ac6811	Hi everyone,  i have a question.   Everytime I open Sublime text editor, i get this error message.  Error trying to parse settings: Unexpected trailing characters in ~/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings:4:1? does anyone know what it is?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-06T21:41:04.456Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143ff076d984a358758ab1	
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-03T15:56:01.293Z	55a3e7255e0d51bd787b3f18	samosale	560ffa91ff22c70f6fabe43a	@rickstewart  yeah :) 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-03T15:54:06.633Z	55f5b57c0fc9f982beb08e79	rickstewart	560ffa1ece6e633c45183192	You saved the best for last!  ha ha...
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-03T14:38:34.266Z	55a3e7255e0d51bd787b3f18	samosale	560fe86aef3641502743468c	my text editors :smile: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-10-03T14:38:18.551Z	55a3e7255e0d51bd787b3f18	samosale	560fe85ace6e633c4518300c	[![Selection_010.png](https://files.gitter.im/FreeCodeCamp/textEditorReligiousWars/tOMi/thumb/Selection_010.png)](https://files.gitter.im/FreeCodeCamp/textEditorReligiousWars/tOMi/Selection_010.png)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-28T19:50:33.236Z	546fd8f4db8155e6700d6ebe	jonlove	56099a092241dbf91ee577e5	But Vim is fast and powerful!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-28T08:58:09.248Z	55a3e7255e0d51bd787b3f18	samosale	560901218e1f583b46745b7e	@ahstro And I don't see the need for learning adittional code for Vim, because it is unecessary.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-28T08:56:48.030Z	55a3e7255e0d51bd787b3f18	samosale	560900d02652445532ce7aff	@ahstro tnx, but I still think that WebStorm is better, altough I have installed Atom, and it seems very good for now.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-27T23:19:00.291Z	558eab4d15522ed4b3e2ea7e	1234Matt	560879648e1f583b4674529e	:D ha ha , funny room:D
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-21T20:08:49.838Z	5490eb39db8155e6700e0001	ahstro	560063d1c588a0de6edf9b2e	@samosale Now you Vim ;) You might want to open a terminal and just type in `vimtutor`. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-20T18:19:54.939Z	55f5b57c0fc9f982beb08e79	rickstewart	55fef8caaef03edd3ed16e96	For my 2 cents I'll put forth RubyMine. I see a few here likes  WebStorm, RubyMine is basically the same but tweaked for Ruby development.  Both are nice IDE's. I've used Visual Studio, I received a free copy of Ultimate in school, and its very nice, but its a heavy weight environment and takes effort to learn to use.  I also used Eclipse ( actually myEclipse ) for quite a while but gave up on it, its very powerful but cumbersome.  WebStorm and RubyMine are much more light weight and focused on web development.  That might have been 3 cents worth...
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-16T07:33:03.049Z	55a3e7255e0d51bd787b3f18	samosale	55f91b2fc588a0de6edeb9a1	@ahstro now what? :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-15T16:28:00.929Z	5490eb39db8155e6700e0001	ahstro	55f8471018e0111d7e4efa51	@wannabecoding Don't take my above comment as universal truth. I love Vim, but everyone won't. Atom might be right for you
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-15T16:27:24.949Z	5490eb39db8155e6700e0001	ahstro	55f846eca2c7aa6b10869e59	@samosale Open a terminal and type Vim :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-15T03:07:09.549Z	547a1898db8155e6700d951f	wannabecoding	55f78b5d18e0111d7e4ede68	so bad idea for me try and start getting familiar with atom then?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-14T11:26:43.479Z	55a3e7255e0d51bd787b3f18	samosale	55f6aef3f5b168df6ebbab72	@ahstro how to start Vim?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-14T11:20:18.634Z	5490eb39db8155e6700e0001	ahstro	55f6ad72c588a0de6ede5c8e	@samosale Which distro are you running? `sudo apt-get install vim` if you're on a Debian or Ubuntu based distro.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-14T10:16:04.667Z	55a3e7255e0d51bd787b3f18	samosale	55f69e647742b5c02d97b261	how to install Vim on Linux? Atom.io doesn't have code snippets for Bootstrap!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-12T17:47:19.017Z	5490eb39db8155e6700e0001	ahstro	55f46527e34ec0336dfb15f0	Yup, although this room is particularly quiet (probably because everyone agrees that Vim is the best editor and the only one that should ever be used ever)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-12T02:22:43.826Z	547a1898db8155e6700d951f	wannabecoding	55f38c738825e1c87c9bcedc	Hello, anyone here?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-10T19:26:44.299Z	55a3e7255e0d51bd787b3f18	samosale	55f1d974a4866153146840a9	@ahstro then i recommend using WebStorm for javascript
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-10T18:27:55.205Z	5490eb39db8155e6700e0001	ahstro	55f1cbab4b090e3d0be42710	Wouldn't learning multiple editors be a waste of resources?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-10T18:22:11.076Z	55a3e7255e0d51bd787b3f18	samosale	55f1ca534624296d78aea0be	Brackets is the best text editor for frontend devolopment. For backend use some Ide, like WebStorm or Cloud 9.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-10T11:19:22.194Z	5490eb39db8155e6700e0001	ahstro	55f1673af9ba4ed118609c00	My money's on Vim as well, mostly because I've never given Atom or any other editor (except Emacs) a fair chance. But hey, it wouldn't be a religious war if we were fair
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-10T00:03:21.231Z	55dbb6f70fc9f982beae7b05	davidamandoestrada	55f0c8c9e30ef74f74f969f1	ROUND ONE, OVER. WINNER: VIM
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-09T23:58:18.384Z	53a8c42ca9176b500d1cf0d3	kotp	55f0c79a5ba1e0ea6b806043	And don't forget, vim does ask for money... for needy children in Uganda.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-09T23:56:51.366Z	53a8c42ca9176b500d1cf0d3	kotp	55f0c743e30ef74f74f969c4	Maybe when an editor comes up and vim starts doing things like vim.atom-mode instead of the other way around.  Even the OS called emacs has an evil mode to pay tribute to vim.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-09T23:51:37.941Z	53a8c42ca9176b500d1cf0d3	kotp	55f0c6095a3d7ec73373399d	That battle stops before it even gets started... If Atom had the feature set that vim had, perhaps.  But Atom is not in the same class as vim.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-09T22:56:13.942Z	55dbb6f70fc9f982beae7b05	davidamandoestrada	55f0b90d6fe7b2a123eaa5c0	Atom.io vs Vim, go.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-07T18:18:06.428Z	55a113ee5e0d51bd787b0843	tanasic	55edd4de9601d2ea27ae54ac	and I rather support open source
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-07T18:17:58.170Z	55a113ee5e0d51bd787b0843	tanasic	55edd4d624362d5253fe11f5	@tuxitop nice one.. I too am using atom.. since well.. sublime asks for money :D
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-09-07T15:24:33.187Z	555114d415522ed4b3e03d50	atjonathan	55edac31d92b7f6f11d424ca	Any good github or git plugins for atom?? Thanks!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-25T18:24:37.315Z	556fbf1615522ed4b3e1643d	R4meau	55b3d465cfe8c23a6dfa911e	@rc242 Haha, okay. Vim is good too. My second main editor.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-25T16:17:39.730Z	55a1684f5e0d51bd787b0f43	rc242	55b3b6a361d39fd716066558	@R4meau lul, I don't use pico anymore.  It's just a nostalgia thing I used while in college.  I mainly use vim now as my text editor.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-25T08:32:01.997Z	559cfd3f15522ed4b3e3a299	tuxitop	55b34981cfe8c23a6dfa89ca	@kotp I agree, and I believe if it wasn't for ST3, atom would never have got this popular. They have brought lots of their ideas from ST3. Only if ST3 was open source it wouldn't be necessary for another editor to be written completely from scratch. they could have just extended ST3, and this is why Atom is growing much faster that ST3.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-25T00:05:13.887Z	53a8c42ca9176b500d1cf0d3	kotp	55b2d2b9e8f2dccf018b591e	Sublime Text is the first editor I have voluntarily paid for.  Even though I don't use it, but because it is a great piece of work.  I still use vim.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T22:55:28.370Z	556fbf1615522ed4b3e1643d	R4meau	55b2c26052d85d450f4013ba	Good for you :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T21:59:40.800Z	559cfd3f15522ed4b3e3a299	tuxitop	55b2b54ccfe8c23a6dfa805a	@R4meau Atom can be the best tool, it has lot's of options and plugins, I'm using it with vim-mode and ex-mode and a bunch of other plugins and it's perfect, It's improving and spreading more and more everyday. It's opensource and it's always going to be free for sure.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T21:55:52.787Z	556fbf1615522ed4b3e1643d	R4meau	55b2b46869ee33730f444078	I'm an open source guy too, but I wanna use the best tools out there. @tuxitop 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T21:52:32.692Z	559cfd3f15522ed4b3e3a299	tuxitop	55b2b3a069ee33730f444064	I tried Atom after using ST3 for a while, since I preferred an open source editor and I should say it's pretty good! I'm  glad I did it.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T21:50:30.945Z	556fbf1615522ed4b3e1643d	R4meau	55b2b32669ee33730f44404c	@rmarren1 Oh yeeaah! Rock on!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T21:49:41.189Z	55946c8515522ed4b3e33323	rmarren1	55b2b2f569ee33730f444043	ST3 with vim keybindings here, best of the new and the old ;)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T18:44:34.652Z	556fbf1615522ed4b3e1643d	R4meau	55b28792bab860d81689e34e	Good :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T18:39:43.047Z	559c891115522ed4b3e39cd6	witblacktype	55b2866f52d85d450f400bcb	@R4meau  and an alias to launch from bash ;)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T18:37:17.723Z	556fbf1615522ed4b3e1643d	R4meau	55b285dd69ee33730f4439fe	@witblacktype It's still Sublime text, so :thumbsup: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T17:50:58.977Z	559c891115522ed4b3e39cd6	witblacktype	55b27b0261d39fd716064e23	I'm sure ST3 is great, but I'm still rocking ST2
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T17:35:43.134Z	556fbf1615522ed4b3e1643d	R4meau	55b2776f69ee33730f44378d	@rc242 Dang, that's pretty basic. Respect.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-24T01:39:12.128Z	55a1684f5e0d51bd787b0f43	rc242	55b197405992e2977c41965b	pico or go home.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-23T20:25:21.065Z	556fbf1615522ed4b3e1643d	R4meau	55b14db16e982043058b1651	ST3 FTW!!! 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-23T20:24:07.669Z	556fbf1615522ed4b3e1643d	R4meau	55b14d67145c42fe657e6755	I'm just passing by to say...
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-23T06:33:43.219Z	53a8c42ca9176b500d1cf0d3	kotp	55b08ac74b3229cc6548d140	I didn't mean to kill chat!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-22T10:08:17.629Z	53a8c42ca9176b500d1cf0d3	kotp	55af6b91120ca60c680cde92	Nice potential troll-bait room. lol
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-21T03:11:44.112Z	54a45cb4db8155e6700e4816	bradarv90	55adb8700b0e863a256f582a	punch cards will always be the best
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-15T12:14:04.697Z	556fbf1615522ed4b3e1643d	R4meau	55a64e8c5e2503766038f25d	:-1: @AmmarAliShah  
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-15T08:11:33.592Z	547a9cd2db8155e6700d9676	AmmarAliShah	55a615b5fa4e6c5d67170e22	Atom! Atom! Atom!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-14T21:32:16.224Z	5598e0b915522ed4b3e363b6	vjefri	55a57fe017582ac167f403c0	ST3 for sure. I like the Space Gray theme
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-14T11:46:01.822Z	556fbf1615522ed4b3e1643d	R4meau	55a4f679adc533306a5d9c3c	Oh and using the Brogrammer theme!! :smile: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-14T11:43:45.907Z	556fbf1615522ed4b3e1643d	R4meau	55a4f5f18e28b0c71ac98936	ST3 FTW!!!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-14T11:43:38.112Z	556fbf1615522ed4b3e1643d	R4meau	55a4f5eaadc533306a5d9c30	Never knew this room existed :D
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-14T11:43:29.691Z	556fbf1615522ed4b3e1643d	R4meau	55a4f5e1a598407d5fa8591a	Oh
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-12T23:51:48.271Z	555114d415522ed4b3e03d50	atjonathan	55a2fd9449a9aae841725861	@duttakapil lol
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-12T12:18:36.021Z	558aa62315522ed4b3e2a022	JMitnik	55a25b1cd9d6a21f7b4b1ee8	Without going full-screen?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-12T12:18:29.176Z	558aa62315522ed4b3e2a022	JMitnik	55a25b1587c3c8d45f4b9562	This is a bit of a strange question, but do you guys know if there is any way to get rid of ugly windows title bar in a code editor? 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-11T09:45:52.399Z	547a9cd2db8155e6700d9676	AmmarAliShah	55a0e5d06c1f3a445b67b593	@LumenTeun I moved to Atom but I never used ST3 in the first place - never liked it
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-11T01:13:46.076Z	5589eff315522ed4b3e294f6	mocxd	55a06dca6be10320098fe6d3	every time i have a custom directive like <badger></badger> i lose a level of indent on the closing tag and it screws up my whole file
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-11T01:13:44.350Z	5490eb39db8155e6700e0001	ahstro	55a06dc86be10320098fe6d1	Didn't everyone move to Atom when Sublime 3 was pay to play?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-11T01:12:59.400Z	5589eff315522ed4b3e294f6	mocxd	55a06d9b8223831f09904910	i'm trying to figure out how to get reindent to not screw up the indent level of my angular directive tags
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-11T01:12:17.197Z	5589eff315522ed4b3e294f6	mocxd	55a06d718223831f0990490b	so, who uses sublime 3 ... lol?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-10T18:47:03.714Z	5490eb39db8155e6700e0001	ahstro	55a013276c1f3a445b67a52a	Scary... Is that in Vim as well, because I don't think I've experienced it.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-10T18:16:58.547Z	5596d62615522ed4b3e35367	TiptonHeld	55a00c1a6c1f3a445b67a43c	there's a coffee mug on cafepress.com with the basic commands - pretty nostalgic.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-10T18:16:16.873Z	5596d62615522ed4b3e35367	TiptonHeld	55a00bf03886fb415bb10db7	save file encrypted - it pauses for a password, but I usually hit enter thinking I didn't hit enter, and there is *NO* password that will recover the file
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-10T18:15:14.192Z	5490eb39db8155e6700e0001	ahstro	55a00bb26be10320098fdc78	What happens when  you ^X? I don't think I've ever done it..
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-10T18:14:24.940Z	5596d62615522ed4b3e35367	TiptonHeld	55a00b808223831f09903e17	hmmm...used to love vi, but I ctrl-x'd too many source files and gave it up.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-05T23:39:04.331Z	54638bcfdb8155e6700d3ef4	onebree	5599c018469957c46173954b	@LumenTeun Because those bindings do not work in INSERT mode.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-04T18:17:37.669Z	5490eb39db8155e6700e0001	ahstro	55982341a6c8169b5632c44c	Sorry for asking, but why are you using the Home and End keys instead of $ ^ and 0?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-04T18:10:45.372Z	54638bcfdb8155e6700d3ef4	onebree	559821a5f1ed8771684fe3a5	Hi everyone. I am using a browser terminal (koding.com), and it does not accept HOME/END keys while in vim. I am so used to them working at work, but I did not set up vim there. How do I make keybindings so HOME and END work like they do everywhere else?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:09:15.148Z	558786b215522ed4b3e2550f	TomDeFrank	5594029b98f9c0bc3da0cb51	:clap: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:07:18.008Z	5553c30215522ed4b3e058eb	StevenXL	55940226b4ce4e4732510956	Couldn't be happier.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:07:14.634Z	5553c30215522ed4b3e058eb	StevenXL	55940222b4ce4e4732510955	:-)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:07:13.139Z	5553c30215522ed4b3e058eb	StevenXL	55940221a3aa0fa2043cc419	How awesome
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:07:11.436Z	5553c30215522ed4b3e058eb	StevenXL	5594021fa3aa0fa2043cc417	https://github.com/atom/vim-mode
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:06:49.807Z	5553c30215522ed4b3e058eb	StevenXL	55940209b4ce4e473251094e	It would be so great if there was. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T15:06:49.761Z	5553c30215522ed4b3e058eb	StevenXL	55940209b57c03f7556c3f6d	I'll search.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T14:56:24.886Z	558786b215522ed4b3e2550f	TomDeFrank	5593ff98b4ce4e47325108e3	if not I'm sure there's an extension though
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T14:56:11.663Z	558786b215522ed4b3e2550f	TomDeFrank	5593ff8b666fd9af6736e5cc	not sure. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T14:54:23.841Z	5553c30215522ed4b3e058eb	StevenXL	5593ff1f666fd9af6736e5ba	I love it, but I'd like to be able to navigate my source code w/o using a mouse.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T14:54:06.640Z	5553c30215522ed4b3e058eb	StevenXL	5593ff0eb4ce4e47325108ce	"Does atom support a ""modal"" mode. "
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T14:53:43.311Z	558786b215522ed4b3e2550f	TomDeFrank	5593fef7a3aa0fa2043cc37f	And i would say that atom is a slightly less featured version of sublime text. Considering  Sublime's been around well over 5 years and Atom just hit 1.0 in 2015 :P @AmmarAliShah 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T14:52:08.504Z	558786b215522ed4b3e2550f	TomDeFrank	5593fe98666fd9af6736e5a5	@AmmarAliShah and faster :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T10:57:05.080Z	547193eedb8155e6700d743a	duttakapil	5593c781b57c03f7556c37e2	My task bar  : http://i.imgur.com/50I0vpk.png
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T08:57:06.163Z	547a9cd2db8155e6700d9676	AmmarAliShah	5593ab62b57c03f7556c34e7	@TomDeFrank I use Sublime Text for a month, It's just a slightly more featured version of Atom
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T03:55:51.945Z	558786b215522ed4b3e2550f	TomDeFrank	559364c7a3aa0fa2043cb43f	:O
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T03:55:44.905Z	558786b215522ed4b3e2550f	TomDeFrank	559364c0b57c03f7556c2fb7	I didn't think they still made people that didn't prefer Sublime Text
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T01:05:46.168Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933cea92e368b167bd500f	but I'm more focused on the web
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T01:05:31.165Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933cdbb57c03f7556c2d4b	I never learnt C#, I just like playing around with it. I guess I'll eventually learn it
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T01:04:47.093Z	54638bcfdb8155e6700d3ef4	onebree	55933caf92e368b167bd500c	@AmmarAliShah I want to learn C# especially since MS has a free course on edX
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T01:00:26.125Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933baa666fd9af6736d3a2	but every now and them for a little C#
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T01:00:14.978Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933b9eb4ce4e473250f70e	I'm not big on using it much
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T01:00:03.074Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933b9392e368b167bd4ffe	I have Visual Studio because I *can*
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:59:40.697Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933b7cb57c03f7556c2d3a	Eclipse C++ Mars to be exact
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:59:15.899Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933b63b57c03f7556c2d38	@onebree Third is Eclipse
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:59:03.420Z	54638bcfdb8155e6700d3ef4	onebree	55933b57b57c03f7556c2d36	@AmmarAliShah what is the third? And is the first MS Visual studio? I hear it is good on windows
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:58:30.899Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933b36a3aa0fa2043cb1cc	My taskbar
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:58:22.721Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933b2e9de3645e22565bf5	[![Screenshot_1.jpg](https://files.gitter.im/FreeCodeCamp/textEditorReligiousWars/f6gk/thumb/Screenshot_1.jpg)](https://files.gitter.im/FreeCodeCamp/textEditorReligiousWars/f6gk/Screenshot_1.jpg)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:57:29.480Z	540a5647163965c9bc202f9b	rafaellucio	55933af9a3aa0fa2043cb1c7	@onebree amazing vim, its very good
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:57:15.097Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933aeba3aa0fa2043cb1c5	That's how a war starts
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:57:02.410Z	559330f415522ed4b3e32178	codedownforwhat	55933adeb4ce4e473250f6fd	Atom or Sublime
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:57:01.895Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933adda3aa0fa2043cb1c4	I don't care, Atom is the best :D
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:56:45.472Z	547a9cd2db8155e6700d9676	AmmarAliShah	55933acd666fd9af6736d396	Atom
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:55:59.383Z	5589942915522ed4b3e2848a	brittonzirkle	55933a9fb57c03f7556c2d29	Sublime
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-07-01T00:54:59.309Z	54638bcfdb8155e6700d3ef4	onebree	55933a6392e368b167bd4fe6	vim with Railscasts theme
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-06-21T12:34:36.645Z	54b55173db8155e6700e9cca	Napelazam	5586af5c1c3ba5ef5bff4e0a	hi
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-06-21T09:02:27.259Z	555e081115522ed4b3e0bcc3	BrunoWinck	55867da3f207aa853a8c25c3	Using windows and Notepad++, not that I like it or it's best for the job but it works well on large files, on every language. Tried to fix some bugs, in vain. Tried brackets, not convinced, tried sublime text same. Waiting for next marvel.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-04-01T14:41:13.466Z	547a9cd2db8155e6700d9676	AmmarAliShah	551c03891f582983259efa04	I'm slowly moving to Atom
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-04-01T12:12:57.835Z	54701a9ddb8155e6700d6fd8	ksharifbd	551be0c9af9675d135ab0315	Another bracket guy here :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T20:22:48.849Z	547292dadb8155e6700d7728	piecedigital	54f4c698b1086da6119dfafb	@abdulhannanali No, not yet. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T20:08:39.521Z	54bcf98adb8155e6700ed082	abdulhannanali	54f4c347b1086da6119dfa96	@piecedigital Have you completed the bonfires?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T19:47:57.236Z	547292dadb8155e6700d7728	piecedigital	54f4be6d9622a2fc57f66627	Notepad++ :shipit: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T19:09:31.065Z	547193eedb8155e6700d743a	duttakapil	54f4b56be172474214a80200	Yes, I guess. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T19:05:05.585Z	54bcf98adb8155e6700ed082	abdulhannanali	54f4b4618f03d0fd57ba798e	Yeah It's the coolest simple text editor
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T19:04:07.721Z	547193eedb8155e6700d743a	duttakapil	54f4b427b1086da6119df903	Using gedit for cs50 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T19:03:31.127Z	54bcf98adb8155e6700ed082	abdulhannanali	54f4b403b1086da6119df8ff	I <3 GEDIT  
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-02T08:51:43.921Z	547a9cd2db8155e6700d9676	AmmarAliShah	54f4249f4f9b4aa73b3dc93b	Brackets still winning :smile: 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T21:12:27.521Z	546fc6a7db8155e6700d6e87	iheartkode	54f380bb4f9b4aa73b3dc32f	Rubymine FTW
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T15:29:25.578Z	54b5b3c1db8155e6700ea03b	meecoder	54f33055b242919227000bb2	Brackets :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T15:25:51.121Z	547193eedb8155e6700d743a	duttakapil	54f32f7fb242919227000ba9	http://i.imgur.com/PRqWa04.png
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T15:21:44.952Z	547193eedb8155e6700d743a	duttakapil	54f32e88b242919227000ba0	I like this Code Writer thing. 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T15:21:33.176Z	547193eedb8155e6700d743a	duttakapil	54f32e7d0cfa7291277d03f3	"Lol I have Brackets, ST3, Atom, and also this Windows specific code editor called ""Code Writer""  "
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T14:58:26.382Z	547a9cd2db8155e6700d9676	AmmarAliShah	54f32912ed4498740b8faa5c	Brackets for the win!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T14:56:57.808Z	54701a9ddb8155e6700d6fd8	ksharifbd	54f328b92095620968ab8607	Brackets :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T14:56:29.873Z	5473505edb8155e6700d7a0d	alexandruolteanu	54f3289d0cfa7291277d03b1	Brackets.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2015-03-01T14:56:13.843Z	547a9cd2db8155e6700d9676	AmmarAliShah	54f3288ded4498740b8faa52	Brackets!!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-04T12:00:27.978Z	54701a9ddb8155e6700d6fd8	ksharifbd	54804cdb3214a9bf2b42a483	@estebanrules Yes I do.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-02T23:21:45.282Z	546fe493db8155e6700d6f14	jenhodges14	547e49897fe8dfe624767688	I'm on a Samsung chromebook with an arm processor running Ubuntu linux, so I am using jEdit.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-02T18:12:31.632Z	532f94f45e986b0712eff8a6	damianesteban	547e010fffcca6d315c2e2fc	@ksharifbd you really like brackets?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T03:24:49.171Z	546fc6a7db8155e6700d6e87	iheartkode	547bdf8188717a9e27f67b88	you in lurk mode?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T03:24:40.199Z	546fc6a7db8155e6700d6e87	iheartkode	547bdf78b4f4daf2249da9a9	sir why are you yellow
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T03:24:36.875Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bdf7488717a9e27f67b86	nope :)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T03:24:18.917Z	546fc6a7db8155e6700d6e87	iheartkode	547bdf6288717a9e27f67b85	So meteor is not the greated framework ever?
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T03:23:50.809Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bdf46b4f4daf2249da9a8	No such thing as greatest ever. :) 
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T03:19:12.350Z	546fc6a7db8155e6700d6e87	iheartkode	547bde30f08ebfb36fc35746	^
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-12-01T01:30:30.551Z	54701a9ddb8155e6700d6fd8	ksharifbd	547bc4b6f08ebfb36fc35568	Brackets is the greatest editor ever.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:47:41.538Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bac9db4f4daf2249da65c	Tap
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:47:30.824Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bac92f08ebfb36fc353fa	Phew. I was getting exhausted. Had to take a drink of water. ;)
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:46:53.639Z	54722dc7db8155e6700d75ed	Rythoka	547bac6db4f4daf2249da65b	Glad that's settled.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:43:17.638Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab95b4f4daf2249da652	right
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:42:56.892Z	54722dc7db8155e6700d75ed	Rythoka	547bab8088717a9e27f67854	And it's really hard to drown in
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:42:43.137Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab73b4f4daf2249da64f	Dead Sea is best because it doubles as a meat preserver
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:42:24.712Z	54722dc7db8155e6700d75ed	Rythoka	547bab6088717a9e27f67852	"Can we rename this room to ""Free Association""?"
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:42:03.256Z	546fc6a7db8155e6700d6e87	iheartkode	547bab4bf08ebfb36fc353f2	lol
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:42:01.721Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab49b4f4daf2249da64e	lol
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:59.669Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab47b4f4daf2249da64d	Dead Sea
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:55.930Z	54722dc7db8155e6700d75ed	Rythoka	547bab43b4f4daf2249da64c	Ocean
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:48.768Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab3cf08ebfb36fc353f1	Lake
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:44.290Z	54722dc7db8155e6700d75ed	Rythoka	547bab38f08ebfb36fc353f0	River
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:37.374Z	54722dc7db8155e6700d75ed	Rythoka	547bab3188717a9e27f67851	Lol
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:31.612Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab2b88717a9e27f67850	Vitamin
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:21.005Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab21f08ebfb36fc353ee	Evian
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:12.338Z	54722dc7db8155e6700d75ed	Rythoka	547bab1888717a9e27f6784f	Deja Blue
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:41:02.841Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547bab0eb4f4daf2249da649	Smart Water
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:40:55.313Z	54722dc7db8155e6700d75ed	Rythoka	547bab07b4f4daf2249da648	Aquafina
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:40:40.606Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baaf8f08ebfb36fc353ed	Fiji
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:40:31.512Z	54722dc7db8155e6700d75ed	Rythoka	547baaeff08ebfb36fc353ec	Dasani
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:40:18.699Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baae288717a9e27f6784c	we should just argue over which brand of water is the best.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:39:39.090Z	54722dc7db8155e6700d75ed	Rythoka	547baabbf08ebfb36fc353eb	This is the least religious war I've ever seen.
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:46.236Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baa86b4f4daf2249da646	or google docs
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:36.700Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baa7cb4f4daf2249da644	or textwrangler
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:36.402Z			547baa7cb4f4daf2249da643	Or just notepad
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:31.482Z	54722dc7db8155e6700d75ed	Rythoka	547baa77b4f4daf2249da641	Or Notepad++
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:25.555Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baa7188717a9e27f67847	or word
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:25.515Z	546fc6a7db8155e6700d6e87	iheartkode	547baa71b4f4daf2249da640	Brackets FTW!!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:19.024Z			547baa6b88717a9e27f67846	Emacs! Emacs! Emacs!
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:18.767Z	54722dc7db8155e6700d75ed	Rythoka	547baa6a88717a9e27f67845	Or Nano
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:10.212Z	54722dc7db8155e6700d75ed	Rythoka	547baa62f08ebfb36fc353e6	or Cat
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:08.338Z	54722dc7db8155e6700d75ed	Rythoka	547baa60f08ebfb36fc353e5	or Gedit
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:06.054Z	54722dc7db8155e6700d75ed	Rythoka	547baa5ef08ebfb36fc353e4	Or Brackets
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:38:04.011Z	54722dc7db8155e6700d75ed	Rythoka	547baa5cb4f4daf2249da63d	or Emacs or Webstorm
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:37:08.097Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baa2488717a9e27f6783e	or Atom or Sublime
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:36:49.927Z	546fd99cdb8155e6700d6ec8	sircharleswatson	547baa1188717a9e27f6783c	VIM
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:36:43.823Z	54722dc7db8155e6700d75ed	Rythoka	547baa0bf08ebfb36fc353dc	VIM
+547ba98bdb8155e6700d9a8b	FreeCodeCamp/textEditorReligiousWars	2014-11-30T23:35:14.775Z			547ba9b2b4f4daf2249da632	This is where you go to discuss Vim/Emacs/Atom/Brackets/Sublime/Webstorm and which is best.

@@ -1,0 +1,224 @@
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-09-17T11:04:16.044Z	540a150e163965c9bc202eaf	abhisekp	57dd2330df21a7573004fb5c	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-07-11T13:51:41.345Z	5783a442c2f0db084a2274a4	mrXCray	5783a46d1ca34a944eedeaef	Hello!) Hope you are all doing great. Could someone help me with question posted here, please? http://hardwarerecs.stackexchange.com/questions/4175/biggest-amount-of-cores-on-the-smallest-board?stw=2
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-06-13T05:41:44.644Z	572cbd01c43b8c6019717ede	Memo28	575e47986092456f6633888e	"Hello I'm working with the Pic16F877A and I need to use two ultrasonic sensors, but I don't know how. For the moment I only can control one with this code. Anyone can help me? 
+
+#include <16F877A.h>  
+#FUSES   XT,NOWDT,NOPROTECT,PUT,NOBROWNOUT,NOLVP
+#use     delay(clock=40000000)
+int16 distancia,distancia_2, tiempo,tiempo_2;          // Define variables 
+//------Sensor Uno------------
+#define trig pin_b0     // define RB6 como salida del sensor
+#define echo pin_b1     // define RB7 como entrada del sensor 
+#define led_verde pin_b2  // define RB4 como salida led verde
+#define led_rojo pin_b3 // define RB4 como salida led rojo
+//--------Sensor Dos----------
+#define trig_2 pin_b4
+#define echo_2 pin_b5
+#define led_verde_2 pin_b6
+#define led_rojo_2 pin_b7
+//--------------------------
+
+#USE standard_io(b)
+
+
+void main(){
+   setup_timer_1(T1_INTERNAL|T1_DIV_BY_8);     // inicializa el timer 
+
+while(true){
+
+   output_high(trig);                         //inicia el pulso
+   delay_us(20);                            // envia pulso de 20us
+   output_low(trig); 
+//--------------Sensor Uno-------------------------------------
+   while(input(echo) == 0 ){}
+   set_timer1(0);
+   while(input(echo) == 1){}
+   tiempo = get_timer1();
+   distancia = (tiempo*10)/(58);
+   if(distancia < 20){
+      output_high(led_rojo);
+   }else{
+      output_high(led_verde);
+   }}"
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-06-04T23:26:03.510Z	563a2ee716b6c7089cb977d7	PatchRhythm	5753638be8163f872c4e06d1	specs for iphone 7, 4k video & pics, 2gb dedicated ram, oh yeah, this will be beast gaming phone! http://www.knowyourmobile.com/mobile-phones/apple-iphone-7/23153/iphone-7-release-date-specs-price-features-iOS-10-update
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-31T18:12:38.630Z	574c311cc43b8c601975b527	kantologist	574dd416a78d5a256e399740	hello world!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-25T17:05:21.453Z	570d8438187bb6f0eadf29ae	dovid1365	5745db51a78d5a256e37bc85	woops wrong chat
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-25T17:01:02.092Z	570d8438187bb6f0eadf29ae	dovid1365	5745da4e454cb2be094ed958	"```
+// Setup
+var collection = {
+    2548: {
+      album: ""Slippery When Wet"",
+      artist: ""Bon Jovi"",
+      tracks: [ 
+        ""Let It Rock"", 
+        ""You Give Love a Bad Name"" 
+      ]
+    },
+    2468: {
+      album: ""1999"",
+      artist: ""Prince"",
+      tracks: [ 
+        ""1999"", 
+        ""Little Red Corvette"" 
+      ]
+    },
+    1245: {
+      artist: ""Robert Palmer"",
+      tracks: [ ]
+    },
+    5439: {
+      album: ""ABBA Gold""
+    }
+};
+// Keep a copy of the collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Only change code below this line
+function updateRecords(id, prop, value) {
+  if (value !== """" && prop !== ""tracks"") {
+    id.prop[0] = value;
+  }
+  else if (value !== """" prop == ""tracks"") {
+    prop.push(value);
+  }
+  else if (value === """" ) {
+    delete id.prop
+  }
+  return collection;
+}
+
+// Alter values below to test your code
+updateRecords(5439, ""artist"", ""ABBA"");```"
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-25T17:00:58.269Z	570d8438187bb6f0eadf29ae	dovid1365	5745da4a6bbc2d1d4dee13c7	i am dong the record collection exerceise of  java script basics. any idea what i am doing wrong?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-25T03:01:30.257Z	563a2ee716b6c7089cb977d7	PatchRhythm	5745158a63e41bd84bf03864	a support tech from microsoft just connected to my machine, and he was unable to activate. never happend before, and i've wiped this pc at least 10 times. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-25T03:00:23.490Z	563a2ee716b6c7089cb977d7	PatchRhythm	57451547eed2f3f916a48c51	if you get windows 10 activation error after clean wipe, should i reinstall 8.1 and upgrade again?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-13T14:35:53.643Z	57334d7dc43b8c6019724b50	SalmanKhan18	5735e649831fd2d97d9e2c21	@abhisekp  Thanks. This is what i exactly wanted to know. :smile: 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-13T04:54:20.754Z	540a150e163965c9bc202eaf	abhisekp	57355dfcfeb8cb327ee1d99b	@SalmanKhan18 prolly, u will enjoy this course https://www.coursera.org/learn/build-a-computer
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-13T01:30:28.742Z	57334d7dc43b8c6019724b50	SalmanKhan18	57352e3464dbdadc7deb9a5a	Hello Everyone. How are ya all doing.?? Can somebody help me and run a brief description on how it actually works behind the scenes of a computer OS. I know all that binary digits running inorder to fetch data and store data and things like that. My question which i dont get even after much of surfing the net is that, How do a computer know that I'm pressing an alphabet A or B or a number 1 or 2.?? I know its the convertion of a binary code but please can anyone run me through.? 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-05-12T21:47:11.355Z	540a150e163965c9bc202eaf	abhisekp	5734f9df0f07acdc7a041b53	"Two issues. How to fix? 
+- Frequent restarts
+- My GPU temperature rises to 87 deg. Celsius 
+> [![](http://i.imgur.com/JtUJcGq.png)](http://i.imgur.com/JtUJcGq.png)
+"
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-14T13:38:24.891Z	570cbdf8187bb6f0eadf08ce	rdelvalle	570f9d502c9711166431dd46	You can check the NodeMcu board http://undercontrol.io/the-nodemcu-board/
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-14T13:37:50.139Z	570cbdf8187bb6f0eadf08ce	rdelvalle	570f9d2e5cd40114649b3d57	I recommend you to get an ESP8266. You can code it with Arduino language and it's WiFi enabled
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-14T13:13:58.962Z	570a3f35187bb6f0eadebca8	Atrim	570f9796b30cfa0f384b5af9	thanks @rdelvalle for the link, I just checked the link briefly, sounds easy and familiar enough for starters, I'm sure there will be more things to notice when I acquire an arduino and start to tinker with it :D
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-14T11:53:14.301Z	570cbdf8187bb6f0eadf08ce	rdelvalle	570f84aa5cd40114649b35c8	@Atrim cool. I am working in a ESP8266 SDK https://github.com/undercontrol-io/sdk-esp8266-arduino. It's for people that want to create an IoT application easily. If you have any question you can find me here =)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-13T20:04:30.170Z	570a3f35187bb6f0eadebca8	Atrim	570ea64eaf46361038644343	@rdelvalle not yet, I am quite busy with other projects now, but I am collecting information for after the project, to start playing with arduino or raspberry pi, plus some starter robots
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-13T20:02:52.882Z	570cbdf8187bb6f0eadf08ce	rdelvalle	570ea5ecaf4636103864431d	@Atrim nice to hear that! Are you developing something related to IoT?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-13T20:02:15.556Z	570a3f35187bb6f0eadebca8	Atrim	570ea5c74c2125fc3f021d3e	@rdelvalle me :D 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-12T10:07:33.033Z	570cbdf8187bb6f0eadf08ce	rdelvalle	570cc8e51ee04bd23b778039	Hello! Anyone interested in IoT?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-04-07T02:54:22.487Z	558b21be15522ed4b3e2ab00	jasierragarcia	5705cbde82aae5fc279a1990	hey @KrisVos130 sorry for the late reply, whats your steam username, let me add you
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-26T03:23:16.276Z	56f5598785d51f252abac8ff	iAmNawa	56f600a48f5147e119f0ab3e	hi
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-19T04:34:19.135Z	56ecd44d85d51f252ab99d74	thedeadline	56ecd6cb0d69dfd122212349	anyone done anything with the raspberry pi before or are we all newbies? :)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-19T04:33:09.323Z	56ecd44d85d51f252ab99d74	thedeadline	56ecd685bb4a1731739b30fb	hi everyone, I'm new. I have some stuff for my first raspberry pi project arriving this weekend and I'm really excited. I'm glad to see some of you are also embarking on new hardware projects too
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-07T14:03:04.374Z	540a150e163965c9bc202eaf	abhisekp	56dd8a187855e6aa310ea165	How to get started and what can i do for IoT using JS?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-06T10:29:16.281Z	558698b015522ed4b3e23ceb	KrisVos130	56dc067c983b80d63ef5b5b3	@jasierragarcia Yeah, me
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-06T03:06:43.130Z	558b21be15522ed4b3e2ab00	jasierragarcia	56db9ec319834f3c3535264c	Any pc gamers here that use steam?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-06T03:06:24.554Z	558b21be15522ed4b3e2ab00	jasierragarcia	56db9eb068c077746482c78d	Thanks @KrisVos130 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-02T12:08:21.041Z	558698b015522ed4b3e23ceb	KrisVos130	56d6d7b5d5c4235278e71ff0	Good luck @jasierragarcia 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-03-02T03:50:47.113Z	558b21be15522ed4b3e2ab00	jasierragarcia	56d663170bdb886502f6951d	hello everyone! Tomorrow is the day I’m buidling my first ever PC
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-02-20T06:07:43.342Z	56bad04be610378809c0b588	pradeepce	56c802af7a66b5965f690118	Hello world! I'm just starting out with IoT and hardware, I'm currently reading up in ESP8266s. I'm also a regular HaD reader... And I'm a student from India :)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-25T16:29:08.461Z	559b06ee15522ed4b3e3833f	Rafase282	56a64d54dc33b33c7547c129	ideally i would like a T-Mobile G1 HTC Dream with up to date specs, I miss slide keyboard phones
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-25T16:28:36.851Z	559b06ee15522ed4b3e3833f	Rafase282	56a64d34586242210adf69c7	I'm thinking about sticking with android, they seem to have nice apps that even let you program from the phone but overall i want somethign up to ddate and stable, preferily with sd crd and remobable battery
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-25T16:27:22.354Z	559b06ee15522ed4b3e3833f	Rafase282	56a64cea8fbaf4220af93594	going mobile, what smarphone would you guy recommend that works with tmobile
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-25T15:24:08.219Z	559b06ee15522ed4b3e3833f	Rafase282	56a63e18c54bc2bf180be6ba	But there are other nice pluses tot hat change software related.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-25T15:23:47.587Z	559b06ee15522ed4b3e3833f	Rafase282	56a63e036b6468374a09604f	I just can't digest Unity
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-25T15:23:38.698Z	559b06ee15522ed4b3e3833f	Rafase282	56a63dfa6b6468374a09604d	Hello, recently I have switched from Ubuntu to an ubuntu derivative mainly Linux Mint
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2016-01-01T19:30:46.730Z	559fe1815e0d51bd787adeda	pmbenjamin	5686d3e6653b30761d76e5c6	"@rasakos , Macs are just fancy UNIX machines. You can keep the PC hardware you have and install FreeBSD (which is UNIX) or install Ubuntu (which is Linux).
+Unix require a lot of configuration before you can use them (for example, you have to build a lot of applications/programs from source). Linux require less configuration and Ubuntu is by far the most popular Linux distro available today. You’ll find lots of support for any questions/problems you run into on Ubuntu."
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-12-07T14:06:39.618Z	5660900816b6c7089cbd441c	Kennpow	5665926fd2a5a7813cd4a1dd	Hey guys, can someone tell me how to disable shutdown on error on windows 8? I was told I can do it when I'm in safe mode, I want to do that so I can reboot in regular mode and get an error code
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-30T12:18:13.904Z	5589800b15522ed4b3e282c7	advion	560bd30559cd177470954d68	Just buy a Mini
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-30T10:42:02.906Z	55893a5915522ed4b3e27c43	CostasChaitas	560bbc7aff22c70f6fab544a	i want to create it cause it is more more cheaper than buying a new mac,also i want to experiment for my fun:)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-23T16:04:21.228Z	558f81dc15522ed4b3e2f38c	wcrm	5602cd85e85e8d3372528331	??
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-23T16:04:19.773Z	558f81dc15522ed4b3e2f38c	wcrm	5602cd835c1379fe64593010	what doyou need it for @rasakos 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-21T10:39:30.048Z	55893a5915522ed4b3e27c43	CostasChaitas	55ffde629f9fabb6673e6308	yeah i know it requires spesific hardware
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-18T19:51:10.825Z	5506443e15522ed4b3dd4f60	DoRm	55fc6b2e3a8116ed5f694734	@rasakos Hackintoshes aren't an easy task they require very specific parts even sometimes requiring a very specific model number
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-18T10:15:35.932Z	55893a5915522ed4b3e27c43	CostasChaitas	55fbe4470ed44a00046edd2a	anybody who knows?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-18T10:15:28.695Z	55893a5915522ed4b3e27c43	CostasChaitas	55fbe440a2c7aa6b108722c8	but i dont know if its possibly for every pc
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-18T10:15:16.251Z	55893a5915522ed4b3e27c43	CostasChaitas	55fbe4340ed44a00046edd25	i heard about hackidosh
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-18T10:15:07.870Z	55893a5915522ed4b3e27c43	CostasChaitas	55fbe42b0ed44a00046edd22	guys do you know if can i format my pc a mac os?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-16T21:52:48.017Z	55870d6915522ed4b3e24522	Ne0nite	55f9e4b0a2c7aa6b1086df55	give it at least 6 more months then maybe  try to poke it with a loong loong pole :D 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-09-16T21:52:12.514Z	55870d6915522ed4b3e24522	Ne0nite	55f9e48c6f976dff036ed214	You don't want W10 for now, trust me :)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-31T08:10:30.413Z	55b051b60fc9f982beaaa075	1s-and-zer0s	55e40bf6017739836ed49f3f	Buy a cheap key for win 7 and then upgrade for free to 10
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-25T19:14:32.261Z	55893a5915522ed4b3e27c43	CostasChaitas	55dcbe98004c3e375ad0b3c7	i dont believe it:(
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-25T19:14:22.704Z	55893a5915522ed4b3e27c43	CostasChaitas	55dcbe8ea6bcd8894068e9e1	cant make it free?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-25T19:09:34.610Z	558698b015522ed4b3e23ceb	KrisVos130	55dcbd6e004c3e375ad0b38d	@rasakos I think you need to buy it on Microsoft's website
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-25T19:08:11.734Z	55893a5915522ed4b3e27c43	CostasChaitas	55dcbd1b36e894436a9b09ea	anyone knows how can i format my pc to windows 10 if i dont have the original windows 7 or 8?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-18T11:17:38.898Z	55c4afd80fc9f982beac9467	stevyhacker	55d31452057d8c9d3a6de0e9	This is a good build, I would suggest you to get 16 GBs of RAM but this would be okay as well, you can always upgrade RAM later.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-16T00:58:05.584Z	5473c1b7db8155e6700d7cf1	Harames	55cfe01d35e3e09b3adae73d	@DanStockham This is actually my first build and I am still deciding if I want to try overclocking or not.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-15T20:23:55.322Z	55a7c9e08a7b72f55c3f991e	qmikew1	55cf9fdb3d8917890c16306d	hello, just expanding horizons on the different fcc rooms. Hardware is nifty
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-13T15:15:00.103Z	5586c26215522ed4b3e23f3a	DanStockham	55ccb4743d8917890c15dc05	@PKMNinja I would save your money and get a AMD processor. I only say that because, they're easier to overclock (which I imagine you're into) and you are going to be upgrading your PC on a frequent basis. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-12T19:44:11.277Z	5473c1b7db8155e6700d7cf1	Harames	55cba20b3d8917890c15bb70	@KrisVos130 Thanks,  I will consider getting more ram. And if I don't do it know, 3 or 4 months down the line I always can.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-12T19:43:27.655Z	558698b015522ed4b3e23ceb	KrisVos130	55cba1df255950880cfb378f	@PKMNinja Maybe more ram? Other than that it looks pretty good to me.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-12T19:30:21.500Z	5473c1b7db8155e6700d7cf1	Harames	55cb9ecd057d8c9d3a6d0d54	What do you guys think of this. http://pcpartpicker.com/p/9cDnvK I can't go much over that and you don't have to worry about storage as my uncle gifted me a 1.2 TB SSD. Is there anything you would change to make this better?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-11T22:42:38.928Z	55870d6915522ed4b3e24522	Ne0nite	55ca7a5e2ee3da6275c39e8b	I would love to go someday :)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-11T03:25:57.489Z	5586c26215522ed4b3e23f3a	DanStockham	55c96b4521801cd866caa3b8	Anyone ever been to Defcon?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-08-06T04:55:27.100Z	559b06ee15522ed4b3e3833f	Rafase282	55c2e8bf9fb911ea312a4da5	Anyone here with a Lenovo T410 runnign windows 10?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-27T16:24:12.180Z	558f81dc15522ed4b3e2f38c	wcrm	55b65b2c7962623b2a0dae9a	just something to keep in mind
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-27T16:24:08.330Z	558f81dc15522ed4b3e2f38c	wcrm	55b65b28db630f382afa497f	I have no idea what the GPU situation is on the Y50 though 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-27T16:23:44.454Z	558f81dc15522ed4b3e2f38c	wcrm	55b65b1086ec1eb43060ec79	@johnnyvcrow depends what you're prioritizing. 4k model is going to affect battery life due to higher demands. Also I'm not totally sure about it but I'm assuming the GPU might get bogged down due to having to push so many pixels.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-27T16:22:48.276Z	558f81dc15522ed4b3e2f38c	wcrm	55b65ad886ec1eb43060ec6e	@orange Joe Balsamo is spot on, it's very easy to do. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-24T16:11:41.966Z	55863be415522ed4b3e237f5	Joe-Balsamo	55b263bdbab860d81689de20	@orangelines You are welcome!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-24T16:10:42.085Z	558ae52615522ed4b3e2a56e	orangelines	55b26382bab860d81689de13	@Joe-Balsamo Thank you!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-24T15:11:35.596Z	54d64a54db8155e6700f8f1a	JohnnyR030T	55b255a7cfe8c23a6dfa71c4	I'm looking at getting the Lenovo Y50. Does anyone here have one? And would you recomend the 1920 x 1080 model or the 4K model? 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-24T04:39:22.313Z	5473c1b7db8155e6700d7cf1	Harames	55b1c17a145c42fe657e732a	My uncle gave me a 1.2 TB SSD for free, so I am going to build a computer with that soon
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T23:01:25.003Z	55b170d60fc9f982beaac3f7	justintieu	55b172455992e2977c41934f	I'm wondering if anyone has ever worked with accelerometer/gyroscope data before.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T20:44:11.930Z	55863be415522ed4b3e237f5	Joe-Balsamo	55b1521b6e982043058b1718	@orangelines I use CarbonCopy, it's very flexible. I actually have another, larger footprint HD that I back both my SSD and smaller HD to. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T20:41:17.990Z	558ae52615522ed4b3e2a56e	orangelines	55b1516d145c42fe657e6800	@wcrm thanks! I'm curious what's your back up process when you have an ssd and hd? @Joe-Balsamo Right now, I do a full system back up so I don't have to nitpick certain folders. I imagine with a ssd+hd set up, you have to back up by folders? ....sorry if this question is confusing, I'm not sure how to structure it. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T20:20:16.382Z	5521f7d815522ed4b3de664c	salkuyateh93	55b14c8016ac52ff650f8536	i saw that in  square the company that they needed reverse hardware engineer. Has anyone had experience with that?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T19:59:34.721Z	558f81dc15522ed4b3e2f38c	wcrm	55b147a66e982043058b157d	the things I use all the time get stored on my 256gb SSD
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T19:59:24.283Z	558f81dc15522ed4b3e2f38c	wcrm	55b1479cf2cdad46058b2735	For things that I need to store and won't access often, they go on my 1TB HDD
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T19:59:09.108Z	558f81dc15522ed4b3e2f38c	wcrm	55b1478d145c42fe657e6694	I absolutely love mine
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T19:59:03.949Z	558f81dc15522ed4b3e2f38c	wcrm	55b14787f2cdad46058b2733	yeah definitely invest in an SSD
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T17:44:00.975Z	558ae52615522ed4b3e2a56e	orangelines	55b127e05992e2977c4187d4	@Joe-Balsamo that's good to know. thanks so much for your input!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T17:43:23.079Z	55863be415522ed4b3e237f5	Joe-Balsamo	55b127bb4fdc50987c73adce	@orangelines Yeah, we all have to decide what compromises we’re willing to live with, but I know that SSD was the single best performance improvement I made to my machine.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:54:02.732Z	558ae52615522ed4b3e2a56e	orangelines	55b11c2a5992e2977c41854f	@Joe-Balsamo I do video and photo stuff as a hobby but I also like to conveniently access my collections.  But I also want speed, so that setup is definitely something I'm considering. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:47:05.941Z	55863be415522ed4b3e237f5	Joe-Balsamo	55b11a896e982043058b0d6d	@orangelines Well, you might still be able to get away with an internal SSD and an external standard. I do a lot of video and photo stuff as a hobby, but don’t need to have it always accessible, so that works for me. But I understand if someone is a pro videographer/photographer and needs their collection. But also consider, a 2TB HD is tiny, the one I have is just a bit larger than a deck of cards, so no big deal throwing it in my bag. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:42:15.758Z	558ae52615522ed4b3e2a56e	orangelines	55b11967145c42fe657e5e5f	@Joe-Balsamo thanks! it really helps to know your personal setup. That should've been the question I asked instead :) I store a lot of videos and high res photos ..also have adobe applications installed.... so storage is definitely a priority along side speed. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:40:21.039Z	55863be415522ed4b3e237f5	Joe-Balsamo	55b118f5145c42fe657e5e46	My personal setup on my MacbookPro is a 500gb SSD with a 2TB external standard hd. I don’t have any issues. I mean, if you are storing tons and tons of video, maybe, but for development? It’s a non-issue. And SSD’s are FAST!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:36:39.764Z	559fe2e35e0d51bd787adf6c	cversion7	55b11817145c42fe657e5e1a	A 500gb SSD  is $150 or so. Depends on how much storage you need and your budget. :)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:36:18.939Z	558ae52615522ed4b3e2a56e	orangelines	55b118026e982043058b0cf3	@b1ggb3n86 yeah! they're quite expensive considering I want at least 750gb - 1tb. Thanks for your input :)
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:35:21.351Z	55a98fde8a7b72f55c3fb9c6	b1ggb3n86	55b117c9f2cdad46058b1e0e	@orangelines I would totally go for a hybrid, the speed and storage are so good for the price. SSDs are pretty expensive for small amount of storage. 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T16:21:11.414Z	558ae52615522ed4b3e2a56e	orangelines	55b1147716ac52ff650f7b16	@AVanVlack cool, thanks! An ssd isn't in my budget at the moment so that's why I'm looking at hybrids because I need the space as well as the speed. but if the price different isn't drastic perhaps I'll just get an ssd. I'll look into more
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T15:25:29.070Z	55863b7e15522ed4b3e237e9	AVanVlack	55b107695992e2977c4181d2	Save the spinning drives for external bulk data or a nas.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T15:24:29.047Z	55863b7e15522ed4b3e237e9	AVanVlack	55b1072df2cdad46058b1b4a	They are faster and if you need space and speed in a single drive they will do but full ssd is really the best option.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-23T15:17:33.100Z	558ae52615522ed4b3e2a56e	orangelines	55b1058d5992e2977c418198	Any opinions on hybrid hard drives?  (ssd + hdd) I've heard mixed opinions and would like to know what you guys think!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T22:26:36.608Z	5521f7d815522ed4b3de664c	salkuyateh93	55b0189c6e982043058aeeb6	thanks @CodeNonprofit 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T20:12:00.788Z	546fda59db8155e6700d6ece	CodeNonprofit	55aff9104fdc50987c738897	@salkuyateh93 I used to do that. Just maintaining a VPS it the way to go these days imo
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T20:01:47.633Z	5521f7d815522ed4b3de664c	salkuyateh93	55aff6ab16ac52ff650f57df	hey guys does anyone work on servers or have ran some of their own
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T19:51:26.113Z	55863be415522ed4b3e237f5	Joe-Balsamo	55aff43ef2cdad46058af999	I can't type on my phone
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T19:51:06.242Z	55863be415522ed4b3e237f5	Joe-Balsamo	55aff42af2cdad46058af995	Good wven
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T19:50:40.937Z	55863be415522ed4b3e237f5	Joe-Balsamo	55aff410f2cdad46058af992	Honestly, I think they are all foid
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T19:50:03.971Z	55863be415522ed4b3e237f5	Joe-Balsamo	55aff3eb145c42fe657e3a53	SSDs are awesome! My old 2011 MacBook Pro kicks ass wit SSD
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T19:47:44.292Z	55a0e19e5e0d51bd787b0470	AzharB178	55aff3604fdc50987c7387d0	Any recommendations on good brands for SSD? I keep on hearing that its a must for top perfomance
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T18:14:14.513Z	55863be415522ed4b3e237f5	Joe-Balsamo	55afdd7616ac52ff650f53ba	@CodeNonprofit Nice to know, thanks!
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T18:09:59.113Z	546fda59db8155e6700d6ece	CodeNonprofit	55afdc775992e2977c415dfd	@Joe-Balsamo Every since I found the app Duet Display, I’ve used my iPad mini as a second monitor. Turning up the resolution all the way on my MBP and hooking that thing up, I have more space than I need
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T18:09:27.029Z	546fda59db8155e6700d6ece	CodeNonprofit	55afdc57f2cdad46058af5a8	@Joe-Balsamo I own a thunderbolt display. It sits in my closet.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:32:12.269Z	55863be415522ed4b3e237f5	Joe-Balsamo	55af9b5cb7cc57de1d576353	@Ikucuk Good point, I agree.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:31:53.228Z	559fa9a10fc9f982beaa697d	Ikucuk	55af9b49a3bbb5445f63a050	I do recommend going to a store and looking at the screen in person, not just ordering one online.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:31:21.146Z	55863be415522ed4b3e237f5	Joe-Balsamo	55af9b293c1189fb1dc1245f	@Ikucuk Not sure what they sell for locally, will check that as well
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:31:04.314Z	55863be415522ed4b3e237f5	Joe-Balsamo	55af9b183c1189fb1dc1245c	@cshutchinson That’s an idea worth trying, thanks for that
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:19:22.565Z	559fa9a10fc9f982beaa697d	Ikucuk	55af985a615eb46a11738460	I've got a Iiyama ProLite E2409HDS-B1, it's not bad, but it also nothing special, think they're about 150 euros now
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:18:11.292Z	54a0a9abdb8155e6700e38af	cshutchinson	55af981314ea54755e72d1bd	just an option maybe not practical for you
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:17:57.383Z	54a0a9abdb8155e6700e38af	cshutchinson	55af98059402748911923333	$99 bucks and you have a display the size and quality of your tv
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:17:18.232Z	54a0a9abdb8155e6700e38af	cshutchinson	55af97de9402748911923331	joe will airplay and your TV work for you with Apple TV?
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:16:19.662Z	55863be415522ed4b3e237f5	Joe-Balsamo	55af97a33c1189fb1dc123ea	I want to be able to use my MacBook Pro as my desktop at home, and I feel a larger screen would be quite useful
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:15:36.080Z	55863be415522ed4b3e237f5	Joe-Balsamo	55af97789402748911923322	LOL, mine is a 2011
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:15:30.625Z	559fa9a10fc9f982beaa697d	Ikucuk	55af9772a3bbb5445f639fd4	On a more serious note, I'd be careful no to go too big
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:15:08.949Z	559fa9a10fc9f982beaa697d	Ikucuk	55af975c615eb46a11738440	You could sell the macbook? aren't they a fortune to begin with :P
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T13:14:34.397Z	55863be415522ed4b3e237f5	Joe-Balsamo	55af973aa3bbb5445f639fc8	Any recommendations for a good large screen monitor to use with my MacBook Pro? Obviously, I’d like to not spend a fortune :smile: 
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T11:25:08.064Z	55863b7e15522ed4b3e237e9	AVanVlack	55af7d94a3bbb5445f639cdf	Its really exciting how low cost these chips have gotten and you canrun JavaScript and node directly on them.
+55ab718537f2ad22587e622c	FreeCodeCamp/Hardware	2015-07-22T11:14:11.745Z	558698ab15522ed4b3e23ce7	Petar-np	55af7b0314ea54755e72ce26	Maybe someone find this interesting https://onion.io :)

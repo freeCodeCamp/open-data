@@ -1,0 +1,465 @@
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-09-17T11:04:19.318Z	540a150e163965c9bc202eaf	abhisekp	57dd233333c63ba01a0d2b96	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-08-26T16:36:29.497Z	57227b28659847a7aff50965	Rits1225	57c0700d2a7bd0e920533f3d	Hello everyone, please help me with Roman Numeral Converter problem
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-30T19:19:52.089Z	55d3b7760fc9f982beadd60d	ptsurbeleu	577570d8265214c130b4d13b	have a guess how to fix the issue in your browser (only for the current challenge) - remove the very first line in the editor, such that tag <link ... /> is the #1 line.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-30T18:49:09.510Z	55d3b7760fc9f982beadd60d	ptsurbeleu	577569a5632b75030fbf9e6f	"Are there any FCC folks? I'm a developer myself and would love to help debugging ""one-line-off"" issue with the editor in Chrome. Any hints how to get started are greatly appreciated..."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-30T18:48:39.079Z	54c32900db8155e6700f0752	Nezteb	577569871ac8bd1a4da80d0f	 Above in this chat people suggest emailing team@freecodecamp.com. We should all submit an issue report to that email explaining it.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-30T18:46:49.184Z	55d3b7760fc9f982beadd60d	ptsurbeleu	57756919632b75030fbf8eb3	"@Nezteb seeing the very same behavior in my Chrome on Windows... sometimes ""Reset"" button helps but oftentimes it does not..."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-25T17:56:21.837Z	56eeca2c85d51f252ab9d207	ndburrus	576ec5c58441a8124d43f925	
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T17:44:52.326Z	5466385edb8155e6700d4a81	quisling	57682b943881bc405b6f31b7	"Also, there looks to be a bug with the early jquery introduction series, once you're told to append the clone of #target5 to left-well; after that point there are always TWO #target5's in the left column instead of the one that there should be; the page looks to be running that code twice? The challenges are ""Clone an Element Using jQuery"" through ""Use jQuery to Modify the Entire Page"""
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T15:46:20.793Z	5466385edb8155e6700d4a81	quisling	57680fcc2a4cd63745eb30f0	The cursor appears on the line above where it actually is when I start typing
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T15:44:51.191Z	5466385edb8155e6700d4a81	quisling	57680f73feaf6cd222ad5a5f	"I am having a similar issue to @dragon788  and @Nezteb it seems. I'm on firefox 47, each time I load a challenge and click in the editor, my cursor is ""off"" by one line. That is, where the cursor appears and where it actually is seems to be off by one line exactly. Once I start typing anything it fixes itself, but it's a slightly irritating bug for the time being"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T01:00:59.931Z	54c32900db8155e6700f0752	Nezteb	5767404b3881bc405b6ee565	Actually yeah, my issue is exactly like @dragon788's. @ndburrus 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T00:58:15.830Z	54c32900db8155e6700f0752	Nezteb	57673fa7a82a6b0079a721cf	It may be similar to @dragon788's issue
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T00:56:54.501Z	54c32900db8155e6700f0752	Nezteb	57673f56feaf6cd222ad1c53	That screenshot is after a CMD+A to select all the text in the editor, but it's missing the last few lines. And if I click anywhere in the editor, there is a mismatch between the line I see selected and the text that is actually on that line.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T00:56:30.871Z	54c32900db8155e6700f0752	Nezteb	57673f3efeaf6cd222ad1c50	[![Screen Shot 2016-06-19 at 4.51.39 PM.png](https://files.gitter.im/FreeCodeCamp/Issues/ReEP/thumb/Screen-Shot-2016-06-19-at-4.51.39-PM.png)](https://files.gitter.im/FreeCodeCamp/Issues/ReEP/Screen-Shot-2016-06-19-at-4.51.39-PM.png)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-20T00:56:20.951Z	54c32900db8155e6700f0752	Nezteb	57673f342a4cd63745eaf000	So, the FCC code editor seems to be doing something weird on the latest Chrome build.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-19T23:05:28.884Z	56eeca2c85d51f252ab9d207	ndburrus	57672538a82a6b0079a71e05	does the item markdown work in chat (fcc/gitter?) - the `*` ?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-06-08T23:31:09.870Z	56edcd8585d51f252ab9b9b8	dragon788	5758aabd97e1b2d245e0ffa1	so it appears that in the text areas the cursor isn't properly going to the last line when I hit Ctrl+End, so I have to type a character and delete it to get it to actually go to the last line and have the cursor in the right place
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-05-19T22:51:56.580Z	57180f6b659847a7aff3c3b6	Pug-EBKAC	573e438c7aab25fb459d0380	Would issues with challenge question phrasing constitute a bug?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-05-10T02:03:03.268Z	559e616215522ed4b3e3b6e2	BenjaminDowns	57314157f16c08510662331c	Hello people. Do the FCC algorithms not support rest parameters/spread operators yet?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-05-01T18:08:35.862Z	55bd66500fc9f982beabd1c7	texas2010	572646232624e2150740ca4a	@arduino731, did you clicked the reset button?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-05-01T18:05:48.712Z	550ca53915522ed4b3dd93c1	arduino731	5726457cd407319f673191ff	I found a bug on javascript challenges how can i force reset the code?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T19:30:31.929Z	53d36575107e137846ba8073	evaldasg	56f2eed78980d78b3c94fbb4	thanks, I will
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T19:30:11.531Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	56f2eec32873ab8d3c444e61	@evaldasg Interesting.  I suggest you send an e-mail to team@freecodecamp.com - this sounds like a user specific issue.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T19:29:25.315Z	53d36575107e137846ba8073	evaldasg	56f2ee950da6416b6f9bdfd8	"yes, I’ve completed before those fcc upgrades; now I’m trying to continue challenges, but after completing newly appeared once, I'm redirected to the completed one, f.e. I’ve finished ""Learn What to Do If You Get Stuck” because this was marked as not completed and I'm redirected to ""Say Hello to HTML Elements"" which was completed a long time ago (in 2015-07)"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T19:22:44.451Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	56f2ed042873ab8d3c444db7	@evaldasg I am seeing you as having done a bunch of challenges.  I'm not sure I understand the issue - if you use the map to go to the first one you have not completed, does it take you to the next one when you complete it?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T19:06:44.740Z	53d36575107e137846ba8073	evaldasg	56f2e944137455d638d24cca	actually no...
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T18:56:36.402Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	56f2e6e40da6416b6f9bdcd5	@evaldasg Do you have cookies disabled?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T18:14:00.451Z	53d36575107e137846ba8073	evaldasg	56f2dce88980d78b3c94f523	hey, I wasn't using fcc for a couple of months, and had 268 challenges completed. Now when I complete the challenge, it sends me to the completed instead of new one. what I'm missing?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-23T16:41:21.344Z	559f419f0fc9f982beaa5af5	francisngo	56f2c731ba45ef634e8dcb05	"@francisngo
+there is an issue with passing values to function with arguments
+the page will not scroll
+therefore i cannot see the instructions to complete challenge"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-06T08:34:23.606Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56dbeb8fa54928411668b8df	"@pmbenjamin Just finished another video on array deconstruction, which cleans up the code above to just:
+
+```
+
+function lookUp(firstName, prop){
+  let [contact] = contacts.filter(x => x.firstName === firstName )
+  return contact === undefined ? ""No such contact"" : contact[prop] != null ? contact[prop] : ""No such property""
+}
+
+```
+(although it occurs to me this is probably the wrong chat room for this....)"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:47:28.145Z	559fe1815e0d51bd787adeda	pmbenjamin	56db1bb0b0cc3f1b41505110	Nice
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:47:00.903Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db1b9468c077746482b10f	:o)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:46:47.279Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db1b871263673835712ad2	"here ya go. (chained ternary operators)
+```
+function lookUp(firstName, prop){
+  var contact = contacts.filter(function(x) { return x[""firstName""] == firstName })
+  return contact.length < 1 ? ""No such contact"" : contact[0][prop] != null ? contact[0][prop] : ""No such property""
+}
+```"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:46:19.963Z	559fe1815e0d51bd787adeda	pmbenjamin	56db1b6bb0cc3f1b41505103	:+1: 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:44:57.714Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db1b1968c077746482b0fb	@pmbenjamin Yea, I'm bad about using ```==```. Thanks. I'm usually a ternary operator junkie (see my latest twitch project). I'll rewrite it, which should get it down to about 5 lines or so.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:42:21.961Z	559fe1815e0d51bd787adeda	pmbenjamin	56db1a7da549284116689a98	"@BenjaminDowns a few suggestions with regards to your solution:
+
+  1. Try to use the strict comparison operators `===` and/or `!==` instead of the lax comparison operators, you will experience less bugs in your code.
+  1. If you are doing a simple if/else check, ternary operations (e.g. `condition ? if_true_execute_this : else_execute_this`) may make your code easier to read/understand"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:32:30.030Z	559fe1815e0d51bd787adeda	pmbenjamin	56db182eddfe3d431627ed5a	@BenjaminDowns I looked up your solution. Not bad. Here is mine: http://www.freecodecamp.com/challenges/profile-lookup#?solution=%2F%2FSetup%0Avar%20contacts%20%3D%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%22firstName%22%3A%20%22Akira%22%2C%0A%20%20%20%20%20%20%20%20%22lastName%22%3A%20%22Laine%22%2C%0A%20%20%20%20%20%20%20%20%22number%22%3A%20%220543236543%22%2C%0A%20%20%20%20%20%20%20%20%22likes%22%3A%20%5B%22Pizza%22%2C%20%22Coding%22%2C%20%22Brownie%20Points%22%5D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%22firstName%22%3A%20%22Harry%22%2C%0A%20%20%20%20%20%20%20%20%22lastName%22%3A%20%22Potter%22%2C%0A%20%20%20%20%20%20%20%20%22number%22%3A%20%220994372684%22%2C%0A%20%20%20%20%20%20%20%20%22likes%22%3A%20%5B%22Hogwarts%22%2C%20%22Magic%22%2C%20%22Hagrid%22%5D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%22firstName%22%3A%20%22Sherlock%22%2C%0A%20%20%20%20%20%20%20%20%22lastName%22%3A%20%22Holmes%22%2C%0A%20%20%20%20%20%20%20%20%22number%22%3A%20%220487345643%22%2C%0A%20%20%20%20%20%20%20%20%22likes%22%3A%20%5B%22Intriguing%20Cases%22%2C%20%22Violin%22%5D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%22firstName%22%3A%20%22Kristian%22%2C%0A%20%20%20%20%20%20%20%20%22lastName%22%3A%20%22Vos%22%2C%0A%20%20%20%20%20%20%20%20%22number%22%3A%20%22unknown%22%2C%0A%20%20%20%20%20%20%20%20%22likes%22%3A%20%5B%22Javascript%22%2C%20%22Gaming%22%2C%20%22Foxes%22%5D%0A%20%20%20%20%7D%0A%5D%3B%0A%0A%0Afunction%20lookUp(firstName%2C%20prop)%7B%0A%2F%2F%20Only%20change%20code%20below%20this%20line%0A%20%20var%20result%2C%0A%20%20%20%20%20%20mapped%20%3D%20function(current)%7B%0A%20%20%20%20%20%20%20%20return%20(current.firstName%20%3D%3D%3D%20firstName%20%3F%20(current.hasOwnProperty(prop)%20%3F%20current%5Bprop%5D%20%3A%20%22No%20such%20property%22)%20%3A%20%22No%20such%20contact%22)%3B%0A%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20filtered%20%3D%20function(el%2Ci)%7B%0A%20%20%20%20%20%20%20%20return%20contacts%5Bi%5D.firstName%20%3D%3D%3D%20firstName%3B%0A%20%20%20%20%20%20%7D%3B%0A%20%20%20%20%20%20%0A%20%20result%20%3D%20contacts.map(mapped).filter(filtered)%5B0%5D%3B%0A%20%20%0A%20%20%0A%20%20return%20result%20%7C%7C%20%22No%20such%20contact%22%3B%0A%2F%2F%20Only%20change%20code%20above%20this%20line%0A%7D%0A%0A%2F%2F%20Change%20these%20values%20to%20test%20your%20function%0AlookUp(%22Kristian%22%2C%20%22lastName%22)%3B%0A
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:17:41.024Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db14b568c077746482afdf	Let me know when you're ready for spoilers and I'll paste my code.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:17:32.166Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db14ac68c077746482afdd	(If I understood the challenge correctly.)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:17:21.570Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db14a168ddef776468de3a	@pmbenjamin Done.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:15:59.668Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db144f817dfa1e41ec98b6	@pmbenjamin Oh. I just solved, it but used intermediate values....now I have to go back...
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:11:56.254Z	559fe1815e0d51bd787adeda	pmbenjamin	56db135c68c077746482afa5	I challenge you to solve it with Functional programming concepts without using `for loops` or using intermediate variables :smile: 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:09:51.482Z	559fe1815e0d51bd787adeda	pmbenjamin	56db12df68c077746482af8e	Oh yeah, FCC keeps adding new ones
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:09:11.086Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db12b7817dfa1e41ec9855	@pmbenjamin Weird. That must be a new one. I've done all of the algorithms except 2 advanced ones.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:08:29.162Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db128db0cc3f1b41504f6f	@pmbenjamin I love those methods so much....I started using them a few months ago after watching the mpjme videos on functional programming. So good.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:08:12.476Z	559fe1815e0d51bd787adeda	pmbenjamin	56db127c817dfa1e41ec984b	For example, have you solved this challenge yet: http://www.freecodecamp.com/challenges/profile-lookup ?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:07:30.519Z	559fe1815e0d51bd787adeda	pmbenjamin	56db125268c077746482af72	@BenjaminDowns also, ES2015 introduced new functional programming methods/functions, such as `.map()`, `.reduce()`, and `.filter()`. I've gone back to FCC challenges and re-wrote my solutions using functional programming concepts, which made me fall more in love with JavaScript.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:04:23.559Z	559fe1815e0d51bd787adeda	pmbenjamin	56db119719834f3c35350dad	@BenjaminDowns haha yes
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T17:00:01.893Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db1091ddfe3d431627ec03	(in a for loop)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:59:41.913Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db107dddfe3d431627ebfd	@pmbenjamin I'm 10 minutes into the course and I just went back and rewrote code I wrote earlier today – goodbye closure; hello let.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:50:07.157Z	559fe1815e0d51bd787adeda	pmbenjamin	56db0e3f68c077746482aec7	@BenjaminDowns JS courses in code-school will complement and fill in some gaps you may have from freecodecamp. I know it filled in some gaps for me.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:44:29.416Z	559fe1815e0d51bd787adeda	pmbenjamin	56db0ced126367383571286a	I highly recommend going through ALL JS courses this weekend, if you can.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:44:07.332Z	559fe1815e0d51bd787adeda	pmbenjamin	56db0cd71263673835712865	yeah, they love their courses with their video format.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:43:56.412Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0cccddfe3d431627eb62	I didn't know they had the es2015 courses. I'll check them out too
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:43:38.109Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0cbaddfe3d431627eb5e	@pmbenjamin Ha! My other tab is open to their (2nd) angular course.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:42:45.808Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0c85ddfe3d431627eb51	@pmbenjamin Thanks for the conversation and tips. Very helpful.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:41:36.065Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0c4068ddef776468dcc6	@pmbenjamin true.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:41:10.537Z	559fe1815e0d51bd787adeda	pmbenjamin	56db0c2668ddef776468dcc0	"@BenjaminDowns 
+A couple of FYIs:
+  1. There are some use-cases where you will not be able to use dot notation, such as in loops
+  1. All Code-School courses are free this weekend. They have a really good course on JS Objects, Arrays, Maps, Sets ...etc (https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come). I highly recommend taking advantage of the free-weekend to plow through their JS courses."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:39:58.847Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0bde68c077746482ae5a	@pmbenjamin I'm going to head over to MDN and check out maps then.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:39:30.104Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0bc2ddfe3d431627eb35	@pmbenjamin I see. 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:39:07.792Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0babb0cc3f1b41504e4f	"@pmbenjamin I imagine I'd structure it like this
+```
+'use strict'
+let drawer = {}
+drawer.hundreds = new Object()
+drawer.hundreds.amount = 200
+drawer.hundreds.slotnumber = 1
+
+console.log(drawer.hundreds.amount) // 200
+```
+
+"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:39:05.454Z	559fe1815e0d51bd787adeda	pmbenjamin	56db0ba9126367383571283a	"i can't think of a use-case off the top of my head, but it is a common pitfall that new JavaScript developers fall in when they try to treat objects as maps. I think the purpose of the exercise in question is not really ""best practice"", but rather to get you used to retrieving values from 2D arrays. That's all."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:36:35.277Z	559fe1815e0d51bd787adeda	pmbenjamin	56db0b13817dfa1e41ec9709	@BenjaminDowns what if you want to get the slot number and the dollar amount from the drawer?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:34:05.501Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0a7db0cc3f1b41504e1b	"@pmbenjamin I understand what you are saying – that if you set up an object as key to the value, that you'll end up with some difficulties. I'm suggesting that you could simply do this:
+
+https://repl.it/BtOK/0
+
+and I'm not sure what the purpose of building an object with object keys would be. Is there a use case for something like you've written above?"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:30:31.730Z	559fe1815e0d51bd787adeda	pmbenjamin	56db09a7b0cc3f1b41504df8	"@BenjaminDowns 
+If you use dot notation, you're no longer trying to add the content of your variable to the object. Instead, you're literally adding a new key.
+For instance, if `hundreds = {slot: 5, name: ""hundreds""}` and you try to assign the content of `hundreds` variable to `drawer` object like so `drawer.hundreds = 200` expecting to get `drawer = { {slot: 5, name: ""hundreds""}: 200}`, you will instead get `drawer = {hundreds: 200}`
+You can try it in https://repl.it/BtOR.
+It doesn't have to do with how you add keys to objects, it has to do with the JavaScript behavior under the hood."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:29:55.304Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db0983817dfa1e41ec96c2	(by the way, I'm being stubborn not for the sake of obstinacy itself; I just want to understand a bit more.)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:28:10.124Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db091a817dfa1e41ec96ac	why not just  ```drawer.hundreds = 200``` ?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:26:38.869Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db08be19834f3c35350c40	@pmbenjamin Ah. I see. And if we use dot notation?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T16:09:57.873Z	559fe1815e0d51bd787adeda	pmbenjamin	56db04d5a5492841166896c8	"@BenjaminDowns
+Yes, you can get away with using objects if you're building the object using Object Literals, but what happens if you try to programmatically add new keys to your object?
+```javascript
+let hundreds = {slot: 5, name: ""hundreds""}, twenties = {slot: 4, name: ""twenties""}, tens = {slot: 3, name: ""tens""}, fives = {slot: 2, name: ""fives""}, ones = {slot: 1, name: ""ones""};
+drawer[hundreds] = 200;
+drawer[twenties] = 40;
+drawer[tens] = 20;
+drawer[fives] = 10;
+drawer[ones] = 5;
+```
+You would expect the outcome to be:
+```javascript
+drawer = {
+  {slot: 5, name: ""hundreds""}: 200,
+  {slot: 4, name: ""twenties""}: 40,
+  {slot: 3, name: ""tens""}: 20,
+  {slot: 2, name: ""fives""}: 10,
+  {slot: 1, name: ""ones""}: 5
+}
+```
+But what you end up getting is:
+```javascript
+drawer = {
+  ""[object Object]"": 5
+}
+```
+All values were overwritten in the `drawer` object, because javascript converted Object Keys (e.g. `{slot: 5, name: ""hundreds""}`) to Strings (e.g. `""[object Object]""`)"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T15:53:30.385Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56db00fa817dfa1e41ec955f	"@pmbenjamin Right, I know; but surely key/value pairs, even if the key is a string, is going to be more intuitive than a 2D array! 
+For instance:
+
+```
+
+let drawer = {
+  'hundreds': 200,
+  'twenties': 40,
+  'tens': 20
+}
+drawer['hundreds'] // 200; NOTE: no need to remember index numbers, since we have keys
+
+```
+as opposed to:
+
+```
+drawer = [['hundreds', 200], ['twenties', 40], ['tens', 20]]
+
+//
+
+drawer[0][1] // 200 ; have to use index numbers to select both the proper denomination, [0] and the value[1]
+
+```"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T15:34:45.055Z	559fe1815e0d51bd787adeda	pmbenjamin	56dafc9568ddef776468da57	"@BenjaminDowns there are subtleties and unexpected pitfalls in JavaScript objects that you have to be aware of.
+**TL;DR** JavaScript Objects can't be used as key/value-pair maps.
+**Long Explanation:**
+JavaScript always converts Object Keys (e.g. `HUNDREDS`) to strings (e.g. `""HUNDREDS""`).
+
+Let's take a look at an example:
+```javascript
+var user1 = {name: ""John""}; // user1 object
+var user2 = {name: ""Ben""}; // user2 object
+
+var totalMoney = {}; //Object to store how much money each user has
+totalMoney[user1] = 1;
+totalMoney[user2] = 500;
+
+// What happens when you print their values out?
+console.log(totalMoney[user1]); // => 500
+console.log(totalMoney[user2]); // => 500
+```
+You see, JavaScript converted `user1` and `user2` keys to `""[object Object]""`.
+This was resolved in ES2015 (aka ES6) with the introduction of `Map` data structure.
+You can get away with using JS Objects as maps **if, and only if,** you are building the Object as an Object Literal (e.g. `var someObj = {key1: value1, key2: value2};`).
+Besides, don't let JavaScript Arrays fool you, they're JavaScript Objects under the hood."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-05T05:47:55.102Z	540a150e163965c9bc202eaf	abhisekp	56da730b230d2a051f1f7149	@BenjaminDowns i cudn't even understand the rant :P
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-03-04T18:22:18.495Z	559e616215522ed4b3e3b6e2	BenjaminDowns	56d9d25addfe3d431627b8ca	"Minor rant:
+
+Who in the **** would ever use a 2D array with mixed data types to represent a cash drawer? 
+
+I just finished the 'exact change' algorithm, and since I wanted to make my code relatively succinct, I didn't want to do a bunch of switch/cases or if/thens, so I had to get creative; and I learned a few things along the way.
+
+but seriously....what in the *** is the *** ****** **** *@#$%%! for a cash drrawer?!@#$%%!DFDF***** I would rather @#$%IDFJ with @#$ than @#$ that @#$@#$! thing again. That's why we have objects! 
+
+``` drawer = { HUNDREDS: 200, TWENTIES , 20, etc....}``` and the whole problem would have taken a couple minutes. But no....it's gotta be an array.
+
+// end rant."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-01-26T00:50:22.649Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	56a6c2ce84cccde9258aebeb	"@faintlywonky If you're able to click the ""pop-out"" button un the upper right corner of the help sidebar, it should give you a full screeen version of the site."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-01-25T13:50:57.414Z	569de560e610378809bd0cd2	faintlywonky	56a62841586242210adf6143	"@ptsurbeleu When I am using FCC's site, the ""help"" button opens a chat room, but won't let me log in. It says to sign in via Github, but when I press the ""Join Room"" button, either nothing happens, or else a blank pop-up window opens and then shuts. I also cannot see the ""X"" for closing the window (even though it is there, but invisible) so it took me forever to figure out how to close that non-functioning sidebar. I've never done anything special to my Internet or browser settings, so I don't know what else to try. The only way I can access the chat rooms is by going directly to gitter."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-01-25T09:24:21.520Z	55d3b7760fc9f982beadd60d	ptsurbeleu	56a5e9c580ad69394a7a4655	@faintlywonky Hey, what's up? I will be more than happy to help...
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2016-01-25T07:29:53.178Z	569de560e610378809bd0cd2	faintlywonky	56a5cef18fbaf4220af92013	Hello, I'm new to FCC this week and am having a problem with the FCC site interface. I've asked in a couple of chat rooms only to be referred to other rooms where no one else has an answer either.  Is this an appropriate room in which to ask or can someone point me to a better room?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-29T17:58:31.868Z	55d3b7760fc9f982beadd60d	ptsurbeleu	560ad147f4b61c106fb2a318	Hey folks, can someone from FCC take a look at this pull request: https://github.com/FreeCodeCamp/FreeCodeCamp/pull/3337. Appreciate your help very much!
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-16T07:06:21.748Z	55d3b7760fc9f982beadd60d	ptsurbeleu	55f914eda2c7aa6b1086b7a6	oh, and steps outlined above make duplicates in the conversation view (Git persists associated commits even if they have been removed)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-16T07:03:57.107Z	55d3b7760fc9f982beadd60d	ptsurbeleu	55f9145d18e0111d7e4f13e8	* at least now I know how to adhere to FCC commit message style :-)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-16T07:02:09.979Z	55d3b7760fc9f982beadd60d	ptsurbeleu	55f913f1c588a0de6edeb8e1	Hi there, trying to figure out if there is a better way to change a commit message in an existing pull request other than remove remote branch in the fork, amend the message in the local branch, push the branch and send a new pull request again?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:54:51.577Z	5490eb39db8155e6700e0001	ahstro	55f8313bf66d320b4fbda30e	I asked you something in the new PR, would you mind answering it so we can get your changes merged? :)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:35:00.685Z	5490eb39db8155e6700e0001	ahstro	55f82c94fe4ca46810e1c28f	Yeah, I think the tests are only supposed to be shown on JS bonfires, not HTML waypoints
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:31:56.009Z	55b926020fc9f982beab7095	natac13	55f82bdcc588a0de6ede996a	and yep the link you sent me to clears it up thanks @ahstro 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:30:46.071Z	55b926020fc9f982beab7095	natac13	55f82b96f66d320b4fbda1a9	"I had the changes from the intermediate in there so I just started again.. and compare challenges [1](http://www.freecodecamp.com/challenges/waypoint-target-a-specific-child-of-an-element-using-jquery) & [2](http://www.freecodecamp.com/challenges/bonfire-title-case-a-sentence)
+
+where is 2 you can read the entire assert function and the description part is repeated, but with #1 the assert message is not displayed to the user and only the description is there"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:25:29.361Z	5490eb39db8155e6700e0001	ahstro	55f82a59fe4ca46810e1c213	Why are you deleting your pull request?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:24:49.396Z	5490eb39db8155e6700e0001	ahstro	55f82a310c9c8795325cd06d	I'm not quite sure what your question is to be honset :sweat_smile:  The text that's being showed on som eof the challenges is intended though https://github.com/FreeCodeCamp/FreeCodeCamp/pull/2633
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:16:42.052Z	55b926020fc9f982beab7095	natac13	55f8284a0c9c8795325ccffe	can I ask you about my question on [#3316](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/3316)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:13:20.140Z	5490eb39db8155e6700e0001	ahstro	55f8278018e0111d7e4ef315	No problem :) Thanks for tackling issues!
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:12:58.388Z	55b926020fc9f982beab7095	natac13	55f8276afe4ca46810e1c17d	@ahstro got it I will fix sorry
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T14:09:42.914Z	5490eb39db8155e6700e0001	ahstro	55f826a6c588a0de6ede9827	Just commented on https://github.com/FreeCodeCamp/FreeCodeCamp/pull/3320. :)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T13:59:13.889Z	5490eb39db8155e6700e0001	ahstro	55f82431fe4ca46810e1c0ae	As long as it works. :)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T13:58:35.779Z	55b926020fc9f982beab7095	natac13	55f8240b0c9c8795325cceeb	@ahstro yeah I did get version 4... and I just ended up deleting everything and recloning lol I guess in the end I did what you said lol wow I did too much thanks for the reply
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T12:59:31.818Z	5490eb39db8155e6700e0001	ahstro	55f81633a2c7aa6b1086936b	@natac13 Did you just update to Node 4? If so, remove the `node_modules` directory and run `npm install` again. Fixed it for me :)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-15T12:26:16.110Z	55b926020fc9f982beab7095	natac13	55f80e680c9c8795325cca87	Hey does anyone here know why I am getting a `Segmentation fault (core dumped)` when running gulp to launch the FCC app locally?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:43:00.987Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef80946fe7b2a123ea762a	thanks
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:42:59.505Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef80936fe7b2a123ea7629	ah k
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:42:55.534Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef808f4d54f3c55705d00a	NP
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:42:54.454Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef808e4d54f3c55705d009	It can definitely be hard to read, but it's there. :D
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:42:48.798Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef8088760979e727e93273	awesome, thank you so much @SaintPeter 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:42:40.993Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef8080d121757e4d206da7	I will use that
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:42:36.239Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef807c96450ece4d880a36	K thanks
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:41:27.079Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef8037e9d5403d7a304191	"Breaking out the 3rdtest case:
+```
+assert.deepEqual(where([{ 'a': 1, 'b': 2 }, { 'a': 1 }, { 'a': 1, 'b': 2, 'c': 2 }], { 'a': 1, 'b': 2 }), [{ 'a': 1, 'b': 2 }, { 'a': 1, 'b': 2, 'c': 2 }], 'should return two objects in array');
+```
+Breaking it out:
+```
+where(
+[{ 'a': 1, 'b': 2 }, { 'a': 1 }, { 'a': 1, 'b': 2, 'c': 2 }], // First Param (Collection)
+{ 'a': 1, 'b': 2 });  // Second Param (source)
+// Results:
+[{ 'a': 1, 'b': 2 }, { 'a': 1, 'b': 2, 'c': 2 }]  // Returns these two objects
+```"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:41:09.371Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef80256fe7b2a123ea761f	no semicolon so I must be missing the second argument
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:40:53.255Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef8015532e5edc65553513	where([{ 'a': 1, 'b': 2 }, { 'a': 1 }, { 'a': 1, 'b': 2, 'c': 2 }], { 'a': 1, 'b': 2 }), [{ 'a': 1, 'b': 2 }, { 'a': 1, 'b': 2, 'c': 2 }]
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:40:52.689Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef80146fe7b2a123ea761e	the other where is...
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:40:28.452Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7ffc96450ece4d880a2a	hmm how do I post the code in a code box?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:40:17.760Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7ff124362d5253fe4ccb	"where([{ first: 'Romeo', last: 'Montague' }, { first: 'Mercutio', last: null }, { first: 'Tybalt', last: 'Capulet' }], { last: 'Capulet' });
+"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:40:08.170Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7fe824362d5253fe4cca	Where in the code:  
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:39:53.485Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7fd924362d5253fe4cc7	I believe they are
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:39:46.053Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef7fd2773679a949547ba1	"You say that they're missing the ""Second argument"""
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:39:14.070Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7fb2d121757e4d206d94	@Hunter thanks @SaintPeter 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:38:52.081Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef7f9c4d54f3c55705d007	@SaintPeter goes to look
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:38:36.020Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f8c760979e727e93256	they are missing the second argument
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:38:29.336Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f856fe7b2a123ea7602	yes
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:38:23.713Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef7f7f4d54f3c55705d006	You mean how can you test those test cases yourself?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:38:19.985Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f7b24362d5253fe4cbd	just an issue on how I am trying to find a way to test the other where clauses
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:38:04.030Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f6c24362d5253fe4cbb	there is not a bug
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:37:54.962Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f626fe7b2a123ea75fb	Just like the where clause in the problem, there are assert tests that test against others, how do I test against those in my own code, they are missing the second parameter
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:37:52.417Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55ef7f604d54f3c55705d004	@retnuh1974 What is the issue?  I'm pretty familiar with that Bonfire and I don't recall there being problems with the test cases.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:37:10.180Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f36760979e727e9324b	http://www.freecodecamp.com/challenges/bonfire-where-art-thou
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-09T00:37:02.355Z	55b2fba00fc9f982beaaea1d	retnuh1974	55ef7f2e96450ece4d880a1b	Anyone in here that can assist with an issue on how to find out the assert.deepEqual where?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T05:01:47.706Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d43b17b2081605a577e0	BTW not sure why the test doesn't fail when someone leaves off the px unit, but I tested it and does pass if left off.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:59:36.129Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d3b82ec6bacd1e2dabe4	"This is what a simple query to view the tests looks like:
+```
+db.challenge.find({name: 'Waypoint: Use Clockwise Notation to Specify the Margin of an Element'}, {tests: true}).pretty()
+{
+	""_id"" : ObjectId(""bad87fee1348bd9afdf08726""),
+	""tests"" : [
+		""assert($(\"".green-box\"").css(\""margin-top\"") === \""40px\"", 'Your <code>green-box</code> class should give the top of elements <code>40px</code> of <code>margin</code>.')"",
+		""assert($(\"".green-box\"").css(\""margin-right\"") === \""20px\"", 'Your <code>green-box</code> class should give the right of elements <code>20px</code> of <code>margin</code>.')"",
+		""assert($(\"".green-box\"").css(\""margin-bottom\"") === \""20px\"", 'Your <code>green-box</code> class should give the bottom of elements <code>20px</code> of <code>margin</code>.')"",
+		""assert($(\"".green-box\"").css(\""margin-left\"") === \""40px\"", 'Your <code>green-box</code> class should give the left of elements <code>40px</code> of <code>margin</code>.')""
+	]
+}
+```"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:58:02.764Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d35a17b2081605a577d2	Why risk messing up the rest of the document, when only one part of it needs to change.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:57:21.267Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d331d231aa8e5918e47a	Yeah, something like what you suggested makes more sense. In fact, really only the part of the particular document that is changed needs to be updated. So in the case of a test change, you find the document, and update the test property.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:55:45.818Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d2d14efdf7f978eb3584	I'll have to try and have a look at the seed code and see what is going on there.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:55:09.164Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d2add231aa8e5918e46d	But that is just crazy to wipe the database and reload the data each time. I guess in this case it's a small db and not that big of a deal. It, to me, just really flys against what you use a database for. 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:53:07.380Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d233a4f4e68a33d637ac	Humm, I wonder if you could write a gulp trigger that re-imported the affected seed file on a file change.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:52:10.500Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d1faa4f4e68a33d637ab	Anyway, that's the way they want to do it :D  I don't work here, I just man the help channels to procrastinate on my Basejump
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:51:46.463Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d1e2a4f4e68a33d637a9	@SaintPeter shrugs
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:51:44.369Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d1e09a0e5c6e6810f1d8	It kinda is?  
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:51:25.754Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d1cd4efdf7f978eb356e	To me, seeding a database is setting it up with initial data.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:51:00.641Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d1b410e026c831b8fbe8	IT's not like the challenges change THAT often
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:50:22.972Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d18e17b2081605a577a9	"Oh, maybe seeding is the wrong term then. Sounds like the ""seed"" code is doing updates then."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:50:21.713Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d18d10e026c831b8fbe7	Well, it's also a design choice by the FCC team to have everything in the DB.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:49:55.265Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d173d231aa8e5918e445	Heh, right? I'm somewhat familiar with mongo, I've taken their mongoU courses for node and python, and don't recall anything like reseeding the database each time a change was needed.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:49:24.692Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d15410e026c831b8fbe4	I previously deveopmed on LAMP stack and seeding was super dangerous bozo-no-no
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:48:21.018Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d1159a0e5c6e6810f1d6	Since the seeds all have an ID, only those records get overwritten.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:47:46.595Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d0f210e026c831b8fbe3	But if you're using MongoDB, it's totally a normal thing to do.  IT's quasi less destructive.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:47:24.489Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d0dc10e026c831b8fbe1	@CharlesMilam Well, if you come from an SQL background, it's like sacralige, right?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:46:19.236Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d09b17b2081605a57793	Gotya. Reseeding the whole database for just a single fix, just doesn't feel right, but what do I know ;-)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:46:08.754Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d09010e026c831b8fbdd	Bad syntax on the tests can break the whole page and/or truncate the seed data upload.  That's bad ;)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:45:40.560Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d07410e026c831b8fbdc	And the syntax is a bit weird since you're writing code encapsulated in a string.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:44:49.134Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7d04110e026c831b8fbdb	I suppose . . . but you need to also test that you've made the changes to the .json file correctly.  An invalid json file cannot be loaded when they deploy your fix.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:44:10.328Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7d01aa75db4b375c3c715	Ok, or I guess in theory you could just do an update for that specific document (i.e. record in a rdbms), so you wouldn't have to reseed the whole database, correct?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:42:47.520Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7cfc79a0e5c6e6810f1d0	"@CharlesMilam They're just ""in"" the seed files for re-loading."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:42:33.589Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7cfb9a4f4e68a33d637a2	@CharlesMilam The challenges are stored in the database.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:42:09.133Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e7cfa110e026c831b8fbd7	@CharlesMilam Yes, you edit the appropriate .json file and then re-seed (via `node seed`)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T04:40:19.894Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7cf3317b2081605a57763	"Thanks @SaintPeter  So to ""fix"" a test I would do what? For example, I was going to attempt to strengthen a test which had an issue. It was allowing the use of margin: 40 20 20 40 without the need to provide a unit such as px. So I would edit the seed data, and then update that record in the database with the new ""test""? Isn't the seed data just what gets loaded into the database? Say I was able to strengthen the test, would I then make a pull request for the changed seed data, then if approved, at some point the production database is updated? "
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T00:33:12.200Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e79548a4f4e68a33d6371d	@CharlesMilam Beyond that, your guess is as good as mine.  I've been very hesitant to touch any of the other site code because much of it is in a state of flux.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T00:31:55.662Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e794fba4f4e68a33d6371b	@CharlesMilam As for where stuff is, all of the waypoints and bonfires can be found in `/seed/challenges/` broken out by section.  Grep may be your friend there.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-03T00:31:16.224Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e794d4a4f4e68a33d63718	"@CharlesMilam There are not tests for the challenges because they are made of tests, if that makes any sense.  Typically, in order to test a challenge you would take a cannonical solution and paste it in.  I do agree it might be nice to have automated testing for those tests . . . perhaps that could be a contribution - but you'd need to write that ""cannonical"" example to test against.  I can certainly contribute bonfire code if you'd like."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T23:20:53.864Z	5509011715522ed4b3dd6cec	CharlesMilam	55e7845517b2081605a56fd2	@SaintPeter Thanks, I was hoping to get some information on how to contribute to the project. I got the repo forked, cloned and running. Looking for information on where everything lives, tests for example. I was expecting to find a folder full of tests for the various challenges, but not seeing that. 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T21:45:04.351Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55e76de0f6fb4f034f6b65c8	"@CharlesMilam I encourage you to just post your issue description and see if someone can chime in.  Few ""hang out"" here."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T17:21:56.402Z	5509011715522ed4b3dd6cec	CharlesMilam	55e730344efdf7f978eb1d0e	anybody home?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T08:52:38.510Z	55dfac480fc9f982beaed7f2	IgorMilosavljevic	55e6b8d6f0248505272d9d22	@ahstro awesome :)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T06:24:43.095Z	5490eb39db8155e6700e0001	ahstro	55e6962bf0248505272d966f	@IgorMilosavljevic Thanks :) It's fixed now
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T00:51:53.220Z	55b2fba00fc9f982beaaea1d	retnuh1974	55e648294ae8239378eb13d0	nvm I got it, the page needed to be refreshed for some reason
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T00:50:58.514Z	55b2fba00fc9f982beaaea1d	retnuh1974	55e647f24ae8239378eb13c8	not sure why it doesn't register as success and moves me along to next Bonfire
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-09-02T00:50:03.862Z	55b2fba00fc9f982beaaea1d	retnuh1974	55e647bbc856a83f6e6a5663	Anyone ever come across the Sonic Boom just spin and do nothing? http://www.freecodecamp.com/challenges/bonfire-meet-bonfire
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-28T22:23:17.213Z	55bbd3680fc9f982beabb5e6	cleverjam	55e0df55017739836ed46327	Im installing babel-core with npm
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-28T22:20:03.188Z	55bbd3680fc9f982beabb5e6	cleverjam	55e0de931b9798c846eca867	"it says ""Cannot find module 'babel-core/register'"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-28T22:19:48.271Z	55bbd3680fc9f982beabb5e6	cleverjam	55e0de84fbbdfcbd3b5dc659	Hey, can someone help me? I am trying to run the app locally on ubuntu, and I keep getting error when loading gulp
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-28T01:00:52.792Z	55dfac480fc9f982beaed7f2	IgorMilosavljevic	55dfb2c41b9798c846ec7f8b	"Hi,
+In the FCC Wiki there's a bad link.
+On this page https://github.com/FreeCodeCamp/freecodecamp/wiki/Official-Free-Code-Camp-Chat-Rooms the link for Screen Hero leads to a 404 page."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-24T19:12:02.247Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55db6c8236e894436a9adab6	@mpearson1982 I think there is an open issue against it - the workaround is non-trivial
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-24T19:11:40.912Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55db6c6ca6bcd8894068bd6f	@mpearson1982 I think there may be some issues with the code storage.  
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-24T19:10:58.270Z	55a1a14e5e0d51bd787b141e	mpearson1982	55db6c42fcfd5a7865af260b	@SaintPeter Thanks for your help last night. I've tried again today on both Edge and Chrome and both still the same. Downloaded Firefox and tried this and worked fine. Must be either some setting on my PC in relation to these two browsers, or some issue with FCC working properly with these browsers, though I imagine others would have experienced similar if an FCC issue.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-24T07:26:23.867Z	55d9779f0fc9f982beae4dbf	sJhonny-e	55dac71f004c3e375ad06fa9	@richchurcher I'm having trouble logging in to the FCC site locally, my issue isn't with logging in to github itself
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:28:17.397Z	55a1a14e5e0d51bd787b141e	mpearson1982	55da4901004c3e375ad06708	Thanks @SaintPeter I've seen that before as I have completed previous JS challenges and that usually appears after completing the appropriate code corretly and pressing the 'Run code' button. The pressing of the 'run code' button itself is not working, i.e. I click on it and nothing happens. Not sure what the issue is but I have had it several times previously, only for me to come back the next day and it works. Like I said, will have to go to bed now but will try again tomorrow.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:24:19.822Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55da4813a6bcd88940689d5e	[![blob](https://files.gitter.im/FreeCodeCamp/Issues/Q7k7/thumb/blob.png)](https://files.gitter.im/FreeCodeCamp/Issues/Q7k7/blob)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:24:07.276Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55da4807b1eeef1576d26f47	@mpearson1982 This is what the next button look slike:
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:22:58.847Z	55a1a14e5e0d51bd787b141e	mpearson1982	55da47c2a6bcd88940689d51	@SaintPeter Separate pages have completed loading in both browsers and no error messages in dev console. I think I may just need to give this another go tomorrow as I'm tired and I need to get some sleep. Thanks for the help so far @SaintPeter, will try again tomorrow and let you know if still an issue.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:18:13.545Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55da46a535456fc17fcc4871	@mpearson1982 Can you tell if the page is still loading?  I've gotten some reports that for some the page never finishes loading.  Also, can you open your dev console and check for error messages?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:16:27.314Z	55a1a14e5e0d51bd787b141e	mpearson1982	55da463b6ebe0cd61263d702	"@SaintPeter I'm don't think it has does on the JavaScript challenges I've previously completed, but no, it's not changing into ""Next Challenge"". Just to make sure I'm completing the tasks I've tried the first few JS challenges (comments/boolean)."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:13:34.437Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55da458eb1eeef1576d26f3a	"@mpearson1982 When you complete all tests, the ""Run Code"" button should turn into a ""Next Challenge"" button."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:12:58.564Z	55a1a14e5e0d51bd787b141e	mpearson1982	55da456afcfd5a7865af0355	@SaintPeter I'm not sure what 'next' button you mean? There is the 'Run Code', 'Reset', 'Help' and 'Bug' buttons, as well as the links to the Map, Chat, News... but no buttons specifying next or similar.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T22:00:42.291Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55da428ab1eeef1576d26f2e	@mpearson1982 Does it work if you click the next button?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T21:56:44.131Z	55a1a14e5e0d51bd787b141e	mpearson1982	55da419c36e894436a9ab7a2	Not sure if this is the right place to log this, but I'm having problems with the Basic JavaScript challenges. I've tried a couple of these tonight and all the one's that I go on won't allow me to run the code, no matter if I press the 'Run code (ctrl + enter)' button or if I press ctrl + enter on my keyboard. I have tried some of the jquery, bootstrap and html challenges and these are all fine. I have tried in both Edge and Chrome.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T20:19:12.158Z	55bdd64b0fc9f982beabd728	richchurcher	55da2ac036e894436a9ab587	I'm not especially familiar with the workflow you describe... normally I just git push from the terminal, and provide user/pass from there.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T20:18:07.584Z	55d9779f0fc9f982beae4dbf	sJhonny-e	55da2a7f04a673003162564a	"@richchurcher  thanks, I suspected as much, but wasn't sure.
+Do you have any idea what I need to do to be able to login locally, though?"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T19:20:24.397Z	55bdd64b0fc9f982beabd728	richchurcher	55da1cf86ebe0cd61263d2e5	"@sJhonny-e touch just creates a file. It's an old unix way of saying, ""I'd like a file named `blah` please, but don't put anything in it just yet"""
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T17:13:33.703Z	55863ca115522ed4b3e23825	matthewsvm	55d9ff3d6ebe0cd61263cfcd	freezes my browser whether chrome or Firefox
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T17:13:20.498Z	55863ca115522ed4b3e23825	matthewsvm	55d9ff30fcfd5a7865aefbeb	Actually, there’s an issue specifically here: http://www.freecodecamp.com/challenges/waypoint-bring-your-javascript-slot-machine-to-life
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T17:09:19.791Z	55863ca115522ed4b3e23825	matthewsvm	55d9fe3f6ebe0cd61263cfac	Nevermind…I’m just having issues on chrome on the site.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T17:07:09.864Z	55863ca115522ed4b3e23825	matthewsvm	55d9fdbd04a67300316251a7	Is something being deployed right now?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-23T16:23:25.844Z	55d9779f0fc9f982beae4dbf	sJhonny-e	55d9f37da6bcd889406894ef	"hey guys, I just set cloned the FCC repo locally and got it running (finally!), but I'm unable to sign in. 
+
+I tried setting up the github API (this is the method I used to sign in to the production FCC website)- I used my github username as GITHUB_ID, and created a personal token on the github website and set it as GITHUB_SECRET. Nevertheless, I'm getting an error from github.
+What am I doing wrong?
+
+P.S. not sure if that's related-
+the `touch .env` command created an .env file which was completely empty; I copied the sample entries from the readme file, and changed as stated above. Don't know if I did anything wrong there."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-21T11:51:22.930Z	5490eb39db8155e6700e0001	ahstro	55d710ba4eff2e7765382d64	@manoevis The database with all the user information was frozen some time before the upgrade, so everything that was completed between then and the completed migration wouldn't count
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-20T02:46:17.921Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d53f790975ed3146e9a0e4	Found it.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-20T02:34:27.377Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d53cb3569fb3811410667f	"How do I determine which view displays the ""Create a JavaScript Slot Machine""  waypoint?"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T16:29:47.310Z	53d36575107e137846ba8073	evaldasg	55d4aefb72b5607e52e91c22	hej everyone, after FCC upgrade why do I have to redo some challenges once again?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:21:12.580Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3cbf89c0eaccb36ae2ed9	and this http://stackoverflow.com/questions/14278417/cannot-install-node-modules-that-require-compilation-on-windows-7-x64-vs2012/22411007#22411007 depending on your ms build environment is a good read
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:20:23.623Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3cbc7bdd5d6c9362b7c5b	you may have to create a PYTHON (in caps) env variable pointing to the python 2.7 execuctable
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:19:36.268Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3cb984f6c9d3018318a57	another thing that might be a problem i the hole python thing
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:12:09.457Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3c9d96b94865520d85055	all 64 bit versions, i have not tried 32 bit versions
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:11:50.825Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3c9c64f6c9d3018318a1d	i should cover win 7, 8.1 and 10 now
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:11:35.708Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3c9b7bdd5d6c9362b7c17	i just installed win 10 this week and updated the wiki article a bit
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:11:05.261Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d3c9996b94865520d85047	Me too
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:10:59.218Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d3c9939c0eaccb36ae2e9b	@saadanerdetbare ok, I'll give it a shot, thanks.  Mind you, this is a fresh install/clone.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:10:58.250Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3c992bdd5d6c9362b7c12	i always do all of it from a git bash, it seems to go easyer that way
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:10:20.455Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3c96c4f6c9d3018318a13	try to do a `npm cache clean` and then start over with `npm install` `bower install` `node seed` `gulp`
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-19T00:06:56.987Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d3c8a09c0eaccb36ae2e79	@saadanerdetbare I was able to do node seed and it showed everything being loaded in.  When I fire up gulp it looks like it's starting fine, but then it gets in that infinite loop above.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:18:22.361Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3bd3e6b94865520d84eaa	If you are starting mongod with any params try to go as much back to basic as possible. start it withtout any params and let it place the db in the default place c:\data\db
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:14:52.329Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55d3bc6c9c0eaccb36ae2cc8	@SaintPeter is that when you do `node seed` 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:11:56.476Z	55d3b7760fc9f982beadd60d	ptsurbeleu	55d3bbbc533d782f18d2e920	@dting  hey :-)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:10:51.255Z	55d3b7760fc9f982beadd60d	ptsurbeleu	55d3bb7b9c0eaccb36ae2cad	I'm wondering if this is the right room to coordinate a pull request to FreeCodeCamp repo...
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:10:05.511Z	558b9bd615522ed4b3e2b0f4	dting	55d3bb4d6b94865520d84e67	hi
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:09:42.911Z	55d3b7760fc9f982beadd60d	ptsurbeleu	55d3bb36d46018562035b6c2	Hey everyone!
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:01:01.192Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d3b92dbdd5d6c9362b79de	It just restarts and restarts
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-18T23:00:48.098Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55d3b9209c0eaccb36ae2c55	"I'm trying to run on Windows, just followed the instructions on the Wiki, I'm getting an infinite restarting thing:
+```
+no original function chain to wrap
+  freecc:user:remote setting up user hooks +0ms
+[15:59:01] Version: webpack 1.11.0
+[15:59:01] webpack is watching for changes
+[15:59:01] webpack is watching for changes
+[15:59:02] [nodemon] restarting due to changes...
+[15:59:02] [nodemon] starting `c:\mean\freecodecamp\node_modules\.bin\babel-node ./server/server.js`
+[BS] Reloading Browsers...
+no original function chain to wrap
+  freecc:user:remote setting up user hooks +0ms
+[15:59:05] Version: webpack 1.11.0
+[15:59:05] webpack is watching for changes
+[15:59:06] webpack is watching for changes
+[15:59:06] [nodemon] restarting due to changes...
+```
+Anyone seen that before?"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:33:20.228Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c691c0aac97ada66dd2acf	except in the main <div> (if we could call it that way)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:47.948Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6919faac97ada66dd2acb	my points [101] were there
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:39.819Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6919721801cd866ca64ee	login with google account 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:31.781Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6918f21801cd866ca64ed	got [0] points
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:27.383Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6918bcdd8bb455f2fb51b	login with twitter account (uses the same mail as my google account)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:21.479Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c69185907d827673c0761f	so .. that works?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:17.044Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c69181907d827673c0761e	ok
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:12.458Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6917c7f578b465ff46343	got [101] points
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:32:03.553Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c69173cdd8bb455f2fb517	log in with google account 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:31:59.668Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6916f8f067d6375989ad2	ok, i did something like
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:31:46.956Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c691628790fed649de104c	I do wonder if it's possible for accounts to stomp on one another
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:31:28.337Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c691508eb8fa28565941d3	ok, so you logged back out, logged in with your google account again?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:31:04.090Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6913821801cd866ca64e1	nothing yet 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:59.219Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c691337f578b465ff4633e	done that several times already
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:46.958Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c691268eb8fa28565941d1	ctrl-refresh
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:41.496Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c691218790fed649de1048	Force a page refresh
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:20.938Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6910c7f578b465ff4633c	.....except in my main page (aka the bottom page)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:12.980Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c69104907d827673c0761b	I don't think they get combined
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:06.187Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c690fe8790fed649de1047	Yeah
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:04.877Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c690fc907d827673c0761a	It may have created an alternate account for you, based on yuor twitter login
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:30:00.074Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c690f87f578b465ff46338	but then i login with my google account and my points [101]were there
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:29:36.263Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c690e02ee3da6275c33cdd	and then i saw i had something like [0] points
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:29:28.013Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c690d8907d827673c07619	Is there any chance you use an alternate login/username?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:29:21.235Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c690d1cdd8bb455f2fb506	i tried to login with my twitter account (uses the same mail as my google account)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:28:55.022Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c690b7aac97ada66dd2ac0	yeah i know, maybe the problem is with the login 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:28:23.099Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c690978790fed649de1041	Humm, not sure
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:28:06.666Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c690862ee3da6275c33cd6	and Longest Streak: 1 day , which is not true 
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:27:51.233Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6907721801cd866ca64d6	but on the main page i have [0]
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:27:37.329Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c690698f067d6375989ab7	i see clearly i have [101] points
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:27:27.849Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6905fcdd8bb455f2fb4ff	on the top-right , near my pic
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:27:11.221Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c6904faac97ada66dd2ab1	i dont really know what camperBoot is but on the main page http://www.freecodecamp.com/p3rand0r
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:26:47.668Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c690378eb8fa28565941ca	"Because those are ""brownie points"" that you get when someone says ""thanks @soandso"""
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:26:27.899Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c69023907d827673c07615	@p3rand0r You mean via the camperbot?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-08T23:22:15.989Z	55a0472d5e0d51bd787af4b0	p3rand0r	55c68f272ee3da6275c33cc1	Hi all, can i know why on my profile it shows i have something like 101 points , but when i check on my account i have like ..... 0?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T22:13:41.373Z	558b9bd615522ed4b3e2b0f4	dting	55c1391568c869d67cf03e70	I love vagrant for getting dev environments up and running. I haven't tried on a windows machine tho. I don't think fcc's vagrant setup is up to date tho. https://github.com/FreeCodeCamp/fcc-vagrant
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T19:31:27.217Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c1130f9fb911ea312a13cc	and great justice!
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T19:31:17.703Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c1130568c869d67cf036eb	"The issues I was getting is when gulp was running it would say ""'.' is not a command"", which lead me to believe that something was missconfigred for windows in the way the commands were structured.  Anyway, I'll give it a shot tonight.  I want to be able to test my pull requests against ""live"" for better quality."
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T19:29:27.291Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55c112979fb911ea312a13ba	you need to open a prompt with admin rights and do npm install gulp -g
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T19:28:06.615Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55c1124668c869d67cf036cf	i've not tested it on win 10 but the guide works from 0 to localhost:3000 in ~25 mins
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T19:26:56.262Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55c112002c1b3bec3198a08f	"@saadanerdetbare Thanks, I'll take a look through it.  I did ultimately get it kinda running, but ran into an issue getting gulp to serve properly.  I'll try your guide.   I just did a fresh install of Windows 10 on a new computer, so I'll be starting ""from scratch"".  Thanks!"
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T18:12:16.077Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55c100809fb911ea312a109c	@SaintPeter i wrote a (maybe a little too much) for dummies article in the wiki on how to set up dev environment on windows. I've used this method on 2 different Windows 8.1 pc's https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-clone-the-FreeCodeCamp-website-on-a-Windows-pc
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T18:04:31.210Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55c0feaf68c869d67cf0335d	i set mine up just with a next -> next -> enter finish install of mongo and created the default folder that mongo wants to store databases in
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-04T18:03:02.683Z	5586acfc15522ed4b3e23ddf	saadanerdetbare	55c0fe562c1b3bec31989d17	@SaintPeter it shoudnt be nessecery to put mongo in the :env as long as you  make the default c:\data\db folder and let it listen on the default port you should be fine just to start it
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:50:52.164Z	5490eb39db8155e6700e0001	ahstro	55bd231c43481e53376027c6	Oh, Wisdows.. Yeah, I can't help you with that ;)
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:50:16.352Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd22f8dcea60b379feec01	Don't mistake competency for knowledge :D
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:50:02.341Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd22eadcea60b379feec00	Still new to this stuff
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:49:52.082Z	5490eb39db8155e6700e0001	ahstro	55bd22e08deffbc44d8e15ab	:P
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:49:49.204Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd22dd43481e53376027bc	I don't know the format for windows
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:49:43.406Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd22d712f77ab279a9818e	Yeah, I just need to figure out what it is
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:49:28.906Z	5490eb39db8155e6700e0001	ahstro	55bd22c843481e53376027b9	Can't you just set it then?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:49:09.619Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd22b5dcea60b379feebfd	I'm trying to figure it out for my local setup
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:48:44.975Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd229cdcea60b379feebfb	I do.  It looks like the issue is that my MONGODB enviornment variable is not set
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:48:14.845Z	5490eb39db8155e6700e0001	ahstro	55bd227e43481e53376027b1	Do you have MongoDB up and running?
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T19:19:03.088Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bd1ba7a0587bc54d68f849	Is there anyone online who can help me debug my local dev envirnment for the freecodecamp site?  I can't get my ```node seed``` to work properly
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T16:44:37.974Z	558b9bd615522ed4b3e2b0f4	dting	55bcf77543481e533760244d	oh i should turn that on
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T16:43:23.549Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bcf72b8deffbc44d8e1204	Quincy just announced it on the Twitch Stream :D
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T16:42:52.043Z	558b9bd615522ed4b3e2b0f4	dting	55bcf70c8deffbc44d8e1203	Ya don't think too many people know about this room yet. hah
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-08-01T16:41:46.580Z	54ee77ff15522ed4b3dc7cbb	SaintPeter	55bcf6ca43481e5337602436	This room should be linked to the GitHub repo so issues can be seen on the right hand side
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:51:40.679Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b9049c4c04f0cc22e7337f	Thanks, I guess for now Ill just code around it
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:48:17.063Z	558b9bd615522ed4b3e2b0f4	dting	55b903d15bc8dc8874423593	I believe thats because of the wrap around for the first assertion. There is no wrap around for the second. There is this issue: https://github.com/FreeCodeCamp/freecodecamp/issues/1299 that's already been posted but no comments yet.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:45:50.530Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b9033eaaa7fab9633deab2	shows the year, and is also 2 months apart
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:45:39.353Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b90333b49857ca22385179	assert.deepEqual(friendly(['2016-03-01', '2016-05-05']), ['March 1st','May 5th, 2016']);expected [] to deeply equal [ 'March 1st', 'May 5th, 2016' ]
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:45:32.623Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b9032cb49857ca22385177	then 2 tests down
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:45:18.076Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b9031e5bc8dc8874423571	but dec to feb is > 1 month
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:45:03.489Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b9030fb49857ca22385175	assert.deepEqual(friendly(['2015-12-01', '2016-02-03']), ['December 1st','February 3rd'], 'one month apart can be inferred it is the next year');
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:44:55.162Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b90307c35e438c74fc6fdd	@dting ok.  So bonfire: friendly date ranges has an assert
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:44:26.597Z	558b9bd615522ed4b3e2b0f4	dting	55b902eaaaa7fab9633deaa4	@CrunchyTacos I believe so.
+55b1866c0fc9f982beaac613	FreeCodeCamp/Issues	2015-07-29T16:43:34.134Z	55a417ad5e0d51bd787b4484	CrunchyTacos	55b902b64c04f0cc22e73328	Hello, is this the right place to ask about possible errors in the Bonfire tests(not my code, with the tests itself)?

@@ -1,0 +1,108 @@
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-17T11:02:10.685Z	540a150e163965c9bc202eaf	abhisekp	57dd22b227a8458f7f216a11	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-08T14:24:45.110Z	570b3039187bb6f0eaded398	ed42311	57d174ad89655972304dbe60	Tuesdays meetup is live, Swithcing to ZT brew, noticed they are open late agian.  Gonna go pick up a cable for the tv hookup too...
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-07T02:41:15.132Z	570b3039187bb6f0eaded398	ed42311	57cf7e4bf33967fc643621a5	http://api.jquery.com/jquery.each/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-07T01:33:22.794Z	570b3039187bb6f0eaded398	ed42311	57cf6e62f5a156f5648a0337	"$.each( function(data){
+switch
+case break;
+  data.coord.lat
+  data.coord.lon
+  data.weather.description?
+  data.main.temp
+  data.main.pressure
+  data.main.humidity
+  data.main.temp_min
+  data.main.temp_max
+  data.wind.speed
+  data.sys.sunrise
+  data.sys.sunset
+})
+"
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-07T01:15:13.518Z	570b3039187bb6f0eaded398	ed42311	57cf6a21cdbf820f7fa2893d	https://pixabay.com/api/docs/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-07T01:10:36.095Z	5716d062187bb6f0eae04bae	baileypa	57cf690c89655972304797bc	http://api.openweathermap.org/data/2.5/weather?lat=46.87&lon=-113.99&APPID=1db5d298529cfbeed224bd377204acd9
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-07T00:37:15.558Z	57424bd9c43b8c6019745de8	blackfoot24	57cf613bf5a156f56489da2c	Crap. Something came up. Can't make it😢
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-07T00:07:15.782Z	570b3039187bb6f0eaded398	ed42311	57cf5a3377c1b70d7fef432a	Hey all, we here.  Sitting by the cooler, gonna try to grab a table with some outlets at some point.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-05T01:35:39.070Z	570b3039187bb6f0eaded398	ed42311	57cccbebd52261ec3452797e	Gonna stick with the break for now 6pm
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T21:12:44.888Z	57424bd9c43b8c6019745de8	blackfoot24	57cb3ccc958e6f4729e69462	Yes. I'm back finally. I can come this Tuesday! What time and where?
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T19:32:46.878Z	570b3039187bb6f0eaded398	ed42311	57cb255e958e6f4729e657c6	http://codepen.io/ed42311/pen/JKxJqO
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T19:31:50.107Z	570b3039187bb6f0eaded398	ed42311	57cb2526861faa7f07b42145	and this one which gets capped out at 10 API calls an hour:
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T19:31:31.947Z	570b3039187bb6f0eaded398	ed42311	57cb2513958e6f4729e65694	there is this one, with programming quotes
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T19:31:06.672Z	570b3039187bb6f0eaded398	ed42311	57cb24fa29ee4a67058c06db	http://codepen.io/ed42311/full/KgKvwq/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T19:30:16.931Z	570b3039187bb6f0eaded398	ed42311	57cb24c829ee4a67058c069c	got a couple different versions of the quote generator going, you might need to load the codepen without the s on the https://,  like so: http://
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-09-03T19:29:04.403Z	570b3039187bb6f0eaded398	ed42311	57cb24806efec7117ca4eb22	Hey Teague, @blackfoot24  Coming back anytime soon?  We'll be there.  :)
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-08-31T01:28:37.543Z	570b3039187bb6f0eaded398	ed42311	57c632c54023dec56c2c18ed	http://quotes.stormconsultancy.co.uk/api
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-08-31T01:21:18.299Z	570b3039187bb6f0eaded398	ed42311	57c6310eca24c06c6389833a	https://theysaidso.com/api/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-07-05T23:47:34.499Z	5716d062187bb6f0eae04bae	baileypa	577c471651724d8078be5609	Hey gang sorry for the short notice but I am not going to be able to make it tonight.  But I do have some javascript questions the next time I see you all.  Have fun.  Pauly
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-29T01:31:08.118Z	570b3039187bb6f0eaded398	ed42311	577324dc1ac8bd1a4d883fc5	https://projecteuler.net/problem=2
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-29T00:08:48.326Z	574e3434c43b8c6019760783	hajush	577311908441a8124d7ce30d	Hey - we're downstairs at Zootown
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-28T21:48:31.549Z	57424bd9c43b8c6019745de8	blackfoot24	5772f0af8c9263ba301f9e4c	Hey. Sorry I have not been able to make it. I will be out of town for the next two weeks as well. I am still working on freecodecamp stuff though. Living in our rv going to 3 weddings around billings.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-22T05:30:44.333Z	570b3039187bb6f0eaded398	ed42311	576a22842554bbe049ba5e81	well, it needs a lot more work, but I can now get to the next step, check all the boxes:  https://codepen.io/ed42311/pen/ONBNZj?editors=1000
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-22T01:30:07.085Z	570b3039187bb6f0eaded398	ed42311	5769ea1f80f1c6a5257d987f	"var array = [
+  {""this""},
+  {""that""}
+]
+
+function addHtml() {
+  
+}
+
+function iterateThru (array) {
+  for (var i = 0; i.length; i++) {
+    
+  }
+} "
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-22T01:19:46.541Z	570b3039187bb6f0eaded398	ed42311	5769e7b26c39b965695f43a6	Bioinformatics meetup: http://www.meetup.com/Montana-Programmers/events/231861628/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-22T00:26:14.325Z	56a24daae610378809bdad96	MHolst1	5769db2680f1c6a5257d9577	https://coolors.co/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-15T00:14:38.068Z	57424bd9c43b8c6019745de8	blackfoot24	57609deeda1c26b0453616aa	Something came up. I can't make it tonight.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-10T02:28:58.331Z	570b3039187bb6f0eaded398	ed42311	575a25ea1cf76dd64535bef8	Hey peeps, Hope the code times go well, let me know if anybody would like a ride to the devcon, leaving early saturday morning...
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-08T01:40:34.862Z	5743dcb2c43b8c60197493cb	cristinefolz	5757779245cf128e5f1d696b	https://projecteuler.net
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-08T01:37:35.959Z	56a24daae610378809bdad96	MHolst1	575776df970521a45839e6a6	ProjectEuler.com
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-08T01:31:26.301Z	56a24daae610378809bdad96	MHolst1	5757756e75a601a158b0c2ae	http://eloquentjavascript.net/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-08T01:31:01.996Z	56a24daae610378809bdad96	MHolst1	57577555b5122bc21778795e	http://jsbooks.revolunet.com/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-06-01T01:18:23.328Z	570b3039187bb6f0eaded398	ed42311	574e37dfda3f93da6f22294f	www.ryanhlewis.com/pluralsight
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T03:45:26.313Z	570b3039187bb6f0eaded398	ed42311	57451fd6fce033da4befbd2a	btw: if people are interested in doing something else, learning something else or just talking, it’s no worry.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T03:44:55.904Z	570b3039187bb6f0eaded398	ed42311	57451fb763e41bd84bf039c7	Hey all, thanks for coming tonight.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T02:33:28.008Z	570b3039187bb6f0eaded398	ed42311	57450ef8eed2f3f916a48b2e	"<!DOCTYPE html>
+<html>
+<head>
+  <script src=""bower_components/handlebars/handlebars.min.js""></script>
+</head>
+<body>
+  <div id=""app""></div>
+  <script>
+    
+  </script>
+</body>"
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T02:32:03.245Z	570b3039187bb6f0eaded398	ed42311	57450ea3caaef2cd4fea7d5e	"var template = Handlebars.compile('<div> Hello {{ customer.name.last_name }} </div>');
+    var appEl = document.getElementById('app');
+    appEl.innerHTML = template({ name: 'Handlebars'});"
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T01:45:43.918Z	570b3039187bb6f0eaded398	ed42311	574503c7eed2f3f916a48915	"to start out with handlebars you need:  Need NodeJS and NPM
+Bower installed globally > npm install -g bower
+Check with > bower --version
+Make a project directory and > bower install handlebars"
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T01:39:20.609Z	570b3039187bb6f0eaded398	ed42311	57450248caaef2cd4fea7b06	this is the link to the repo: https://github.com/ryanmurakami/pluralsight-handlebars-starter-code
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T01:17:35.887Z	570b3039187bb6f0eaded398	ed42311	5744fd2f719c119b575be9ba	117720021
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T01:16:38.714Z	570b3039187bb6f0eaded398	ed42311	5744fcf663e41bd84bf03442	http://www.gotomeeting.com/meeting/join-meeting
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T00:47:09.882Z	570b3039187bb6f0eaded398	ed42311	5744f60dcaaef2cd4fea7921	www.ryanhlewis.com/pluralsight
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T00:46:55.007Z	5743dcb2c43b8c60197493cb	cristinefolz	5744f5ffcd96cbcf4f706969	hi!
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T00:26:59.027Z	570b3039187bb6f0eaded398	ed42311	5744f15356ccfef516a08e19	http://driftyco.github.io/graphite/
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-05-25T00:26:20.738Z	570b3039187bb6f0eaded398	ed42311	5744f12ceed2f3f916a48608	A message
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-04-27T04:36:56.444Z	570b3039187bb6f0eaded398	ed42311	572041e88a90ed791312fe0a	Built tribute page, rations getting low…  if anyone finds this message I may be dead: https://codepen.io/ed42311/pen/VaGWoE
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-04-27T04:36:25.449Z	570b3039187bb6f0eaded398	ed42311	572041c92cd01bf9764b10da	Well, got through the first challenge, I feel like I am keeping a diary while on mars or something.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-04-26T16:28:48.160Z	570b3039187bb6f0eaded398	ed42311	571f97402cd01bf9764ae38b	Alright I'm doing it and I'm going to post it on Meetups, gotta check my calendar first.
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-04-25T14:22:15.920Z	570b3039187bb6f0eaded398	ed42311	571e28179689a5440f7b3f16	Well I haven't heard from anybody, so maybe I will just start a coffee and code somewhere...  And people will show up?
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-04-14T04:05:19.529Z	570b3039187bb6f0eaded398	ed42311	570f16ff5ed5a4fd3fe2d70d	Ground control to major tom….
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2016-04-11T06:07:51.201Z	570b3039187bb6f0eaded398	ed42311	570b3f378b7b2f4576356be3	Hey All in MSO, Looking to startup a meetup for Free Coding Campers, anyB interested?  Working throughout the week, but evenings would work, weekends are possible for awhile, until maybe mid may...
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2015-08-04T22:03:01.950Z	55c131870fc9f982beac3907	jessefulcher05	55c1369568c869d67cf03e12	Any other Missoula locals in here today?
+559397bc15522ed4b3e32625	FreeCodeCamp/Missoula	2015-08-04T22:02:53.569Z	55c131870fc9f982beac3907	jessefulcher05	55c1368deff8f1d77cc33343	Hello Missoula group! I just joined this web site and am very excited to get started.

@@ -1,0 +1,488 @@
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-17T11:04:17.898Z	540a150e163965c9bc202eaf	abhisekp	57dd233118291e10487bfda5	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-05T12:42:56.680Z	5513eea115522ed4b3dddb35	HoBi	57cd6850928ae0e73479dfb1	Tak tak :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-05T11:30:01.193Z	57aaf78240f3a6eec05ec066	MatejMazur	57cd57392345e8250cea5b4a	Jj, už jsem zkoušel. :) Teď se plácám v permutacích...to je hrozný, když to člověk tak dlouho nepotřeboval a teď si to má vybavit. :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-05T11:28:47.702Z	5513eea115522ed4b3dddb35	HoBi	57cd56ef6efec7117caa0df5	"@MatejMazur Ideálně si vytvoř nějakou funkci a zkus 
+
+```
+console.log('w/', functionName());
+console.log('w/o', functionName);
+```
+
+První případ, tedy s `()` ti vrátí návratovou hodnotu (u void funkcí to je `undefined`). Druhý případ ti vrátí celou funkci. :-)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T15:54:10.870Z	57aaf78240f3a6eec05ec066	MatejMazur	57c84f22861faa7f07ac94af	@HoBi dík ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T15:53:06.815Z	57aaf78240f3a6eec05ec066	MatejMazur	57c84ee2ff95228007a31852	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T15:52:33.738Z	57aaf78240f3a6eec05ec066	MatejMazur	57c84ec1928ae0e7346cf8b5	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T15:51:47.737Z	5513eea115522ed4b3dddb35	HoBi	57c84e93928ae0e7346cf83c	// Tuším že to takto funguje. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T15:51:29.796Z	5513eea115522ed4b3dddb35	HoBi	57c84e81ff95228007a31712	"Když chceš tedy říci, aby na error zavolala funkce ""functionName"", přidáš na ní referenci, tj. bez závorek"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T15:50:58.903Z	5513eea115522ed4b3dddb35	HoBi	57c84e62ccfcf7147caf5579	"To je docela easy.
+
+`functionName()` spouští danou funkci a případně i vrací return hodnotu
+`functionName` reprezentuje samotnou funkci"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T14:43:24.808Z	57aaf78240f3a6eec05ec066	MatejMazur	57c83e8c6efec7117c9cdb6a	Mám v tom trochu guláš...kdy je potřeba u volané funkce psát závorky s parametrem a kdy ne?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-09-01T14:06:37.184Z	5513eea115522ed4b3dddb35	HoBi	57c835ed6bf4c26505c28ab5	"@MatejMazur Aby ti to nespouštělo tak bys tam musel mít tuším něco jako
+
+```
+success: successFn,
+error: errorFn
+```
+
+A na to se pak zavolá ten callback s parametrem."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-25T12:00:03.865Z	57aaf78240f3a6eec05ec066	MatejMazur	57beddc3c976227a1c4ede44	"Už jsem na to přišel. Nedokážu to sice úplně vysvětlit, ale abych mohl vložit nalezená data do funkce, tak nejdříve musím vytvořit anonymní(?říkám to správně?) funkci.
+```
+function ajax(str) {
+	$.ajax({
+		url: url + str,
+		dataType: ""jsonp"",
+		success: function(data) {
+			successFn(data);
+		},
+		error: function() {
+			errorFn()
+		}
+	});
+}
+function successFn(data) {
+	var output = $(""#totalHits"");
+	if(data.query.searchinfo.totalhits !== 0) {
+		output.text(""Nalezeno: "" + data.query.searchinfo.totalhits);
+	} else {
+		output.text(""Nic nenalezeno."");
+	}
+}
+function errorFn() {
+	var output = $(""#totalHits"");
+  	output.text(""Chyba."");
+}
+```
+Zajímavý je, že když jsem nechal u řádku `error: ` rovnou odkaz na funkci `errorFn`, tak se před načtením výsledků spustila tato funkce nehledě na to, že hledání bylo úspěšné. Takže jsem to analogicky opravil a už je to v pohodě. :+1: "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-25T11:34:23.471Z	57aaf78240f3a6eec05ec066	MatejMazur	57bed7bf1237f2f244606462	"Ahoj, je tu někdo, kdo by mi mohl poradit, co udělat se vstupním argumentem u funkce successFn(data), abych to rozchodil?
+
+```
+$(""#searchBtn"").click(ajax($(""#searchBox"").text()));
+
+function ajax(str) {
+	$.ajax({
+		url: ""https://en.wikipedia.org/w/api.php?action=query&format=json&prop=info&list=search&continue=&utf8=1&inprop=url&srsearch="" + str + ""&srlimit=10"",
+		dataType: ""jsonp"",
+		success: successFn(data),
+		error: errorFn()
+	});
+}
+
+function successFn(data) {
+	var output = $(""#totalHits"");
+	if(data.query.searchinfo.totalhits !== 0) {
+		output.text(""Nalezeno: "" + data.query.searchinfo.totalhits);
+	} else {
+		output.text(""Nic nenalezeno."");
+	}
+}
+function errorFn() {
+	var output = $(""#totalHits"");
+  	output.text(""Chyba."");
+}
+```
+Momentálně se to tváří, že proměnná `data` na řádku `success: successFn(data)` není definována."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-25T11:32:05.495Z	57aaf78240f3a6eec05ec066	MatejMazur	57bed735c976227a1c4ec9bb	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-23T15:29:39.514Z	5673723116b6c7089cbf209c	ggverysoon	57bc6be3187885ef4f6f23df	:+1: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-21T10:07:47.621Z	5513eea115522ed4b3dddb35	HoBi	57b97d7387f779f06915250d	@ggverysoon paráda. Sice trochu tmavší a při zmenšení šířky se vytváří posuvník, ale jinak fajn.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-19T10:17:21.343Z	5673723116b6c7089cbf209c	ggverysoon	57b6dcb15ffbca3e3cf5511b	:+1: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-19T06:40:13.800Z	57aaf78240f3a6eec05ec066	MatejMazur	57b6a9cdbb6fad403ce96c4d	V Tvem pripade by se tedy timto dalo vylepsit vlastnosti u #header, p, img.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-19T06:38:33.169Z	57aaf78240f3a6eec05ec066	MatejMazur	57b6a96987f779f0690cb60f	"@ggverysoon pekny  :+1: jen je jeste husta vychytavka u CSS, ze kdyz mas napr. u vlastnosti padding stejnou hodnotu do vsech smeru, tak staci napsat:
+```
+padding: 10px;
+```"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-18T14:37:48.077Z	5673723116b6c7089cbf209c	ggverysoon	57b5c83c8d93113d5f07cbae	jakykoliv feedback vitan. diky
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-18T14:35:01.027Z	5673723116b6c7089cbf209c	ggverysoon	57b5c795d65128415fa1ed60	https://codepen.io/ggverysoon/pen/kXQmpp
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-08-18T14:34:59.462Z	5673723116b6c7089cbf209c	ggverysoon	57b5c7935a4ad61056866327	ahoj! dokoncil jsem tribute page
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-30T19:43:17.264Z	5774e83ec2f0db084a20b98b	nate1k	579d035579f7597137544b8b	@HoBi  jj perfektní, díky moc :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-30T19:30:19.098Z	5513eea115522ed4b3dddb35	HoBi	579d004be56d2538041baa0b	Dává to už trochu smysl, @nate1k?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-30T19:30:11.651Z	5513eea115522ed4b3dddb35	HoBi	579d00437fd9f73e16ed1957	Abys získal náhodné číslo v nějakém rozsahu, musíš nejdříve získat náhodné číslo v rozdílu minima (55) a maxima (90), tedy v 36 (+ 1 tam je kvůli odbourání 0 jako možnosti). A abys mohl převést výsledné číslo do svého rozsahu (55 až 90), musíš přičíst minimum, čímž jednoduše přesuneš výsledek do rozsahu.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-30T19:28:20.977Z	5513eea115522ed4b3dddb35	HoBi	579cffd4cdc68c4904b04a55	"Představ si následující kroky: 
+
+1)`Math.floor(Math.random() (ourMax - ourMin + 1)) + ourMin`
+2)`Math.floor(Math.random() (90 - 55 + 1)) + 50`
+3) `Math.floor(Math.random() (36)) + 55`
+
+"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-30T19:26:59.575Z	5513eea115522ed4b3dddb35	HoBi	579cff839684847b373ec118	Takto určuješ rozsah, tedy např. náhodné číslo od 55 do 90.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-30T17:45:06.647Z	5774e83ec2f0db084a20b98b	nate1k	579ce7a2f1da4f376e1ae9ab	"Ahoj lidi, právě se snažím pochopit tento kód    Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin .   
+Math.floor a Math.random chápu problém mi dělá tento kus kódu (ourMax - ourMin + 1)) + ourMin    když jsem totiž dělal poprvé Math.random  bylo místo tohoto vzorce    * 20 a to mi smysl dávalo ale toto mi trochu dělá problém, nebyl by tu prosím někdo kdo by mi tento vzorec podrobně vysvětlil ? (co jaká proměnná dělá a proč tam je atp)  :) "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-27T06:05:00.270Z	57978c3340f3a6eec05c8ee5	allisonmahmood	57984f0c7c9324e20e018006	"Kk díky
+"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-27T04:50:19.853Z	5513eea115522ed4b3dddb35	HoBi	57983d8bd155b0294e0d159b	@allisonmahmood občas se tu pořádají nějaké sešlosti a máme také komunitu na FB. https://www.facebook.com/groups/free.code.camp.prague/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-26T19:19:49.420Z	57978c3340f3a6eec05c8ee5	allisonmahmood	5797b7d537c95e2446b7ea6b	AHoj lidi akorat zacinam s FreeCodeCamp jak je to s komunitou tady v Praze??
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-15T06:45:25.040Z	5788806ac2f0db084a2314c3	Picshulo	57888685e4375c9212de9127	Já jsem nový, teprve se tu rozhlížím :smile: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-09T20:06:28.679Z	5513eea115522ed4b3dddb35	HoBi	578159443eaf66535e5e1e12	Musíme někdy naplánovat nějaký sraz zase! Já chci také přijít! :D Teď jsem od zítra 2 týdny na táboře, ale kdykoli potom... ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-09T19:03:41.283Z	56957f4716b6c7089cc2424b	Santinni	57814a8d3eaf66535e5d7541	3 ze 41 to neni moc velka zivost :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-06T19:29:36.492Z	54f4d37315522ed4b3dcb2cc	hohnzy	577d5c203eaf66535e2ddd2f	já jsem taky živý, jen zaneprázdněný :o
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-06T17:16:06.671Z	5513eea115522ed4b3dddb35	HoBi	577d3cd659cfbd4c5e2cbc86	@Santinni já jsem živý... :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-07-06T16:14:32.847Z	56957f4716b6c7089cc2424b	Santinni	577d2e68b79455146f49c729	Sakra, je to tu takovy nejaky mrtvy :-/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-19T20:46:40.064Z	56957f4716b6c7089cc2424b	Santinni	576704b0bd67400679db0502	@HoBi jdu te teda sledovat :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-19T20:45:35.886Z	56957f4716b6c7089cc2424b	Santinni	5767046f6577f032450c9965	hlasuju za kodovaci udalost!
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-14T13:18:33.095Z	5513eea115522ed4b3dddb35	HoBi	57600429c77287463a974edd	Jo, to by bylo fajn. :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-14T13:14:50.201Z	55aba30f37f2ad22587e6596	milangit	5760034a97e1b2d245e2c611	"já bych tedy hlasoval pro nějakou ""kodovací"" událost. Kecací již byly 3 :-)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-14T13:13:52.873Z	55aba30f37f2ad22587e6596	milangit	576003102eaa837d71e976b3	a bylo docela dobrý navíc v angličtině. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-14T13:13:22.693Z	55aba30f37f2ad22587e6596	milangit	576002f2a1be01c01a79e665	"Já byl včera na tomto 
+http://www.meetup.com/Life-Learning-Programming-Prague/events/231643098/"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-06-14T12:08:36.200Z	5513eea115522ed4b3dddb35	HoBi	575ff3c4a1be01c01a79dfee	Tak co, lidičky? Někdy nějaká událost zase? :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-13T21:55:34.283Z	5513eea115522ed4b3dddb35	HoBi	57364d56ae26c1967f9e53be	Já totiž začnu twítovat, občas i něco z tech světa. 😺
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-13T10:54:11.613Z	5513eea115522ed4b3dddb35	HoBi	5735b253ae26c1967f9e1f04	"""@tenhobi"""
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-13T10:54:03.415Z	5513eea115522ed4b3dddb35	HoBi	5735b24b831fd2d97d9e1b13	Jo a pokud máte někdo Twitter, určitě mě musíte sledovat. 😀
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-13T06:02:51.612Z	5513eea115522ed4b3dddb35	HoBi	57356e0be2996a5a42c7f64b	@Santinni proč používat Sass bych vysvětlil asi tak, že na něj přechází i Bootstrap. Ikdyz oni později chtějí prý přejít i na PostCSS, což se mi ale osobně moc nelíbí, abych si sám sestavoval syntaxi atp. A pak je tu také věc na povídání... :D Nevom no.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-12T23:52:30.727Z	56957f4716b6c7089cc2424b	Santinni	5735173e831fd2d97d9dfc0c	jinak koukám, že je to tu nějaký podezřele mrtvý :worried: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-12T23:51:36.707Z	56957f4716b6c7089cc2424b	Santinni	57351708c61823687d3b654c	Proč ne Less ale Sass se radši ptát neudu :smile: :smile: :smile: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-12T23:50:02.690Z	56957f4716b6c7089cc2424b	Santinni	573516aa64dbdadc7deb96ac	@HoBi Díky, měl jsem na mysli fotografie, nikoli obrázky :smile: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-12T19:11:01.004Z	5513eea115522ed4b3dddb35	HoBi	5734d545831fd2d97d9de7a5	?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-12T19:11:00.023Z	5513eea115522ed4b3dddb35	HoBi	5734d544ae26c1967f9dea87	@/all tak jak se daří lidi
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-09T11:23:50.535Z	5513eea115522ed4b3dddb35	HoBi	57307346f9a53a60793cfa67	Nyní už mají poměrně slušnou podporu. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-09T11:23:37.208Z	5513eea115522ed4b3dddb35	HoBi	57307339b51b0e29485063cf	@Santinni responzivní obrázky jsem zatím neřešil. Dost dobré je ale na obrázky (ne fotky) používat kde to jen jde SVG, na které můžeš také např. aplikovat CSS pravidla (záleží na použití SVG) a tím pádem i media queries, kterým můžeš obrázek měnit. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-09T11:21:09.734Z	5513eea115522ed4b3dddb35	HoBi	573072a5b51b0e29485063ad	Přemýšlel jsem, že bych připsal v rámci [této](http://www.itnetwork.cz/html-css/webove-portfolio) série článeček o minifikaci, tak třeba budu mít dobrou náladu a čas a něco sepíši. :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-09T11:19:11.756Z	5513eea115522ed4b3dddb35	HoBi	5730722ff36daf63798dcff7	"Jinak co se týče minifikace, záleží s čím pracuješ. My používáme v Nottelo na klient část (web. prostředí) Webpack, který minifikuje všechny JS, připojí tam HTML, CSS atp. a všechno spojí dohromady. Webpack se hodí hlavně pro JS aplikace, tzn. Angular, React atp...
+
+Pokud chceš minifikovat přímo jen styly či HTML, doporučuji Gulp. Pro Sass je dobré využívat toho ne-ruby kompilátoru (tzn. libsass kompilátor), který je mnohokrát rychlejší. :-) "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-05-09T11:16:39.203Z	5513eea115522ed4b3dddb35	HoBi	57307197a351d83109522aa4	@Santinni doporučuji Sass oproti Less. :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-04-25T14:42:59.409Z	56957f4716b6c7089cc2424b	Santinni	571e2cf36e3ae55e37e9d83e	A taky jak pristupujete k responsivite obrazku picturefill?? Nebo neco jineho?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-04-24T21:15:57.665Z	56957f4716b6c7089cc2424b	Santinni	571d378d6e3ae55e37e9a3c3	Panove poradte nejake kvalitni ceske zdroje inofrmaci a nastroje na critical css, less, minifikaci. Nebo se podelte o zkusenosti :) Diky!
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-04-19T19:58:38.173Z	5641b1ea16b6c7089cba247b	Phunkhouse	57168dee599a529856d945ac	Ahoj, máme tu nějakého ostříleného wordpressáka? :) Řeším tu takovou zapeklitost s WP loopem.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-04-18T16:31:23.012Z	5513eea115522ed4b3dddb35	HoBi	57150bdbaf463610386593e6	Tak co, pánové a dámy? Jak se daří? :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-31T11:42:13.129Z	56ec435385d51f252ab98ac6	janikjczcz	56fd0d15d9b73e635f67f064	Diky. Tak jsem to spravil, mel jsem fullscreen layout na vsech castech stranky, aniz bych to potreboval, takze jsem ho nechal jen na intro. A portfolio jsem usporadal takhle: http://pastebin.com/TFsVxfiU
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-31T11:10:37.810Z	56c5c774e610378809c21617	TomasSmejo	56fd05add9b73e635f67ee5b	"@janikjczcz 
+Hmmm ak myslis border ze ti to dava pod sebe tak, tu je pomoc:
+http://getbootstrap.com/css/#grid-example-wrapping
+na mobilu bere col-sm-...
+na desktopu bere col-md-... (http://getbootstrap.com/css/#grid-options). Dej vedet jak si dopadl."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-31T10:49:23.383Z	56ec435385d51f252ab98ac6	janikjczcz	56fd00b38f5147e119f2163b	Zdravim, nevite si nekdo rady s touhle chybou? http://imgur.com/a/Yy7fC Ve standartnim desktopovem rozliseni je to ok, ale na mobilu to dela bordel... Predem diky ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-30T18:39:07.719Z	54f4d37315522ed4b3dcb2cc	hohnzy	56fc1d4b8f5147e119f1df1d	yo no tengo tiempo
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-30T18:38:47.797Z	54f4d37315522ed4b3dcb2cc	hohnzy	56fc1d3776b6f9de194c996b	mě stačí eng, němčina ze střední asi jako ich bin du bist :) španelština z vejšky byla jen na zápočet :D takže vůbec nic (ale zase jsem to dal za večer před písemkou....)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-24T00:40:05.597Z	5513eea115522ed4b3dddb35	HoBi	56f337652873ab8d3c4464fa	Hezký. :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-24T00:38:55.372Z	56957f4716b6c7089cc2424b	Santinni	56f3371f5e8594927b8ef54c	@HoBi já, kromě angličtiny, teď začínám s ruštinou a snažím se zdokonalit švédštinu, kterou jsem jaksi zapomněl :) chtěl bych i francouzštinu a španělštinu, němčinu až úplně poslední, protože tam kde se domluvíš německy to zvládneš s angličtinou, nebo francouzštinou :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-23T21:50:55.533Z	5641b1ea16b6c7089cba247b	Phunkhouse	56f30fbf0da6416b6f9bec08	@HoBi jo, španělština je docela fajn... silně nedoporučuji francouzštinu :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-23T21:34:15.197Z	5513eea115522ed4b3dddb35	HoBi	56f30bd7137455d638d25968	"Učíte se někdo zajímavé (""lidské"") jazyky? Já dost ""koketuji"" s němčinou, ruštinou a esperantem, dost fajnový jazyk. Plus mám ve škole angličtinu, samozřejmě."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-21T21:19:52.915Z	56957f4716b6c7089cc2424b	Santinni	56f06578ab8cc6f071f9d930	Jsem rikal, ze ten song  nema chybu :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-21T14:58:54.859Z	5513eea115522ed4b3dddb35	HoBi	56f00c2e590ecaef713a4859	Prostě boží. :sparkling_heart: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-21T14:58:41.729Z	5513eea115522ed4b3dddb35	HoBi	56f00c210ac0de6626ff4c2a	https://www.youtube.com/watch?v=zbABy9ul11I
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T20:03:15.563Z	56ec435385d51f252ab98ac6	janikjczcz	56ec5f03bb4a1731739b1afb	Jo, jo... díky všem... bylo to fajn a třeba se to zase zopákne... :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T20:02:34.369Z	559fdf045e0d51bd787ade23	DrMacak	56ec5eda8680486236c12595	Taky, zatial.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T20:02:22.049Z	5513eea115522ed4b3dddb35	HoBi	56ec5ece8680486236c12592	No, tak já už půjdu, díky všem za pokec. :clap: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T20:00:54.547Z	56ec435385d51f252ab98ac6	janikjczcz	56ec5e760d69dfd122210c87	To bude zřejmě nejlepší.... ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:58:27.383Z	5513eea115522ed4b3dddb35	HoBi	56ec5de38680486236c12543	Každopádně většina bydlí, takže zkus napsat na skupinu na FB a domluvit se tam. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:58:01.016Z	5513eea115522ed4b3dddb35	HoBi	56ec5dc90d69dfd122210c4f	Já také zatím nebydlím v Praze.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:52:22.893Z	56ec435385d51f252ab98ac6	janikjczcz	56ec5c76ce5b0c6e7a1be3f2	@DrMacak Aha.. tak to chápu...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:52:05.198Z	559fdf045e0d51bd787ade23	DrMacak	56ec5c65654d30d022e43e0c	Já to mám krapet blbý s dostupností v Praze už nepracuju ani nebydlim.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:44:26.539Z	56ec435385d51f252ab98ac6	janikjczcz	56ec5a9a8680486236c12453	A co tedy naplánovat nějaký ten sraz...? :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:42:29.604Z	5513eea115522ed4b3dddb35	HoBi	56ec5a25bb4a1731739b198b	haha
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:40:51.532Z	559fdf045e0d51bd787ade23	DrMacak	56ec59c30d69dfd122210b33	Nějaká časoprostorová anomálie...asi
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:40:16.838Z	56ec435385d51f252ab98ac6	janikjczcz	56ec59a0dec81665365dac30	@DrMacak ok... teďkom 2 vteřiny...  takže mám pocit že je  to mým strojem... :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:39:21.699Z	559fdf045e0d51bd787ade23	DrMacak	56ec5969654d30d022e43d3a	Díky!!
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:39:11.518Z	559fdf045e0d51bd787ade23	DrMacak	56ec595fce5b0c6e7a1be308	Záhada. Zkusím to v pondělí na ubuntu
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:37:32.791Z	56ec435385d51f252ab98ac6	janikjczcz	56ec58fcbb4a1731739b193d	@DrMacak teď to zůstalo na jedné vteřině... jdu do zkusit znovu...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:35:45.544Z	56ec435385d51f252ab98ac6	janikjczcz	56ec58910d69dfd122210ad5	aha.... :D díky... já se tu s dím piplám... dokonce jsem si stáhnul i firebug a pořád nic..
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:34:11.288Z	5513eea115522ed4b3dddb35	HoBi	56ec5833ce5b0c6e7a1be2af	@janikjczcz on to zakomentoval, ty to máš jen refreshnout a zkusit. :P 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:28:31.385Z	56ec435385d51f252ab98ac6	janikjczcz	56ec56df0d69dfd122210a50	@DrMacak pořád ten kód nemůžu upravit...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:25:55.012Z	559fdf045e0d51bd787ade23	DrMacak	56ec5643654d30d022e43c2d	hází ti to pořád tu chybu? i když dáš ctrl+f5?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:24:06.373Z	56ec435385d51f252ab98ac6	janikjczcz	56ec55d6dec81665365daaf6	@DrMacak to jo, ale firefox mě nepustí... :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:23:42.977Z	559fdf045e0d51bd787ade23	DrMacak	56ec55bece5b0c6e7a1be1f5	Bych věděl jestli to dělá to že se pustí ten zvuk.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:23:16.173Z	559fdf045e0d51bd787ade23	DrMacak	56ec55a4ce5b0c6e7a1be1ec	@janikjczcz Myslel jsem to tak, že jsem tam vykomentoval v tom js část co pouští ten zvuk. :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:22:20.400Z	56ec435385d51f252ab98ac6	janikjczcz	56ec556cdec81665365daad5	@DrMacak jak to mám vykomentovat??? sorry... :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:20:06.955Z	559fdf045e0d51bd787ade23	DrMacak	56ec54e6bb4a1731739b17f4	@HoBi To byl vtip. Hodím to mp3
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:19:05.939Z	56ec435385d51f252ab98ac6	janikjczcz	56ec54a9654d30d022e43ba2	@DrMacak vyzkouším, dám vědět
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:18:55.846Z	56ec435385d51f252ab98ac6	janikjczcz	56ec549f0d69dfd122210990	@DrMacak druh @DrMacak  pokus už je o něco lepší... skončil jsem na 4 vteřinách... http://imgur.com/sVUREeG
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:18:34.760Z	559fdf045e0d51bd787ade23	DrMacak	56ec548a0d69dfd122210989	Tak jsem ten zvuk vykomentoval zkusil by jsi F5 a a znova co to udelá?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:17:43.502Z	559fdf045e0d51bd787ade23	DrMacak	56ec54570425c72f73f12473	to je fakt zvláštní. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:17:09.723Z	5513eea115522ed4b3dddb35	HoBi	56ec5435654d30d022e43b75	@janikjczcz pokud chceš kloud, nejvíce se mi zamlouvalo [Cloud 9](http://c9.io), každopádně bych nedoporučoval na nějakou větší práci.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:16:04.795Z	56ec435385d51f252ab98ac6	janikjczcz	56ec53f4bb4a1731739b17ac	@DrMacak zastavilo
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:15:51.831Z	559fdf045e0d51bd787ade23	DrMacak	56ec53e7dec81665365daa62	Těch 15 tam skočilo zpátky nebo se to na nich opravdu zastavilo?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:15:51.034Z	56ec435385d51f252ab98ac6	janikjczcz	56ec53e7654d30d022e43b5a	Já jsem používal Sublime, teď mám Brackets a NetBeans IDE 8.1 ale koukám se po nějakém cloudovém řešení...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:15:32.748Z	5513eea115522ed4b3dddb35	HoBi	56ec53d4bb4a1731739b17a1	"http://stackoverflow.com/questions/8469145/how-to-detect-html5-audio-mp3-support
+http://stackoverflow.com/questions/1514577/is-there-a-javascript-way-to-check-if-a-browser-natively-supports-mp3"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:14:30.737Z	56ec435385d51f252ab98ac6	janikjczcz	56ec53960d69dfd12221094b	@DrMacak Tady konkrétně: http://imgur.com/BOxJRQt   Používám Lubuntu 15.10 64bit a Firefox, ten poslední... 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:14:27.836Z	5513eea115522ed4b3dddb35	HoBi	56ec5393bb4a1731739b178f	@DrMacak tak co tam dát nějaký kód pro detekci podpory wav, jinak mp3? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:14:08.646Z	56957f4716b6c7089cc2424b	Santinni	56ec53808680486236c12214	ja jedu na Sublime Text
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:13:36.134Z	5513eea115522ed4b3dddb35	HoBi	56ec5360654d30d022e43b35	@DrMacak PhpStorm je nejlepší, takže ten; občas i editor Sublime Text, který je v portable versi, což je fajn.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:13:33.559Z	559fdf045e0d51bd787ade23	DrMacak	56ec535d654d30d022e43b34	To jo ale MP3 je ztrátová, pak by to nebyl takový požitek... 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:13:00.493Z	5513eea115522ed4b3dddb35	HoBi	56ec533c8680486236c12201	MP3 formát vypadá lépe.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:12:56.737Z	559fdf045e0d51bd787ade23	DrMacak	56ec5338bb4a1731739b1778	BTW co používáte za IDE ?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:11:40.492Z	5513eea115522ed4b3dddb35	HoBi	56ec52ec654d30d022e43b04	@DrMacak http://caniuse.com/#search=wav
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:11:39.700Z	559fdf045e0d51bd787ade23	DrMacak	56ec52eb8680486236c121e5	ono celkově se zvukem v JS je to takový všelijaký.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:10:45.488Z	559fdf045e0d51bd787ade23	DrMacak	56ec52b5dec81665365daa1d	dokonce i na prohlížeči co mám na telefonu to funguje a to je nějakej noname
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:09:44.030Z	559fdf045e0d51bd787ade23	DrMacak	56ec5278bb4a1731739b1730	@janikjczcz Co máš za prohlížeč? A systém? Já jsem si skoro myslel, že to snad bude fungovat všude :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:09:32.332Z	56957f4716b6c7089cc2424b	Santinni	56ec526cce5b0c6e7a1be0f7	me to piplo jak blazen :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:09:01.280Z	5513eea115522ed4b3dddb35	HoBi	56ec524d0d69dfd1222108e0	Neutrální barvy jsou nuda. :P 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:08:43.576Z	56957f4716b6c7089cc2424b	Santinni	56ec523bdec81665365da9fa	:D proti gustu... vis jak :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:08:41.259Z	56ec435385d51f252ab98ac6	janikjczcz	56ec5239ce5b0c6e7a1be0e2	@DrMacak zastavilo se mi to na 15 vteřinách a konzole hlásí že nešel dekódovat zvuk při ukončení... viz: http://imgur.com/5rlYqnF
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:08:01.830Z	5513eea115522ed4b3dddb35	HoBi	56ec52118680486236c1219b	Tak to by se samozřejmě muselo doladit, jen říkám, že je dle mého lepší využít příjemnější barvičky - trochu si s tím pohrát. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:07:36.057Z	56957f4716b6c7089cc2424b	Santinni	56ec51f80d69dfd1222108c2	ti tam uplne zmizly kontrasty
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:07:09.479Z	559fdf045e0d51bd787ade23	DrMacak	56ec51dd8b806f6b7a1873c1	@HoBi to se mi nejak nelíbí..
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:07:05.039Z	5513eea115522ed4b3dddb35	HoBi	56ec51d9654d30d022e43aab	Mě se toto zamlouvá trochu více. Barvičky jsou zářivější a příjemnější, nikde nestraší stíny, font je přehlednější.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:06:58.474Z	56957f4716b6c7089cc2424b	Santinni	56ec51d28b806f6b7a1873bc	@HoBi to se mi teda moc nelibi :/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:06:31.965Z	5513eea115522ed4b3dddb35	HoBi	56ec51b78680486236c12169	Porovnej např. toto a to tvé. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:06:29.459Z	5513eea115522ed4b3dddb35	HoBi	56ec51b50425c72f73f123b6	[![blob](https://files.gitter.im/FreeCodeCamp/Prague/7eDg/thumb/blob.png)](https://files.gitter.im/FreeCodeCamp/Prague/7eDg/blob)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:06:22.514Z	56957f4716b6c7089cc2424b	Santinni	56ec51aece5b0c6e7a1be0b5	Je to pekny a pritom takova blbost :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:06:03.820Z	559fdf045e0d51bd787ade23	DrMacak	56ec519bce5b0c6e7a1be0ae	@HoBi To je IMHO dost subjektivní, já to osobně mam radši se stínama. Jinak bych je tam nedával.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:05:13.916Z	559fdf045e0d51bd787ade23	DrMacak	56ec5169ce5b0c6e7a1be098	@Santinni To jo, je to zbytečně dlouhý
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:04:29.170Z	56957f4716b6c7089cc2424b	Santinni	56ec513d0d69dfd122210893	@DrMacak  jediny co, tak bych si pohral s vyskou stranky na 1366*768 mi to vyhazuje vertikalni posuvnik
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:03:48.712Z	5513eea115522ed4b3dddb35	HoBi	56ec5114bb4a1731739b16a7	Stíny se už moc nepoužívají a zpravidla vypadají špatně.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:03:14.266Z	5513eea115522ed4b3dddb35	HoBi	56ec50f28680486236c1213e	Možná si pohrát s barvičkami.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:03:08.997Z	5513eea115522ed4b3dddb35	HoBi	56ec50ec0425c72f73f1237e	To samé u tlačítek.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:03:06.022Z	5513eea115522ed4b3dddb35	HoBi	56ec50ea0d69dfd122210882	Chce to drobné změny. Např. zrušit shadow, bordery, outline u toho času...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:02:54.202Z	5513eea115522ed4b3dddb35	HoBi	56ec50de8680486236c12139	[![blob](https://files.gitter.im/FreeCodeCamp/Prague/NQhx/thumb/blob.png)](https://files.gitter.im/FreeCodeCamp/Prague/NQhx/blob)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:00:56.957Z	559fdf045e0d51bd787ade23	DrMacak	56ec5068dec81665365da949	Na tom jsem vypotil maximum aby to vypadalo hezky :) Což se o ostatních projektech říct tolik nedá
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T19:00:05.865Z	56ec435385d51f252ab98ac6	janikjczcz	56ec50350d69dfd122210841	@DrMacak Pěkný... ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:56:52.894Z	559fdf045e0d51bd787ade23	DrMacak	56ec4f748680486236c120d5	Co říkáte na pomodoro clock?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:56:39.673Z	559fdf045e0d51bd787ade23	DrMacak	56ec4f67bb4a1731739b1628	http://familyguy.cz/freecodecamp/pomodoro/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:53:27.614Z	5513eea115522ed4b3dddb35	HoBi	56ec4ea70425c72f73f122cf	@Santinni určitě. CSS preprocesory jsou bomba, pokud to tedy nebudeš přehánět a patlat všechno dohromady, ale to je tak se vším. :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:51:40.848Z	5513eea115522ed4b3dddb35	HoBi	56ec4e3cce5b0c6e7a1bdf78	HTML preprocesory jsou na tom dost podobně, i když jsem je nikdy nepoužíval a reálně jsem je vyzkoušel teprve včera na olympiádě z programování. Také docela fajn věcička, kde můžete využívat proměnné, cykly, podmínky... Každopádně největší využití to má podle mě na zlepšení syntaxe a členění HTML. Nejpoužívanější bude asi Jade http://jade-lang.com/ - ten používá i FCC. Já jsem si je osobně zatím neoblíbil, možná někdy. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:50:36.700Z	56957f4716b6c7089cc2424b	Santinni	56ec4dfc654d30d022e43997	planuju na to mrknout, tak se na to asi podivam trochu driv, kdyz to tak chvalis :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:49:33.746Z	5513eea115522ed4b3dddb35	HoBi	56ec4dbd0d69dfd12221078c	CSS preprocesory jsou strašně suprová věc, jakmile pochopíte k čemu vlastně jsou. Můžete používat proměnné, funkce, mixiny (v podstatě void funkce), členit styly do souborů, využívat matematické operace atp. Dá se říci, že se ze CSS stane tak trochu imperativní jazyk (to se týká např. `Sass`). Doporučuji; konkrétně ten Sass. :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:48:06.467Z	56ec435385d51f252ab98ac6	janikjczcz	56ec4d660d69dfd122210771	oki
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:47:33.276Z	5513eea115522ed4b3dddb35	HoBi	56ec4d45dec81665365da838	Bootstrap nepoužívám, takže netuším.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:47:12.250Z	56ec435385d51f252ab98ac6	janikjczcz	56ec4d300425c72f73f1225e	@HoBi Jen less a sass
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:46:58.811Z	56ec435385d51f252ab98ac6	janikjczcz	56ec4d228b806f6b7a18724d	@HoBi hmm... zajímavé... má bootstrap nějaké své vlastní řešení pro onepage?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:46:35.318Z	5513eea115522ed4b3dddb35	HoBi	56ec4d0b0d69dfd122210755	## Když jsme tedy všichni webaři. Slyšeli jste někdo o HTML a CSS preprocesorech? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:43:13.215Z	5513eea115522ed4b3dddb35	HoBi	56ec4c41dec81665365da7f5	@janikjczcz tak to je už jen stylování. Samotné menu funguje na tomto principu - http://www.itnetwork.cz/javascript/jquery-hotova-reseni/jquery-tutorial-menu-item-highlighting.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:42:33.689Z	56ec435385d51f252ab98ac6	janikjczcz	56ec4c198680486236c11fc7	@HoBi Jo, to je ono... při hoveru se navíc ymění na ikony....
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:42:20.891Z	559fdf045e0d51bd787ade23	DrMacak	56ec4c0c8680486236c11fc0	+ https://news.ycombinator.com/ 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:41:13.381Z	559fdf045e0d51bd787ade23	DrMacak	56ec4bc9dec81665365da7d4	Spousta věcí pak člověku dojde. Řešení se dá samože najít na netu, ale já to bral jako opravdu nouzovku když už jsem neměl páru jak dál.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:40:24.845Z	559fdf045e0d51bd787ade23	DrMacak	56ec4b988b806f6b7a1871d6	Jsou tam i další hry ale ty jsou z linuxu, kdyby měl někdo chuť se naučit práci v bashy a linuxu
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:39:32.017Z	56dac0c1e610378809c52140	JanLevy	56ec4b640d69dfd1222106d8	vypadá zajímavě :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:39:26.224Z	56957f4716b6c7089cc2424b	Santinni	56ec4b5ece5b0c6e7a1bdea9	umim, proto se ptam :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:39:07.563Z	5513eea115522ed4b3dddb35	HoBi	56ec4b4bbb4a1731739b14e5	@Santinni musíš umět hledat informace. :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:39:00.798Z	5513eea115522ed4b3dddb35	HoBi	56ec4b44654d30d022e438c5	"Super! Díky. Tyto hry jsou docela sranda. Hrál jsem asi před (půl)rokem hru, kde jsi měl zjišťovat URL adresu, aby ses dostal do další ""místnosti"". Asi na ten stejný princip. :-) "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:38:47.409Z	56957f4716b6c7089cc2424b	Santinni	56ec4b378680486236c11f84	co na to musim umet??
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:38:04.533Z	559fdf045e0d51bd787ade23	DrMacak	56ec4b0cdec81665365da79d	Krom toho je to zábava
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:37:58.677Z	559fdf045e0d51bd787ade23	DrMacak	56ec4b060425c72f73f121c2	"Doporučuju, je to hra kde jde o to se ""prohackovat"" do dalšího levelu. Hlavně se při tom člověk ale dost naučí a pochopí."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:37:13.524Z	559fdf045e0d51bd787ade23	DrMacak	56ec4ad9dec81665365da78b	http://overthewire.org/wargames/natas/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:36:46.919Z	5513eea115522ed4b3dddb35	HoBi	56ec4abebb4a1731739b14bc	"@janikjczcz hele, to je úplně v pohodě. Je to na pár řádků. :-) (jestli myslíš ty ""tečky"" vpravo, co určují stav)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:36:41.144Z	56957f4716b6c7089cc2424b	Santinni	56ec4ab9ce5b0c6e7a1bde7b	:clap: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:36:39.470Z	559fdf045e0d51bd787ade23	DrMacak	56ec4ab7dec81665365da77c	najdu odkaz
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:36:34.014Z	559fdf045e0d51bd787ade23	DrMacak	56ec4ab2bb4a1731739b14b6	Teďka mi napadlo, dost dobrej způsob jak se naučit něco o bezpečnosti jsou tzv. War Games
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:36:22.761Z	56957f4716b6c7089cc2424b	Santinni	56ec4aa6654d30d022e4388b	Sakra 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:36:00.332Z	56957f4716b6c7089cc2424b	Santinni	56ec4a90bb4a1731739b14b2	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:34:52.020Z	5513eea115522ed4b3dddb35	HoBi	56ec4a4c0d69dfd122210684	:point_up: [18. březen 2016 19:33](https://gitter.im/FreeCodeCamp/Prague?at=56ec49eace5b0c6e7a1bde45) protože můžu. :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:34:28.456Z	56957f4716b6c7089cc2424b	Santinni	56ec4a34654d30d022e43870	Za chvili jsme z5 musim si jit nalit panaka :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:33:41.912Z	56ec435385d51f252ab98ac6	janikjczcz	56ec4a050425c72f73f12164	"@DrMacak Mě teda jo... já ho ještě ani nezačal dělat... :D Jak jsem psal, starám se full time o Airbnb a teďkom mi přibyl ještě jeden byt, jelikož známý odjel na dovolenou... :D
+
+Každopádně bych ale v tom portfoliu chtěl použít tohle: http://tinyurl.com/j896bdb
+
+Za chvíli jsem zpět, musím vyndat kuře z trouby... :)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:33:36.919Z	56957f4716b6c7089cc2424b	Santinni	56ec4a000425c72f73f12161	no ja jsem na to ted dlouho nekoukal, delam nejaky real zakazky, a na nich se ucim, ale ten JS mi chybi...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:33:20.132Z	559fdf045e0d51bd787ade23	DrMacak	56ec49f00425c72f73f12157	Mě práve baví asi si hrát s malýma věcma víc než dělat něco takovýho rozlehlýho...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:33:14.323Z	56dac0c1e610378809c52140	JanLevy	56ec49eace5b0c6e7a1bde45	Honzo, mě by strašně zajímalo, proč je člověk jako ty na FCC, když už za sebou sám máš mega (výbornejch) publikovanejch článků o programování pro ostatní :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:32:48.146Z	559fdf045e0d51bd787ade23	DrMacak	56ec49d08b806f6b7a18715b	Ze začátku to jde rychle, pak záleží jak moc to člověk fušuje. Já se snažim aby ty js challenge byli pěkný.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:32:33.007Z	56957f4716b6c7089cc2424b	Santinni	56ec49c18b806f6b7a187152	@DrMacak me to zase bavi :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:31:52.378Z	56957f4716b6c7089cc2424b	Santinni	56ec4998dec81665365da713	@janikjczcz ja jsem v podstate taky na zacatku, loni jsem absolvoval par kurzu a od ty doby se ucim webarinu... hlavne teda frontend...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:31:48.730Z	5513eea115522ed4b3dddb35	HoBi	56ec49948680486236c11f02	"Jelikož mi dneska ve škole řekli, že ""word"" na SOČ chtějí už v pondělí (a já nemám ani tečku, doslova), tak ten front end certifikát dodělám tak za 3 týdny, pokud s tím pohnu, ehm prokrastinace. :D "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:31:07.745Z	559fdf045e0d51bd787ade23	DrMacak	56ec496bdec81665365da705	@janikjczcz na portfoliu jsem se předtim kousnul. Strašně me nebaví patlat se v html\css
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:30:16.827Z	5513eea115522ed4b3dddb35	HoBi	56ec49388680486236c11ee5	@DrMacak FCC jsem dělal prvních zhruba 5 dnů kolem 50 úloh denně, pak jsem to začal flákat. :D Chybí mi asi 5 úloh a 8 projektíků do front end certifikátu.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:30:12.215Z	56ec435385d51f252ab98ac6	janikjczcz	56ec4934654d30d022e43825	@DrMacak Já jsem teprve na začátku, tzn. portfolio challenge.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:29:42.686Z	56957f4716b6c7089cc2424b	Santinni	56ec4916dec81665365da6df	Tak do  tohohle se asi nephrnu, zatim mam uceni vic nez dost... ale kdo vi :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:28:57.370Z	559fdf045e0d51bd787ade23	DrMacak	56ec48e90425c72f73f1211c	Já vždycky když začnu něco dělat tak promíchaj pořadí úkolů apod...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:28:15.703Z	5513eea115522ed4b3dddb35	HoBi	56ec48bf8b806f6b7a18710d	"Např. budeš mít tlačítko (např. vypínač na světlo), který ale bude elektrický a bude propojený do této krabičky. Po jeho přepnutí se ti změní hodnota toho signálu a ty na to můžeš nabalovat další funkce, např. rozsvítit světla, zapnout topení atp. Není to zase tak složité, pro jednoduché věci, ale když děláš něco složitějšího (např. my měli ve škole model domu), kde musíš využívat různé složitější věcičky... :-) 
+
+Každopádně to je budoucnost, případně s obdobnou technologí."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:27:23.236Z	559fdf045e0d51bd787ade23	DrMacak	56ec488b654d30d022e437ed	Jak jste vůbec všichni tak nějak daleko v FCC ??
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:26:45.143Z	559fdf045e0d51bd787ade23	DrMacak	56ec48658b806f6b7a1870f9	Resp. o tomhle :) http://www.ev-power.eu/Measure-Test-Tools-1-1/LAN-controler-with-relay.html
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:26:21.750Z	5513eea115522ed4b3dddb35	HoBi	56ec484ddec81665365da6a4	To je taková super věcička, která dokáže programovat a zpracovávat vstupy a výstupy.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:26:14.208Z	56957f4716b6c7089cc2424b	Santinni	56ec48460d69dfd1222105fb	ale zagooglim :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:26:06.130Z	56957f4716b6c7089cc2424b	Santinni	56ec483e8b806f6b7a1870eb	Bohuzel mi to momc nepomohlo :D :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:25:53.730Z	5513eea115522ed4b3dddb35	HoBi	56ec4831ce5b0c6e7a1bddd6	O tomto. +-
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:25:47.749Z	5513eea115522ed4b3dddb35	HoBi	56ec482b0d69dfd1222105f0	http://www.uatech.biz/wp-content/uploads/2015/05/DVP-20PM.jpg
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:25:31.880Z	559fdf045e0d51bd787ade23	DrMacak	56ec481bdec81665365da692	Ale možná bych to časem udělal na Arduinu i bezdrátovýma sensorama.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:25:19.972Z	56957f4716b6c7089cc2424b	Santinni	56ec480fbb4a1731739b1414	Super, zacinam mit pocit, ze netusim, o cem se bavite...  necekal jsem, ze to prijde tak brzy :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:24:57.601Z	559fdf045e0d51bd787ade23	DrMacak	56ec47f98680486236c11e8c	Dá se do toho připojit teplotní čidla a podobně
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:24:48.960Z	56dac0c1e610378809c52140	JanLevy	56ec47f00d69dfd1222105de	Na gitu mám rozpracovaný tester slovíček, už to běhá, ale ještě potřebuju načechrat kód, zatím to jsou špagety. Plus samo nějaká ta vylepšení do budoucna (zatím je to na phpku, zasluhovalo by to spíš JS, ke kterému se ale teprv sunu). :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:24:39.039Z	559fdf045e0d51bd787ade23	DrMacak	56ec47e78680486236c11e88	Jasně, PLC je rel. overkill pro tohleto zatim to chci udělat na takovym hotovym modulu co podporuje SNMP
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:24:29.642Z	56957f4716b6c7089cc2424b	Santinni	56ec47dd0425c72f73f120c5	@DrMacak Tak nejak jsem to myslel :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:24:15.606Z	5513eea115522ed4b3dddb35	HoBi	56ec47cf8b806f6b7a1870cd	Plánuješ také nějaké PLCčko, nebo nějaký Arduino či podobné blbosti? S tím to prý lidé také dělají.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:24:10.291Z	56957f4716b6c7089cc2424b	Santinni	56ec47cadec81665365da67a	Jinak co se tyce projektu tak toho mame povicero,  snad budou i dostatecne cool :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:23:45.008Z	5513eea115522ed4b3dddb35	HoBi	56ec47b10425c72f73f120be	@DrMacak to je dost zajímavé téma! My máme ve škole na hodině automatizacích např. PLC, se kterým se tyto věci dělají. :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:23:43.427Z	559fdf045e0d51bd787ade23	DrMacak	56ec47af8b806f6b7a1870c4	@Santinni Já už jenom do práce...
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:23:18.267Z	56957f4716b6c7089cc2424b	Santinni	56ec47960425c72f73f120b5	Jo a ja nechodim nikam, kdybyste to chteli vedet :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:23:11.161Z	559fdf045e0d51bd787ade23	DrMacak	56ec478fdec81665365da668	@HoBi Mno chci si dát dokupy chytrou domácnost. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:23:04.721Z	5513eea115522ed4b3dddb35	HoBi	56ec4788ce5b0c6e7a1bdda0	@bestbolek minimálně 4 soubory? Jelikož je Java OOP a každý objekt (resp. třída) se zapisuje do vlastního souboru, zpravidla, nebude to tak těžké, nemyslíš? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:22:57.305Z	56ec435385d51f252ab98ac6	janikjczcz	56ec47810425c72f73f120b0	Momentálně jen portfolio pro FCC :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:21:48.558Z	5513eea115522ed4b3dddb35	HoBi	56ec473c8680486236c11e41	## Máte někdo např. nějaký super cool rozpracovaný projekt? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:21:04.647Z	56dac0c1e610378809c52140	JanLevy	56ec4710bb4a1731739b13d3	Čímž asi končím, ať to tu nezahltím jen řečma o škole :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:21:02.659Z	56e6ad3685d51f252ab8b00c	bestbolek	56ec470e0425c72f73f12091	Já chodím na JČU obor aplikovaná informatika. Zrovna jsme dostali semestrální práce v Javě vypracovat libovolnou jednoduchou aplikaci (min. 4 soubory). Nějaký nápady? :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:20:44.002Z	56ec435385d51f252ab98ac6	janikjczcz	56ec46fc0d69dfd12221059a	@HoBi Ale jo, peníze za kvalitně vytvořený web... :D Klasickou hodinovku ve fabrice nemyslím... :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:20:40.831Z	56dac0c1e610378809c52140	JanLevy	56ec46f8dec81665365da63d	FIT tě mnohem snadněji dostane do praxe, FIS ti umožní v té praxi rychleji šplhat, pokud ti nevadí práce s lidmi apod. A na FISu taky neriskuješ, že tě nějakej blázen náhodným výběrem vyhodí dva semestry po sobě nezávisle na znalostech a budeš muset nuceně skončit (stalo se dvěma mým současným spolužákům co přišli z FITu).
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:19:33.488Z	5513eea115522ed4b3dddb35	HoBi	56ec46b5ce5b0c6e7a1bdd5f	@Santinni  @janikjczcz nejoblíbenější činnost a vy si vyberete vydělávání peněz? Pche; nuda... :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:18:55.466Z	5513eea115522ed4b3dddb35	HoBi	56ec468fdec81665365da61f	Jasně, takže zůstanu u mého ČVUT FIT s pojistkou v podobně MFF CUNI (nevím proč se tomu všichni smějí). :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:18:16.833Z	56dac0c1e610378809c52140	JanLevy	56ec4668ce5b0c6e7a1bdd42	FIT ti dá určitě mnohem víc do nějaké praxe ve vývoji, FIS ti dá omáčku okolo, kdybys se v budoucnu třeba viděl i jinde v rámci informačních systémů, manažerské pozice v IT, konzultant ERP systémů apod.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:16:19.023Z	56dac0c1e610378809c52140	JanLevy	56ec45f3ce5b0c6e7a1bdd19	Jasný, hele, FIT x FIS už máš určitě nastudované, navíc tě znám z ITNetworks, takže hádám, že už toho spoustu umíš.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:14:27.192Z	5513eea115522ed4b3dddb35	HoBi	56ec45830425c72f73f1200f	@JanLevy už máš nějaké ty léta na VŠE za sebou, doporučil bys mi školu?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:14:21.399Z	56957f4716b6c7089cc2424b	Santinni	56ec457ddec81665365da5cd	No, ja nejradeji dostavam zaplaceno... :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:13:49.216Z	5513eea115522ed4b3dddb35	HoBi	56ec455d0425c72f73f12009	@janikjczcz vyber si, ale dávám přednost otevřené diskusi. :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:13:24.137Z	56ec435385d51f252ab98ac6	janikjczcz	56ec45440d69dfd12221051d	@HoBi Otevřená diskuze nebo výslech...? :D V pořádku :)  Jak jsem se už představil na FB, moje jméno je Jaroslav Janík (preferuji jen Jarek) jsem z jižní moravy ale momentálně bydlím v Praze, v současné době nepracuju ale věnuju se naplno Airbnb :D  Zájmy? Tvorba webu, filmová hudba, seriály a filmy v angličtině. A nejraději? Nejraději dostavám zaplaceno za vytvořený web... :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:12:14.191Z	56dac0c1e610378809c52140	JanLevy	56ec44fedec81665365da5ab	Tak já klidně začnu, jsem student na FIS VŠE, ještě mi zbývají 3 semestry do inženýra, na podzim ve mě uzrálo, že mě na celém oboru opravdu nejvíc baví poctivý vývoj a od té doby se v něm postupně zlepšuju.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:10:53.170Z	56957f4716b6c7089cc2424b	Santinni	56ec44ad8680486236c11d78	:D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:10:33.164Z	56dac0c1e610378809c52140	JanLevy	56ec4499dec81665365da58a	To už vypadá na 6 ks lidstva :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:09:47.872Z	56957f4716b6c7089cc2424b	Santinni	56ec446bbb4a1731739b1303	Ahoj, ahoj, ahoj :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:09:20.191Z	5513eea115522ed4b3dddb35	HoBi	56ec4450dec81665365da56e	Že by se tu nakonec opravdu sešlo více lidí? :sparkles: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:08:48.422Z	56dac0c1e610378809c52140	JanLevy	56ec44308680486236c11d4f	bumžur
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:08:21.269Z	559fdf045e0d51bd787ade23	DrMacak	56ec4415bb4a1731739b12ee	čest
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:07:42.473Z	5513eea115522ed4b3dddb35	HoBi	56ec43ee8680486236c11d3f	@janikjczcz super, další človíček. Kdo jsi, jaké jsou tvé zájmy a co děláš nejraději? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:05:59.530Z	56ec435385d51f252ab98ac6	janikjczcz	56ec43878b806f6b7a186f71	Tak jsem tu, sice pozdě ale přece... :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:05:41.417Z	5513eea115522ed4b3dddb35	HoBi	56ec4375bb4a1731739b12b9	@bestbolek kdo jsi, jaké jsou tvé zájmy a co děláš nejraději? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:05:05.917Z	5513eea115522ed4b3dddb35	HoBi	56ec43510425c72f73f11f81	@bestbolek koukám že všichni ostatní jsou šupáci a nikdo moc nepřijde. :worried: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:03:48.489Z	56e6ad3685d51f252ab8b00c	bestbolek	56ec4304ce5b0c6e7a1bdc4b	Možná sem sám ale sem :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-18T18:01:25.552Z	5513eea115522ed4b3dddb35	HoBi	56ec4275654d30d022e43632	Někdo na příjmu? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-16T15:30:44.930Z	5513eea115522ed4b3dddb35	HoBi	56e97c246fde057c268751a6	"## Pochlubte se někdo, kdo máte rozpracovaný nějaký super projekt? :-) 
+
+
+Klidně začnu - právě pracuji na robotickém vozítku, které bude řízeno pomocí dálkového ovládání, pro které jsem si sestavil (čti napájej) řídící jednotku a budič motorů na dvě desky plošných spojů, sestavil vozítko z Merkuru (vážně super stavebnice) a programuji mikroprocesor ATmega32 v jazyku symbolických adres. :-) 
+
+https://www.instagram.com/p/BCu47djhSQg"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-16T00:13:13.404Z	558eab4d15522ed4b3e2ea7e	1234Matt	56e8a519c7364f7926bf5ad7	zdarma (pouze free registrace na edx.org ) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-16T00:12:15.235Z	558eab4d15522ed4b3e2ea7e	1234Matt	56e8a4df89dd3cce1006d0ca	"zdravím,  je to trochu off topic, ale kdyby někoho zajímal úvod do Computer Science, Tak This is a best course ever ! :D https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
+"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-10T10:09:31.813Z	55aba30f37f2ad22587e6596	milangit	56e147dbc7364f7926bdabd6	Ahoj Veroniko, také zdravím . Už jsme měli dva srazy a kde nic tu nic (tedy co se týče dámské společnosti) , tak se těšíme , že na 3.srazu se to již změní :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-10T05:18:58.975Z	56c5c774e610378809c21617	TomasSmejo	56e103c29f24605773d6cb6b	Ahoj :) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-09T23:17:40.860Z	56bcfc47e610378809c10079	robvon86	56e0af143194fbd11095a7a8	Ahoj Veru :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-09T22:08:27.510Z	56e0949f85d51f252ab8034d	veronikahalamkova	56e09edb89dd3cce10050a73	Ahoj, zdravím pánskou společnost! :smile: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-03-01T22:18:29.700Z	5513eea115522ed4b3dddb35	HoBi	56d615350bdb886502f683ed	Kdybyste někdo chtěli zkusit pair programming, na FB mám seznam úloh které nabizim. :+1: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T22:12:53.223Z	56c5c774e610378809c21617	TomasSmejo	56cf7c659a059be9245e3523	na w3school som uz videl chyby .. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T22:12:39.746Z	56c5c774e610378809c21617	TomasSmejo	56cf7c57b0c932986953c92a	"Odporucam pouzivat https://developer.mozilla.org/en-US/ namiesto w3school
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T16:46:16.582Z	5513eea115522ed4b3dddb35	HoBi	56cf2fd8ae66c4113327e24a	Doporučuji ještě všechno testovat na http://caniuse.com, kde vidíš podporu v prohlížečích. Obecně si myslím, že pokud je podporovanost > 95% a současně mají podporu nejnovější verze všech prohlížečů, pak je to vhodné používat. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T16:42:40.597Z	5513eea115522ed4b3dddb35	HoBi	56cf2f00344ce7e446381f83	"Resp. všechno v `$(""..."")`. Tedy např. `$(""#desktop ~ ul li"").addClass(""blue"");` se dá v CSS zapsat jako 
+
+```
+#desktop ~ ul li { 
+  ...
+}
+```"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T16:41:44.986Z	5513eea115522ed4b3dddb35	HoBi	56cf2ec8bfb1cf9a7ff30917	Jinak, všechny selektory se kterými se tam pracuje fungují i v CSS.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T16:39:35.620Z	5513eea115522ed4b3dddb35	HoBi	56cf2e471ab7b28c4f360ddc	"@DrMacak je to tam zmíněné, ale ne až tolik, to je pravda. Na téma CSS selektorů a práce s nimi v jQuery mám několik článečků 
+
+-  http://www.itnetwork.cz/javascript/jquery-zaklady/tutorial-jquery-dom-selektory
+-  http://www.itnetwork.cz/javascript/jquery-zaklady/tutorial-jquery-dom-selektory-2
+-  http://www.itnetwork.cz/javascript/jquery-zaklady/tutorial-jquery-dom-selektory-3
+
+(celá sekce zde: http://www.itnetwork.cz/javascript/jquery-zaklady)."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-25T12:32:50.390Z	559fdf045e0d51bd787ade23	DrMacak	56cef4721ab7b28c4f35f9cd	Při jedné tvorbě jsem narazil na věc, která v FCC buďto není nebo jsem to přehlíd a to CSS selectory. Což může být dost užitečná věc v kombinaci s JQ. http://www.w3schools.com/cssref/css_selectors.asp
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-23T15:25:51.911Z	5513eea115522ed4b3dddb35	HoBi	56cc79ff631af87d5c45325d	Haha. :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-23T10:56:58.934Z	55aba30f37f2ad22587e6596	milangit	56cc3afa95f2abfa55e83cc3	@HoBi    jojo, FIT vypadá nadějně ;-) https://www.fit.cvut.cz/casopis
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-21T15:04:50.719Z	5513eea115522ed4b3dddb35	HoBi	56c9d2127a66b5965f692d1a	Hahaha, třeba příští rok v Praze. ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-21T11:48:33.072Z	55aba30f37f2ad22587e6596	milangit	56c9a4111aea4f306752b17c	Kdo hledá najde :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-21T08:09:19.289Z	5513eea115522ed4b3dddb35	HoBi	56c970af7a66b5965f69242f	Já totiž neznám snad žádnou pořádnou z města, kde bydlím... Trochu mě to štve, mohla být sranda... :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-21T08:08:27.284Z	5513eea115522ed4b3dddb35	HoBi	56c9707be1786831677c495f	:D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-20T15:58:44.279Z	55aba30f37f2ad22587e6596	milangit	56c88d34e1786831677c32ef	já jednu , ale už to bohužel není tak úplně dívčina :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-20T15:28:16.035Z	56c5c774e610378809c21617	TomasSmejo	56c88610833e58f50fb05507	jj, dve
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-20T15:09:59.408Z	559fdf045e0d51bd787ade23	DrMacak	56c881c71aea4f3067529436	No, v práci jedna kolegině není sice HC coder. Dělá hodně labView. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-20T14:52:50.854Z	5513eea115522ed4b3dddb35	HoBi	56c87dc25c3b0559674d8b22	Zajímalo by mě, jestli někdo znáte nějakou dívčinu (osobně), která kóduje? :P 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-20T14:52:23.879Z	5513eea115522ed4b3dddb35	HoBi	56c87da75c3b0559674d8b1b	----
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-15T15:53:33.250Z	5513eea115522ed4b3dddb35	HoBi	56c1f47d37437b6756096546	@michaljuris to jsem myslel na coffeescript, typescript atp. ;) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-15T07:23:45.528Z	56025b7a0fc9f982beb18ce1	michaljuris	56c17d0138f56aa31f3a0064	"I kdyz musim podoktnout, ze ES6/2015 neni nadstavba, ale ""novy"" JS ;)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-15T07:07:58.338Z	56025b7a0fc9f982beb18ce1	michaljuris	56c1794e38f56aa31f3a0005	@HoBi Diky za vysvetleni :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-14T21:55:52.112Z	5513eea115522ed4b3dddb35	HoBi	56c0f7e837437b675609421d	Každopádně není na škodu si věci projít s čistým JS, jelikož si alespoň procvičíš daný jazyk, ne jeho nadstavbu. :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-14T21:54:34.969Z	5513eea115522ed4b3dddb35	HoBi	56c0f79ad9c5a252408f6fdd	"@michaljuris Co se týče výuky, musíš používat čistý JS, ale fungovali mi nějaké věci z ES6, tajže mají možná nějaký ES6 polyfill nebo má něco implementováno už něco prohlížeč. Úlohy se kontrolují nejčastěji podle výsledků, takže záleží jen na tobě, co a jak použiješ, pokud se ti to správně spustí.
+
+Poté tu jsou větší úlohy, které fungují na podobném principu. Jsou zaměřené většinou na vytvoření ""složitějšího"" algoritmu, tzn. ne na naučení, přímo máš sám něco vymyslet.
+
+A jako ""poslední"" typ tu je úloha z externího zdroje, tzn. nejčastěji z CodePen, Cloud 9 a tak podobně, kde dokládáš jen link s funkční aplikací, kde si můžeš využívat cokoli co chceš, pokud si to rozchodíš. :-) "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-14T17:00:08.426Z	56025b7a0fc9f982beb18ce1	michaljuris	56c0b2980295dc53403e319a	"Ahoj, dnes jsem zacal s FCC. Zatim si prochazim obsah a zajimalo by me:
+pouziva se zde cisty JS nebo CS/ES6 apod. ? Respektive lze FCC absolovat za (alespon castecneho) vyuzit CoffeeScriptu nebo ES6/2015? "
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-10T22:15:31.559Z	5513eea115522ed4b3dddb35	HoBi	56bbb6830295dc53403d7052	@hohnzy záleží jak které. Všude bys měl mít uvedenou licenci. Tuším, že se nějak dalo i podle licence vyhledávat.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-10T19:41:33.839Z	54f4d37315522ed4b3dcb2cc	hohnzy	56bb926d4dfe1fa71ffbf6fd	ten alpha.wallhaven.cc ale nejsou free fotky nebo jo?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-10T08:54:05.113Z	5513eea115522ed4b3dddb35	HoBi	56bafaad9f5549965ee21ea9	Dost dobré je také http://color.hailpixel.com a určitě se hodí projet http://goodui.org/. Na fotky je fajn http://alpha.wallhaven.cc.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-10T08:52:51.891Z	5513eea115522ed4b3dddb35	HoBi	56bafa639a395e5d11520345	"To já spíše doporučuji https://color.adobe.com/cs/create/color-wheel/. :-) Jsou tam i ""hotové"" kombinace barev od lidí."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-09T16:33:45.109Z	54f4d37315522ed4b3dcb2cc	hohnzy	56ba14e99f5549965ee1f8f8	@DrMacak šup do záložek :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-09T11:50:39.223Z	559fdf045e0d51bd787ade23	DrMacak	56b9d28f37ae7622436ba14c	Ta barevná paleta vypadá dobře, něco takovýho jsem scháněl. Na podklad je ještě jedna docela zajímavá varianta http://gradient.quasi.ink/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-09T10:47:24.296Z	54f4d37315522ed4b3dcb2cc	hohnzy	56b9c3bcbd3dfe40303dd38a	"@DrMacak díky. Já dělám pomodoro, kalkulačku ještě nemám.
+Co se týče té podoby k světu, tak si myslím, že ze začátku je dobré něco kopírovat a třeba přidávat svoje prvky. Zkus na google něco jako trendy web pages apod. Nemusíš mít supr dupr obrázky, někdy můžeš použít jen čisté barvy a máš vyhráno. Důležité je míchat barvy s nějakým smyslem, aby ""pasovaly"" k sobě. Zkus http://colorschemedesigner.com/csd-3.5/ . A nebo pixabay na free fotky :)
+"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-09T10:21:48.879Z	559fdf045e0d51bd787ade23	DrMacak	56b9bdbc3fab8f985ec96a53	Jak jste vlastně kdo daleko? Já mám zatím hotovou kalkulačku, jako poslední věc.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-09T10:21:19.389Z	559fdf045e0d51bd787ade23	DrMacak	56b9bd9fbd3dfe40303dd27a	@hohnzy Oj, pěkně to vypadá. Co mě dělá největší problém je aby to vypadalo nějak k světu. Hlavně mi teda irituje práce s divama v CSS. 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-04T19:02:52.211Z	54f4d37315522ed4b3dcb2cc	hohnzy	56b3a05c6002fae41579d821	@HoBi super :))) díky moc
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-04T09:58:53.800Z	5641b1ea16b6c7089cba247b	Phunkhouse	56b320dd1191fcc8353b8ff5	@hohnzy i know that feel bro :/
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-04T08:27:39.089Z	54f4d37315522ed4b3dcb2cc	hohnzy	56b30b7b1191fcc8353b8c19	@HoBi ještě jsem to nezkoušel... nějak toho mám teď dost v práci :o
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-04T08:03:42.389Z	5513eea115522ed4b3dddb35	HoBi	56b305de1191fcc8353b8b4c	@hohnzy tak jak.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T21:27:04.624Z	54f4d37315522ed4b3dcb2cc	hohnzy	56b11f28c54bc2bf180d9cae	@HoBi  dobře ty :) díky, zítra vyzkouším. dnes už mám dost :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T20:00:16.567Z	5513eea115522ed4b3dddb35	HoBi	56b10ad0eaf741c118d67017	@hohnzy jak jsem psal, takto to je správné chování. O žádném HTML/CSS řešení nevím. Jediné co jsem kdy zkoušel a dělal je to, co jsem popisoval v tom mém článku. (http://www.itnetwork.cz/javascript/jquery-hotova-reseni/jquery-smooth-scroll)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T18:51:42.840Z	54f4d37315522ed4b3dcb2cc	hohnzy	56b0fabedc33b33c75496b7c	Už vím co mi tam vadí. Ono mi to skočí dobře, jen se to schová za to horní menu... Je možné nějak obejít, aby se za horní linku stránky považovala až ta pod lištou s menu?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T16:36:49.076Z	5513eea115522ed4b3dddb35	HoBi	56b0db21eaf741c118d66525	@1234Matt Ehm, wut? :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T02:03:46.878Z	558eab4d15522ed4b3e2ea7e	1234Matt	56b00e82c54bc2bf180d6b11	jo samozrejme skvele myslim tvoji stranku
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T00:43:57.017Z	558eab4d15522ed4b3e2ea7e	1234Matt	56affbcdc54bc2bf180d6924	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T00:42:59.650Z	558eab4d15522ed4b3e2ea7e	1234Matt	56affb93eaf741c118d64111	@hohnzy btw, vypadá to skvěle a zkus main chat :) nebo spíš nějakou help room asi :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T00:41:36.914Z	558eab4d15522ed4b3e2ea7e	1234Matt	56affb40586242210ae0ec5d	"z tohohle 
+udělat tohle :D
+```
+.margin-sides {
+       padding: 60px;
+        margin: 0 15px;
+}
+```"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T00:40:31.854Z	558eab4d15522ed4b3e2ea7e	1234Matt	56affaff80ad69394a7bd22c	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T00:40:10.654Z	558eab4d15522ed4b3e2ea7e	1234Matt	56affaeac54bc2bf180d690e	
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-02T00:39:51.004Z	558eab4d15522ed4b3e2ea7e	1234Matt	56affad7aaae7a3a75947cb1	"@hohnzy ahoj, chvili jsem si s tím zkoušel hrát, neučil jsem se moc bootstrap, ale nejlíp co jsem zatím vytvorřil bylo tohle :D 
+
+```
+.margin-sides {
+		margin: 0 15px;
+}
+```
+
+```"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-01T18:06:55.034Z	54f4d37315522ed4b3dcb2cc	hohnzy	56af9ebf586242210ae0d97b	;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-01T17:27:47.199Z	5513eea115522ed4b3dddb35	HoBi	56af9593aaae7a3a759467e6	Připadám si jako chodící encyklopedie (alespoň na HTML a CSS). Dobrý pocit. :D :D :D 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-01T17:21:36.317Z	5513eea115522ed4b3dddb35	HoBi	56af9420aaae7a3a759467a9	"@hohnzy tak je to správně (posouváš se vždy s horním okrajem stránky (pokud to lze) k hornímu okraji bloku). pokud chceš vidět margin, budeš muset přestylovat ty jednotlivé bloky, což nevím jestli půjde úplně nejlépe, spíše ne, nebo použít nějaký JS, který tě posune na pozici - výšku menu. 
+Mám o tom článek s využitím jQuery - http://www.itnetwork.cz/javascript/jquery-hotova-reseni/jquery-smooth-scroll. :-)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-01T16:41:30.131Z	54f4d37315522ed4b3dcb2cc	hohnzy	56af8aba8fbaf4220afa9d94	nevím jak to napsat, snad to pochopíte :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-02-01T16:40:49.973Z	54f4d37315522ed4b3dcb2cc	hohnzy	56af8a91586242210ae0d4fd	"můžete mi prosím poradit? udělal jsem si to základní portfolio: http://codepen.io/hohnzy/pen/xwydzE
+když ale kliknu na tlačítko, které mě má ve stránce posunout na jednotlivé sekce, tak mě posune o margin: 30px, který mám na bloku uvnitř... jak to udělat abych ten margin ""viděl""?"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T23:15:19.559Z	5513eea115522ed4b3dddb35	HoBi	56ae95876b6468374a0aa3cd	@MichalMartinek tak to se pak poptám. :smile: :+1: 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T22:48:37.392Z	55aba30f37f2ad22587e6596	milangit	56ae8f45eaf741c118d6038e	@MichalMartinek  jojo, díky našel jsem , na tu právě odkazuje mj. ten odkaz od HoBi
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T22:18:25.160Z	559f63a50fc9f982beaa603e	MichalMartinek	56ae88316b6468374a0aa231	jinak jestli by byl zájem, tak lidem mířícím na ČVUT FIT můžu předat nějaké znalosti z prváků, na co se vyplatí soustředit atd.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T22:16:50.942Z	559f63a50fc9f982beaa603e	MichalMartinek	56ae87d26b6468374a0aa219	@milangit knihovničky na to existují taky, třeba https://github.com/MikeMcl/big.js/ 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T21:53:16.812Z	55aba30f37f2ad22587e6596	milangit	56ae824c80ad69394a7b90df	@HoBi  já jsem si myslel , že na to budou nějaké pěkné knihovničky. Díky
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T21:39:00.682Z	5513eea115522ed4b3dddb35	HoBi	56ae7ef4eaf741c118d60153	@Adamoss8 [Střední průmyslová škola Česká Lípa](http://sps-cl.cz)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T21:38:42.440Z	5513eea115522ed4b3dddb35	HoBi	56ae7ee2aaae7a3a759437d3	@milangit toto je taková vtipnost v JS. :D http://stackoverflow.com/a/14490542/3281252, http://stackoverflow.com/a/3439981/3281252
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T21:31:09.791Z	55aba30f37f2ad22587e6596	milangit	56ae7d1deaf741c118d6011b	tak já bych taky měl jeden dotaz pro nějakého pokročilejšího javascriptistu. Když v javascriptu vynásobím 0.1 krát 0.1 tak kupodivu nedostanu přesně 0.01 jak bych očekával. Je nějaká cesta (když mi třeba jde o přesné finanční operace) jak vynásobit 0.1 *0.1 a dostat 0.01 ?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T18:11:40.950Z	5688c52916b6c7089cc0ee2b	Adamoss8	56ae4e5c6b6468374a0a9854	Co studuješ za střední?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-31T17:45:14.079Z	5513eea115522ed4b3dddb35	HoBi	56ae482a80ad69394a7b8735	Tak co lidi, někdo sem také něco pište. :P 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T18:56:43.403Z	5688c52916b6c7089cc0ee2b	Adamoss8	56ad076bc54bc2bf180d0110	:D Pěkné.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T10:59:20.608Z	5513eea115522ed4b3dddb35	HoBi	56ac9788c54bc2bf180cf53f	Vtipné je, že jsem využil dálkové ovládání (tzn. ovladač a k tomu modul, který to snímá) a ta vysílačka prostě nefungovala. Museli jsme sundat jejich anténu a připojit tam malý drátek, pak to fungovalo... Merkur je zlo docela a navíc nemá skoro žádnou dokumentaci. Ale na stavení super. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T10:57:57.277Z	5513eea115522ed4b3dddb35	HoBi	56ac973580ad69394a7b5e6b	Letos dělám jako maturitní práci autíčko na dálkové ovládání. Složené převážně z merkur stavebnice a řízené mikroprocesorem naprogramovaným v assembleru, resp. JSA. Ve předu a vzadu mám ultrazvukové snímače vzdálenosti -> automatizace nenabourání a tedy bezpečné jízdy. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T10:56:34.614Z	5513eea115522ed4b3dddb35	HoBi	56ac96e2c54bc2bf180cf52d	To také doufám. Neumím si představit, že by mě tam nevzali a co bych pak dělal. :( :D
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T09:26:21.756Z	5688c52916b6c7089cc0ee2b	Adamoss8	56ac81bdc54bc2bf180cf3d4	Taky střední :-). Když vše klapne, taky bych rád ČVUT.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T08:15:09.838Z	5513eea115522ed4b3dddb35	HoBi	56ac710dc54bc2bf180cf2b8	Střední nebo vysokou? Já jsem stále na střední, v maturitním ročníku, a chystám se na ČVUT FIT. :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-30T06:51:43.454Z	5688c52916b6c7089cc0ee2b	Adamoss8	56ac5d7fdc33b33c7548c70a	Ahoj, teprve studuji.
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-29T21:38:14.814Z	5513eea115522ed4b3dddb35	HoBi	56abdbc680ad69394a7b4c81	Pracujete někdo v oboru? :-) 
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-29T21:15:53.734Z	5513eea115522ed4b3dddb35	HoBi	56abd68980ad69394a7b4b9b	:-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2016-01-13T23:35:31.982Z	558eab4d15522ed4b3e2ea7e	1234Matt	5696df43c391361d48eaf49a	ha ha, tak tuhle jsem dřív nenašel :)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-10-06T21:38:57.600Z	546fc9f1db8155e6700d6e8c	QuincyLarson	56143f71fd5c74d714142e45	"##Please note that we now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. 
+We are doing this because few of our Campsite Gitter chatroooms have active synchronous discussions, and about 1/3rd of conversations consist of someone saying “hello” and not getting a response. Most of the discussions are asynchronous, which Facebook posts and group messages are better suited for.
+We’ve removed this Gitter room from our Campsite directory. Still, we will keep it open for archival purposes, and you can keep using it if you’d like.
+Here’s a short blog post about how our Campsites are evolving and growing: http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-07T17:56:31.963Z	55aba30f37f2ad22587e6596	milangit	55c4f14f7f578b465ff4445e	@s-oravec to by bylo fajn, jak jsi na tom pondeli, utery nebo streda vecer?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-07T16:06:04.595Z	55be90720fc9f982beabe71e	s-oravec	55c4d76ccdd8bb455f2f913c	Alw upozornuju na to ze jsem na tom docela blbe s casem
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-07T16:05:48.952Z	55be90720fc9f982beabe71e	s-oravec	55c4d75ccdd8bb455f2f9135	Muzem dat nekdy ten pair programming
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-06T09:22:04.899Z	55aba30f37f2ad22587e6596	milangit	55c3273c2c1b3bec3198e163	"už jsem u ""Find the Longest Word in a String"" ;-)"
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-06T08:10:43.403Z	55aba30f37f2ad22587e6596	milangit	55c3168368c869d67cf07589	"@s-oravec gratuluji. ja jsem prave nainstaloval screenhero a taky zacal s tema ""taborakama"". (zatim samostatne)."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-04T09:46:44.231Z	55be90720fc9f982beabe71e	s-oravec	55c08a0468c869d67cf020c4	done!
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-04T07:14:53.085Z	55be90720fc9f982beabe71e	s-oravec	55c0666d37816be77caf83fe	ale je to spis algoritmicky problem nez javascript ;)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-04T07:14:29.885Z	55be90720fc9f982beabe71e	s-oravec	55c066552c1b3bec31988612	teraz som sa zasekol na pairwise
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-04T07:13:59.982Z	55be90720fc9f982beabe71e	s-oravec	55c066379fb911ea3129f909	tak ruzne skacem. html a css skoleni se mi nechce delat
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-04T07:13:39.101Z	55be90720fc9f982beabe71e	s-oravec	55c066237a6037e67c596e1e	no tak `===` a  `==` ma odlisne spravanie. niekedy je to ok, a niekedy uplne celkom nie
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-03T15:30:36.030Z	55aba30f37f2ad22587e6596	milangit	55bf891c5a5770ec07683675	"@s-oravec  jo, to máš pravdu, taky jsem si všiml, že u javaskriptu představili porovnávání pomocí operátoru === a pak na některých místech používají ==
+Jak jsi v kurzu už daleko  ? (pokud to tedy projíždíš systematicky)  Já hlavně programuji v C# desktopové aplikace, takže je to pro mne docela nový svět.."
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-03T14:26:45.796Z	55be90720fc9f982beabe71e	s-oravec	55bf7a2574b0f3381314944c	"jako vylozene chyba ne, ale napr. vsade v kode su hodnoty v '' misto v """""
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-03T07:56:26.753Z	55aba30f37f2ad22587e6596	milangit	55bf1eaadcea60b379ff100d	@s-oravec no ja prave dokoncuju javascriptovou sekci a chystam se na pair programming, s cimz jeste nemam zadniu zkusenost. Zatim jsem na zadne zasadni chyby, ktere by mi branily v postupu nenarazil, asi blbe koukam :-) Dej nejaky priklad chyby.  U editoru mi akorat chybi intellisence, ale jinak se mi to libi. Funguje to i na tabletu :-)
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-03T07:31:55.317Z	55be90720fc9f982beabe71e	s-oravec	55bf18eba0587bc54d691cf2	btw co s chybami - reportovat to ako issues? je ich tam desne moc a ja nemam prehled, nechci reportovat duplicity
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-03T07:31:19.873Z	55be90720fc9f982beabe71e	s-oravec	55bf18c7dcea60b379ff0f90	piece of cake, akurat ten editor je desnej, kdyz je clovek zvyklej na WebStorm
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-03T07:11:49.342Z	55aba30f37f2ad22587e6596	milangit	55bf1435a0587bc54d691ca5	@s-oravec ahoj, jojo, jak jde kurz ?
+55aefaec0fc9f982beaa8261	FreeCodeCamp/Prague	2015-08-02T23:09:56.523Z	55be90720fc9f982beabe71e	s-oravec	55bea3448deffbc44d8e31d2	ayt?

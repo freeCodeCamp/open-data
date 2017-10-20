@@ -1,0 +1,846 @@
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-11-19T05:56:59.678Z	57c52c6f40f3a6eec0621722	Treylv	582fe9abb563b5516c3a987e	"```
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+
+{
+	int milesToKilometers, kilometersToMiles;
+	char getmenuChoice;
+	double ms, kms, miles, kilometers;
+
+	cout << ""Welcome to the Menu Driven Calculator"" << endl;
+	cout << ""Please select an option from the following"" << endl;
+	cout << ""A. Miles to Kilometers"" << endl;
+	cout << ""B. Kilometers to Miles"" << endl;
+	cout << ""Q. Quit"" << endl;
+	cin >> getmenuChoice;
+
+	switch (getmenuChoice)
+	{
+	case 'A':
+	{
+		double milesToKilometers(double miles);
+		miles = ms * milesToKilometers;
+		ms = 0;
+		cout << ""Please enter the amount of Miles: "" << endl;
+		cin >> ms;
+		cout << ""Kilometers: "" << milesToKilometers << endl;
+		break;
+	}
+	case 'B':
+	{
+		double kilometersToMiles(double kilometers);
+		kilometers = kms * kilometersToMiles;
+		kms = 0;
+		cout << ""Please enter the amount of Kilometers: "" << endl;
+		cin >> kms;
+		cout << ""Miles: "" << kilometersToMiles << endl;
+		break;
+	}
+	case 'Q':
+	default:
+		cout << ""Not a valid choice"" << endl;
+	}
+	system(""pause"");
+	return 0;
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-11-19T05:56:33.366Z	57c52c6f40f3a6eec0621722	Treylv	582fe991e712c9a1188624bf	"```
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+
+
+{
+	int milesToKilometers, kilometersToMiles;
+	char getmenuChoice;
+	double ms, kms, miles, kilometers;
+
+	cout << ""Welcome to the Menu Driven Calculator"" << endl;
+	cout << ""Please select an option from the following"" << endl;
+	cout << ""A. Miles to Kilometers"" << endl;
+	cout << ""B. Kilometers to Miles"" << endl;
+	cout << ""Q. Quit"" << endl;
+	cin >> getmenuChoice;
+
+	switch (getmenuChoice)
+	{
+	case 'A':
+	{
+		double milesToKilometers(double miles);
+		miles = ms * milesToKilometers;
+		ms = 0;
+		cout << ""Please enter the amount of Miles: "" << endl;
+		cin >> ms;
+		cout << ""Kilometers: "" << milesToKilometers << endl;
+		break;
+	}
+	case 'B':
+	{
+		double kilometersToMiles(double kilometers);
+		kilometers = kms * kilometersToMiles;
+		kms = 0;
+		cout << ""Please enter the amount of Kilometers: "" << endl;
+		cin >> kms;
+		cout << ""Miles: "" << kilometersToMiles << endl;
+		break;
+	}
+	case 'Q':
+	default:
+		cout << ""Not a valid choice"" << endl;
+	}
+	system(""pause"");
+	return 0;
+}"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-11-19T05:55:57.754Z	57c52c6f40f3a6eec0621722	Treylv	582fe96d5eb8ea792a3b632b	"#include <iostream>
+
+using namespace std;
+
+```
+
+int main()
+
+
+{
+	int milesToKilometers, kilometersToMiles;
+	char getmenuChoice;
+	double ms, kms, miles, kilometers;
+```
+	cout << ""Welcome to the Menu Driven Calculator"" << endl;
+	cout << ""Please select an option from the following"" << endl;
+	cout << ""A. Miles to Kilometers"" << endl;
+	cout << ""B. Kilometers to Miles"" << endl;
+	cout << ""Q. Quit"" << endl;
+	cin >> getmenuChoice;
+
+	switch (getmenuChoice)
+	{
+	case 'A':
+	{
+		double milesToKilometers(double miles);
+		miles = ms * milesToKilometers;
+		ms = 0;
+		cout << ""Please enter the amount of Miles: "" << endl;
+		cin >> ms;
+		cout << ""Kilometers: "" << milesToKilometers << endl;
+		break;
+	}
+	case 'B':
+	{
+		double kilometersToMiles(double kilometers);
+		kilometers = kms * kilometersToMiles;
+		kms = 0;
+		cout << ""Please enter the amount of Kilometers: "" << endl;
+		cin >> kms;
+		cout << ""Miles: "" << kilometersToMiles << endl;
+		break;
+	}
+	case 'Q':
+	default:
+		cout << ""Not a valid choice"" << endl;
+	}
+	system(""pause"");
+	return 0;
+}"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-11-19T05:55:26.231Z	57c52c6f40f3a6eec0621722	Treylv	582fe94eb563b5516c3a9731	"#include <iostream>
+
+using namespace std;
+
+```
+
+int main()
+
+```
+{
+	int milesToKilometers, kilometersToMiles;
+	char getmenuChoice;
+	double ms, kms, miles, kilometers;
+
+	cout << ""Welcome to the Menu Driven Calculator"" << endl;
+	cout << ""Please select an option from the following"" << endl;
+	cout << ""A. Miles to Kilometers"" << endl;
+	cout << ""B. Kilometers to Miles"" << endl;
+	cout << ""Q. Quit"" << endl;
+	cin >> getmenuChoice;
+
+	switch (getmenuChoice)
+	{
+	case 'A':
+	{
+		double milesToKilometers(double miles);
+		miles = ms * milesToKilometers;
+		ms = 0;
+		cout << ""Please enter the amount of Miles: "" << endl;
+		cin >> ms;
+		cout << ""Kilometers: "" << milesToKilometers << endl;
+		break;
+	}
+	case 'B':
+	{
+		double kilometersToMiles(double kilometers);
+		kilometers = kms * kilometersToMiles;
+		kms = 0;
+		cout << ""Please enter the amount of Kilometers: "" << endl;
+		cin >> kms;
+		cout << ""Miles: "" << kilometersToMiles << endl;
+		break;
+	}
+	case 'Q':
+	default:
+		cout << ""Not a valid choice"" << endl;
+	}
+	system(""pause"");
+	return 0;
+}"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-11-19T05:47:18.953Z	57c52c6f40f3a6eec0621722	Treylv	582fe7665eb8ea792a3b5be8	Can anyone help me with a C++ program?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-17T22:24:37.448Z	56e1cf1985d51f252ab83064	maz-net-au	57ddc2a5df21a7573006bbab	thats dumb
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-17T11:32:37.691Z	540a150e163965c9bc202eaf	abhisekp	57dd29d5c8af41d45f22141c	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-12T20:50:02.541Z	570ea523187bb6f0eadf502c	teachingthedumbest	57d714facba69fe73509a1ba	thaats all
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-12T20:49:57.714Z	570ea523187bb6f0eadf502c	teachingthedumbest	57d714f5d274dbdf350f1dce	no i have done everything i just dont know how to convey  my problem so i m posting  like that every where it would be good if someone review it
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-12T20:47:21.610Z	56e1cf1985d51f252ab83064	maz-net-au	57d7145973cfea560ca0cabb	uh.. you want someone else to do that for you or something? thats not really how this site works
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-12T20:30:50.972Z	570ea523187bb6f0eadf502c	teachingthedumbest	57d7107aa0e8dbb04f30cf1b	"https://github.com/teachingthedumbest/budgettracker/blob/c%2B%2B/budget%20tracker.cpp plz help me out here i m naive to c++ and github, i just want to make my code smaller by using oop property of c++
+its a budget tracker ap"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-08T17:10:34.618Z	56e1cf1985d51f252ab83064	maz-net-au	57d19b8ad6bbc9c04810d1cf	`#include <string>`
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-08T06:33:57.805Z	5644106916b6c7089cba67be	eeflores	57d10655f33967fc643a8c4f	most compilers have string.h don't they?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-08T06:28:34.068Z	5594607515522ed4b3e33274	dannymolina2	57d105121baa312a6be1ef56	its a library
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-08T06:26:59.253Z	5644106916b6c7089cba67be	eeflores	57d104b368f483b41caed2c3	where does string.h come from?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-08T06:06:32.305Z	5594607515522ed4b3e33274	dannymolina2	57d0ffe889655972304c4397	hey guys i need to found some compiler who accept String.h
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:52:32.654Z	56e1cf1985d51f252ab83064	maz-net-au	57c86ae06ec242015cdfc849	@Ramanan98  ^^
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:52:18.167Z	56e1cf1985d51f252ab83064	maz-net-au	57c86ad2dbb70a4b09aae73c	"```
+if(variableToCompareTo == 1 || variableToCompareTo == 2)
+{
+    // do stuff
+}
+else if(variableToCompareTo == 3)
+{
+    // do other stuff
+}
+```
+is the same as 
+```
+switch(variableToCompareTo)
+{
+    case 1:
+    case 2:
+          // do stuff
+    break;
+    case 3:
+        // do other stuff
+    break;
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:52:07.585Z	57c8620940f3a6eec062c124	Ramanan98	57c86ac7928ae0e7346d51e6	@maz-net-au OK, Thanks!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:50:20.176Z	56e1cf1985d51f252ab83064	maz-net-au	57c86a5cdc3c80b559a77531	essentially, readability and neatness
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:50:05.204Z	56e1cf1985d51f252ab83064	maz-net-au	57c86a4ddc3c80b559a7752f	then you put `case 1:` which is the same as doing `variableToCompareTo == 1`
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:49:59.727Z	57c8620940f3a6eec062c124	Ramanan98	57c86a4729ee4a670584b608	@maz-net-au So, what's the difference between if else statements and switch statements?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:49:35.803Z	56e1cf1985d51f252ab83064	maz-net-au	57c86a2fdbb70a4b09aae731	which is saying, compare `variableToCompareTo` to the following cases
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:49:18.753Z	56e1cf1985d51f252ab83064	maz-net-au	57c86a1e85a31403548c6805	you `switch(variableToCompareTo)`
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:48:34.798Z	56e1cf1985d51f252ab83064	maz-net-au	57c869f285a31403548c67fd	its just a neater way of doing a set of `if else` statements
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:48:15.112Z	56e1cf1985d51f252ab83064	maz-net-au	57c869df85a31403548c67f8	"you can probably ask that in the main room because ""in general"" they work basically the same way in javascript"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:47:53.487Z	57c8620940f3a6eec062c124	Ramanan98	57c869c9ff95228007a37007	@maz-net-au Just in general
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:46:36.242Z	56e1cf1985d51f252ab83064	maz-net-au	57c8697cdc3c80b559a7751c	something specifically about the way they're handled in C or C++? or just in general?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-09-01T17:45:36.369Z	57c8620940f3a6eec062c124	Ramanan98	57c8694029ee4a670584b233	I don't understand switch statements, can somebody explain?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-31T17:01:03.285Z	56e1cf1985d51f252ab83064	maz-net-au	57c70d4fdc3c80b559a7623a	there are people here. leave a message and someone will eventually get back to you
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-31T14:37:14.037Z	573fc9f5c43b8c6019741ae5	ZZPot	57c6eb9a85bc6e8d680ed9de	pray C++
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-31T14:36:02.632Z	57c6ac9f40f3a6eec0625790	leoprem	57c6eb52c251522d66967396	lol last entry was aug 18 @ZZPot 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-31T14:34:28.910Z	573fc9f5c43b8c6019741ae5	ZZPot	57c6eaf483e20919723a440e	I knew this room exists
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:34:06.598Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57b556debe8025f1694c5897	mail?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:34:02.557Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57b556da6a2fa2ff3d9552a4	private chat?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:33:56.357Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57b556d46a2fa2ff3d955297	:( nopes. chat?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:32:40.512Z	57b07a3f40f3a6eec05f6719	foenyth	57b55688be8025f1694c57a8	Skype?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:32:37.192Z	57b07a3f40f3a6eec05f6719	foenyth	57b55685be8025f1694c57a5	Nice, I need a buddy.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:32:00.045Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57b556608d93113d5f065914	I can try to help. We probably are on same levels @foenyth 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:31:11.854Z	57b07a3f40f3a6eec05f6719	foenyth	57b5562f4f819cfa3da9f6b8	![maf](http://img.memefact.com/images/i.imgur.com/xlea2ug.png)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-18T06:28:34.983Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57b555925a4ad6105684fe37	"Ah! Let me go all zen on you
+
+""You don't find a C++ mentor, the C++ mentor finds you"" @foenyth "
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-17T04:10:53.139Z	57b07a3f40f3a6eec05f6719	foenyth	57b3e3cd8d93113d5f029193	Where can I get C++ mentor? 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T12:22:10.628Z	571fd287659847a7aff4a608	fenicks	57a87972857442dc0f5d3236	@WannabeJsPro It depends but my vote goes for C++.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T12:14:51.587Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57a877bbfb162b752ca7f60c	Ok. Thanks @fenicks. I will check it out again.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T11:49:54.562Z	571fd287659847a7aff4a608	fenicks	57a871e2fb162b752ca7e5e3	@abisthecodermal Yes, but there are English subtitles and every exercises are in English too.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T11:07:50.048Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57a868066bf4dff61d3d112e	Thanks @fenicks . The website's in French though.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T10:57:51.915Z	57a84e2540f3a6eec05e6c0a	RajKumar1605	57a865af857442dc0f5d00fd	guys c++ or java ?? Where will your vote go ?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T10:50:00.900Z	571fd287659847a7aff4a608	fenicks	57a863d82f03cf8749d0b04a	@manucpp There is an excellent course on C++ on Coursers: http://kiq.li/1JAP
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-08T01:09:23.739Z	56e1cf1985d51f252ab83064	maz-net-au	57a7dbc3857442dc0f5bf0c7	hi
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-07T16:45:54.145Z	56ebf6bf85d51f252ab97c70	MohammadHasham	57a765c2fb162b752ca5da59	@maz-net-au @FunkLove 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-07T16:45:49.628Z	56ebf6bf85d51f252ab97c70	MohammadHasham	57a765bdfb162b752ca5da3f	Can anyone help with armstrong numbers?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-08-02T09:36:43.575Z	56e1cf1985d51f252ab83064	maz-net-au	57a069ab47659bfb1087935e	hey cool. i've always wanted to learn to write drivers @FunkLove 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-30T07:09:46.110Z	579c4dc440f3a6eec05d272c	FunkLove	579c52ba9639024416a82f2a	"delayed edit: I'm well versed in OOP in Delphi and ""*came*"" to Free Code Camp by accident"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-30T06:58:08.881Z	579c4dc440f3a6eec05d272c	FunkLove	579c50007fd9f73e16ebed38	Hi everyone! I'm well versed in OOP in Delphi and to Free Code Camp by accident (but a good accident because I thought it'll be nice to contribute to a non-profit and learn another language). I'm going to do that in other languages. However I need to update some C++ device driver code from 32 bit to 64 bit, something completely separate from my original thought for coming to Free Code Camp, so I'm joining here to be in the company of others learning and may be someone advanced who could guide during tough spots :worried:  Thank you!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-27T17:17:52.641Z	56e1cf1985d51f252ab83064	maz-net-au	5798ecc0979e833d4dd0d902	@notamusician you want one game update loop that reads the state of everything and does the draw call, and then you can use independant std::thread to offload some of your other work to background processes etc
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-27T00:08:21.141Z	5795297140f3a6eec05c46ad	SomeRandomGameDev	5797fb7500c8ebdd0e268eaa	Now, It's up to you : Do you want to prototype a game very fast ? Use tools (unity3D ... again), Do you want to make a first experience in game programming ? Use engines (first, small but yet effective ones like libgdx, then bigger, like ogre or irrlitch, then much bigger commercial solution like cryengine and so on). Do you want to comprehend how all this stuff work together ? Not only focus on a language but on practices, architectures, challenges to face and trade-off to make. Read and read more to only scratch the surface or toying around, participate to coding jam (one game a month or -mini- ludum dare).
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-27T00:01:22.872Z	5795297140f3a6eec05c46ad	SomeRandomGameDev	5797f9d2d155b0294e0cacc0	"There's so much to think about when you code a game that you can't afford ""loosing"" time by reinventing the wheel (said the man who advised libgdx as a starting point). But reinventing the wheel is also a great way to learn and be aware of some of the issues you've got the face at low level."
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-26T23:58:19.129Z	5795297140f3a6eec05c46ad	SomeRandomGameDev	5797f91b7c9324e20e00ec87	Well, if you're new in programming with only a week of practice, you should reconsider build up your first game from C++ libraries and/or engines. Just my two cents. However, making a first experience as a game developer could be done in another language (for convenience, let say Java) with some libraries, say, libgdx + ashley + box2D (in that order).
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-26T18:47:02.257Z	5732ff9ac43b8c6019723b85	notamusician	5797b0268fb4820a4666237e	Hi everybody! I'm pretty newbie in programming and a week ago I started to code my first game. I'm using SFML library and everything went pretty well until I stuck with a problem that I have only one game cycle and I don't know how to make two or more parallel cycles (to make my characters do their own stuff independently). What library could you recommend to use? Would be awesome if it wouldn't be too hard to learn. Thanks!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-21T17:58:35.892Z	56e1cf1985d51f252ab83064	maz-net-au	57910d4b695a0df05e8309a6	are you familiar with OOP in another language? I got great value out of a free book which just went over the differences between C# and C++ https://channel9.msdn.com/coding4fun/blog/C-for-C-Developers-with-C-Succinctly
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-21T08:57:21.306Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57908e713d74e5a0167ee9c4	I mean, if anyone of you can suggest a good book on brushing up and applications of OOP in C++
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-21T08:56:29.723Z	5768e524c2f0db084a1f0fe3	abisthecodermal	57908e3d16487c5e516f05a3	Hello everyone. Where can I learn OOP in C++. A good resource or a book perhaps?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T18:04:20.696Z	55d375a20fc9f982beadce34	TropicSapling	578bc8a4196179690ef8e1bb	Bye
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T18:04:17.661Z	55d375a20fc9f982beadce34	TropicSapling	578bc8a1914c51592b348b55	Leaving here too, if you want to chat again open private chat or @mention me :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T18:03:56.549Z	55d375a20fc9f982beadce34	TropicSapling	578bc88c8423d0842450d2fb	Left cpluspluscom/public now btw
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T12:53:13.523Z	55d375a20fc9f982beadce34	TropicSapling	578b7fb93c5129720e4640cf	Will still stay in this chat for a while though :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T12:51:53.715Z	55d375a20fc9f982beadce34	TropicSapling	578b7f699f79ee4f2bce523f	Btw I've moved over to https://gitter.im/cpluspluscom/public
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T12:33:16.001Z	55d375a20fc9f982beadce34	TropicSapling	578b7b0c3cb52e8b24d5118b	I think you do something like `-std11` not sure though
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T12:33:03.153Z	55d375a20fc9f982beadce34	TropicSapling	578b7aff3cb52e8b24d51179	Some of the bugs are invalid though, since it seems you forgot to run the compiler for C++11
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T12:32:35.760Z	55d375a20fc9f982beadce34	TropicSapling	578b7ae3196179690ef5a700	@olzaragoza Just fixed some of the bugs, hopefully all of them :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T11:17:36.778Z	55d375a20fc9f982beadce34	TropicSapling	578b69503cb52e8b24d47503	Thanks :D
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T00:41:16.095Z	57326c58c43b8c6019722adb	olzaragoza	578ad42c8423d08424487b0a	@TropicSapling  I forked your repo, I'll take a look at the code when I get a chance. 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T00:33:08.139Z	55d375a20fc9f982beadce34	TropicSapling	578ad2448423d08424486503	but later today
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T00:33:04.355Z	55d375a20fc9f982beadce34	TropicSapling	578ad2403c5129720e412f9d	Wait I mean today
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-17T00:33:03.693Z	55d375a20fc9f982beadce34	TropicSapling	578ad23f3cb52e8b24d03ec9	I'll try again tomorrow :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T22:43:21.937Z	57326c58c43b8c6019722adb	olzaragoza	578ab889914c51592b2bdfb2	"|Line|	Code	|Description	|Detail Description|
+|---|---|---|---|
+| 79 |	| no instance of overloaded function ""std::vector<_Ty, _Alloc>::push_back [with _Ty=std::array<std::string, 3U>, _Alloc=std::allocator<std::array<std::string, 3U>>]"" matches the argument list | 	            argument types are: ({...})object type is: std::vector<std::array<std::string, 3U>, std::allocator<std::array<std::string, 3U>>> |
+| 79 |	|	no instance of constructor ""std::basic_string<_Elem, _Traits, _Alloc>::basic_string [with _Elem=char, _Traits=std::char_traits<char>, _Alloc=std::allocator<char>]"" matches the argument list	        |    argument types are: (unsigned short) |
+| 94 |		| no operator ""[]"" matches these operands	 |           operand types are: std::array<std::string, 3U> [ int ] |
+| 52 |	C3867 |	'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::length': non-standard syntax; use '&' to create a pointer to member |
+| 52 |	C2446 |	'<': no conversion from 'int' to 'unsigned int (__thiscall std::basic_string<char,std::char_traits<char>,std::allocator<char>>::* )(void) noexcept const' |
+|79|	C2440|	'<function-style-cast>': cannot convert from 'unsigned short' to 'std::string'|
+|79|	C2664|	'void std::vector<std::array<std::string,3>,std::allocator<_Ty>>::push_back(const std::array<std::string,3> &)': cannot convert argument 1 from 'initializer list' to 'std::array<std::string,3> &&'|
+|94|	C2676|	binary '[': 'std::array<std::string,3>' does not define this operator or a conversion to a type acceptable to the predefined operator|"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T22:43:11.916Z	57326c58c43b8c6019722adb	olzaragoza	578ab87f9f79ee4f2bc7ec70	@TropicSapling 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T20:48:48.615Z	55d375a20fc9f982beadce34	TropicSapling	578a9db03c5129720e3f9204	run again?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T20:48:37.302Z	55d375a20fc9f982beadce34	TropicSapling	578a9da59f79ee4f2bc6e906	Ok so fixed some of the errors I think
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T18:58:39.357Z	55d375a20fc9f982beadce34	TropicSapling	578a83dfd11cd28812328849	Ok thanks looking into it :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T16:40:43.933Z	57326c58c43b8c6019722adb	olzaragoza	578a638b196179690eec965f	"
+@TropicSapling 
+
+```cpp
+Line 79
+no instance of overloaded function
+	""std::vector<_Ty, _Alloc>::push_back [with _Ty=std::array<std::string, 3U>,
+	_Alloc=std::allocator<std::array<std::string, 3U>>]"" matches the argument list
+argument types are: ({...})
+	object type is: std::vector<std::array<std::string, 3U>, std::allocator<std::array<std::string, 3U>>>
+
+Line 79
+no instance of constructor
+	""std::basic_string<_Elem, _Traits, _Alloc>::basic_string [with _Elem=char, _Traits=std::char_traits<char>,
+	_Alloc=std::allocator<char>]"" matches the argument list
+argument types are: (unsigned short)
+
+Line 90
+operand types are incompatible (""char"" and ""const char *"");
+
+Line 94
+no operator ""[]"" matches these operands
+	operand types are: std::array<std::string, 3U> [ int ]
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T12:37:07.093Z	55d375a20fc9f982beadce34	TropicSapling	578a2a73914c51592b262366	(@TropicSapling)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T12:36:54.366Z	55d375a20fc9f982beadce34	TropicSapling	578a2a66e4375c9212ef6060	@mention me when done
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-16T12:34:27.593Z	55d375a20fc9f982beadce34	TropicSapling	578a29d33c5129720e3aabd8	Someone please compile this and paste any errors, not on my computer so can't do it myself: https://github.com/TropicSapling/g--/blob/master/src/g--.cpp
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-12T02:02:48.016Z	56fc226385d51f252abbab12	prfct123	57844fc8064f82870718f072	I have to solve an problem
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-12T02:02:47.598Z	56e1cf1985d51f252ab83064	maz-net-au	57844fc785418bf56db79239	hello
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-12T02:01:25.398Z	5644106916b6c7089cba67be	eeflores	57844f7559cfbd4c5e815b90	@prfct123 wassup?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-12T02:01:02.140Z	56fc226385d51f252abbab12	prfct123	57844f5ebdafd191076d4751	I need help
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-07-12T02:00:59.076Z	56fc226385d51f252abbab12	prfct123	57844f5b3eaf66535e7e4cee	Hello 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-21T08:30:00.935Z	5768e524c2f0db084a1f0fe3	abisthecodermal	5768fb08bd67400679db9987	Wassup!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-21T08:29:52.064Z	5768e524c2f0db084a1f0fe3	abisthecodermal	5768fb00bd67400679db9981	Hello World!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:37:08.006Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575098f480352f204df4ac0c	Well yeah i need to work on my be able to communicate with others too 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:31:01.419Z	56e1cf1985d51f252ab83064	maz-net-au	575097852482004e29f66140	the link to the question was useful for me to understand what you were trying to do :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:30:49.138Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750977951d28b6243b67d83	that would be amazing ^_^ 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:30:23.207Z	56e1cf1985d51f252ab83064	maz-net-au	5750975f51d28b6243b67d80	No problem. I check here periodically if you need anything
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:30:00.512Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575097482482004e29f6613e	and again Thanks a lot for help mate u r awesome 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:29:58.701Z	56e1cf1985d51f252ab83064	maz-net-au	57509746a66904962ebbd781	No need. good luck
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:29:51.657Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750973f2482004e29f6613d	well i gotta go now, well try it later and will tell you the result 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:28:58.035Z	56e1cf1985d51f252ab83064	maz-net-au	5750970a2482004e29f66139	I really didn't care enough to test it
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:28:53.667Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575097052482004e29f66138	aha thats why ^_^
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:28:35.031Z	56e1cf1985d51f252ab83064	maz-net-au	575096f3a66904962ebbd779	like i said. i didnt compile it. just wrote it straight into the chat
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:28:25.291Z	56e1cf1985d51f252ab83064	maz-net-au	575096e9a66904962ebbd778	oh. rename that n to nm0
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:27:56.837Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575096cca66904962ebbd775	"> would this also work? can you link the question?
+```
+int get_fibonacci_last_digit(int n) {
+    if (n <= 1)
+    {
+        return n % 10;
+    }
+    else
+    {
+        int nm2=0;
+        int nm1=1;
+        int n;  // how u declare this var twice it has give me error 
+        for (int i = 2; i <= n; i++)
+        {
+            n = (nm1 % 10) + (nm2 % 10);
+            nm2 =nm1;
+            nm1 = n;
+        }
+        return n % 10;
+    }
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:27:16.539Z	56e1cf1985d51f252ab83064	maz-net-au	575096a451d28b6243b67d72	but it tells you how
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:27:13.405Z	56e1cf1985d51f252ab83064	maz-net-au	575096a151d28b6243b67d71	well. modified very slightly
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:26:01.232Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57509659a66904962ebbd770	no way really xD
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:25:01.463Z	56e1cf1985d51f252ab83064	maz-net-au	5750961d67d168bb68609edc	"i've just solved the last ""advanced"" problem using my above solution"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:22:37.852Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750958d51d28b6243b67d60	hahaha thats max for sure  i dont need all this amount yeah
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:22:26.608Z	56e1cf1985d51f252ab83064	maz-net-au	575095822482004e29f6611e	mine uses like < 100 bytes
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:22:06.650Z	56e1cf1985d51f252ab83064	maz-net-au	5750956e67d168bb68609ed1	You'd have to go out of your way to make a solution that consumes 512mb of memory
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:21:49.218Z	56e1cf1985d51f252ab83064	maz-net-au	5750955d51d28b6243b67d5f	I saw it said that. But its limits are ridiculous
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:21:18.724Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750953e67d168bb68609ecf	it has to be in a specfic time and memory usage 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:20:56.055Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750952867d168bb68609ece	btw coursera has another standerd for working out as its an algorithm course
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:20:11.874Z	56e1cf1985d51f252ab83064	maz-net-au	575094fb51d28b6243b67d5a	i cant be bothered to work out where to submit it. it probably works fine
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:17:37.703Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57509461a66904962ebbd760	the pdf has 5 problems with test cases so u can test ur own code mate
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:17:06.532Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750944267d168bb68609ec5	that's the coursera link
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:16:55.745Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57509437a66904962ebbd75d	https://d3c33hcgiwev3.cloudfront.net/_d83ea5f1ab10354e342a33201c35127e_01_introduction_problems.pdf?Expires=1464998400&Signature=VSHtZDyoe2HhSXxzf2-OOCm2bAoQHw8BfRV1w6cCvMupl67s56pNEaEK7yeku8p3t75~0FanDJc-iuTw3y3AvbtI1eMU~OEn1fzV2TGNZzcKvr~2GndfgV2~SrVNx2vtlr~D3GlMOiNiA4q9SYbXXVg~4-jWsyXzPMPCDWKRLHI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:14:16.713Z	56e1cf1985d51f252ab83064	maz-net-au	5750939851d28b6243b67d4a	I just wanted to test my code
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:14:05.336Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750938d67d168bb68609eba	yeah sure the whole pdf if u want
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T20:13:02.454Z	56e1cf1985d51f252ab83064	maz-net-au	5750934e2482004e29f6610b	"would this also work? can you link the question?
+```
+int get_fibonacci_last_digit(int n) {
+    if (n <= 1)
+    {
+        return n % 10;
+    }
+    else
+    {
+        int nm2=0;
+        int nm1=1;
+        int n;
+        for (int i = 2; i <= n; i++)
+        {
+            n = (nm1 % 10) + (nm2 % 10);
+            nm2 =nm1;
+            nm1 = n;
+        }
+        return n % 10;
+    }
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:54:12.913Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57508ee4a78d5a256e3a6709	yaaay and passed the assignment of this week too ^_^ Thanks guys for helping me out u r awesome <3 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:53:12.128Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57508ea8454cb2be09517bc3	
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:52:26.063Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57508e7aec10ddbb09dd3d67	"@maz-net-au take look mate 
+```
+int get_fibonacci_last_digit(int n) {
+	//write your code here
+	if (n <= 1)
+	{
+		return n % 10;
+	}
+	else
+	{
+		vector<unsigned long long> fibCal;
+		fibCal.resize(n + 1);
+		fibCal.at(0) = 0;
+		fibCal.at(1) = 1;
+		for (int i = 2; i <= n; i++)
+		{
+			fibCal.at(i) = (fibCal.at(i - 1) % 10) + (fibCal.at(i - 2) % 10);
+			// to count the reminder together 
+		}
+
+		return fibCal[n] % 10;
+	}
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:51:16.282Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57508e34ec10ddbb09dd3d42	@maz-net-au i found a sol a lot easier when i explaned to you why i used %10
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:50:36.528Z	56e1cf1985d51f252ab83064	maz-net-au	57508e0c51d28b6243b67d26	uint64_t etc
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:50:24.450Z	56e1cf1985d51f252ab83064	maz-net-au	57508e002482004e29f660ea	@Mhmd-Raouf you could use an unsigned value if you wanted too
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:23:42.370Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575087be6bbc2d1d4df0aec1	@maz-net-au i think about it again mate, and have a great meal ^_^ 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:23:03.529Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575087976bbc2d1d4df0aead	@olzaragoza now i know why i keep getting error thanks alot mate u ware so helpful 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:23:00.554Z	56e1cf1985d51f252ab83064	maz-net-au	5750879451d28b6243b67ce5	i'm going to lunch. seeyas.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:22:55.184Z	56e1cf1985d51f252ab83064	maz-net-au	5750878f51d28b6243b67ce4	anyway. I'd still suggest not bothering with the whole vector of values etc.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:22:24.774Z	57326c58c43b8c6019722adb	olzaragoza	57508770da3f93da6f22dbc6	`double` is floating point type, so maybe you want `long long` instead
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:21:36.892Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57508740a78d5a256e3a63e3	yeah coursera gets weird sometimes xD, but sure they do it for some reasons cuz the findining the fib_num was easy but this one make me squizz my brain to solve it
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:19:49.483Z	56e1cf1985d51f252ab83064	maz-net-au	575086d551d28b6243b67cdc	"It just seems like an odd request from the assignment. ""Last digit of the last number of the Fibonacci sequence of length n"""
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:18:39.895Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750868ff44fde236e52ea83	will*
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:18:16.878Z	57399b47c43b8c60197327d4	Mhmd-Raouf	575086786bbc2d1d4df0ae31	"only the last number, imagne with me 
+8 % 10  = 8
+13 % 10  = 3
+21 %  10 = 1
+34 %  10 = 4
+55 %  10 = 5
+89 %  10 = 9
+144 %  10 = 4
+the last number will always be the reminder of 10, so yeah %10 whill get the last number
+
+"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:15:17.577Z	56e1cf1985d51f252ab83064	maz-net-au	575085c52482004e29f660a2	and not just the whole last value of the sequence?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:15:04.967Z	56e1cf1985d51f252ab83064	maz-net-au	575085b867d168bb68609e3e	are you sure it means the last digit of the last value?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:14:54.300Z	56e1cf1985d51f252ab83064	maz-net-au	575085ae67d168bb68609e3d	oh
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:14:46.642Z	56e1cf1985d51f252ab83064	maz-net-au	575085a651d28b6243b67cd0	The assignment asks you for mod 10 of the result? or mod 10 of the input if it's negative?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:13:22.833Z	57399b47c43b8c60197327d4	Mhmd-Raouf	57508552da3f93da6f22dae5	@olzaragoza so i should use double right , @maz-net-au  to be honest that's an assignment ask for the last number only and i search for like the whole day without result
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:12:02.438Z	56069bbe0fc9f982beb1ea44	alayek	5750850280352f204df4a443	@maz-net-au I think Qt is paid. If you are working on Linux platform, you can try working on KDE.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:11:29.543Z	56e1cf1985d51f252ab83064	maz-net-au	575084e151d28b6243b67ccc	@Mhmd-Raouf to get a digit of the fibonacci series, you don't need to keep a vector of all the values. Just storing the last 2 of them would be sufficient. Also, why ``% 10``?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:10:54.514Z	57326c58c43b8c6019722adb	olzaragoza	575084be10f0fed86f4ac04e	"@Mhmd-Raouf  the numbers in the sequence are getting too large, data range of `long` is only
+–2,147,483,648 to 2,147,483,647"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T19:08:52.708Z	56e1cf1985d51f252ab83064	maz-net-au	5750844451d28b6243b67cc7	"@alayek is Ot a paid product now? @r0dJm4n there is also wxWidgets for ""cross-platform"" ui."
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T16:56:09.881Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750652980352f204df498ca	"i have some negative values which i dont know how even they came from
+this one : 
+```
+#include <iostream>
+#include <vector>
+using std::vector;
+
+int get_fibonacci_last_digit(int n) {
+	//write your code here
+	if (n <= 1)
+	{
+		return n % 10;
+	}
+	else
+	{
+		vector<long> fibCal;
+		fibCal.resize(n + 1);
+		fibCal.at(0) = 0;
+		fibCal.at(1) = 1;
+		for (int i = 2; i <= n; i++)
+		{
+			fibCal.at(i) = fibCal.at(i - 1) + fibCal.at(i - 2);
+		}
+
+		return fibCal[n] % 10;
+	}
+}
+
+int main() {
+	int n;
+	std::cin >> n;
+	int c = get_fibonacci_last_digit(n);
+	std::cout << c << '\n';
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T16:53:14.553Z	57399b47c43b8c60197327d4	Mhmd-Raouf	5750647a10f0fed86f4ab428	Hello Mates, i just wanna ask if someone here could help me debug a code please 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T13:55:45.698Z	5683707d16b6c7089cc09258	r0dJm4n	57503ae16bbc2d1d4df09114	Thanks @alayek :thumbsup: 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T13:55:02.206Z	56069bbe0fc9f982beb1ea44	alayek	57503ab6a66904962ebbd448	@r0dJm4n might wanna check Qt
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-02T13:54:25.154Z	5683707d16b6c7089cc09258	r0dJm4n	57503a9180352f204df48780	Hello Guys! How to create a GUI in C++?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:08:25.728Z	56069bbe0fc9f982beb1ea44	alayek	574ede493903ce83717af8b3	Let me when you are ready to contribute
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:08:15.520Z	56069bbe0fc9f982beb1ea44	alayek	574ede3f3b842359659b4339	@thotarevanth ok
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:04:07.833Z	574ed8d2c43b8c6019762047	thotarevanth	574edd47454cb2be0950f104	 @alayek  i want to learn more about C++ and then contribute something while learning itself
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:02:44.447Z	56069bbe0fc9f982beb1ea44	alayek	574edcf43903ce83717af8ac	ok
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:02:33.434Z	574ed8d2c43b8c6019762047	thotarevanth	574edce9f44fde236e5262ce	@alayek  i know c++ but me too not an expert
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:02:09.090Z	56069bbe0fc9f982beb1ea44	alayek	574edcd13903ce83717af8a8	I am assuming that you don't know C++
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:01:57.145Z	56069bbe0fc9f982beb1ea44	alayek	574edcc5286eebef035adbc5	I am no expert,but you might want to start with Scott Meyers.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:01:41.828Z	56069bbe0fc9f982beb1ea44	alayek	574edcb53b842359659b432d	 @thotarevanth well, you have to first learn C++
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:01:24.980Z	56069bbe0fc9f982beb1ea44	alayek	574edca470ab94ff27a9671a	@thotarevanth hey
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:00:33.580Z	574ed8d2c43b8c6019762047	thotarevanth	574edc71f44fde236e526297	want to do backend projects in c++ what to do now ???
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-06-01T13:00:14.064Z	574ed8d2c43b8c6019762047	thotarevanth	574edc5e6bbc2d1d4df02947	hii everybody
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T20:15:40.569Z	5743b38fc43b8c6019748f50	poigirl2001	574607ecf44fde236e5054c3	Thank you @alayek 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T20:15:12.667Z	56069bbe0fc9f982beb1ea44	alayek	574607d0f44fde236e5054b2	@poigirl2001 .cpp
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T20:09:18.237Z	5743b38fc43b8c6019748f50	poigirl2001	5746066eec10ddbb09daad72	What extension do c plus plus files have 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T20:07:47.524Z	5743b38fc43b8c6019748f50	poigirl2001	5746061380352f204df21c52	Do c++ 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T16:48:54.215Z	57326c58c43b8c6019722adb	olzaragoza	5745d776454cb2be094ed836	Github desktop is pretty easy to use 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T09:19:59.225Z	5743b38fc43b8c6019748f50	poigirl2001	57456e3fcaaef2cd4fea928d	There's an option to share the code but you can't share it to github. In pythonista I can share my code but I can't do it in my c++ compiler.  
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T09:18:30.707Z	56069bbe0fc9f982beb1ea44	alayek	57456de6cd96cbcf4f70829f	"@poigirl2001 what do you mean by _compiler doesn't have option to upload_?
+
+If you saving local files, you can use the `git` program to upload them to GitHub"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T09:17:20.279Z	5743b38fc43b8c6019748f50	poigirl2001	57456da0caaef2cd4fea9255	also thanks @olzaragoza 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T09:17:10.383Z	5743b38fc43b8c6019748f50	poigirl2001	57456d9663e41bd84bf04c24	I will but my compiler doesn't have an option to upload the code to github
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-25T04:42:33.651Z	57326c58c43b8c6019722adb	olzaragoza	57452d39719c119b575bf0f9	@poigirl2001 cool little program.  You should make a github repo for it keep working on it and add some improvements.  I'll help you
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:38:42.344Z	5743b38fc43b8c6019748f50	poigirl2001	5744d7f228011d9f574b84c7	Cool
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:29:45.773Z	56e1cf1985d51f252ab83064	maz-net-au	5744d5d9f8b3bf5e1560e9dc	might be a bit of fun for you. and help you learn some algorithms and data structures
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:27:31.788Z	56e1cf1985d51f252ab83064	maz-net-au	5744d553c672a25a022eb5c1	when i was learning C i did something similar. it solved sudoku puzzles
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:25:38.606Z	5743b38fc43b8c6019748f50	poigirl2001	5744d4e228011d9f574b8403	just wondering is the thing I coded a beginner project 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:25:16.000Z	5743b38fc43b8c6019748f50	poigirl2001	5744d4cccd96cbcf4f706264	Thanks
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:25:08.480Z	56e1cf1985d51f252ab83064	maz-net-au	5744d4c4f8b3bf5e1560e9d6	cool
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:24:12.542Z	5743b38fc43b8c6019748f50	poigirl2001	5744d48ccaaef2cd4fea7201	"```
+#include <iostream>
+#include <string>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+
+
+
+void answertryagain()
+{int retryguess_input;
+string retry_input;
+srand(time(0));
+    cout<<""Yay! Enter the number you think it is!""<<endl;
+    cin>>retryguess_input;
+    
+    if (retryguess_input==1+(rand()%10))
+    {
+        cout<<""You are correct! Awesome job on your second try. Don't tell anyone the number. It's a secret between you and me."";
+    }
+    else
+    {
+        cout<<""I hate to break it to you but you are wrong again. Do you want to try again?"";
+        cin>>retry_input;
+        
+        if (retry_input==""yes"")
+        {
+            answertryagain();
+        }
+        else
+        {
+            cout<<""Ok. I hope you had fun. "";
+        }
+    }
+}
+
+
+
+
+void answeryes()
+{int guess_input;
+string yes_input;
+srand(time(0));
+cout<<""Awesome! I'm thinking of a number between one and ten. Type the number you think it is""<<endl;
+cin>>guess_input;
+if (guess_input==1+(rand()%10))
+{cout<<""You are correct!"";}
+else
+{cout<<""You're wrong. Would you like to try again? (say yes or no)""<<endl;
+cin>>yes_input;
+if (yes_input==""yes"")
+{answertryagain();}
+else
+{cout<<""It's ok i understand your frustration. If you change your mind just restart the program.""<<endl;}}}
+
+
+int main()
+{string play_input;
+    cout<<""Hi I'm Ally the not so intelligent AI! Would you like to play a guessing game? (say yes or no)""<<endl;
+    cin>>play_input;
+    
+    if (play_input==""yes"")
+    {
+        answeryes();
+    }
+    
+    if (play_input==""no"")
+    {
+        cout<<""You're no fun. You should play.""<<endl;
+    }}
+
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:24:03.378Z	5743b38fc43b8c6019748f50	poigirl2001	5744d483eed2f3f916a48046	This:
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:23:12.512Z	56e1cf1985d51f252ab83064	maz-net-au	5744d450fb784235548ee99a	coded what?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:22:18.407Z	5743b38fc43b8c6019748f50	poigirl2001	5744d41a28011d9f574b83c4	well I coded this in c++
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:22:18.198Z	56e1cf1985d51f252ab83064	maz-net-au	5744d41af8b3bf5e1560e9d4	it is if you're on windows
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:22:08.997Z	5743b38fc43b8c6019748f50	poigirl2001	5744d41056ccfef516a087e7	oh dear
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:22:05.696Z	5743b38fc43b8c6019748f50	poigirl2001	5744d40d63e41bd84bf02c08	It is?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:22:00.924Z	56e1cf1985d51f252ab83064	maz-net-au	5744d408c672a25a022eb5bb	its much easier. lol
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:21:55.153Z	56e1cf1985d51f252ab83064	maz-net-au	5744d403c672a25a022eb5ba	Oh. start with C# then?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:21:46.054Z	5743b38fc43b8c6019748f50	poigirl2001	5744d3fa719c119b575be183	sorry I'm still a beginner 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:21:36.421Z	5743b38fc43b8c6019748f50	poigirl2001	5744d3f0cd96cbcf4f706229	lol
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:21:31.206Z	5743b38fc43b8c6019748f50	poigirl2001	5744d3eb56ccfef516a087d9	Now you're speaking a different language
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:21:06.444Z	56e1cf1985d51f252ab83064	maz-net-au	5744d3d2c672a25a022eb5b9	Get their SDK and implement it into your own project
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:20:56.901Z	5743b38fc43b8c6019748f50	poigirl2001	5744d3c8eed2f3f916a48019	i don't think I can afford one
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:20:42.740Z	5743b38fc43b8c6019748f50	poigirl2001	5744d3ba56ccfef516a087cb	How do I program a VR headset
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:16:44.863Z	56e1cf1985d51f252ab83064	maz-net-au	5744d2cc8d7585847f6d4f9f	Grab a VR headset and make something cool using that. It'll all be C++ with C interfaces
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:15:45.553Z	56e1cf1985d51f252ab83064	maz-net-au	5744d2918d7585847f6d4f9e	have fun!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:15:11.541Z	5743b38fc43b8c6019748f50	poigirl2001	5744d26ffce033da4befae89	thanks @maz-net-au 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:15:03.792Z	5743b38fc43b8c6019748f50	poigirl2001	5744d267cd96cbcf4f7061c2	Thanks
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:14:59.324Z	5743b38fc43b8c6019748f50	poigirl2001	5744d263719c119b575be10a	Lol
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:14:55.773Z	56e1cf1985d51f252ab83064	maz-net-au	5744d25fc672a25a022eb5ae	but the point is, pick something that you're interested in, and do that
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:14:42.730Z	56e1cf1985d51f252ab83064	maz-net-au	5744d252f8b3bf5e1560e9c7	I was also not allowed use the school computers after that. so probably cant recommend it
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:14:24.842Z	56e1cf1985d51f252ab83064	maz-net-au	5744d2408d7585847f6d4f9c	Uh. No. I was in school. I didn't have enemies
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:53.293Z	5743b38fc43b8c6019748f50	poigirl2001	5744d221eed2f3f916a47f9c	Did you put it in the computer of your enemy
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:32.818Z	5743b38fc43b8c6019748f50	poigirl2001	5744d20cfce033da4befae5f	Lol how do you do that
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:23.958Z	56e1cf1985d51f252ab83064	maz-net-au	5744d203c672a25a022eb5ac	when i was in school i made a virus. that was fun
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:17.275Z	5743b38fc43b8c6019748f50	poigirl2001	5744d1fdcaaef2cd4fea714a	I tried to make a random sentence generator with OOP but it didn't work
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:13.171Z	56e1cf1985d51f252ab83064	maz-net-au	5744d1f9c672a25a022eb5ab	make something interesting
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:12:52.744Z	5743b38fc43b8c6019748f50	poigirl2001	5744d1e4719c119b575be0de	How do I make OOP fun
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:12:42.344Z	56e1cf1985d51f252ab83064	maz-net-au	5744d1daf8b3bf5e1560e9c5	hi
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:12:29.527Z	5743b38fc43b8c6019748f50	poigirl2001	5744d1cdcaaef2cd4fea713f	Hello
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T12:22:35.032Z	573b3417c43b8c6019736895	chipp-zanuff	5741a48bd3f431720bb29e5f	"@djronny 
+http://www.cplusplus.com/doc/tutorial/
+http://en.cppreference.com/w/"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T12:02:20.851Z	57419d37c43b8c6019744aba	djronny	57419fccdce4845b35ec1386	i want  to learn c++.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T11:59:36.142Z	573b3417c43b8c6019736895	chipp-zanuff	57419f2808a18f700b828cc8	"```
+std::cout << ""hello, all"" << std::endl;
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T11:55:19.877Z	57419d37c43b8c6019744aba	djronny	57419e27d3f431720bb29d7f	hello
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-12T15:31:22.823Z	5734a058c43b8c6019728b2e	Turing-Chu	5734a1ca64dbdadc7deb6e86	Hello Word
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-11T02:13:55.315Z	57329512c43b8c6019722f24	skaycock	57329563f16c08510662a357	
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T14:26:47.151Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720cc279b4160fa760a544c	@theshadowx example? can you point me to a resource?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T14:12:40.956Z	55a10e545e0d51bd787b0793	theshadowx	5720c8d8e8a4670f2b5d0058	find_if
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T14:11:39.112Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720c89b2cd01bf9764b352f	is there a way to search keys of a map by regex ?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:04:04.867Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720aab48a90ed79131316c0	ok :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:02:29.829Z	56069bbe0fc9f982beb1ea44	alayek	5720aa5539700a7809279d05	Also check out gdb and Valgrind, if you already haven't :P
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:01:44.150Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720aa288a90ed7913131695	right. i have not yet made a Makefile :P
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:00:49.219Z	56069bbe0fc9f982beb1ea44	alayek	5720a9f14da16e7d13d93a01	I think it depends on the project. You can structure it anyway you want, just as long as your Makefile (I know! Old :pensive: ) or other build tools know of the decision you have made - it should be okay
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:00:18.590Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720a9d28a90ed791313167f	good idea, although he would take some time to answer. i need a quick one from the community :P
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T11:59:39.348Z	56069bbe0fc9f982beb1ea44	alayek	5720a9ab39700a7809279cc9	@koustuvsinha let's ask Brian Bi on Quora :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T11:58:30.984Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720a966e8a4670f2b5cf489	what would be a good directory structure for cpp projects?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-23T00:11:24.962Z	5665ed1116b6c7089cbdce40	sludge256	571abdacf5b6334a5e702384	What week of CS50 is that code from?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:30.252Z	56069bbe0fc9f982beb1ea44	alayek	571728d25b5164bf56ee275c	@dannymolina2 haha...it's alright :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:21.352Z	5594607515522ed4b3e33274	dannymolina2	571728c9b129b59c56d9b996	Thank you very much for the help
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:20.344Z	56069bbe0fc9f982beb1ea44	alayek	571728c83307b26736e2f397	@dannymolina2 sure thanks!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:06.272Z	5594607515522ed4b3e33274	dannymolina2	571728ba5b5164bf56ee2755	you need to be on course to enter the OS
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:58:28.894Z	5594607515522ed4b3e33274	dannymolina2	571728943307b26736e2f38c	https://cs50.io/
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:56:15.798Z	56069bbe0fc9f982beb1ea44	alayek	5717280f27c0fbf239afaffc	Can you share the link to their OS?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:56:06.170Z	56069bbe0fc9f982beb1ea44	alayek	5717280627c0fbf239afaff4	@dannymolina2 ok, I will pull up their OS in a virtual box and test with their library. But I cannot do so right now, so give me time till evening. Will check once I am back from office.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:53:18.390Z	5594607515522ed4b3e33274	dannymolina2	5717275e98c544f1396cbeb6	greedy
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:53:15.619Z	5594607515522ed4b3e33274	dannymolina2	5717275b25b488663625736f	pset 1 greedty
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:52:41.050Z	5594607515522ed4b3e33274	dannymolina2	57172739a3833fbc5669a6f6	yeeep
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:51:49.549Z	56069bbe0fc9f982beb1ea44	alayek	57172705599a529856d964e2	@dannymolina2 ok, I can take a look. This is with CS50 course, right?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:49:51.440Z	5594607515522ed4b3e33274	dannymolina2	5717268f27c0fbf239afaf97	the problem is when i run the program all int give me 0
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:48:53.585Z	5594607515522ed4b3e33274	dannymolina2	57172655599a529856d964b8	when i print the GetFloat()  print the value what put
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-17T07:30:41.857Z	56069bbe0fc9f982beb1ea44	alayek	57133ba1af46361038653e57	Are you getting the right input even?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-17T07:30:36.016Z	56069bbe0fc9f982beb1ea44	alayek	57133b9c2c97111664329d31	 @dannymolina2 try printing out what you are getting from `GetFloat()`
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-17T07:26:10.875Z	5594607515522ed4b3e33274	dannymolina2	57133a925cd40114649bfba6	was the same problem
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T11:41:58.021Z	56069bbe0fc9f982beb1ea44	alayek	571225065cd40114649bd786	@dannymolina2 are you sure it would be `while(x<0)` and not `while(x>=0)`?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T10:51:30.673Z	5594607515522ed4b3e33274	dannymolina2	571219322c9711166432774c	"idk where is the problem with this code
+when i put a value like 3.21 just print 1 dollar
+"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T10:50:37.088Z	5594607515522ed4b3e33274	dannymolina2	571218fd4c2125fc3f02ee82	"```
+#include <cs50.h>
+#include <stdio.h>
+int main()
+{
+//[e =1][q =.25][d =.10][n =.5][p =.1][x = Getfloat][i = 1]
+    float x;
+    int e = 0;
+    int d = 0;
+    int q = 0;
+    int n = 0;
+    int p = 0;
+     printf(""Input your payment:"");
+     x = GetFloat();
+     do{
+             if(x >= 1){
+                x -= 1.00;
+                e = e +1;
+             }
+             else if(x >= 0.25){
+               x -= 0.25;
+                q += 1;
+             }
+             else if(x >= 0.10){
+                x -= 0.10;
+                d += 1;
+             }
+              else if(x >= 0.50){
+               x -= 0.5;
+                n += 1;
+             }
+             else if(x >= 0.01){
+               x -= 0.01;
+                p += 1;
+             }
+         } while(x<0);
+     printf(""1$: %i\n"", e);
+     printf(""25¢: %i\n"", q);
+     printf(""10¢: %i\n"", d);
+     printf(""5¢: %i\n"", n);
+     printf(""1¢: %i\n"", p);
+    return 0;
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T10:48:03.643Z	5594607515522ed4b3e33274	dannymolina2	571218633ddb73ba105ca4bb	hi!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T08:57:08.903Z	56069bbe0fc9f982beb1ea44	alayek	5710ace45ed5a4fd3fe33d74	Haha...yeah, I saw the PR today morning :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T08:55:55.092Z	546fc9f1db8155e6700d6e8c	QuincyLarson	5710ac9bb4ace1d62ba245cb	@alayek I figured with all the love for game development, it would be a mistake not to have a C++ room. I added it to the list of official rooms as well
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T06:23:31.926Z	56069bbe0fc9f982beb1ea44	alayek	571088e3548df1be102d1a81	@sludge256 :wave: 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T06:22:56.492Z	5665ed1116b6c7089cbdce40	sludge256	571088c0548df1be102d1a79	:wave: 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T02:29:10.385Z	56069bbe0fc9f982beb1ea44	alayek	571051f6b30cfa0f384b9352	Glad to see this room exists!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:32.818Z	5743b38fc43b8c6019748f50	poigirl2001	5744d20cfce033da4befae5f	Lol how do you do that
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:23.958Z	56e1cf1985d51f252ab83064	maz-net-au	5744d203c672a25a022eb5ac	when i was in school i made a virus. that was fun
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:17.275Z	5743b38fc43b8c6019748f50	poigirl2001	5744d1fdcaaef2cd4fea714a	I tried to make a random sentence generator with OOP but it didn't work
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:13:13.171Z	56e1cf1985d51f252ab83064	maz-net-au	5744d1f9c672a25a022eb5ab	make something interesting
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:12:52.744Z	5743b38fc43b8c6019748f50	poigirl2001	5744d1e4719c119b575be0de	How do I make OOP fun
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:12:42.344Z	56e1cf1985d51f252ab83064	maz-net-au	5744d1daf8b3bf5e1560e9c5	hi
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-24T22:12:29.527Z	5743b38fc43b8c6019748f50	poigirl2001	5744d1cdcaaef2cd4fea713f	Hello
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T12:22:35.032Z	573b3417c43b8c6019736895	chipp-zanuff	5741a48bd3f431720bb29e5f	"@djronny 
+http://www.cplusplus.com/doc/tutorial/
+http://en.cppreference.com/w/"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T12:02:20.851Z	57419d37c43b8c6019744aba	djronny	57419fccdce4845b35ec1386	i want  to learn c++.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T11:59:36.142Z	573b3417c43b8c6019736895	chipp-zanuff	57419f2808a18f700b828cc8	"```
+std::cout << ""hello, all"" << std::endl;
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-22T11:55:19.877Z	57419d37c43b8c6019744aba	djronny	57419e27d3f431720bb29d7f	hello
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-12T15:31:22.823Z	5734a058c43b8c6019728b2e	Turing-Chu	5734a1ca64dbdadc7deb6e86	Hello Word
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-05-11T02:13:55.315Z	57329512c43b8c6019722f24	skaycock	57329563f16c08510662a357	
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T14:26:47.151Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720cc279b4160fa760a544c	@theshadowx example? can you point me to a resource?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T14:12:40.956Z	55a10e545e0d51bd787b0793	theshadowx	5720c8d8e8a4670f2b5d0058	find_if
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T14:11:39.112Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720c89b2cd01bf9764b352f	is there a way to search keys of a map by regex ?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:04:04.867Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720aab48a90ed79131316c0	ok :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:02:29.829Z	56069bbe0fc9f982beb1ea44	alayek	5720aa5539700a7809279d05	Also check out gdb and Valgrind, if you already haven't :P
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:01:44.150Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720aa288a90ed7913131695	right. i have not yet made a Makefile :P
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:00:49.219Z	56069bbe0fc9f982beb1ea44	alayek	5720a9f14da16e7d13d93a01	I think it depends on the project. You can structure it anyway you want, just as long as your Makefile (I know! Old :pensive: ) or other build tools know of the decision you have made - it should be okay
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T12:00:18.590Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720a9d28a90ed791313167f	good idea, although he would take some time to answer. i need a quick one from the community :P
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T11:59:39.348Z	56069bbe0fc9f982beb1ea44	alayek	5720a9ab39700a7809279cc9	@koustuvsinha let's ask Brian Bi on Quora :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-27T11:58:30.984Z	54c3dd97db8155e6700f0b1f	koustuvsinha	5720a966e8a4670f2b5cf489	what would be a good directory structure for cpp projects?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-23T00:11:24.962Z	5665ed1116b6c7089cbdce40	sludge256	571abdacf5b6334a5e702384	What week of CS50 is that code from?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:30.252Z	56069bbe0fc9f982beb1ea44	alayek	571728d25b5164bf56ee275c	@dannymolina2 haha...it's alright :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:21.352Z	5594607515522ed4b3e33274	dannymolina2	571728c9b129b59c56d9b996	Thank you very much for the help
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:20.344Z	56069bbe0fc9f982beb1ea44	alayek	571728c83307b26736e2f397	@dannymolina2 sure thanks!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:59:06.272Z	5594607515522ed4b3e33274	dannymolina2	571728ba5b5164bf56ee2755	you need to be on course to enter the OS
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:58:28.894Z	5594607515522ed4b3e33274	dannymolina2	571728943307b26736e2f38c	https://cs50.io/
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:56:15.798Z	56069bbe0fc9f982beb1ea44	alayek	5717280f27c0fbf239afaffc	Can you share the link to their OS?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:56:06.170Z	56069bbe0fc9f982beb1ea44	alayek	5717280627c0fbf239afaff4	@dannymolina2 ok, I will pull up their OS in a virtual box and test with their library. But I cannot do so right now, so give me time till evening. Will check once I am back from office.
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:53:18.390Z	5594607515522ed4b3e33274	dannymolina2	5717275e98c544f1396cbeb6	greedy
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:53:15.619Z	5594607515522ed4b3e33274	dannymolina2	5717275b25b488663625736f	pset 1 greedty
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:52:41.050Z	5594607515522ed4b3e33274	dannymolina2	57172739a3833fbc5669a6f6	yeeep
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:51:49.549Z	56069bbe0fc9f982beb1ea44	alayek	57172705599a529856d964e2	@dannymolina2 ok, I can take a look. This is with CS50 course, right?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:49:51.440Z	5594607515522ed4b3e33274	dannymolina2	5717268f27c0fbf239afaf97	the problem is when i run the program all int give me 0
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-20T06:48:53.585Z	5594607515522ed4b3e33274	dannymolina2	57172655599a529856d964b8	when i print the GetFloat()  print the value what put
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-17T07:30:41.857Z	56069bbe0fc9f982beb1ea44	alayek	57133ba1af46361038653e57	Are you getting the right input even?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-17T07:30:36.016Z	56069bbe0fc9f982beb1ea44	alayek	57133b9c2c97111664329d31	 @dannymolina2 try printing out what you are getting from `GetFloat()`
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-17T07:26:10.875Z	5594607515522ed4b3e33274	dannymolina2	57133a925cd40114649bfba6	was the same problem
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T11:41:58.021Z	56069bbe0fc9f982beb1ea44	alayek	571225065cd40114649bd786	@dannymolina2 are you sure it would be `while(x<0)` and not `while(x>=0)`?
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T10:51:30.673Z	5594607515522ed4b3e33274	dannymolina2	571219322c9711166432774c	"idk where is the problem with this code
+when i put a value like 3.21 just print 1 dollar
+"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T10:50:37.088Z	5594607515522ed4b3e33274	dannymolina2	571218fd4c2125fc3f02ee82	"```
+#include <cs50.h>
+#include <stdio.h>
+int main()
+{
+//[e =1][q =.25][d =.10][n =.5][p =.1][x = Getfloat][i = 1]
+    float x;
+    int e = 0;
+    int d = 0;
+    int q = 0;
+    int n = 0;
+    int p = 0;
+     printf(""Input your payment:"");
+     x = GetFloat();
+     do{
+             if(x >= 1){
+                x -= 1.00;
+                e = e +1;
+             }
+             else if(x >= 0.25){
+               x -= 0.25;
+                q += 1;
+             }
+             else if(x >= 0.10){
+                x -= 0.10;
+                d += 1;
+             }
+              else if(x >= 0.50){
+               x -= 0.5;
+                n += 1;
+             }
+             else if(x >= 0.01){
+               x -= 0.01;
+                p += 1;
+             }
+         } while(x<0);
+     printf(""1$: %i\n"", e);
+     printf(""25¢: %i\n"", q);
+     printf(""10¢: %i\n"", d);
+     printf(""5¢: %i\n"", n);
+     printf(""1¢: %i\n"", p);
+    return 0;
+}
+```"
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-16T10:48:03.643Z	5594607515522ed4b3e33274	dannymolina2	571218633ddb73ba105ca4bb	hi!
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T08:57:08.903Z	56069bbe0fc9f982beb1ea44	alayek	5710ace45ed5a4fd3fe33d74	Haha...yeah, I saw the PR today morning :)
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T08:55:55.092Z	546fc9f1db8155e6700d6e8c	QuincyLarson	5710ac9bb4ace1d62ba245cb	@alayek I figured with all the love for game development, it would be a mistake not to have a C++ room. I added it to the list of official rooms as well
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T06:23:31.926Z	56069bbe0fc9f982beb1ea44	alayek	571088e3548df1be102d1a81	@sludge256 :wave: 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T06:22:56.492Z	5665ed1116b6c7089cbdce40	sludge256	571088c0548df1be102d1a79	:wave: 
+570ff99b187bb6f0eadf7e72	FreeCodeCamp/cplusplus	2016-04-15T02:29:10.385Z	56069bbe0fc9f982beb1ea44	alayek	571051f6b30cfa0f384b9352	Glad to see this room exists!

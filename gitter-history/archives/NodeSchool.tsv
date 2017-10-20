@@ -1,0 +1,89 @@
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2016-09-17T11:01:20.556Z	540a150e163965c9bc202eaf	abhisekp	57dd228018291e10487bfa91	"-----
+
+-----
+
+-----
+## This room will be closed and archived.
+** @/all Please move discussion of this topic to our forum, or to one of the official Free Code Camp chat rooms: http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390**
+
+-----
+
+-----
+
+-----"
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2016-05-03T12:23:47.182Z	5523778115522ed4b3de74aa	raisedadead	5728985372798bd77be98805	#### This room is inactive, and only exists for archival purposes. Join some active rooms - here's the full list: https://www.freecodecamp.com/wiki/en/official-free-code-camp-chat-rooms/
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-12-02T17:46:47.880Z	55a3e7255e0d51bd787b3f18	samosale	565f2e8719eee17f78e29bfd	https://gitter.im/kriasoft/react-starter-kit?at=565ed44c6ddbc1b32747e214
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-08-08T21:52:58.111Z	5586c51315522ed4b3e23f7b	mildused	55c67a3a2ee3da6275c33b07	Hello
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T19:08:53.741Z	54a78b4edb8155e6700e5350	McQuinTrix	552188456e3562b64f535b1a	do it as sudo npm install <course> -g
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T18:27:47.365Z	5518444115522ed4b3de0214	waeren	55217ea31f582983259f4cc5	@McQuinTrix how did you get npm install <course> -g to work? I always had to change permissions on some directories
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T18:24:02.667Z	54a78b4edb8155e6700e5350	McQuinTrix	55217dc205184cd235fbf1d3	"Guys, I am facing issues on 3 challenges  at https://codeanywhere.com/ ..
+
+in expressworks , on ""Stylish CSS"" users will have to use ""sudo expressworks verify program.js""
+Also before installing expressworks, users will have to delete the whole environment previously set up and set it up in a completly new environment..
+
+we will be needing to fork the expressworks on challenge ""Whats In Query"" it is made for Express 3.4.3 version .. the code will be correct, but the answers are in different format ..
+
+In ""how-to-npm"" i have problems in two excercises ""dist-tag"" & ""dist-tag removal""
+
+All others are working fine in learnyounode, expressworks and how-to-npm @ https://codeanywhere.com/ , tested all 
+
+@reddock sure! (:"
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T18:22:27.685Z	54e24edb15522ed4b3dc154f	reddock	55217d6305184cd235fbf1cd	I will write something up when I get home 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T18:22:14.461Z	54e24edb15522ed4b3dc154f	reddock	55217d561f582983259f4cad	So far I've just had to increase the timeout in order to make tests pass 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T18:21:48.637Z	54e24edb15522ed4b3dc154f	reddock	55217d3c05184cd235fbf1c9	Yeah I think that is the right way to go. Messing with setting up your own environment can waste so much time and be frustrating. 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T17:20:21.540Z	546fc9f1db8155e6700d6e8c	QuincyLarson	55216ed5af9675d135ab5a9d	Also, Free Code Camp’s goal is to keep everything in the browser (our modo is free, self-paced, browser-based).
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T17:19:44.469Z	546fc9f1db8155e6700d6e8c	QuincyLarson	55216eb01f582983259f4be2	@reddock yes, doing them locally is the best way to go about it, but doing it in the browser is definitely more convenient.
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T17:19:04.889Z	546fc9f1db8155e6700d6e8c	QuincyLarson	55216e881f582983259f4bdc	@morenoh149 yes, we will probably create forks of these three challenges. I noticed that there were some minor typos/ambiguities in the instructions. We’ll submit pull requests to the original repo as we make changes.
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T17:17:57.615Z	546fc9f1db8155e6700d6e8c	QuincyLarson	55216e4505184cd235fbf0ff	@reddock I agree with McQuinTrix - if codeanywhere is working for most of these (with minor workarounds), I think we should go with that instead of c9.io
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T11:19:35.984Z	54e24edb15522ed4b3dc154f	reddock	55211a474ceaec8225f94133	@morenoh149 I have nothing against c9. I was just trying to say that I wasn't going out of my way to look for cloud IDEs, I just want to help here. The biggest advantage for cloud IDEs for me is that I can use my desktop or laptop to work on things no matter where I'm at. I travel often so that is super useful.
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T09:34:20.422Z	53dd5a53107e137846ba8f16	morenoh149	5521019c6e3562b64f535515	the c9 thing is because not everyone is running osx/linux
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:56:16.221Z	54a78b4edb8155e6700e5350	McQuinTrix	552096409fd3a4be579f6d89	https://codeanywhere.com/
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:56:08.855Z	54a78b4edb8155e6700e5350	McQuinTrix	552096389fd3a4be579f6d88	I will be checking if each tutorial works .. if any of you guys can do it do please .. so this can be up in 1-2 days (: 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:55:00.232Z	54a78b4edb8155e6700e5350	McQuinTrix	552095f49fd3a4be579f6d83	yeah I talked with him on chat, if that is working, we can shift it over there ..
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:46:13.486Z	54e24edb15522ed4b3dc154f	reddock	552093e54ceaec8225f93d91	@McQuinTrix Personally I prefer to do it locally. I had no problems getting it to work on OSX
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:45:50.824Z	54e24edb15522ed4b3dc154f	reddock	552093ce9fd3a4be579f6d6b	@McQuinTrix It does look very nice. But I think @QuincyLarson wants it working on cloud9. 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:44:53.388Z	54a78b4edb8155e6700e5350	McQuinTrix	552093954ceaec8225f93d8e	@reddock try https://codeanywhere.com/ .. you will love it , interface is easy to set up 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:43:59.795Z	54e24edb15522ed4b3dc154f	reddock	5520935faf9675d135ab52c9	I guess cloud9 is too slow
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:43:55.328Z	54e24edb15522ed4b3dc154f	reddock	5520935b4ceaec8225f93d8c	Its the timeout value in the expressworks test
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:43:45.411Z	54e24edb15522ed4b3dc154f	reddock	552093516e3562b64f53522e	Ok I figured it out
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:32:29.801Z	54e24edb15522ed4b3dc154f	reddock	552090ad05184cd235fbe941	The browser won't bring up a port I pass it but I can 'curl -X GET http://localhost:5566' and receive the correct response. 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:30:11.301Z	54e24edb15522ed4b3dc154f	reddock	552090234ceaec8225f93d6e	I haven't started writing one yet. Trying to figure out the port stuff with c9. It only seems to like the port it gives you. expressworks wants to pass ports as an argument to verify you completed the exercise 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:25:16.699Z	53dd5a53107e137846ba8f16	morenoh149	55208efc05184cd235fbe924	where are the docs in progress?
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:25:03.812Z	53dd5a53107e137846ba8f16	morenoh149	55208eef4ceaec8225f93d5f	so we're just documenting and verifying how to do those lessons on c9 yeah?
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:04:32.326Z	54e24edb15522ed4b3dc154f	reddock	55208a20af9675d135ab5272	Yeah but just copying and pasting it isn't going to help them much either
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:04:09.284Z	54a78b4edb8155e6700e5350	McQuinTrix	55208a09af9675d135ab5271	saying to first timers to set their port to process.env.PORT can be little bit painful for them ..
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:03:31.729Z	54a78b4edb8155e6700e5350	McQuinTrix	552089e305184cd235fbe8f9	i think codeanywhere is working really good .. i was able to run learnyounode on it too
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:03:00.050Z	54e24edb15522ed4b3dc154f	reddock	552089c49fd3a4be579f6d21	yes
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:02:54.493Z	54a78b4edb8155e6700e5350	McQuinTrix	552089be9fd3a4be579f6d20	in c9 ?
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T01:02:26.922Z	54e24edb15522ed4b3dc154f	reddock	552089a26e3562b64f5351c5	You have to change the port to process.env.PORT
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:54:21.862Z	54a78b4edb8155e6700e5350	McQuinTrix	552087bd6e3562b64f5351b4	"I just run the ""Hello World!""  of expressworks in it"
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:53:50.907Z	54a78b4edb8155e6700e5350	McQuinTrix	5520879e6e3562b64f5351b2	same as c9.io maybe lesser memory
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:53:35.427Z	54a78b4edb8155e6700e5350	McQuinTrix	5520878faf9675d135ab5268	https://codeanywhere.com/
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:52:55.137Z	54a78b4edb8155e6700e5350	McQuinTrix	552087679fd3a4be579f6d19	I am able to make it work at codeanywhere.com
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:39:38.416Z	54a78b4edb8155e6700e5350	McQuinTrix	5520844a9fd3a4be579f6d05	its running in ```expressworks run program.js``` but for ```expressworks verify program.js``` it is ECONN refused
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:38:44.176Z	54a78b4edb8155e6700e5350	McQuinTrix	552084141f582983259f43f6	http://imgur.com/ZM2Ygqj
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:36:10.472Z	54a78b4edb8155e6700e5350	McQuinTrix	5520837a1f582983259f43ef	haha .. i ran that first hello world .. and now i am not able to run it again .. it is most likely a bug on their side
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:35:15.188Z	5518444115522ed4b3de0214	waeren	552083431f582983259f43ea	"I've been looking at what @QuincyLarson mentioned but no luck so far.
+c9 support said to have a look at cloud9 -> open your init script but that hasn't helped much. Guess twitter might not be the best medium for that type of question."
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-05T00:26:11.190Z	54a78b4edb8155e6700e5350	McQuinTrix	55208123af9675d135ab5238	"To install expressworks i did this to get it running : 
+```
+$ npm install express@3.5.0
+$ npm install -g expressworks
+$ expressworks
+```"
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T21:42:28.535Z	546fc9f1db8155e6700d6e8c	QuincyLarson	55205ac41f582983259f425d	Keep in mind that if there’s a way we can simply clone a repository with all this stuff installed, then they won’t have to hassle with the actual installation of these packages
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T21:42:00.356Z	546fc9f1db8155e6700d6e8c	QuincyLarson	55205aa8af9675d135ab5090	@waeren Great!
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T20:10:10.367Z	54e24edb15522ed4b3dc154f	reddock	55204522af9675d135ab4f1e	I'm going to work on the express.js course
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T20:08:08.649Z	5518444115522ed4b3de0214	waeren	552044a84ceaec8225f93a1c	"@QuincyLarson I got the process of creating a c9.io account, creating a workspace and installing node.js, npm & the NodeSchool learnyounode in the workspace mapped out in a markdown doc. Got screenshots for all the steps as well.
+I'll work through the exercises and see if I run into technical problems"
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:49:27.899Z	546fc9f1db8155e6700d6e8c	QuincyLarson	552016174ceaec8225f937b4	@waeren yes. But the Node, Express, and NPM courses are the priority - you can disregard the Functional and Promises courses for now
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:47:56.073Z	5518444115522ed4b3de0214	waeren	552015bc05184cd235fbe2ed	I assume it's the 5 courses that are mentioned in http://www.freecodecamp.com/nodeschool-challenges
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:46:55.376Z	54e24edb15522ed4b3dc154f	reddock	5520157faf9675d135ab4c53	I need to step away for a couple hours but ill be back in a bit
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:46:47.011Z	54e24edb15522ed4b3dc154f	reddock	552015771f582983259f3e5d	awesome. 
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:34:53.841Z	5518444115522ed4b3de0214	waeren	552012adaf9675d135ab4c36	Hi all
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:32:55.541Z	546fc9f1db8155e6700d6e8c	QuincyLarson	552012374ceaec8225f9378f	I also invited San Francisco JavaScript developer and NodeSchool contributor @morenoh149 to join us
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:32:28.878Z	546fc9f1db8155e6700d6e8c	QuincyLarson	5520121c4ceaec8225f9378a	"Specifically:
+1) Getting all the relevant NodeSchool modules to work on c9.io
+2) Forking the NodeSchool modules to improve upon them for our campers
+3) Any additional documentation we need to write to help campers get started with NodeSchool on c9"
+5520117215522ed4b3de5a2f	FreeCodeCamp/NodeSchool	2015-04-04T16:31:22.176Z	546fc9f1db8155e6700d6e8c	QuincyLarson	552011da1f582983259f3e39	Hi @waeren and @McQuinTrix - I’ve created this room specifically so we can discuss Node School on c9.io
