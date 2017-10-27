@@ -1,3 +1,6 @@
 [submodule "fCC_R3_DataAnalysis"]
 	path = fCC_R3_DataAnalysis
 	url = https://github.com/evaristoc/fCC_R3_DataAnalysis
+[submodule "testdatadotworld/2016-new-coder-survey"]
+	path = testdatadotworld/2016-new-coder-survey
+	url = https://github.com/evaristoc/2016-new-coder-survey
