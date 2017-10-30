@@ -1,6 +1,5 @@
 # open-data
 
-<<<<<<< HEAD
 =======
 freeCodeCamp produces millions of records every month in separate formats. Clicking activity, chat conversations, thousands of video minutes or articles' words...
 
@@ -12,4 +11,3 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 
 We hope you enjoy it and that you will become interested in contribute with your analyses!
 
->>>>>>> 6f7508afd5e037ae4cfe1113794ccc394d2b738b
