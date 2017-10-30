@@ -1,6 +1,21 @@
-[submodule "fCC_R3_DataAnalysis"]
-	path = fCC_R3_DataAnalysis
-	url = https://github.com/evaristoc/fCC_R3_DataAnalysis
-[submodule "testdatadotworld/2016-new-coder-survey"]
-	path = testdatadotworld/2016-new-coder-survey
+[submodule "new-coder-surveys/2016-new-coder-survey"]
+	path = new-coder-surveys/2016-new-coder-survey
 	url = https://github.com/evaristoc/2016-new-coder-survey
+[submodule "new-coder-surveys/2017-new-coder-survey"]
+	path = new-coder-surveys/2017-new-coder-survey
+	url = https://github.com/freeCodeCamp/2017-new-coder-survey
+[submodule "city-groups/THREE_JS_GLOBE"]
+	path = city-groups/THREE_JS_GLOBE
+	url = https://github.com/samosale/THREE_JS_GLOBE
+[submodule "city-groups/FccCityScraper"]
+	path = city-groups/FccCityScraper
+	url = https://github.com/becausealice2/FccCityScraper
+[submodule "city-groups/FccCityScraper2"]
+	path = city-groups/FccCityScraper2
+	url = https://github.com/evaristoc/FccCityScraper2
+[submodule "unofficial-gitter-bots/purdybot"]
+	path = unofficial-gitter-bots/purdybot
+	url = https://github.com/joepurdy/purdybot
+[submodule "gitter-history/gitter-history"]
+	path = gitter-history/gitter-history
+	url = https://github.com/freeCodeCamp/gitter-history
