@@ -13,7 +13,7 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 ### New Projects / Datasets:
 
 * **facebook-fCC-data** : dataset : `freeCodeCamp-facebook-page-activity.csv`
-* **medium-fCC-data** //TO BE COMPLETED!//
+* **medium-fCC-data** : dataset : `fccmediumTitles - Cleaned_Data.tsv`
 
 ### Main Projects:
 
