@@ -18,6 +18,7 @@ The graph shows that the followed cohort of students were indeed starting within
 # observations
 
 * Python for the data preparation; D3.js was chosen for the analysis.
+* This folder has been added as a summary of the original work which was kept online, https://bl.ocks.org/evaristoc/2d6c4f8c06c64768f119.
 * This is the single documented project so far made around the dump2015 dataset; if any other project, there is no known reports.
 
 # projects & dataset:
