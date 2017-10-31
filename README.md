@@ -17,6 +17,7 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 
 ### Main Projects:
 
+* **database-dumps**
 * **new-coder-surveys**
 * **open-api**
 * **gitter-history**
