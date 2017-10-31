@@ -13,7 +13,7 @@ Dataset:
 
 * json file with list of lists, each nested list representing a user and having as elements objects of his/her activity
 * activity was recorded as objects of 3 datapoints:
-
+```
 [
   {
     “name”: “Waypoint: Say Hello to HTML Elements”,
@@ -21,6 +21,7 @@ Dataset:
     “solution”: “<h1>Hello World</h1>\n”
   }
 ]
+```
 
 * data about 100,000 students between 2014 and 2015; only data of those who opted-in to make public their profiles
 * see the page of the dataset at Academic Torrent for more details 
