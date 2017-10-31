@@ -12,21 +12,23 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 
 ### New Projects / Datasets:
 
-* facebook-fCC-data : dataset -> freeCodeCamp-facebook-page-activity.csv
-* medium-fCC-data //TO BE COMPLETED!//
+* **facebook-fCC-data** : dataset : `freeCodeCamp-facebook-page-activity.csv`
+* **medium-fCC-data** : dataset : `fccmediumTitles - Cleaned_Data.tsv`
 
 ### Main Projects:
 
-* new-developer-surveys
-* open-api
-* gitter-history
+* **database-dumps**
+* **new-coder-surveys**
+* **open-api**
+* **gitter-history**
 
 ### Other Projects:
 
-* city-groups
-* unofficial-bots
-* leaderboard
-* facebook-fCC-data
+* **city-groups**
+* **unofficial-bots**
+* **leaderboard**
+* **facebook-fCC-data**
+* **gitter-analytics**
 
 We hope you enjoy it and that you will become interested in contribute with your analyses!
 
