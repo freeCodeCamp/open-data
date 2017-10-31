@@ -8,5 +8,25 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 * **Demos** of projects based on the freeCodeCamp data
 * **Links to External Projects** involving the freeCodeCamp data
 
+## List of project's folders/submodules:
+
+### New Projects / Datasets:
+
+* facebook-fCC-data : dataset -> freeCodeCamp-facebook-page-activity.csv
+* medium-fCC-data //TO BE COMPLETED!//
+
+### Main Projects:
+
+* new-developer-surveys
+* open-api
+* gitter-history
+
+### Other Projects:
+
+* city-groups
+* unofficial-bots
+* leaderboard
+* facebook-fCC-data
+
 We hope you enjoy it and that you will become interested in contribute with your analyses!
 
