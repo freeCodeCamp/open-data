@@ -14,8 +14,17 @@
 	path = city-groups/FccCityScraper2
 	url = https://github.com/evaristoc/FccCityScraper2
 [submodule "unofficial-gitter-bots/purdybot"]
-	path = unofficial-gitter-bots/purdybot
+	path = unofficial-bots/purdybot
 	url = https://github.com/joepurdy/purdybot
 [submodule "gitter-history/gitter-history"]
 	path = gitter-history/gitter-history
 	url = https://github.com/freeCodeCamp/gitter-history
+[submodule "open-api/open-api"]
+	path = open-api/open-api
+	url = https://github.com/freeCodeCamp/open-api
+[submodule "leaderboard/fcctop100"]
+	path = leaderboard/fcctop100
+	url = https://github.com/roelver/fcctop100
+[submodule "unofficial-bots/100DaysOfCode-twitter-bot"]
+	path = unofficial-bots/100DaysOfCode-twitter-bot
+	url = https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot
