@@ -28,3 +28,6 @@
 [submodule "unofficial-bots/100DaysOfCode-twitter-bot"]
 	path = unofficial-bots/100DaysOfCode-twitter-bot
 	url = https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot
+[submodule "gitter-analytics/gitterrooms_snaviz"]
+	path = gitter-analytics/gitterrooms_snaviz
+	url = https://github.com/evaristoc/gitterrooms_snaviz
