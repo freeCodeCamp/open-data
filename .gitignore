@@ -1,7 +1,6 @@
 b-cov
 *.seed
 *.log
-*.csv
 *.dat
 *.out
 *.pid
