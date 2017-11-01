@@ -14,6 +14,7 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 
 * **facebook-fCC-data** : dataset : `freeCodeCamp-facebook-page-activity.csv`
 * **medium-fCC-data** : dataset : `fccmediumTitles - Cleaned_Data.tsv`
+* **google-analytics** (coming soon)
 
 ### Main Projects:
 
@@ -21,6 +22,7 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 * **new-coder-surveys**
 * **open-api**
 * **gitter-history**
+* **google-analytics**
 
 ### Other Projects:
 
@@ -29,6 +31,7 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 * **leaderboard**
 * **facebook-fCC-data**
 * **gitter-analytics**
+* **medium-fCC-data**
 
 We hope you enjoy it and that you will become interested in contribute with your analyses!
 
