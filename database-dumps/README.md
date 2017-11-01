@@ -4,9 +4,10 @@ This project was described for the first time on [freeCodeCamp's Medium publicat
 
 # observations
 
-* First iteration of the project accessible through BitTorrent.
-* Big dataset, requires around 4Gb of memory for the dataset only.
+* Big dataset coming from the freeCodeCamp database.
 
 # projects & datasets
 
-* **dump2015**
+### dump2015
+
+First iteration of the project.
