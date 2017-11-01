@@ -8,13 +8,13 @@ Collected datasets about fCC in Medium.
 
 # projects & datasets
 
-* `fccmediumTitles - Cleaned_Data.tsv` (tab-separated file)
+* dataset: titles of articles in freeCodeCamp Medium, `fccmediumTitles - Cleaned_Data.tsv` (tab-separated file) curated by @evaristoc
   * data collected before 12-Oct-2016
   * "Quartier" : quartier of the year
   * "date"  : as "MM yyyy"
   * "Title" : title of the article
-  * "Views"  : number of Views as defined by Medium Team
-  * "Reads" : number of Reads as defined by Medium Team
+  * "Views"  : number of Views as defined by Medium Team, "*the number of people who have looked at a post*"
+  * "Reads" : number of Reads as defined by Medium Team, "*how many have read the entire story*"
   * "Recommends"  : number of Recommends as defined by Medium Team by the date the data was collected
   * "Views\_more\_than\_1000" : when Views were more than 1000, 0=False / 1=True
-  * "Read ratio"  : percentage of people who view the article and then read it
+  * "Read ratio"  : percentage of people who view the article and then read it, "*difference between your reads and views*"
