@@ -28,4 +28,6 @@ Dataset:
 
 # projects & datasets
 
-* **sankey-FCCdump**
+### sankey-FCCdump
+
+A visual exploration of part of the dataset using a Sankey Diagram; d3.js and Python.

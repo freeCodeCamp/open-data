@@ -16,10 +16,10 @@ Collected datasets about fCC in Facebook.
   * "reach" : people who viewed the post even if not clicking the link in the post
   * "clicks" : number of users who clicked the link
   * "reactions" : number of comments left to the person about the post
+  * The original file can be also downloaded from: https://files.gitter.im/FreeCodeCamp/DataScience/l4Qf/freeCodeCamp-facebook-page-activity.csv
 
-* **FreeCodeCamp Facebook Page Activity Overview** : by Matthew Barlowe, Only found at http://rpubs.com/mcbarlowe/302010
+### FreeCodeCamp Facebook Page Activity Overview
 
-### Note:
+By Matthew Barlowe, Only found at http://rpubs.com/mcbarlowe/302010
 
-The original file can be also downloaded from: https://files.gitter.im/FreeCodeCamp/DataScience/l4Qf/freeCodeCamp-facebook-page-activity.csv
 
