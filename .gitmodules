@@ -13,9 +13,6 @@
 [submodule "city-groups/FccCityScraper2"]
 	path = city-groups/FccCityScraper2
 	url = https://github.com/evaristoc/FccCityScraper2
-[submodule "unofficial-gitter-bots/purdybot"]
-	path = unofficial-bots/purdybot
-	url = https://github.com/joepurdy/purdybot
 [submodule "gitter-history/gitter-history"]
 	path = gitter-history/gitter-history
 	url = https://github.com/freeCodeCamp/gitter-history
@@ -31,3 +28,6 @@
 [submodule "gitter-analytics/gitterrooms_snaviz"]
 	path = gitter-analytics/gitterrooms_snaviz
 	url = https://github.com/evaristoc/gitterrooms_snaviz
+[submodule "unofficial-bots/purdybot"]
+	path = unofficial-bots/purdybot
+	url = https://github.com/joepurdy/purdybot

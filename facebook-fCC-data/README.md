@@ -18,3 +18,8 @@ Collected datasets about fCC in Facebook.
   * "reactions" : number of comments left to the person about the post
 
 * **FreeCodeCamp Facebook Page Activity Overview** : by Matthew Barlowe, Only found at http://rpubs.com/mcbarlowe/302010
+
+### Note:
+
+The original file can be also downloaded from: https://files.gitter.im/FreeCodeCamp/DataScience/l4Qf/freeCodeCamp-facebook-page-activity.csv
+
