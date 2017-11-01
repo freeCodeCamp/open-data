@@ -8,4 +8,13 @@ Collected datasets about fCC in Facebook.
 
 # projects & datasets
 
-* `freeCodeCamp-facebook-page-activity.csv`
+* dataset : links in posts colletected during around a year, `freeCodeCamp-facebook-page-activity.csv`, curated by @QuincyLarson
+  * "date" : dd/mm/yyyy, date of the post
+  * "time" : hh:mm am/pm (US-PDT?)
+  * "title" : title of the links
+  * "type" : "Link", "Video", "Photo", "Status"; videos only when posted through Facebook, otherwise treated as "Link"
+  * "reach" : people who viewed the post even if not clicking the link in the post
+  * "clicks" : number of users who clicked the link
+  * "reactions" : number of comments left to the person about the post
+
+* **FreeCodeCamp Facebook Page Activity Overview** : by Matthew Barlowe, Only found at http://rpubs.com/mcbarlowe/302010
