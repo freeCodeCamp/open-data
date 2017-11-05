@@ -1,6 +1,3 @@
-[submodule "new-coder-surveys/2016-new-coder-survey"]
-	path = new-coder-surveys/2016-new-coder-survey
-	url = https://github.com/evaristoc/2016-new-coder-survey
 [submodule "new-coder-surveys/2017-new-coder-survey"]
 	path = new-coder-surveys/2017-new-coder-survey
 	url = https://github.com/freeCodeCamp/2017-new-coder-survey
@@ -31,3 +28,6 @@
 [submodule "unofficial-bots/purdybot"]
 	path = unofficial-bots/purdybot
 	url = https://github.com/joepurdy/purdybot
+[submodule "new-coder-surveys/2016-new-coder-survey"]
+	path = new-coder-surveys/2016-new-coder-survey
+	url = https://github.com/freeCodeCamp/2016-new-coder-survey
