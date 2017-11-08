@@ -8,14 +8,23 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 * **Demos** of projects based on the freeCodeCamp data
 * **Links to External Projects** involving the freeCodeCamp data
 
+The data can be of interest to, but not restricted to, those looking for datasets and projects about:
+* Web Analytics
+* Social Media Analysis
+* Social Network Analysis
+* Education Analytics
+* Data Visualization
+* Data-driven Web Development
+* Bots
+
 ## List of project's folders/submodules:
 
 ### New Projects / Datasets:
 
-* **facebook-fCC-data** : dataset : `freeCodeCamp-facebook-page-activity.csv`
 * **medium-fCC-data** : dataset : `fccmediumTitles - Cleaned_Data.tsv`
 * **medium-fCC-data** : dataset : `medium_titles - rawdata.tsv`
 * **google-analytics** : project and dataset : `challenges-performance-estimates`
+* **google-analytics** : project and dataset : `countries-fCC`
 
 ### Main Projects:
 
@@ -33,7 +42,6 @@ This is the repository hosting the [freeCodeCamp's Open Data initiative](https:/
 * **facebook-fCC-data**
 * **gitter-analytics**
 * **medium-fCC-data**
-* **google-analytics**
 
 We hope you enjoy it and that you will become interested in contribute with your analyses!
 
