@@ -1,0 +1,431 @@
+<head>
+<title>TEST</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.js"></script>
+</head>
+<body>
+Simple counts of number of estimated inquiries for help per algorithm (function name)
+</br>
+Help Channel, Nov2014-Dec2015
+<form>
+<label><input type="checkbox"> Sort values</label>
+</form>
+</br>
+<div class = "container">
+<div class = "row">
+<div class = "col-md-7">
+<div id = "mychart"></div>
+</div>
+</div>
+<script>
+var data = [{'count': 336,
+  'funcname': 'reversestring',
+  'order': 1,
+  'title': 'Reverse a String',
+  'type': 'basic'},
+ {'count': 292,
+  'funcname': 'chunk',
+  'order': 10,
+  'title': 'Chunky Monkey',
+  'type': 'basic'},
+ {'count': 401,
+  'funcname': 'destroyer',
+  'order': 14,
+  'title': 'Seek and Destroy',
+  'type': 'basic'},
+ {'count': 290,
+  'funcname': 'findlongestword',
+  'order': 4,
+  'title': 'Find the Longest Word in a String',
+  'type': 'basic'},
+ {'count': 63,
+  'funcname': 'find',
+  'order': 32,
+  'title': 'Finders Keepers',
+  'type': 'inter'},
+ {'count': 22,
+  'funcname': 'permalone',
+  'order': 42,
+  'title': 'No repeats please',
+  'type': 'advan'},
+ {'count': 37,
+  'funcname': 'every',
+  'order': 36,
+  'title': 'Everything Be True',
+  'type': 'inter'},
+ {'count': 37,
+  'funcname': 'slasher',
+  'order': 11,
+  'title': 'Slasher Flick',
+  'type': 'basic'},
+ {'count': 70,
+  'funcname': 'steamroller',
+  'order': 34,
+  'title': 'Steamroller',
+  'type': 'inter'},
+ {'count': 30,
+  'funcname': 'orbitalperiod',
+  'order': 45,
+  'title': 'Map the Debris',
+  'type': 'advan'},
+ {'count': 408,
+  'funcname': 'titlecase',
+  'order': 5,
+  'title': 'Title Case a Sentence',
+  'type': 'basic'},
+ {'count': 59,
+  'funcname': 'romannumbonf',
+  'order': 19,
+  'title': 'Roman Numeral Converter',
+  'type': 'inter'},
+ {'count': 13,
+  'funcname': 'inventory',
+  'order': 41,
+  'title': 'Inventory Update',
+  'type': 'advan'},
+ {'count': 57,
+  'funcname': 'spinalcase',
+  'order': 28,
+  'title': 'Spinal Tap Case',
+  'type': 'inter'},
+ {'count': 15,
+  'funcname': 'person',
+  'order': 44,
+  'title': 'Make a Person',
+  'type': 'advan'},
+ {'count': 131,
+  'funcname': 'add',
+  'order': 37,
+  'title': 'Arguments Optional',
+  'type': 'inter'},
+ {'count': 65,
+  'funcname': 'smallestcommons',
+  'order': 31,
+  'title': 'Smallest Common Multiple',
+  'type': 'inter'},
+ {'count': 144,
+  'funcname': 'htmlbonf',
+  'order': 27,
+  'title': 'Convert HTML Entities',
+  'type': 'inter'},
+ {'count': 32,
+  'funcname': 'binaryagent',
+  'order': 35,
+  'title': 'Binary Agents',
+  'type': 'inter'},
+ {'count': 88,
+  'funcname': 'sumfibs',
+  'order': 29,
+  'title': 'Sum All Odd Fibonacci Numbers',
+  'type': 'inter'},
+ {'count': 78,
+  'funcname': 'sumall',
+  'order': 17,
+  'title': 'Sum All Numbers in a Range',
+  'type': 'inter'},
+ {'count': 60,
+  'funcname': 'pairwise',
+  'order': 46,
+  'title': 'Pairwise',
+  'type': 'advan'},
+ {'count': 122,
+  'funcname': 'doibonf',
+  'order': 15,
+  'title': 'Where do I belong',
+  'type': 'basic'},
+ {'count': 323,
+  'funcname': 'mutation',
+  'order': 12,
+  'title': 'Mutations',
+  'type': 'basic'},
+ {'count': 683,
+  'funcname': 'palindrome',
+  'order': 3,
+  'title': 'Check for Palindromes',
+  'type': 'basic'},
+ {'count': 145,
+  'funcname': 'truncate',
+  'order': 9,
+  'title': 'Truncate a string',
+  'type': 'basic'},
+ {'count': 46,
+  'funcname': 'fearnotletter',
+  'order': 24,
+  'title': 'Missing letters',
+  'type': 'inter'},
+ {'count': 5,
+  'funcname': 'friendly',
+  'order': 43,
+  'title': 'Friendly Date Ranges',
+  'type': 'advan'},
+ {'count': 137,
+  'funcname': 'end',
+  'order': 7,
+  'title': 'Confirm the Ending',
+  'type': 'basic'},
+ {'count': 87,
+  'funcname': 'repeat',
+  'order': 8,
+  'title': 'Repeat a string repeat a string',
+  'type': 'basic'},
+ {'count': 48,
+  'funcname': 'drop',
+  'order': 33,
+  'title': 'Drop it',
+  'type': 'inter'},
+ {'count': 31,
+  'funcname': 'myreplace',
+  'order': 21,
+  'title': 'Search and Replace',
+  'type': 'inter'},
+ {'count': 430,
+  'funcname': 'largestoffour',
+  'order': 6,
+  'title': 'Return Largest Numbers in Arrays',
+  'type': 'basic'},
+ {'count': 157,
+  'funcname': 'bouncer',
+  'order': 13,
+  'title': 'Falsy Bouncer',
+  'type': 'basic'},
+ {'count': 22,
+  'funcname': 'pair',
+  'order': 23,
+  'title': 'DNA Pairing',
+  'type': 'inter'},
+ {'count': 45,
+  'funcname': 'rot13',
+  'order': 16,
+  'title': 'Caesars Cipher',
+  'type': 'basic'},
+ {'count': 135,
+  'funcname': 'diff',
+  'order': 18,
+  'title': 'Diff Two Arrays',
+  'type': 'inter'},
+ {'count': 42,
+  'funcname': 'sumprimes',
+  'order': 30,
+  'title': 'Sum All Primes',
+  'type': 'inter'},
+ {'count': 26,
+  'funcname': 'boo',
+  'order': 25,
+  'title': 'Boo who',
+  'type': 'inter'},
+ {'count': 36,
+  'funcname': 'drawer',
+  'order': 40,
+  'title': 'Exact Change',
+  'type': 'advan'},
+ {'count': 62,
+  'funcname': 'sym',
+  'order': 39,
+  'title': 'Symmetric Difference',
+  'type': 'advan'},
+ {'count': 63,
+  'funcname': 'translate',
+  'order': 22,
+  'title': 'Pig Latin',
+  'type': 'inter'},
+ {'count': 29,
+  'funcname': 'telephonecheck',
+  'order': 38,
+  'title': 'Validate US Telephone Numbers',
+  'type': 'advan'},
+ {'count': 319,
+  'funcname': 'factorialize',
+  'order': 2,
+  'title': 'Factorialize a Number',
+  'type': 'basic'},
+ {'count': 236,
+  'funcname': 'artthoubonf',
+  'order': 20,
+  'title': 'Where art thou',
+  'type': 'inter'},
+ {'count': 59,
+  'funcname': 'unite',
+  'order': 26,
+  'title': 'Sorted Union',
+  'type': 'inter'}];
+
+var margin = {top: 20, left: 180, bottom: 20, right: 20},
+    height = 600 - margin.top - margin.bottom,
+    width = 900 - margin.left - margin.right;
+
+var yscale = d3.scale.ordinal().rangeRoundBands([0, height], .5);
+
+var xscale = d3.scale.linear().range([0, width]);
+
+var yAxis = d3.svg.axis()
+    .scale(yscale)
+    .orient("left");
+
+var xAxis = d3.svg.axis()
+    .scale(xscale)
+    .orient("top")
+    .ticks(10);
+
+var svg = d3.select("#mychart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+
+//var typeslist = ["basic", "inter", "advan"]
+//var data = [];
+//for (var jj = 0; jj < typeslist.length; jj++){
+//    for (var ii = 0; ii < data1.length; ii++) {
+//        if (data1[ii].type == typeslist[jj]) {
+//            data.push(data1[ii]);
+//            data[(data.length - 1)].unsorted = data.indexOf(data[(data.length - 1)]);
+//        }
+//        
+//    }
+//};
+
+  data = data.sort(function(a,b){return a.order-b.order})
+  yscale.domain(data.map(function(d) { return d.title; }));
+  xscale.domain([0, d3.max(data, function(d) { return d.count; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      //.attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0," + margin.top + ")")
+      .call(xAxis)
+      .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("x", 6)
+      .attr("dx", ".71em")
+      //.text("Counts");
+      //.attr("transform","rotate(-90)" );
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .attr("transform", "translate(0 ,"+ margin.top +")")
+      .call(yAxis)
+    .append("text")
+      //.attr("transform", "rotate(-90)")
+      .style("text-anchor", "end")
+      .attr("dy", "-.55em")
+      .attr("dx", "-.8em")
+      
+//http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/
+//https://planetos.com/blog/better-color-palette-with-histogram-equalization-in-d3-js/
+//http://www.mulinblog.com/a-color-palette-optimized-for-data-visualization/
+
+  var rect = svg.selectAll("bar")
+      .data(data)
+      .enter().append("rect")
+      .style("fill", function(d){
+        if (d.type == "basic")
+        {return "steelblue"}
+        else if (d.type == "inter")
+        {return "brown"}
+        else if (d.type == "advan")
+        {return "green"}
+        })
+      .attr("class", "bar")
+      .attr("transform", "translate(0 ,"+ (margin.top) +")")
+      .attr("y", function(d) { return yscale(d.title); }) //<<<--- ok...
+      .attr("height", yscale.rangeBand())
+      //.attr("x", function (d, i) {return width;})
+      .attr("width", 0)
+
+//https://jsbin.com/yugufufige/edit?html,js,output
+
+var color_hash = [  ["basic", "steelblue"],
+					    ["intermediate", "brown"],
+					    ["advanced", "green"]
+					  ]  
+  
+var legend = svg.append("g")
+	  .attr("class", "legend")
+        //.attr("x", w - 65)
+        //.attr("y", 50)
+	  .attr("height", 100)
+	  .attr("width", 100)
+    .attr('transform', 'translate(-20,50)')
+    
+legend.selectAll("value")
+      .data(color_hash)
+      .enter()
+      .append("rect")
+	  .attr("x", width - 20)
+      .attr("y", function(d, i){ return (i *  20) + 400;})
+	  .attr("width", 10)
+	  .attr("height", 10)
+	  .style("fill", function(d, i) {
+        //console.log("in legend ", d);
+        var color = color_hash[i][1];
+        //console.log("in legend ", color_hash[i][1]);
+        return color})
+      
+      legend.selectAll('text')
+      .data(color_hash)
+      .enter()
+      .append("text")
+	  .attr("x", width - 102)
+      .attr("y", function(d, i){ return i *  20 + 409;})
+	  .text(function(d, i) {
+        var text = color_hash[i][0];
+        return text;
+      });
+  
+  
+  rect.transition()
+      .delay(function(d, i) { return i * 20; })
+      .duration(30)
+      .attr("x", "0")
+      .attr("width", function(d) { return xscale(d.count); })
+      .attr("height", function(d) { return "5"; });
+
+d3.selectAll("input").on("change", change);
+
+  var sortTimeout = setTimeout(function() {
+    d3.select("input").property("checked", true).each(change);
+  }, 2000);
+
+function change() {
+    clearTimeout(sortTimeout);
+
+    // Copy-on-write since tweens are evaluated after a delay.
+    // need to reorder...
+    //console.log("START");
+    //without the map and copy becomes closed!!!
+    var data0 = data.sort(this.checked
+        ? function(a, b) { return b.count - a.count; }
+        : function(a, b) { return a.order - b.order})
+    //console.log(data);
+    yscale.domain(data.map(function(d) { return d.title; }));
+    
+    svg.selectAll(".bar")
+        .sort(function(a, b) { return yscale(a.order) - yscale(b.order); });
+
+    var transition = svg.transition().duration(750),
+        delay = function(d, i) { return i * 50; };
+
+    transition.selectAll(".bar")
+        .delay(delay)
+        .attr("y", function(d) { return yscale(d.title); });
+
+    transition.select(".y.axis")
+        .attr("transform", "translate(0 ,"+ (margin.top + 10) +")")
+        .call(yAxis)
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dy", "-.8em")
+        .attr("dx", "-.55em")
+        .delay(delay);
+  }
+</script>
+</body>
+<div class="footer"><p>authors: <b>Evaristo</b> (project); <a href="https://gitter.im/FreeCodeCamp/DataScience">FreeCodeCamp DataSci chatroom</a></p>
+<p>data used with permission from <a href = "https://www.freecodecamp.com/">FreeCodeCamp</a><p></div>
