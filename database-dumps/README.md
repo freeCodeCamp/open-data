@@ -40,8 +40,10 @@ The first iteration of this project.
 }
 
 ```
+
 	* a random sample of the previous dataset with a 1% of the data only for records with at least 3 datapoints; empty records or with less of 3 datapoints were excluded.
 	* extraction code (python):
+
 ```
 import os, sys
 import json
