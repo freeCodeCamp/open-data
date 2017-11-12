@@ -25,7 +25,9 @@ The first iteration of this project.
 	* First iteration of the project accessible through BitTorrent, requires to get a BitTorrent client. Currently available at [Academic Torrents](http://academictorrents.com/details/030b10dad0846b5aecc3905692890fb02404adbf). The downloaded file name is `output.json`.
 	* Big dataset, requires around 4Gb of memory for the dataset only.
 
-* dataset: `outputsample.json`, json file, each nested list representing a user and having as elements objects of his/her activity; names of each object is the index of the record as found in the big dump. Example:
+* dataset: `outputsample.json`, json file, each nested list representing a user and having as elements objects of his/her activity; names of each object is the index of the record as found in the big dump.
+ 	* a random sample of the previous dataset with a 1% of the data only for records with at least 3 datapoints; empty records or with less of 3 datapoints were excluded. Below example of format plus extraction code (Python 3):
+
 ```
 {1: [
   {
@@ -40,9 +42,6 @@ The first iteration of this project.
 }
 
 ```
-
-	* a random sample of the previous dataset with a 1% of the data only for records with at least 3 datapoints; empty records or with less of 3 datapoints were excluded.
-	* extraction code (python):
 
 ```
 import os, sys
