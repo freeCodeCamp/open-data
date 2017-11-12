@@ -19,12 +19,20 @@ The data can be of interest to, but not restricted to, those looking for dataset
 
 ## List of project's folders/submodules:
 
-### New Projects / Datasets:
+> **NEW PROJECTS / DATASETS**:
+>
+> * **medium-fCC-data** : dataset : `fccmediumTitles - Cleaned_Data.tsv`
+> * **medium-fCC-data** : dataset : `medium_titles - rawdata.tsv`
+> * **google-analytics** : project and dataset : `challenges-performance-estimates`
+> * **google-analytics** : dataset : `countries-fCC`
+> * **database-dumps** : dataset : `dump2015/outputsample.json`
 
-* **medium-fCC-data** : dataset : `fccmediumTitles - Cleaned_Data.tsv`
-* **medium-fCC-data** : dataset : `medium_titles - rawdata.tsv`
-* **google-analytics** : project and dataset : `challenges-performance-estimates`
-* **google-analytics** : project and dataset : `countries-fCC`
+
+The repo is thought to be organised according to the following:
+1. For small/medium datasets, files will be left in the corresponding folder of this repository; optionally the files could be uploaded in any other service of the cloud
+2. For small/medium datasets related to featured projects, files will be available on freeCodeCamp repositories as well as Kaggle
+3. For big datasets, full files will be available either on academictorrents or in [Kaggle](https://www.kaggle.com/) (*soon*). A small sample of the file will be available in this repository as well as Kaggle for those who want to get introduced to the dataset.  
+
 
 ### Main Projects:
 
@@ -42,6 +50,7 @@ The data can be of interest to, but not restricted to, those looking for dataset
 * **facebook-fCC-data**
 * **gitter-analytics**
 * **medium-fCC-data**
+
 
 We hope you enjoy it and that you will become interested in contribute with your analyses!
 
