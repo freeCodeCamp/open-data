@@ -80,4 +80,4 @@ with open(directory+'/outputsample.json','w') as f_out:
 
 ### sankey-FCCdump
 
-A visual exploration of part of the dataset using a Sankey Diagram; d3.js and Python.
+A visual exploration of part of the dump2015's `output.json` dataset using a Sankey Diagram; d3.js and Python.
