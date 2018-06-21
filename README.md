@@ -1,5 +1,7 @@
 # open-data
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/freeCodeCamp/open-data.svg)](https://greenkeeper.io/)
+
 freeCodeCamp produces millions of records every month in separate formats. Clicking activity, chat conversations, thousands of video minutes or articles' words...
 
 This is the repository hosting the [freeCodeCamp's Open Data initiative](https://medium.freecodecamp.org/free-code-camp-christmas-special-giving-the-gift-of-data-6ecbf0313d62) that started December 2015. The repository includes part of that data that has been collected from freeCodeCamp's platforms but also points to other similar freeCodeCamp initiatives, references, etc. The repo includes sub-folders of assignments, demos, projects and programs. In general, you will find:
