@@ -27,8 +27,8 @@ The data can be of interest to, but not restricted to, those looking for dataset
 > * **google-analytics** : dataset : `countries-fCC`
 
 The repo is thought to be organised according to the following:
-1. For small/medium datasets, files will be left in the corresponding folder of this repository; optionally the files could be uploaded in any other service of the cloud
-2. For small/medium datasets related to featured projects, files will be available on freeCodeCamp repositories as well as Kaggle
+1. For small/medium datasets, files will be left in the corresponding folder of this repository; optionally the files could be uploaded in any other service of the cloud.
+2. For small/medium datasets related to featured projects, files will be available on freeCodeCamp repositories as well as Kaggle.
 3. For big datasets, full files will be available either on academictorrents or in [Kaggle](https://www.kaggle.com/) (*soon*). A small sample of the file will be available in this repository as well as Kaggle for those who want to get introduced to the dataset.  
 
 
