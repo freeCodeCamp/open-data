@@ -1,6 +1,6 @@
 # open-data
 
-The freeCodeCamp.org community creates tons of data every month, and we open up as much of that data as we can (while being careful to respect our learners' privacy).
+The freeCodeCamp.org community creates tons of data every month, and we open up as much of that data as we can (while being careful to respect ur learners' privacy).
 
 In this repository, you will find:
 * **Datasets**
